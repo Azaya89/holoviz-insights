@@ -31,7 +31,6 @@ jobs:
           # Calculate the month name from the first day
           month_name=$(date -d "$first_day" +%B)
           echo "REPORT_TITLE=Issue report for the month of $month_name" >> "$GITHUB_ENV"
-
       - name: Run issue-metrics tool
         id: issue-metrics
         uses: github/issue-metrics@v3
@@ -41,10 +40,11 @@ jobs:
           HIDE_TIME_TO_ANSWER: "true"
           DRAFT_PR_TRACKING: "true"
           REPORT_TITLE: ${{ env.REPORT_TITLE }}
-
       - name: Save JSON output to file
-        run: echo "${{ steps.issue-metrics.outputs.metrics }}" > metrics.json
-
+        run: |
+          cat <<'EOF' > metrics.json
+          ${{ steps.issue-metrics.outputs.metrics }}
+          EOF
       - name: Upload JSON as artifact
         uses: actions/upload-artifact@v4
         with:
@@ -60,13 +60,11 @@ jobs:
           repository: Azaya89/holoviz-insights
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: main
-
       - name: Download JSON artifact
         uses: actions/download-artifact@v4
         with:
           name: metrics-json
           path: .
-
       - name: Commit JSON file
         uses: EndBug/add-and-commit@v9
         with:
