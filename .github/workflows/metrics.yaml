@@ -52,20 +52,20 @@ jobs:
           path: metrics.json
   download-and-commit:
     runs-on: ubuntu-latest
-    needs: [build]  # ensures this job runs after the build job with the artifact upload
+    needs: [build]
     steps:
       - name: Checkout target repository
         uses: actions/checkout@v4
         with:
-          repository: your-org/your-new-repo
+          repository: Azaya89/holoviz-insights
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: target-branch  # specify the branch you want to update
+          ref: main
 
       - name: Download JSON artifact
         uses: actions/download-artifact@v4
         with:
           name: metrics-json
-          path: .  # downloads to the root of the workspace
+          path: .
 
       - name: Commit JSON file
         uses: EndBug/add-and-commit@v9
