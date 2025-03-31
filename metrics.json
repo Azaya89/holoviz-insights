@@ -1,1 +1,101 @@
-{"average_time_to_first_response": "3 days, 5:11:18", "average_time_to_close": "11 days, 11:41:39", "average_time_to_answer": "None", "average_time_in_draft": "None", "average_time_in_labels": {}, "median_time_to_first_response": "0:37:45", "median_time_to_close": "8 days, 4:19:00", "median_time_to_answer": "None", "median_time_in_draft": "None", "median_time_in_labels": {}, "90_percentile_time_to_first_response": "9 days, 13:04:18", "90_percentile_time_to_close": "17 days, 11:19:10", "90_percentile_time_to_answer": "None", "90_percentile_time_in_draft": "None", "90_percentile_time_in_labels": {}, "num_items_opened": 4, "num_items_closed": 3, "num_mentor_count": 0, "total_item_count": 7, "issues": [{"title": "Improve responsive in adjoint layout for Bokeh backend", "html_url": "https://github.com/holoviz/holoviews/issues/6527", "author": "hoxbro", "time_to_first_response": "None", "time_to_close": "None", "time_to_answer": "None", "time_in_draft": "None", "label_metrics": {}, "created_at": "None"}, {"title": "Trimesh doesn't work with pandas 2.x.x", "html_url": "https://github.com/holoviz/holoviews/issues/6524", "author": "duronfire", "time_to_first_response": "0:26:14", "time_to_close": "8 days, 4:19:00", "time_to_answer": "None", "time_in_draft": "None", "label_metrics": {}, "created_at": "None"}, {"title": "Linked axis range update driven by framewise DynamicMap should consider data range of all linked plots", "html_url": "https://github.com/holoviz/holoviews/issues/6523", "author": "TheoMathurin", "time_to_first_response": "0:37:45", "time_to_close": "None", "time_to_answer": "None", "time_in_draft": "None", "label_metrics": {}, "created_at": "None"}, {"title": "Single-valued datetime kdim not properly formatted in DynamicMap widget", "html_url": "https://github.com/holoviz/holoviews/issues/6522", "author": "TheoMathurin", "time_to_first_response": "15 days, 15:43:27", "time_to_close": "19 days, 19:04:12", "time_to_answer": "None", "time_in_draft": "None", "label_metrics": {}, "created_at": "None"}, {"title": "Ability to specify title wrapping width rather than hard coded wrapping every 2 or 3 dimensions", "html_url": "https://github.com/holoviz/holoviews/issues/6520", "author": "analog-cbarber", "time_to_first_response": "0:03:31", "time_to_close": "None", "time_to_answer": "None", "time_in_draft": "None", "label_metrics": {}, "created_at": "None"}, {"title": "opts keyword regression between 1.20.0 and 1.20.1 release", "html_url": "https://github.com/holoviz/holoviews/issues/6516", "author": "dwr-psandhu", "time_to_first_response": "9:05:34", "time_to_close": "6 days, 11:41:44", "time_to_answer": "None", "time_in_draft": "None", "label_metrics": {}, "created_at": "None"}, {"title": "Server side HoverTool follow ups", "html_url": "https://github.com/holoviz/holoviews/issues/6515", "author": "hoxbro", "time_to_first_response": "None", "time_to_close": "None", "time_to_answer": "None", "time_in_draft": "None", "label_metrics": {}, "created_at": "None"}], "search_query": "repo:holoviz/holoviews is:issue created:2025-02-01..2025-02-28 -label:\"duplicate\""}
+{
+  "average_time_to_first_response": "3 days, 5:11:18",
+  "average_time_to_close": "11 days, 11:41:39",
+  "average_time_to_answer": "None",
+  "average_time_in_draft": "None",
+  "average_time_in_labels": {},
+  "median_time_to_first_response": "0:37:45",
+  "median_time_to_close": "8 days, 4:19:00",
+  "median_time_to_answer": "None",
+  "median_time_in_draft": "None",
+  "median_time_in_labels": {},
+  "90_percentile_time_to_first_response": "9 days, 13:04:18",
+  "90_percentile_time_to_close": "17 days, 11:19:10",
+  "90_percentile_time_to_answer": "None",
+  "90_percentile_time_in_draft": "None",
+  "90_percentile_time_in_labels": {},
+  "num_items_opened": 4,
+  "num_items_closed": 3,
+  "num_mentor_count": 0,
+  "total_item_count": 7,
+  "issues": [
+    {
+      "title": "Improve responsive in adjoint layout for Bokeh backend",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6527",
+      "author": "hoxbro",
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "None"
+    },
+    {
+      "title": "Trimesh doesn't work with pandas 2.x.x",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6524",
+      "author": "duronfire",
+      "time_to_first_response": "0:26:14",
+      "time_to_close": "8 days, 4:19:00",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "None"
+    },
+    {
+      "title": "Linked axis range update driven by framewise DynamicMap should consider data range of all linked plots",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6523",
+      "author": "TheoMathurin",
+      "time_to_first_response": "0:37:45",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "None"
+    },
+    {
+      "title": "Single-valued datetime kdim not properly formatted in DynamicMap widget",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6522",
+      "author": "TheoMathurin",
+      "time_to_first_response": "15 days, 15:43:27",
+      "time_to_close": "19 days, 19:04:12",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "None"
+    },
+    {
+      "title": "Ability to specify title wrapping width rather than hard coded wrapping every 2 or 3 dimensions",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6520",
+      "author": "analog-cbarber",
+      "time_to_first_response": "0:03:31",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "None"
+    },
+    {
+      "title": "opts keyword regression between 1.20.0 and 1.20.1 release",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6516",
+      "author": "dwr-psandhu",
+      "time_to_first_response": "9:05:34",
+      "time_to_close": "6 days, 11:41:44",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "None"
+    },
+    {
+      "title": "Server side HoverTool follow ups",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6515",
+      "author": "hoxbro",
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "None"
+    }
+  ],
+  "search_query": "repo:holoviz/holoviews is:issue created:2025-02-01..2025-02-28 -label:\"duplicate\""
+}

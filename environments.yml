@@ -1,0 +1,11 @@
+name: metrics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - panel
+  - hvplot
+  - jupyter
+  - notebook
+  - pandas
+  - numpy
