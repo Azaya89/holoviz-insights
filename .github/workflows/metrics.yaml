@@ -28,9 +28,6 @@ jobs:
           echo "$first_day..$last_day"
           echo "last_month=$first_day..$last_day" >> "$GITHUB_ENV"
 
-          # Calculate the month name from the first day
-          month_name=$(date -d "$first_day" +%B)
-          echo "REPORT_TITLE=Issue report for the month of $month_name" >> "$GITHUB_ENV"
       - name: Run issue-metrics tool
         id: issue-metrics
         uses: github/issue-metrics@v3
@@ -39,7 +36,7 @@ jobs:
           SEARCH_QUERY: 'repo:holoviz/holoviews is:issue created:${{ env.last_month }} -label:"duplicate"'
           HIDE_TIME_TO_ANSWER: "true"
           DRAFT_PR_TRACKING: "true"
-          REPORT_TITLE: ${{ env.REPORT_TITLE }}
+          HIDE_CREATED_AT: "false"
       - name: Save JSON output to file
         run: |
           cat <<'EOF' > metrics.json
