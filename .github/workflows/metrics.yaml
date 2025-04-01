@@ -27,7 +27,6 @@ jobs:
           #Set an environment variable with the date range
           echo "$first_day..$last_day"
           echo "last_month=$first_day..$last_day" >> "$GITHUB_ENV"
-
       - name: Run issue-metrics tool
         id: issue-metrics
         uses: github/issue-metrics@v3
@@ -37,6 +36,7 @@ jobs:
           HIDE_TIME_TO_ANSWER: "true"
           DRAFT_PR_TRACKING: "true"
           HIDE_CREATED_AT: "false"
+          HIDE_LABEL_METRICS: "true"
       - name: Save JSON output to file
         run: |
           cat <<'EOF' > metrics.json
