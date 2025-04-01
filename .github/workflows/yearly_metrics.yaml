@@ -1,0 +1,73 @@
+name: Yearly Issue Metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 1 * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Yearly Issue Metrics
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set year range for historical data
+        shell: bash
+        run: |
+          # Calculate the first day one year ago from the beginning of the previous month
+          start_date=$(date -d "$(date -d 'last month' +%Y-%m-01) -1 year" +%Y-%m-%d)
+          # Calculate the last day of the previous month
+          last_day=$(date -d "$(date -d 'last month' +%Y-%m-01) +1 month -1 day" +%Y-%m-%d)
+          echo "YEAR_RANGE=$start_date..$last_day" >> $GITHUB_ENV
+          echo "Using year range: $start_date to $last_day"
+      - name: Restore cache for historical metrics
+        uses: actions/cache@v3
+        with:
+          path: historical_metrics.json
+          key: historical-metrics
+      - name: Run issue-metrics tool for historical data
+        id: issue-metrics
+        uses: github/issue-metrics@v3
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          SEARCH_QUERY: 'repo:holoviz/holoviews is:issue created:${{ env.YEAR_RANGE }} -label:"duplicate"'
+          HIDE_TIME_TO_ANSWER: "true"
+          DRAFT_PR_TRACKING: "true"
+          HIDE_CREATED_AT: "false"
+          HIDE_LABEL_METRICS: "true"
+      - name: Save JSON output to file
+        run: |
+          cat <<'EOF' > yearly_metrics.json
+          ${{ steps.issue-metrics.outputs.metrics }}
+          EOF
+      - name: Upload JSON as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: yearly-metrics-json
+          path: yearly_metrics.json
+  download-and-deploy:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: yearly-metrics-json
+          path: .
+      - name: Build dashboard
+        run: |
+          python build_dashboard.py
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dashboard_output
