@@ -21,8 +21,7 @@ jobs:
       - name: Set year range for historical data
         shell: bash
         run: |
-          # Calculate the first day one year ago from the beginning of the previous month
-          start_date=$(date -d "$(date -d 'last month' +%Y-%m-01) -1 year" +%Y-%m-%d)
+          start_date="2022-01-01"
           # Calculate the last day of the previous month
           last_day=$(date -d "$(date -d 'last month' +%Y-%m-01) +1 month -1 day" +%Y-%m-%d)
           echo "YEAR_RANGE=$start_date..$last_day" >> $GITHUB_ENV
