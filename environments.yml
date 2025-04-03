@@ -9,3 +9,4 @@ dependencies:
   - notebook
   - pandas
   - numpy
+  - pre-commit
