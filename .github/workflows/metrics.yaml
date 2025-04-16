@@ -68,10 +68,6 @@ jobs:
           environment-file: environment.yml
           auto-activate-base: false
           activate-environment: metrics
-      - name: Verify Conda Environment # debugging steps
-        run: |
-          which python
-          python -c "import pandas; print('Pandas version:', pandas.__version__)"
       - name: List Conda Packages # debugging steps
         run: conda list
       - name: Convert JSON to Parquet
