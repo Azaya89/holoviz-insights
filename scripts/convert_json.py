@@ -2,6 +2,7 @@ import json
 import logging
 from pathlib import Path
 import pandas as pd
+import argparse
 
 # Set up basic logging configuration
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -81,6 +82,13 @@ def convert_json(
 
 
 if __name__ == "__main__":
-    json_file = "yearly_metrics.json"
-    parquet_file = "yearly_metrics.parq"
-    convert_json(json_file, parquet_file)
+    parser = argparse.ArgumentParser(
+        description="Convert issue metrics JSON to Parquet."
+    )
+    parser.add_argument("json_file", type=str, help="Path to the input JSON file")
+    parser.add_argument(
+        "parquet_file", type=str, help="Path to the output Parquet file"
+    )
+    args = parser.parse_args()
+
+    convert_json(args.json_file, args.parquet_file)
