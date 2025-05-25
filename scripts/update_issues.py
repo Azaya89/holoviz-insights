@@ -26,7 +26,7 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
         for issue in issues:
             if "pull_request" in issue:
                 continue  # Skip PRs
-            add_cols[issue["number"]] = {
+            add_cols[issue["html_url"]] = {
                 "milestone": issue["milestone"]["title"]
                 if issue.get("milestone")
                 else None,
@@ -49,12 +49,11 @@ def merge_and_save(original_json: str, output_json: str, repo: str, token: str):
 
     extra_data = fetch_additional_issue_data(repo, token)
     for issue in data["issues"]:
-        try:
-            number = int(issue.get("number"))
-            if number in extra_data:
-                issue.update(extra_data[number])
-        except (TypeError, ValueError):
-            logging.warning(f"Invalid issue number: {issue.get('number')}")
+        url = issue.get("html_url")
+        if url in extra_data:
+            issue.update(extra_data[url])
+        else:
+            logging.warning(f"No enrichment data found for issue URL: {url}")
 
     with open(output_json, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
