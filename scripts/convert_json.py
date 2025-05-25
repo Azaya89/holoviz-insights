@@ -59,6 +59,11 @@ def convert_json(
                     f"Column '{col}' not found in data; skipping conversion."
                 )
 
+        # Log availability of enriched columns
+        for col in ["milestone", "user", "assignees"]:
+            if col not in df.columns:
+                logging.warning(f"Optional column '{col}' not found in data.")
+
         # Convert "created_at" to datetime and set as index if present
         if "created_at" in df.columns:
             df["created_at"] = pd.to_datetime(df["created_at"], errors="coerce")

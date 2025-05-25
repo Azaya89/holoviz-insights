@@ -118,13 +118,12 @@ jobs:
           environment-file: environment.yml
           auto-activate-base: false
           activate-environment: metrics
-      - name: Convert JSON to Parquet
+      - name: Update and convert all metrics data
         run: |
           source "$(conda info --base)/etc/profile.d/conda.sh"
           conda activate metrics
-          python scripts/convert_json.py data/holoviews_metrics.json data/holoviews_metrics.parq
-          python scripts/convert_json.py data/hvplot_metrics.json data/hvplot_metrics.parq
-          python scripts/convert_json.py data/panel_metrics.json data/panel_metrics.parq
+          export GH_TOKEN=${{ secrets.GH_TOKEN }}
+          python scripts/process_repos.py
       - name: Commit metrics files
         uses: EndBug/add-and-commit@v9
         with:
