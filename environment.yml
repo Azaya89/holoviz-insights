@@ -4,7 +4,8 @@ channels:
   - defaults
 dependencies:
   - python=3.13
-  - panel
+  - bokeh>=3.7.3
+  - panel>=1.7.0
   - hvplot
   - jupyter
   - notebook
