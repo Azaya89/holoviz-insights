@@ -1,21 +1,21 @@
 {
   "average_time_to_first_response": "27 days, 20:26:39",
-  "average_time_to_close": "88 days, 10:10:43",
+  "average_time_to_close": "89 days, 22:57:03",
   "average_time_to_answer": "None",
   "average_time_in_draft": "None",
   "average_time_in_labels": {},
   "median_time_to_first_response": "18:21:06",
-  "median_time_to_close": "22 days, 14:37:51",
+  "median_time_to_close": "23 days, 5:52:51",
   "median_time_to_answer": "None",
   "median_time_in_draft": "None",
   "median_time_in_labels": {},
   "90_percentile_time_to_first_response": "49 days, 6:28:04",
-  "90_percentile_time_to_close": "304 days, 1:32:29",
+  "90_percentile_time_to_close": "309 days, 20:32:28",
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
   "90_percentile_time_in_labels": {},
-  "num_items_opened": 258,
-  "num_items_closed": 207,
+  "num_items_opened": 257,
+  "num_items_closed": 208,
   "num_mentor_count": 0,
   "total_item_count": 465,
   "issues": [
@@ -30,8 +30,7 @@
       "label_metrics": {},
       "created_at": "2025-04-29 09:32:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Enhance plot method docstrings with additional generic plot options",
@@ -44,8 +43,7 @@
       "label_metrics": {},
       "created_at": "2025-04-29 08:50:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "df.hvplot.area(stacked=True, colors=[...]) gives different results for bokeh and matplotlib",
@@ -58,8 +56,7 @@
       "label_metrics": {},
       "created_at": "2025-04-24 12:45:38+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kdheepak"
+      "assignees": []
     },
     {
       "title": "Andrews curves x-axis not between -pi and pi",
@@ -72,8 +69,7 @@
       "label_metrics": {},
       "created_at": "2025-04-19 16:03:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Document the size and layout options",
@@ -88,8 +84,7 @@
       "milestone": null,
       "assignees": [
         "Azaya89"
-      ],
-      "user": "Azaya89"
+      ]
     },
     {
       "title": "Document the data options",
@@ -104,8 +99,7 @@
       "milestone": null,
       "assignees": [
         "Azaya89"
-      ],
-      "user": "Azaya89"
+      ]
     },
     {
       "title": "Improve the documentation of the plot methods",
@@ -121,8 +115,7 @@
       "assignees": [
         "maximlt",
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "geo_df.hvplot.points(size=) error",
@@ -135,8 +128,7 @@
       "label_metrics": {},
       "created_at": "2025-03-21 20:30:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "scott-vsi"
+      "assignees": []
     },
     {
       "title": "New tutorial: introduction for users coming from Pandas",
@@ -151,8 +143,7 @@
       "milestone": null,
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "New tutorial: exploring a tabular dataset with hvPlot",
@@ -167,8 +158,7 @@
       "milestone": null,
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Link to the HoloViz tutorial in the tutorial section",
@@ -183,8 +173,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Create top-level Tutorials section and add the getting started within it",
@@ -199,8 +188,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "module 'dask.dataframe.core' has no attribute 'DataFrame'",
@@ -213,8 +201,7 @@
       "label_metrics": {},
       "created_at": "2025-02-28 16:53:05+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "biscotty666"
+      "assignees": []
     },
     {
       "title": "Document the `stacked` keyword directly in the relevant docstrings.",
@@ -229,8 +216,7 @@
       "milestone": null,
       "assignees": [
         "Azaya89"
-      ],
-      "user": "Azaya89"
+      ]
     },
     {
       "title": "Re-arrange the HoloViews Converter docstrings into more meaningful groups.",
@@ -245,8 +231,7 @@
       "milestone": null,
       "assignees": [
         "Azaya89"
-      ],
-      "user": "Azaya89"
+      ]
     },
     {
       "title": "Deprecate the `debug` keyword of the converter",
@@ -259,8 +244,7 @@
       "label_metrics": {},
       "created_at": "2025-02-24 08:06:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "New website layout",
@@ -273,8 +257,7 @@
       "label_metrics": {},
       "created_at": "2025-02-20 13:48:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Integrate hvsampledata in hvplot's getting started",
@@ -289,8 +272,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Write tests that check that the keywords are listed and documented",
@@ -305,8 +287,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "maximlt"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Ensure all the keywords caught internally are documented and listed",
@@ -321,8 +302,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Ensure all the generic keywords are listed in the special lists correctly",
@@ -337,8 +317,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Document keywords in the signature but not in the docstring",
@@ -353,8 +332,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Add to the signature (might be not possible for all) keywords only documented in the docstring",
@@ -367,8 +345,7 @@
       "label_metrics": {},
       "created_at": "2025-02-20 09:50:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Document undocumented keywords",
@@ -383,8 +360,7 @@
       "milestone": null,
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Error when no data: bokeh backend could not plot any Elements in the Overlay",
@@ -397,8 +373,7 @@
       "label_metrics": {},
       "created_at": "2025-02-17 20:18:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "matipos2"
+      "assignees": []
     },
     {
       "title": "Streaming example fails",
@@ -411,8 +386,7 @@
       "label_metrics": {},
       "created_at": "2025-02-17 18:40:24+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "yt87"
+      "assignees": []
     },
     {
       "title": "Exposing some options as enums?",
@@ -425,8 +399,7 @@
       "label_metrics": {},
       "created_at": "2025-02-13 21:55:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Add a `sampledata` module to mirror hvsampledata's API?",
@@ -439,8 +412,7 @@
       "label_metrics": {},
       "created_at": "2025-02-12 16:28:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Deprecate DuckDB support in `hvplot.plotting.plot`",
@@ -453,8 +425,7 @@
       "label_metrics": {},
       "created_at": "2025-02-05 10:07:22+00:00",
       "milestone": "v0.11.3",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Add docs versioning",
@@ -469,8 +440,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Add the API reference",
@@ -483,8 +453,7 @@
       "label_metrics": {},
       "created_at": "2025-02-05 06:20:49+00:00",
       "milestone": "v0.11.3",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Improve the experience of users coming from Pandas",
@@ -499,8 +468,7 @@
       "milestone": null,
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "OHLC hover text date format bug",
@@ -513,8 +481,7 @@
       "label_metrics": {},
       "created_at": "2025-02-05 01:00:53+00:00",
       "milestone": "v0.11.3",
-      "assignees": [],
-      "user": "im-keiran"
+      "assignees": []
     },
     {
       "title": "Improve typing experience of users of the hvplot namespace",
@@ -527,8 +494,7 @@
       "label_metrics": {},
       "created_at": "2025-02-04 16:58:44+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Orient Pandas users more towards .plot or .hvplot?",
@@ -541,8 +507,7 @@
       "label_metrics": {},
       "created_at": "2025-02-04 16:30:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Widget based plots don't look good on a smartphone",
@@ -555,8 +520,7 @@
       "label_metrics": {},
       "created_at": "2025-02-03 11:10:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Azaya89"
+      "assignees": []
     },
     {
       "title": "Using the hvplot backend for a hist() plot shows an AttributeError",
@@ -569,8 +533,7 @@
       "label_metrics": {},
       "created_at": "2025-01-31 16:25:13+00:00",
       "milestone": "v0.11.3",
-      "assignees": [],
-      "user": "Azaya89"
+      "assignees": []
     },
     {
       "title": "Enhance converter docstring and keyword definitions",
@@ -583,8 +546,7 @@
       "label_metrics": {},
       "created_at": "2025-01-27 21:30:32+00:00",
       "milestone": "v0.11.3",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Update dynamically computed signature",
@@ -599,8 +561,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "maximlt"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Complete the signature of plot methods with all their kind options",
@@ -615,8 +576,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "Azaya89"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Maintain interactivity in the docs without having to set dynamic=False",
@@ -631,8 +591,7 @@
       "milestone": null,
       "assignees": [
         "maximlt"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "padding doesn't work with map tiles",
@@ -645,8 +604,7 @@
       "label_metrics": {},
       "created_at": "2025-01-22 16:32:20+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "rsignell"
+      "assignees": []
     },
     {
       "title": "Refactor the Getting started guide to a one page document",
@@ -661,8 +619,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "Azaya89"
-      ],
-      "user": "Azaya89"
+      ]
     },
     {
       "title": "AttributeError: module 'dask.dataframe.core' has no attribute 'DataFrame' with dask version 2025.01.01",
@@ -675,8 +632,7 @@
       "label_metrics": {},
       "created_at": "2025-01-21 11:28:25+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "FlorisCalkoen"
+      "assignees": []
     },
     {
       "title": "Migrate hvPlot to Pixi",
@@ -691,8 +647,7 @@
       "milestone": null,
       "assignees": [
         "maximlt"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Param Future Warning",
@@ -707,8 +662,7 @@
       "milestone": "v0.11.3",
       "assignees": [
         "maximlt"
-      ],
-      "user": "killcoder"
+      ]
     },
     {
       "title": "Regression when using xarray to plot DataArrays",
@@ -721,8 +675,7 @@
       "label_metrics": {},
       "created_at": "2025-01-02 23:32:18+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "3tilley"
+      "assignees": []
     },
     {
       "title": "save as file",
@@ -735,8 +688,7 @@
       "label_metrics": {},
       "created_at": "2024-12-14 18:06:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "fipoucat"
+      "assignees": []
     },
     {
       "title": "Enable sorting groupby dimension values?",
@@ -749,8 +701,7 @@
       "label_metrics": {},
       "created_at": "2024-12-08 21:20:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Use of `matplotlib.colors.Colormap` objects as `cmap` argument results in `TypeError: argument of type 'LinearSegmentedColormap' is not iterable`",
@@ -763,8 +714,7 @@
       "label_metrics": {},
       "created_at": "2024-12-02 17:34:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "vadmbertr"
+      "assignees": []
     },
     {
       "title": "[Question]How can I not show the dates with no data in the OHLC chart?",
@@ -777,8 +727,7 @@
       "label_metrics": {},
       "created_at": "2024-11-28 02:38:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Gwill"
+      "assignees": []
     },
     {
       "title": "Skip missing data on timeseries axis (candlestick or in general for timeseries charts)",
@@ -791,8 +740,7 @@
       "label_metrics": {},
       "created_at": "2024-11-25 13:39:27+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "vanheck"
+      "assignees": []
     },
     {
       "title": "\"AttributeError: 'DataFrame' object has no attribute 'crs'\" for spatialpandas polygons",
@@ -807,8 +755,7 @@
       "milestone": null,
       "assignees": [
         "Azaya89"
-      ],
-      "user": "Azaya89"
+      ]
     },
     {
       "title": "[IGNORE] testing sub-issue",
@@ -821,8 +768,7 @@
       "label_metrics": {},
       "created_at": "2024-11-13 16:57:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Support `spread` for `scatter` and `points`",
@@ -835,8 +781,7 @@
       "label_metrics": {},
       "created_at": "2024-11-05 15:34:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Bar chart not displaying correctly",
@@ -851,8 +796,7 @@
       "milestone": null,
       "assignees": [
         "ahuang11"
-      ],
-      "user": "nconsulting"
+      ]
     },
     {
       "title": "Style option \"s\" does not behave the same as \"size\" with hv.dim",
@@ -865,8 +809,7 @@
       "label_metrics": {},
       "created_at": "2024-10-25 14:44:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Lnk2past"
+      "assignees": []
     },
     {
       "title": "Figure download button is inconsistent",
@@ -879,8 +822,7 @@
       "label_metrics": {},
       "created_at": "2024-10-25 14:20:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kthyng"
+      "assignees": []
     },
     {
       "title": "Update hvPlot default categorical colormap to use glasbey_hv",
@@ -893,8 +835,7 @@
       "label_metrics": {},
       "created_at": "2024-10-22 21:00:18+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Azaya89"
+      "assignees": []
     },
     {
       "title": "Setting `color` parameter to a hvplot.paths datashaded plot does not have any effect",
@@ -907,8 +848,7 @@
       "label_metrics": {},
       "created_at": "2024-10-15 20:24:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Azaya89"
+      "assignees": []
     },
     {
       "title": "Allow setting xaxis/yaxis as string",
@@ -921,8 +861,7 @@
       "label_metrics": {},
       "created_at": "2024-10-15 19:58:40+00:00",
       "milestone": "v0.11.3",
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Tooltips \"@value\" no longer works",
@@ -935,8 +874,7 @@
       "label_metrics": {},
       "created_at": "2024-10-15 19:54:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "yt87"
+      "assignees": []
     },
     {
       "title": "Allow setting grid=\"x\" / \"y\"",
@@ -949,8 +887,7 @@
       "label_metrics": {},
       "created_at": "2024-10-15 18:42:17+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Changing color of errorbars",
@@ -963,8 +900,7 @@
       "label_metrics": {},
       "created_at": "2024-10-11 11:53:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "redlegjed"
+      "assignees": []
     },
     {
       "title": "NetworkX Hover Tooltips Not Working Since 0.11.0",
@@ -977,8 +913,7 @@
       "label_metrics": {},
       "created_at": "2024-10-11 09:43:42+00:00",
       "milestone": "0.11.1",
-      "assignees": [],
-      "user": "Palmr"
+      "assignees": []
     },
     {
       "title": "Tiles with Dask DataFrame no longer works in 0.11.0",
@@ -991,8 +926,7 @@
       "label_metrics": {},
       "created_at": "2024-10-03 13:10:35+00:00",
       "milestone": "0.11.1",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Stacked bar plot is broken in hvplot 0.11.0",
@@ -1005,8 +939,7 @@
       "label_metrics": {},
       "created_at": "2024-10-01 15:07:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "mosc9575"
+      "assignees": []
     },
     {
       "title": "Add support for hover when datashade points",
@@ -1019,8 +952,7 @@
       "label_metrics": {},
       "created_at": "2024-09-30 22:32:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "No tooltips for subcoordinate ridge plots",
@@ -1033,8 +965,7 @@
       "label_metrics": {},
       "created_at": "2024-09-28 18:22:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add a docs page in duckdb",
@@ -1047,8 +978,7 @@
       "label_metrics": {},
       "created_at": "2024-09-27 15:10:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Create helper hvplot.features or hvplot.tiles",
@@ -1061,8 +991,7 @@
       "label_metrics": {},
       "created_at": "2024-09-25 20:05:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "DOCS: graphics missing on docs page",
@@ -1075,8 +1004,7 @@
       "label_metrics": {},
       "created_at": "2024-09-24 11:09:25+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "michaelaye"
+      "assignees": []
     },
     {
       "title": "How to increase number of color categories?",
@@ -1089,8 +1017,7 @@
       "label_metrics": {},
       "created_at": "2024-09-19 23:06:27+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "resampling_when breaks with dynspread",
@@ -1103,8 +1030,7 @@
       "label_metrics": {},
       "created_at": "2024-09-12 11:27:38+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Overlays should respect the first x/y dimensions or raise an error",
@@ -1117,8 +1043,7 @@
       "label_metrics": {},
       "created_at": "2024-09-12 09:44:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Unable to set `color` for Path rendered from Polygons",
@@ -1131,8 +1056,7 @@
       "label_metrics": {},
       "created_at": "2024-09-12 01:18:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "philipc2"
+      "assignees": []
     },
     {
       "title": "Inconsistent projection behavior between Matplotlib & Bokeh Backends ",
@@ -1145,8 +1069,7 @@
       "label_metrics": {},
       "created_at": "2024-09-10 13:03:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "philipc2"
+      "assignees": []
     },
     {
       "title": "ValueError: ClassSelector parameter None value must be an instance of (function, tuple), not <function size at 0x7ca734f7ee70>.",
@@ -1159,8 +1082,7 @@
       "label_metrics": {},
       "created_at": "2024-09-09 18:56:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "iuryt"
+      "assignees": []
     },
     {
       "title": "Tooltip not working on the reference gallery (Area Chart)",
@@ -1173,8 +1095,7 @@
       "label_metrics": {},
       "created_at": "2024-09-06 15:12:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sorukumar"
+      "assignees": []
     },
     {
       "title": "hvplot Explorer is giving nuisance Line plot when using over 10,000 points",
@@ -1187,8 +1108,7 @@
       "label_metrics": {},
       "created_at": "2024-09-04 19:08:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hagaishalevaei"
+      "assignees": []
     },
     {
       "title": "test2",
@@ -1201,8 +1121,7 @@
       "label_metrics": {},
       "created_at": "2024-08-27 08:50:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "test",
@@ -1215,8 +1134,7 @@
       "label_metrics": {},
       "created_at": "2024-08-27 08:43:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Document how to avoid mypy reporting ",
@@ -1229,8 +1147,7 @@
       "label_metrics": {},
       "created_at": "2024-08-27 08:35:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Document how to avoid ruff removing `import hvplot...`",
@@ -1243,8 +1160,7 @@
       "label_metrics": {},
       "created_at": "2024-08-27 07:31:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Implement a duckdb backend",
@@ -1257,8 +1173,7 @@
       "label_metrics": {},
       "created_at": "2024-08-22 15:19:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Touch up hover tools",
@@ -1271,8 +1186,7 @@
       "label_metrics": {},
       "created_at": "2024-08-14 16:45:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Add documentation on jupyter notebook requirements",
@@ -1285,8 +1199,7 @@
       "label_metrics": {},
       "created_at": "2024-08-13 22:29:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "liufeimath"
+      "assignees": []
     },
     {
       "title": "Enable the opportunity for a Legend for single data objects",
@@ -1299,8 +1212,7 @@
       "label_metrics": {},
       "created_at": "2024-08-07 12:55:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "mosc9575"
+      "assignees": []
     },
     {
       "title": "Gerrymanding Notebook returns an error on hvplot cell",
@@ -1313,8 +1225,7 @@
       "label_metrics": {},
       "created_at": "2024-08-06 16:50:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hsparra"
+      "assignees": []
     },
     {
       "title": "`holoviews.Arrow` support",
@@ -1327,8 +1238,7 @@
       "label_metrics": {},
       "created_at": "2024-08-02 13:09:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LecrisUT"
+      "assignees": []
     },
     {
       "title": "hvplot stacked bars dont work",
@@ -1341,8 +1251,7 @@
       "label_metrics": {},
       "created_at": "2024-08-01 15:13:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "benbarn313"
+      "assignees": []
     },
     {
       "title": "Should hvplot automatically flip x/y for barh if categorical?",
@@ -1355,8 +1264,7 @@
       "label_metrics": {},
       "created_at": "2024-07-26 23:01:09+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Inconsitencies with `hvplot.extension(compatibility)`",
@@ -1369,8 +1277,7 @@
       "label_metrics": {},
       "created_at": "2024-07-26 08:54:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LecrisUT"
+      "assignees": []
     },
     {
       "title": " `hvplot.extension(compatibility)` does not work?",
@@ -1383,8 +1290,7 @@
       "label_metrics": {},
       "created_at": "2024-07-21 10:34:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LecrisUT"
+      "assignees": []
     },
     {
       "title": "Goal of simplifying multi-color rasterize analysis into one line in hvplot?",
@@ -1397,8 +1303,7 @@
       "label_metrics": {},
       "created_at": "2024-07-19 21:50:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Automatically or manually toggle to automatically use lon_lat_to_easting_northing",
@@ -1411,8 +1316,7 @@
       "label_metrics": {},
       "created_at": "2024-07-19 21:18:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Setting tiles with projection results in blank plot",
@@ -1425,8 +1329,7 @@
       "label_metrics": {},
       "created_at": "2024-07-19 21:13:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Changing the backend in standalone script",
@@ -1439,8 +1342,7 @@
       "label_metrics": {},
       "created_at": "2024-07-19 10:27:00+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "knolljo"
+      "assignees": []
     },
     {
       "title": "Add a way remove the subplot label when combining plots under matplotlib backend",
@@ -1453,8 +1355,7 @@
       "label_metrics": {},
       "created_at": "2024-07-16 21:26:00+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "iuryt"
+      "assignees": []
     },
     {
       "title": "hvplot using groupby with active legend is flickering",
@@ -1467,8 +1368,7 @@
       "label_metrics": {},
       "created_at": "2024-07-12 07:58:47+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "mosc9575"
+      "assignees": []
     },
     {
       "title": "Broken legend for geopandas plot",
@@ -1481,8 +1381,7 @@
       "label_metrics": {},
       "created_at": "2024-07-07 15:28:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "wybert"
+      "assignees": []
     },
     {
       "title": "Regression in stacked bar plots with x as datetime",
@@ -1495,8 +1394,7 @@
       "label_metrics": {},
       "created_at": "2024-07-05 17:01:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jsignell"
+      "assignees": []
     },
     {
       "title": "Support for Pandas DataFrames with hierarchical columns broken?",
@@ -1509,8 +1407,7 @@
       "label_metrics": {},
       "created_at": "2024-07-02 13:05:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "No automatic sorting of multilevel datetime indexes",
@@ -1523,8 +1420,7 @@
       "label_metrics": {},
       "created_at": "2024-06-27 13:58:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "`resample_when` not working",
@@ -1537,8 +1433,7 @@
       "label_metrics": {},
       "created_at": "2024-06-26 19:04:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "iuryt"
+      "assignees": []
     },
     {
       "title": "Replace/Merge `hover_cols` functionality with the new HoloViews 1.19 `hover_tooltips` approach",
@@ -1551,8 +1446,7 @@
       "label_metrics": {},
       "created_at": "2024-06-19 14:13:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Expose `hover_tooltips`, `hover_formatters`, `hover_mode` added in HoloViews 1.19",
@@ -1565,8 +1459,7 @@
       "label_metrics": {},
       "created_at": "2024-06-19 06:58:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "`hover` doesn't use input column names",
@@ -1579,8 +1472,7 @@
       "label_metrics": {},
       "created_at": "2024-06-18 17:43:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kthyng"
+      "assignees": []
     },
     {
       "title": "hvplot.hist(..., logy=True) is broken",
@@ -1593,8 +1485,7 @@
       "label_metrics": {},
       "created_at": "2024-06-07 12:56:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "stuarteberg"
+      "assignees": []
     },
     {
       "title": "Option group_label does not work when plots are overlaid",
@@ -1607,8 +1498,7 @@
       "label_metrics": {},
       "created_at": "2024-06-03 18:50:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "yt87"
+      "assignees": []
     },
     {
       "title": "Interactive examples arn't updated on the documentation page",
@@ -1621,8 +1511,7 @@
       "label_metrics": {},
       "created_at": "2024-06-03 12:35:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "mosc9575"
+      "assignees": []
     },
     {
       "title": "Enable autorange for stacked area plots with positive and negative values",
@@ -1635,8 +1524,7 @@
       "label_metrics": {},
       "created_at": "2024-05-29 11:10:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "FabianHofmann"
+      "assignees": []
     },
     {
       "title": "hvPlot plots are not visible in Jupyterlab Desktop",
@@ -1649,8 +1537,7 @@
       "label_metrics": {},
       "created_at": "2024-05-25 02:24:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "gwerbin"
+      "assignees": []
     },
     {
       "title": "Add API to create ridge / joy plots?",
@@ -1663,8 +1550,7 @@
       "label_metrics": {},
       "created_at": "2024-05-21 11:55:20+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Using Geopandas with hvPlot doesn't work for a large dataset.",
@@ -1677,8 +1563,7 @@
       "label_metrics": {},
       "created_at": "2024-05-15 16:15:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Azaya89"
+      "assignees": []
     },
     {
       "title": "Make it easier to use hvplot.explorer with Polars",
@@ -1691,8 +1576,7 @@
       "label_metrics": {},
       "created_at": "2024-05-08 13:04:20+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "rows and cols are inverted when passing row col arguments to .plot.heatmap",
@@ -1705,8 +1589,7 @@
       "label_metrics": {},
       "created_at": "2024-05-07 10:30:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "rancomp"
+      "assignees": []
     },
     {
       "title": "Adding a title to a GridSpace object squashes the elements",
@@ -1719,8 +1602,7 @@
       "label_metrics": {},
       "created_at": "2024-05-05 06:52:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "rancomp"
+      "assignees": []
     },
     {
       "title": "Process edge attributes from networks graph based on user kwargs",
@@ -1733,8 +1615,7 @@
       "label_metrics": {},
       "created_at": "2024-04-28 23:58:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sriharisundar"
+      "assignees": []
     },
     {
       "title": "EPSG codes are failing in `process_crs`",
@@ -1747,8 +1628,7 @@
       "label_metrics": {},
       "created_at": "2024-04-23 19:55:23+00:00",
       "milestone": "0.9.3",
-      "assignees": [],
-      "user": "jsignell"
+      "assignees": []
     },
     {
       "title": "Pandas `.heatmap()` doesn't respect `show_values()` with matplotlib",
@@ -1761,8 +1641,7 @@
       "label_metrics": {},
       "created_at": "2024-04-23 01:10:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "marius-mather"
+      "assignees": []
     },
     {
       "title": "Plot not returning when specify x/y in  axis_arguments for chunked NetCDF",
@@ -1775,8 +1654,7 @@
       "label_metrics": {},
       "created_at": "2024-04-22 09:25:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "epifanio"
+      "assignees": []
     },
     {
       "title": "Add the ability to easily add a range tool / minimap",
@@ -1789,8 +1667,7 @@
       "label_metrics": {},
       "created_at": "2024-04-17 12:04:27+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Issues with ImageStack support",
@@ -1803,22 +1680,20 @@
       "label_metrics": {},
       "created_at": "2024-04-16 08:32:56+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "`hist` with `logx` produces buckets in non-logarithmic scale",
       "html_url": "https://github.com/holoviz/hvplot/issues/1313",
       "author": "david-cortes",
       "time_to_first_response": "14 days, 13:00:16",
-      "time_to_close": "None",
+      "time_to_close": "407 days, 2:46:51",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-04-15 14:52:27+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "david-cortes"
+      "assignees": []
     },
     {
       "title": "Expose more downsample algorithms and options",
@@ -1831,8 +1706,7 @@
       "label_metrics": {},
       "created_at": "2024-04-12 20:38:27+00:00",
       "milestone": "0.9.3",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Add support for plotting a slope on scatter points",
@@ -1845,8 +1719,7 @@
       "label_metrics": {},
       "created_at": "2024-04-11 17:43:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Remove all usages of `geopandas.datasets`",
@@ -1859,8 +1732,7 @@
       "label_metrics": {},
       "created_at": "2024-04-09 20:53:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Error raised while plotting the points `geoda.groceries` dataset from `geodatasets`",
@@ -1873,8 +1745,7 @@
       "label_metrics": {},
       "created_at": "2024-04-09 20:28:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "GeoPandas `crs` attribute should be used as the default `crs` when `geo=True`",
@@ -1887,8 +1758,7 @@
       "label_metrics": {},
       "created_at": "2024-04-09 19:37:02+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Align the values/types accepted by `crs` and `projection`",
@@ -1901,8 +1771,7 @@
       "label_metrics": {},
       "created_at": "2024-04-09 19:33:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Spurious lines on violin plot",
@@ -1915,8 +1784,7 @@
       "label_metrics": {},
       "created_at": "2024-03-30 20:34:40+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "yt87"
+      "assignees": []
     },
     {
       "title": "[question] reason for not including some plots for the `polars.DataFrame.hvplot.{...}`",
@@ -1929,8 +1797,7 @@
       "label_metrics": {},
       "created_at": "2024-03-27 18:12:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "nickvazz"
+      "assignees": []
     },
     {
       "title": "Stacking plots with a datetime Index and plotly not showing data",
@@ -1943,8 +1810,7 @@
       "label_metrics": {},
       "created_at": "2024-03-16 23:26:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "awray3"
+      "assignees": []
     },
     {
       "title": "xarray Dataset subplot variables",
@@ -1957,8 +1823,7 @@
       "label_metrics": {},
       "created_at": "2024-03-08 16:43:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "vadmbertr"
+      "assignees": []
     },
     {
       "title": "Allow to pass options to tiles",
@@ -1971,8 +1836,7 @@
       "label_metrics": {},
       "created_at": "2024-03-07 08:12:31+00:00",
       "milestone": "0.9.3",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "No longer internally call `.reset_index()`",
@@ -1987,8 +1851,7 @@
       "milestone": null,
       "assignees": [
         "maximlt"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Alpha not supported with plotly backend",
@@ -2001,8 +1864,7 @@
       "label_metrics": {},
       "created_at": "2024-03-04 12:16:36+00:00",
       "milestone": "0.9.x",
-      "assignees": [],
-      "user": "openSourcerer9000"
+      "assignees": []
     },
     {
       "title": "Support xyzservices tiles",
@@ -2015,8 +1877,7 @@
       "label_metrics": {},
       "created_at": "2024-03-01 13:07:28+00:00",
       "milestone": "0.9.3",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Support reactive expressions in arguments and options",
@@ -2029,8 +1890,7 @@
       "label_metrics": {},
       "created_at": "2024-02-28 22:13:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "Explorer doesn't infer the right x/y/groupby values for gridded data",
@@ -2043,8 +1903,7 @@
       "label_metrics": {},
       "created_at": "2024-02-22 18:51:37+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "pedroaugustosmribeiro"
+      "assignees": []
     },
     {
       "title": "scatter_matrix formatting considered harmful",
@@ -2057,8 +1916,7 @@
       "label_metrics": {},
       "created_at": "2024-02-21 03:35:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "option to remove invisible output from importing hvplot.pandas/xarray",
@@ -2071,8 +1929,7 @@
       "label_metrics": {},
       "created_at": "2024-02-21 01:21:30+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "michaelaye"
+      "assignees": []
     },
     {
       "title": "hvplot.image ignores data_aspect when responsive is True",
@@ -2085,8 +1942,7 @@
       "label_metrics": {},
       "created_at": "2024-02-20 20:47:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "yt87"
+      "assignees": []
     },
     {
       "title": "Bar Chart x axis labels not formatted ",
@@ -2099,8 +1955,7 @@
       "label_metrics": {},
       "created_at": "2024-02-15 18:07:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "daxsoule"
+      "assignees": []
     },
     {
       "title": "Bad error message for missing kwarg in labels",
@@ -2113,8 +1968,7 @@
       "label_metrics": {},
       "created_at": "2024-02-14 20:01:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Cannot overlay hvplot labels on inverted axes.",
@@ -2127,8 +1981,7 @@
       "label_metrics": {},
       "created_at": "2024-02-14 19:59:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Odd behaviour in order of hvplot bars given number of columns.",
@@ -2141,8 +1994,7 @@
       "label_metrics": {},
       "created_at": "2024-02-11 20:17:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LinuxIsCool"
+      "assignees": []
     },
     {
       "title": "hvdataset package",
@@ -2155,8 +2007,7 @@
       "label_metrics": {},
       "created_at": "2024-02-02 18:01:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Explorer: support exploring the variables of an xarray Dataset",
@@ -2169,8 +2020,7 @@
       "label_metrics": {},
       "created_at": "2024-02-02 09:31:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "ValueError when trying to display a netCDF file with the explorer",
@@ -2183,8 +2033,7 @@
       "label_metrics": {},
       "created_at": "2024-02-02 09:27:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "`datashade=True` doesn't work with `cuDF`",
@@ -2197,8 +2046,7 @@
       "label_metrics": {},
       "created_at": "2024-02-01 13:52:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jmakov"
+      "assignees": []
     },
     {
       "title": "Removing interactive from a plot",
@@ -2211,8 +2059,7 @@
       "label_metrics": {},
       "created_at": "2024-01-29 17:41:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LecrisUT"
+      "assignees": []
     },
     {
       "title": "Suggest a feature: Option to click on the data point",
@@ -2225,8 +2072,7 @@
       "label_metrics": {},
       "created_at": "2024-01-29 16:08:09+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "0xNullLight"
+      "assignees": []
     },
     {
       "title": "How to optimize rasterize with many unique categories",
@@ -2239,8 +2085,7 @@
       "label_metrics": {},
       "created_at": "2024-01-27 02:26:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Relabel hover tooltip names",
@@ -2253,8 +2098,7 @@
       "label_metrics": {},
       "created_at": "2024-01-27 02:08:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "When using two pandas.DataFrame.interactive() to create a single plot, one one of the is visible (and duplicated)",
@@ -2267,8 +2111,7 @@
       "label_metrics": {},
       "created_at": "2024-01-17 13:30:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "fohrloop"
+      "assignees": []
     },
     {
       "title": "Improve performance of `import hvplot` by lazily loading dependencies",
@@ -2281,8 +2124,7 @@
       "label_metrics": {},
       "created_at": "2024-01-07 16:13:04+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "stinodego"
+      "assignees": []
     },
     {
       "title": "`robust` or `clim_percentile` option to get the 2nd / 98th percentile ",
@@ -2295,8 +2137,7 @@
       "label_metrics": {},
       "created_at": "2024-01-05 22:47:17+00:00",
       "milestone": "0.10.x",
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Make it possible to show Reference Gallery for custom selection of plotting backend.",
@@ -2309,8 +2150,7 @@
       "label_metrics": {},
       "created_at": "2024-01-05 05:41:17+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "python polars v0.20.03 selectors will not install",
@@ -2323,8 +2163,7 @@
       "label_metrics": {},
       "created_at": "2024-01-05 04:45:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "blongbs"
+      "assignees": []
     },
     {
       "title": "Document why plots sometimes do not show, what can cause this and how to solve it.",
@@ -2337,8 +2176,7 @@
       "label_metrics": {},
       "created_at": "2024-01-04 18:36:42+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "y=None doesn't work for Polars dataframes",
@@ -2351,8 +2189,7 @@
       "label_metrics": {},
       "created_at": "2024-01-02 21:38:40+00:00",
       "milestone": "0.9.2",
-      "assignees": [],
-      "user": "kevinheavey"
+      "assignees": []
     },
     {
       "title": "kde plot `'y'` argument ends up being 'x' label - rename it to `columns`?",
@@ -2365,8 +2202,7 @@
       "label_metrics": {},
       "created_at": "2024-01-02 18:04:03+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcoGorelli"
+      "assignees": []
     },
     {
       "title": "Document that hvPlot works with Polars",
@@ -2379,8 +2215,7 @@
       "label_metrics": {},
       "created_at": "2024-01-02 16:26:09+00:00",
       "milestone": "0.9.2",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make docstrings viewable on website?",
@@ -2393,8 +2228,7 @@
       "label_metrics": {},
       "created_at": "2023-12-28 15:51:15+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcoGorelli"
+      "assignees": []
     },
     {
       "title": "dynamic=False not work if I change the widget_location",
@@ -2407,8 +2241,7 @@
       "label_metrics": {},
       "created_at": "2023-12-25 09:01:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Document that hvPlot works with `quarto preview` if you add `hvplot.extension()`",
@@ -2421,8 +2254,7 @@
       "label_metrics": {},
       "created_at": "2023-12-25 08:17:27+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "ValueError: ClassSelector parameter None value must be an instance of (function, tuple), not <function size at ###> ",
@@ -2435,8 +2267,7 @@
       "label_metrics": {},
       "created_at": "2023-12-24 20:31:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "RNarayan73"
+      "assignees": []
     },
     {
       "title": "Document polars in reference guide?",
@@ -2449,8 +2280,7 @@
       "label_metrics": {},
       "created_at": "2023-12-24 14:58:35+00:00",
       "milestone": "0.9.2",
-      "assignees": [],
-      "user": "MarcoGorelli"
+      "assignees": []
     },
     {
       "title": "The visualization rendered depends on the active render at plot creation",
@@ -2463,8 +2293,7 @@
       "label_metrics": {},
       "created_at": "2023-12-23 07:33:35+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "No output in jupyter.",
@@ -2477,8 +2306,7 @@
       "label_metrics": {},
       "created_at": "2023-12-21 22:30:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LinuxIsCool"
+      "assignees": []
     },
     {
       "title": "hvplot.streamz not able to visualize multiple plots",
@@ -2491,8 +2319,7 @@
       "label_metrics": {},
       "created_at": "2023-12-20 09:49:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Illviljan"
+      "assignees": []
     },
     {
       "title": "Hvplot row not working",
@@ -2505,8 +2332,7 @@
       "label_metrics": {},
       "created_at": "2023-12-20 01:39:24+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LinuxIsCool"
+      "assignees": []
     },
     {
       "title": "Explorer: add cancel button to stop processing",
@@ -2519,8 +2345,7 @@
       "label_metrics": {},
       "created_at": "2023-12-14 23:40:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Explorer opts doesn't work when it's an Overlay",
@@ -2533,8 +2358,7 @@
       "label_metrics": {},
       "created_at": "2023-12-14 17:43:30+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Document (x/y)formatter and the printf-style",
@@ -2547,8 +2371,7 @@
       "label_metrics": {},
       "created_at": "2023-12-13 04:54:32+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "hvplot.ohlc() doesn't respect the hover_cols param",
@@ -2561,8 +2384,7 @@
       "label_metrics": {},
       "created_at": "2023-12-12 07:43:52+00:00",
       "milestone": "0.9.xx",
-      "assignees": [],
-      "user": "vanheck"
+      "assignees": []
     },
     {
       "title": "Document Bokeh HoverTool",
@@ -2575,8 +2397,7 @@
       "label_metrics": {},
       "created_at": "2023-12-11 00:11:13+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "hvplot.image requires coordinate and dimension names to match",
@@ -2589,8 +2410,7 @@
       "label_metrics": {},
       "created_at": "2023-12-10 23:30:29+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "yt87"
+      "assignees": []
     },
     {
       "title": "Automatically enable 'instant' inspection at the `hvplot` level",
@@ -2605,8 +2425,7 @@
       "milestone": "next",
       "assignees": [
         "maximlt"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Last plot of the Gridded guide to fix",
@@ -2619,8 +2438,7 @@
       "label_metrics": {},
       "created_at": "2023-12-05 18:43:25+00:00",
       "milestone": "0.9.xx",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "hvplot does not render in code cells, panel widgets",
@@ -2633,8 +2451,7 @@
       "label_metrics": {},
       "created_at": "2023-12-02 05:56:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "yt87"
+      "assignees": []
     },
     {
       "title": "`opts` should be mentioned in hvplot customization reference page",
@@ -2647,8 +2464,7 @@
       "label_metrics": {},
       "created_at": "2023-12-01 21:43:33+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Support hover_cols with rasterize",
@@ -2661,8 +2477,7 @@
       "label_metrics": {},
       "created_at": "2023-12-01 14:38:35+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "balshersingh10"
+      "assignees": []
     },
     {
       "title": "xarray data with multi-index coordinates can not be plotted ",
@@ -2675,8 +2490,7 @@
       "label_metrics": {},
       "created_at": "2023-11-17 14:52:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "okz"
+      "assignees": []
     },
     {
       "title": "hvplot.points generates error when color is mapped to a variable and dataframe contains NaN values for axis variables",
@@ -2689,8 +2503,7 @@
       "label_metrics": {},
       "created_at": "2023-11-13 19:43:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ablythed"
+      "assignees": []
     },
     {
       "title": "Tiles can be used without geo, but can be confusing if the data isn't in Mercator",
@@ -2703,8 +2516,7 @@
       "label_metrics": {},
       "created_at": "2023-11-11 12:02:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Orthographic projection not working with rasterize=True",
@@ -2717,8 +2529,7 @@
       "label_metrics": {},
       "created_at": "2023-11-07 00:03:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "morf1102"
+      "assignees": []
     },
     {
       "title": "Downsample with RangeTool source sometimes ignores set height",
@@ -2731,8 +2542,7 @@
       "label_metrics": {},
       "created_at": "2023-11-02 23:08:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "hvPlot Explorer issues",
@@ -2745,8 +2555,7 @@
       "label_metrics": {},
       "created_at": "2023-11-02 20:05:40+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Website issue with Explorer",
@@ -2761,8 +2570,7 @@
       "milestone": "0.9.xx",
       "assignees": [
         "ahuang11"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "How to install hvplot with pip: 'bokeh<3.0'",
@@ -2775,8 +2583,7 @@
       "label_metrics": {},
       "created_at": "2023-10-31 11:29:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "denis-bz"
+      "assignees": []
     },
     {
       "title": "Replace broken Stamen tiles",
@@ -2789,8 +2596,7 @@
       "label_metrics": {},
       "created_at": "2023-10-27 20:02:01+00:00",
       "milestone": "0.9.xx",
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "Document resample_when",
@@ -2803,8 +2609,7 @@
       "label_metrics": {},
       "created_at": "2023-10-23 02:35:17+00:00",
       "milestone": "0.9.xx",
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Interactive buttons does not update the plot",
@@ -2817,8 +2622,7 @@
       "label_metrics": {},
       "created_at": "2023-10-19 14:33:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "iuryt"
+      "assignees": []
     },
     {
       "title": "Importing hvplot throws: ModuleNotFoundError: No module named 'panel'",
@@ -2831,8 +2635,7 @@
       "label_metrics": {},
       "created_at": "2023-10-15 08:03:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jmakov"
+      "assignees": []
     },
     {
       "title": "Identify and pin the minimum supported versions",
@@ -2845,8 +2648,7 @@
       "label_metrics": {},
       "created_at": "2023-10-11 15:30:39+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Refactor the test suite",
@@ -2859,8 +2661,7 @@
       "label_metrics": {},
       "created_at": "2023-10-11 15:24:47+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Some plots not visible when opening a notebook (and not executing).",
@@ -2873,8 +2674,7 @@
       "label_metrics": {},
       "created_at": "2023-10-05 13:22:03+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jmakov"
+      "assignees": []
     },
     {
       "title": "Rasterized and projected RGB plot very slow or hanging",
@@ -2887,8 +2687,7 @@
       "label_metrics": {},
       "created_at": "2023-10-03 22:14:05+00:00",
       "milestone": "0.9.0",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Errors in `proj_to_cartopy` are swallowed",
@@ -2901,8 +2700,7 @@
       "label_metrics": {},
       "created_at": "2023-10-03 22:12:36+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Add HoloViews' `subcoordinate_y`",
@@ -2917,8 +2715,7 @@
       "milestone": "0.10.x",
       "assignees": [
         "maximlt"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Interactive Datashader + Holoviews + Dask Plot does not Update in JupyterLab or Notebook  ",
@@ -2931,8 +2728,7 @@
       "label_metrics": {},
       "created_at": "2023-09-28 22:28:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MordicusEtCubitus"
+      "assignees": []
     },
     {
       "title": "Using hvplot.explorer as method instead of a function?",
@@ -2945,8 +2741,7 @@
       "label_metrics": {},
       "created_at": "2023-09-26 16:46:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "CLI wrapped around hvplot.explorer",
@@ -2959,8 +2754,7 @@
       "label_metrics": {},
       "created_at": "2023-09-21 18:45:07+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Ideas for hvplot explorer",
@@ -2973,8 +2767,7 @@
       "label_metrics": {},
       "created_at": "2023-09-21 15:28:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "`paths` is not documented in hvplot reference gallery",
@@ -2987,8 +2780,7 @@
       "label_metrics": {},
       "created_at": "2023-09-20 14:03:51+00:00",
       "milestone": "0.9.xx",
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Weird behavior with crs vectorfield",
@@ -3001,8 +2793,7 @@
       "label_metrics": {},
       "created_at": "2023-09-14 17:16:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "name assignment on hvplot.xarray.XArrayInteractive doesn't stick",
@@ -3015,8 +2806,7 @@
       "label_metrics": {},
       "created_at": "2023-09-14 16:32:09+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "itcarroll"
+      "assignees": []
     },
     {
       "title": "Document `rasterize=True` together with `by`",
@@ -3029,8 +2819,7 @@
       "label_metrics": {},
       "created_at": "2023-09-11 19:29:46+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Add support for twin/multi axes",
@@ -3043,8 +2832,7 @@
       "label_metrics": {},
       "created_at": "2023-09-11 15:30:50+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "hvplot does not draw the nodes of Networkx graphs by default",
@@ -3057,8 +2845,7 @@
       "label_metrics": {},
       "created_at": "2023-08-02 14:29:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "rockemback77"
+      "assignees": []
     },
     {
       "title": "Hvplot Explorer Error Display Failure",
@@ -3071,8 +2858,7 @@
       "label_metrics": {},
       "created_at": "2023-08-02 01:43:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LinuxIsCool"
+      "assignees": []
     },
     {
       "title": "Hvplot with datashade/rasterize not working neither in Google Colab nor Kaggle",
@@ -3085,8 +2871,7 @@
       "label_metrics": {},
       "created_at": "2023-07-27 16:14:40+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "yerbby"
+      "assignees": []
     },
     {
       "title": "hvplot setting xlim/ylim should first sel data when rasterize=True/datashade=True",
@@ -3099,8 +2884,7 @@
       "label_metrics": {},
       "created_at": "2023-07-24 15:16:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Jupyter notebook through VSCode Remote session not updating animations",
@@ -3113,8 +2897,7 @@
       "label_metrics": {},
       "created_at": "2023-07-23 12:10:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "guidocioni"
+      "assignees": []
     },
     {
       "title": "add dynamic plot marker size to scatter plot examples",
@@ -3127,8 +2910,7 @@
       "label_metrics": {},
       "created_at": "2023-07-22 10:20:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "rdesai9"
+      "assignees": []
     },
     {
       "title": "unpack interactive dataframe `.shape` got KeyError",
@@ -3141,8 +2923,7 @@
       "label_metrics": {},
       "created_at": "2023-07-22 07:06:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "davycloud"
+      "assignees": []
     },
     {
       "title": "hvplot.show() does not return the expected threading.Thread | Server object",
@@ -3155,8 +2936,7 @@
       "label_metrics": {},
       "created_at": "2023-07-21 17:07:17+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "dogbunny"
+      "assignees": []
     },
     {
       "title": "Cannot render image in vs code",
@@ -3169,8 +2949,7 @@
       "label_metrics": {},
       "created_at": "2023-07-17 20:06:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "'hover_cols' are unvailable for the tooltips of a labelset",
@@ -3183,8 +2962,7 @@
       "label_metrics": {},
       "created_at": "2023-07-17 15:03:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LeonvanKouwen"
+      "assignees": []
     },
     {
       "title": "For numeric data scatter_matrix also displays the colour column in the grid",
@@ -3197,8 +2975,7 @@
       "label_metrics": {},
       "created_at": "2023-07-14 22:27:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "fschwar4"
+      "assignees": []
     },
     {
       "title": "Document widget_* kwargs",
@@ -3211,8 +2988,7 @@
       "label_metrics": {},
       "created_at": "2023-07-14 19:27:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "BokehUserWarning: ColumnDataSource's columns must be of the same length\" when plotting Paths but not Polygons",
@@ -3225,8 +3001,7 @@
       "label_metrics": {},
       "created_at": "2023-07-14 19:20:11+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "xaviernogueira"
+      "assignees": []
     },
     {
       "title": "Bouncing / stretching when coastline=True and rasterize=True in VSCode",
@@ -3239,8 +3014,7 @@
       "label_metrics": {},
       "created_at": "2023-07-14 16:58:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "GDAL 4.0 warning from osgeo",
@@ -3253,8 +3027,7 @@
       "label_metrics": {},
       "created_at": "2023-07-14 07:26:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Add `threshold` kwarg; show individual points when zoomed; else datashade",
@@ -3267,8 +3040,7 @@
       "label_metrics": {},
       "created_at": "2023-07-07 15:56:56+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "shared_axes=False not working for hvplot.hist()",
@@ -3281,8 +3053,7 @@
       "label_metrics": {},
       "created_at": "2023-07-06 22:08:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JanHomann"
+      "assignees": []
     },
     {
       "title": "Data not mapping properly to Polygons when `rasterize=False` & Matplotlib Extension ",
@@ -3295,8 +3066,7 @@
       "label_metrics": {},
       "created_at": "2023-06-28 17:11:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "philipc2"
+      "assignees": []
     },
     {
       "title": "Simple scatter plot of xarray Datset: Not possible / bad performance",
@@ -3309,8 +3079,7 @@
       "label_metrics": {},
       "created_at": "2023-06-27 13:32:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sebschub"
+      "assignees": []
     },
     {
       "title": "Create a Fugue integration similar to ipyvizzu",
@@ -3325,8 +3094,7 @@
       "milestone": "0.10.x",
       "assignees": [
         "ahuang11"
-      ],
-      "user": "ahuang11"
+      ]
     },
     {
       "title": "Allow string formatting by column name for labels' text",
@@ -3339,8 +3107,7 @@
       "label_metrics": {},
       "created_at": "2023-06-22 18:44:00+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Using `by` with `labels` to color the text.",
@@ -3355,8 +3122,7 @@
       "milestone": null,
       "assignees": [
         "ahuang11"
-      ],
-      "user": "ahuang11"
+      ]
     },
     {
       "title": "Vectorfield not overlaid properly on Tiles",
@@ -3369,8 +3135,7 @@
       "label_metrics": {},
       "created_at": "2023-06-21 19:49:08+00:00",
       "milestone": "0.9.0",
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "(hvplot.rgb) display nodata values as transparent not black",
@@ -3383,8 +3148,7 @@
       "label_metrics": {},
       "created_at": "2023-06-21 10:34:20+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ivandorte"
+      "assignees": []
     },
     {
       "title": "Tile + multiple Point breaks",
@@ -3397,8 +3161,7 @@
       "label_metrics": {},
       "created_at": "2023-06-19 12:14:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "apatlpo"
+      "assignees": []
     },
     {
       "title": "quadmesh does not work with both geo=True and multiple hover_cols.",
@@ -3411,8 +3174,7 @@
       "label_metrics": {},
       "created_at": "2023-06-13 18:46:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "zdgriffith"
+      "assignees": []
     },
     {
       "title": "Interactive slider broken with last update",
@@ -3425,8 +3187,7 @@
       "label_metrics": {},
       "created_at": "2023-06-09 16:46:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hxawax"
+      "assignees": []
     },
     {
       "title": "hvplot's explorer does not work interactively",
@@ -3439,8 +3200,7 @@
       "label_metrics": {},
       "created_at": "2023-06-09 02:03:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "wkjung"
+      "assignees": []
     },
     {
       "title": "HvPlot Bokeh - Violin plot behaving strangely in log scale",
@@ -3453,8 +3213,7 @@
       "label_metrics": {},
       "created_at": "2023-06-08 14:20:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Murnawful"
+      "assignees": []
     },
     {
       "title": "xarray points plot give key error with geo=True",
@@ -3467,8 +3226,7 @@
       "label_metrics": {},
       "created_at": "2023-06-05 13:19:18+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "rsignell-usgs"
+      "assignees": []
     },
     {
       "title": "Issue with responsive plots using image",
@@ -3481,8 +3239,7 @@
       "label_metrics": {},
       "created_at": "2023-06-01 16:44:25+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "robertjwilson"
+      "assignees": []
     },
     {
       "title": "datashade=True broken with numpy version 1.24.3",
@@ -3495,8 +3252,7 @@
       "label_metrics": {},
       "created_at": "2023-05-26 19:05:05+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "tlogan2000"
+      "assignees": []
     },
     {
       "title": "Grouped/dodged bar charts not working as documented",
@@ -3509,8 +3265,7 @@
       "label_metrics": {},
       "created_at": "2023-05-26 17:28:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "nicolaskruchten"
+      "assignees": []
     },
     {
       "title": "Plotly backend not working in VS Code notebook (but plotly express works independently)",
@@ -3523,8 +3278,7 @@
       "label_metrics": {},
       "created_at": "2023-05-25 17:52:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LucRSquared"
+      "assignees": []
     },
     {
       "title": "Download CSV for Explorer method",
@@ -3537,8 +3291,7 @@
       "label_metrics": {},
       "created_at": "2023-05-18 21:13:54+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "NguyeHe4"
+      "assignees": []
     },
     {
       "title": "Error setting font size",
@@ -3551,8 +3304,7 @@
       "label_metrics": {},
       "created_at": "2023-05-12 03:55:31+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "LinuxIsCool"
+      "assignees": []
     },
     {
       "title": "Networkx does not render nodes.",
@@ -3565,8 +3317,7 @@
       "label_metrics": {},
       "created_at": "2023-05-12 01:15:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LinuxIsCool"
+      "assignees": []
     },
     {
       "title": "Setting xticks on bar plot fails",
@@ -3579,8 +3330,7 @@
       "label_metrics": {},
       "created_at": "2023-05-04 19:08:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "mosc9575"
+      "assignees": []
     },
     {
       "title": "hvPlot tutorials",
@@ -3593,8 +3343,7 @@
       "label_metrics": {},
       "created_at": "2023-04-27 09:00:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "title not shown for Plotly backend",
@@ -3607,8 +3356,7 @@
       "label_metrics": {},
       "created_at": "2023-04-27 08:14:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "How to use a colorbar with a custom norm? Passing \"norm\" argument to hvplot raises an exception when using matplotlib extension",
@@ -3621,8 +3369,7 @@
       "label_metrics": {},
       "created_at": "2023-04-26 13:40:38+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JulianGiles"
+      "assignees": []
     },
     {
       "title": "Addition of FAQ section on the official website of hvPlot website",
@@ -3635,8 +3382,7 @@
       "label_metrics": {},
       "created_at": "2023-04-19 13:40:18+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "DevanshRaizada"
+      "assignees": []
     },
     {
       "title": "Addition of FAQ section on the official website of hvPlot website",
@@ -3649,8 +3395,7 @@
       "label_metrics": {},
       "created_at": "2023-04-19 05:07:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "DevanshRaizada"
+      "assignees": []
     },
     {
       "title": "Label doesn't work with HLine ",
@@ -3663,8 +3408,7 @@
       "label_metrics": {},
       "created_at": "2023-04-14 05:15:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LinuxIsCool"
+      "assignees": []
     },
     {
       "title": "Failure to overlay text on bar chart.",
@@ -3677,8 +3421,7 @@
       "label_metrics": {},
       "created_at": "2023-04-14 05:10:20+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LinuxIsCool"
+      "assignees": []
     },
     {
       "title": "When hvplot checks `is_intake`, remove pathname requirement",
@@ -3691,8 +3434,7 @@
       "label_metrics": {},
       "created_at": "2023-03-28 17:50:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kthyng"
+      "assignees": []
     },
     {
       "title": "`datashader=True` caused `subplots=True` to raised `KeyError: 'Variable`",
@@ -3705,8 +3447,7 @@
       "label_metrics": {},
       "created_at": "2023-03-26 13:01:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "p4perf4ce"
+      "assignees": []
     },
     {
       "title": "hvplot.pandas crashes browser tab when rendering a large number of points with Plotly backend",
@@ -3719,8 +3460,7 @@
       "label_metrics": {},
       "created_at": "2023-03-16 00:02:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "owenlamont"
+      "assignees": []
     },
     {
       "title": "Improve bug report template by adding notes about testing Holoviews",
@@ -3733,8 +3473,7 @@
       "label_metrics": {},
       "created_at": "2023-03-12 06:21:20+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "xarray hvplot not respecting fixed clim with interactive slider",
@@ -3747,8 +3486,7 @@
       "label_metrics": {},
       "created_at": "2023-03-11 21:12:40+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "dshean"
+      "assignees": []
     },
     {
       "title": "AttributeError when using name of column as `color` argument for bar plot with Matplotlib backend",
@@ -3761,8 +3499,7 @@
       "label_metrics": {},
       "created_at": "2023-03-11 20:41:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Categories written on top of each other for multiindex bar plot with Matplotlib backend",
@@ -3775,8 +3512,7 @@
       "label_metrics": {},
       "created_at": "2023-03-11 20:34:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "color not working for bar plot with Plotly backend",
@@ -3789,8 +3525,7 @@
       "label_metrics": {},
       "created_at": "2023-03-11 20:15:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "multiindex not working for bar plot with Plotly backend",
@@ -3803,8 +3538,7 @@
       "label_metrics": {},
       "created_at": "2023-03-11 20:07:53+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "legend not working for bar plot with Plotly backend",
@@ -3817,8 +3551,7 @@
       "label_metrics": {},
       "created_at": "2023-03-11 20:02:47+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Options for legend_position incorrect in docs",
@@ -3831,8 +3564,7 @@
       "label_metrics": {},
       "created_at": "2023-03-11 19:54:40+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "y argument not working for Bar plot with multiindex",
@@ -3845,8 +3577,7 @@
       "label_metrics": {},
       "created_at": "2023-03-11 19:48:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add pie charts",
@@ -3859,8 +3590,7 @@
       "label_metrics": {},
       "created_at": "2023-03-06 01:13:55+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Partition"
+      "assignees": []
     },
     {
       "title": "Don't supply a list with a single grouper to avoid this warning.",
@@ -3873,8 +3603,7 @@
       "label_metrics": {},
       "created_at": "2023-03-05 05:26:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "shoukewei"
+      "assignees": []
     },
     {
       "title": "Getting extra edges in hvplot+networkx (hvnx)",
@@ -3887,8 +3616,7 @@
       "label_metrics": {},
       "created_at": "2023-02-23 14:32:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "rroyss"
+      "assignees": []
     },
     {
       "title": "`polars` support",
@@ -3901,8 +3629,7 @@
       "label_metrics": {},
       "created_at": "2023-02-12 15:35:10+00:00",
       "milestone": "0.10.x",
-      "assignees": [],
-      "user": "jmakov"
+      "assignees": []
     },
     {
       "title": "Remove numba test workarounds when it supports Python 3.11",
@@ -3915,8 +3642,7 @@
       "label_metrics": {},
       "created_at": "2023-02-10 09:16:04+00:00",
       "milestone": "0.9.xx",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "hvplot.pandas import error",
@@ -3929,8 +3655,7 @@
       "label_metrics": {},
       "created_at": "2023-02-09 05:23:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sln2737"
+      "assignees": []
     },
     {
       "title": "hvplot fails for DataFrame with index name of 0",
@@ -3943,8 +3668,7 @@
       "label_metrics": {},
       "created_at": "2023-02-04 14:43:23+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "dwr-psandhu"
+      "assignees": []
     },
     {
       "title": "param dependency out-of-date?",
@@ -3957,8 +3681,7 @@
       "label_metrics": {},
       "created_at": "2023-02-03 20:23:53+00:00",
       "milestone": "0.9.xx",
-      "assignees": [],
-      "user": "patricktokeeffe"
+      "assignees": []
     },
     {
       "title": "\"SkipRendering: No plotting class for QuadMesh found\" when trying to save a map plot with projection",
@@ -3971,8 +3694,7 @@
       "label_metrics": {},
       "created_at": "2023-01-27 15:22:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JulianGiles"
+      "assignees": []
     },
     {
       "title": "hvplot and holoviews unconsistencies",
@@ -3985,8 +3707,7 @@
       "label_metrics": {},
       "created_at": "2023-01-27 10:38:31+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "sverley"
+      "assignees": []
     },
     {
       "title": "Support Python 3.11",
@@ -3999,8 +3720,7 @@
       "label_metrics": {},
       "created_at": "2023-01-08 07:31:02+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Adding scientific colorbar like roma",
@@ -4015,8 +3735,7 @@
       "milestone": "next",
       "assignees": [
         "maximlt"
-      ],
-      "user": "mohseniaref"
+      ]
     },
     {
       "title": "nbconvert --to html is not showing simple hvplot",
@@ -4029,8 +3748,7 @@
       "label_metrics": {},
       "created_at": "2022-12-23 15:51:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "daliagachc"
+      "assignees": []
     },
     {
       "title": "interactive DataFrame: .loc with interactive boolean Series and column not working",
@@ -4043,8 +3761,7 @@
       "label_metrics": {},
       "created_at": "2022-12-22 14:51:40+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "JanHomann"
+      "assignees": []
     },
     {
       "title": "Hvplot Line does not work with Decimal column",
@@ -4057,8 +3774,7 @@
       "label_metrics": {},
       "created_at": "2022-12-08 03:52:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LinuxIsCool"
+      "assignees": []
     },
     {
       "title": "Improve the developer guide",
@@ -4071,8 +3787,7 @@
       "label_metrics": {},
       "created_at": "2022-12-05 10:10:09+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Gallery: make prettier thumbnails",
@@ -4085,8 +3800,7 @@
       "label_metrics": {},
       "created_at": "2022-12-05 10:07:28+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Cannot create plotly histogram from datetime data",
@@ -4099,8 +3813,7 @@
       "label_metrics": {},
       "created_at": "2022-12-03 06:27:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make it possible to create hist plots of time data",
@@ -4113,8 +3826,7 @@
       "label_metrics": {},
       "created_at": "2022-12-03 05:39:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make it easier to plot distributions of categorical data",
@@ -4127,8 +3839,7 @@
       "label_metrics": {},
       "created_at": "2022-12-02 17:09:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "hvplot.hist with ibis+duckdb: ValueError: The truth value of an Ibis expression is not defined",
@@ -4141,8 +3852,7 @@
       "label_metrics": {},
       "created_at": "2022-11-30 17:59:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Document Datashader",
@@ -4155,8 +3865,7 @@
       "label_metrics": {},
       "created_at": "2022-11-30 17:15:36+00:00",
       "milestone": "0.8.2",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "hvplot.labels: TypeError: '<' not supported between instances of 'str' and 'int'",
@@ -4169,8 +3878,7 @@
       "label_metrics": {},
       "created_at": "2022-11-30 15:09:28+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Cannot build docs - ModuleNotFoundError: 'myst_nb.parser'",
@@ -4183,8 +3891,7 @@
       "label_metrics": {},
       "created_at": "2022-11-30 14:13:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Interactive DataFrame not displaying properly in Jupyter Lab",
@@ -4197,8 +3904,7 @@
       "label_metrics": {},
       "created_at": "2022-11-29 21:36:41+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "Nick-Hemenway"
+      "assignees": []
     },
     {
       "title": "Migrate to pytest",
@@ -4211,8 +3917,7 @@
       "label_metrics": {},
       "created_at": "2022-11-26 08:06:02+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Ibis backend not working:  'list' object has no attribute 'name'",
@@ -4225,8 +3930,7 @@
       "label_metrics": {},
       "created_at": "2022-11-26 07:49:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make ibis backend visible and useful",
@@ -4239,8 +3943,7 @@
       "label_metrics": {},
       "created_at": "2022-11-26 07:43:56+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Docstring examples not showing when using the Pylance languageserver",
@@ -4253,8 +3956,7 @@
       "label_metrics": {},
       "created_at": "2022-11-26 06:40:32+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "? help information unreadable in VS Code Interactive Window",
@@ -4267,8 +3969,7 @@
       "label_metrics": {},
       "created_at": "2022-11-25 11:29:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "hvplot not working in vs code",
@@ -4281,8 +3982,7 @@
       "label_metrics": {},
       "created_at": "2022-11-25 11:15:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Picture not showing on pypi",
@@ -4295,8 +3995,7 @@
       "label_metrics": {},
       "created_at": "2022-11-25 08:10:41+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Can not import hvplot.pandas when using ipykernel==6.18.0",
@@ -4309,8 +4008,7 @@
       "label_metrics": {},
       "created_at": "2022-11-24 17:49:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "RaulPL"
+      "assignees": []
     },
     {
       "title": "add a temp name for an xarray DataArray",
@@ -4323,8 +4021,7 @@
       "label_metrics": {},
       "created_at": "2022-11-22 16:56:24+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "raybellwaves"
+      "assignees": []
     },
     {
       "title": "xticks/yticks argument does not work for hvplot heatmap ",
@@ -4337,8 +4034,7 @@
       "label_metrics": {},
       "created_at": "2022-11-21 23:05:26+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "nicolejkeeney"
+      "assignees": []
     },
     {
       "title": "Cannot set xlabel, ylabel on horizontal bar  ",
@@ -4351,8 +4047,7 @@
       "label_metrics": {},
       "created_at": "2022-11-21 15:13:07+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Explorer plot code is invalid for a KDE plot using the 'by' parameter",
@@ -4365,8 +4060,7 @@
       "label_metrics": {},
       "created_at": "2022-11-21 13:02:39+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "ElJekko"
+      "assignees": []
     },
     {
       "title": "hvplot incompatible with bokeh 3.0.1, 3.0.2",
@@ -4379,8 +4073,7 @@
       "label_metrics": {},
       "created_at": "2022-11-17 01:15:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Timothy-W-Hilton"
+      "assignees": []
     },
     {
       "title": "Explorer raises error when all values are the same",
@@ -4393,8 +4086,7 @@
       "label_metrics": {},
       "created_at": "2022-11-15 16:17:21+00:00",
       "milestone": "0.9.x",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Explorers raises error when data type changes",
@@ -4407,8 +4099,7 @@
       "label_metrics": {},
       "created_at": "2022-11-15 16:15:43+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "installation issue",
@@ -4421,8 +4112,7 @@
       "label_metrics": {},
       "created_at": "2022-11-14 17:15:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "mohseniaref"
+      "assignees": []
     },
     {
       "title": "Add support for matplotlib styles and setting figiure size based on inches",
@@ -4435,8 +4125,7 @@
       "label_metrics": {},
       "created_at": "2022-11-07 21:10:37+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "wybert"
+      "assignees": []
     },
     {
       "title": "Autogenerate API ref docs",
@@ -4449,8 +4138,7 @@
       "label_metrics": {},
       "created_at": "2022-11-07 11:41:18+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Document the HoloViews plot `clim_percentile`",
@@ -4463,8 +4151,7 @@
       "label_metrics": {},
       "created_at": "2022-10-28 11:31:21+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Document that hvPlot defaults to plotting 2D DataArrays with an Image and not a QuadMesh unlike xarray",
@@ -4477,8 +4164,7 @@
       "label_metrics": {},
       "created_at": "2022-10-28 09:31:20+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Support `pandas.Interval` arrays in `step` plots",
@@ -4491,8 +4177,7 @@
       "label_metrics": {},
       "created_at": "2022-10-28 09:17:49+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Display units in the legend title",
@@ -4505,8 +4190,7 @@
       "label_metrics": {},
       "created_at": "2022-10-28 08:57:24+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "1D DataArray without coordinates defaults to a histogram",
@@ -4519,8 +4203,7 @@
       "label_metrics": {},
       "created_at": "2022-10-28 08:52:19+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "`cmap` option ignored in a line plot",
@@ -4533,8 +4216,7 @@
       "label_metrics": {},
       "created_at": "2022-10-27 18:12:14+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Document the hover modes 'vline' and 'hline' ",
@@ -4547,8 +4229,7 @@
       "label_metrics": {},
       "created_at": "2022-10-27 17:29:39+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Document RangeToolLink usage",
@@ -4561,8 +4242,7 @@
       "label_metrics": {},
       "created_at": "2022-10-23 15:55:35+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "xlim/ylim errors when geo=True",
@@ -4575,8 +4255,7 @@
       "label_metrics": {},
       "created_at": "2022-10-21 19:47:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jemissik"
+      "assignees": []
     },
     {
       "title": "hvplot.bar ignores xlim",
@@ -4589,8 +4268,7 @@
       "label_metrics": {},
       "created_at": "2022-10-16 12:47:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "icyrockcom"
+      "assignees": []
     },
     {
       "title": "Bar and ohlc charts are not linked",
@@ -4603,8 +4281,7 @@
       "label_metrics": {},
       "created_at": "2022-10-15 18:46:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "icyrockcom"
+      "assignees": []
     },
     {
       "title": "ipwidgets can quietly fail if wrapped in an hvPlot component",
@@ -4617,8 +4294,7 @@
       "label_metrics": {},
       "created_at": "2022-10-14 09:24:49+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "AttributeError when displaying a DynamicMap linked to a stream: 'NoneType' object has no attribute 'id'",
@@ -4631,8 +4307,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 20:37:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TomNicholas"
+      "assignees": []
     },
     {
       "title": "Warn when need for categorical plotting ambiguous",
@@ -4645,8 +4320,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 13:57:44+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "color_key should be used in non-datashader case for colormapping",
@@ -4659,8 +4333,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 13:36:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "Treat boolean color values as categorical",
@@ -4673,8 +4346,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 13:11:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "Switch to categorical handling when color_key specified",
@@ -4687,8 +4359,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 13:09:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "Only one legend for GridSpace layouts",
@@ -4701,8 +4372,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 13:00:08+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Warn when mixed time types detected",
@@ -4715,8 +4385,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 12:58:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "Time offsets not handled with datashade=True",
@@ -4729,8 +4398,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 12:46:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "Color cycle mismatch with and without datashade=True",
@@ -4743,8 +4411,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 12:46:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "Incorrect DeprecationWarning: Having a non-string as a column name in a DataFrame",
@@ -4757,8 +4424,7 @@
       "label_metrics": {},
       "created_at": "2022-10-12 17:20:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "2-5"
+      "assignees": []
     },
     {
       "title": "Cannot fix aspect ratio and remove padding simultaneously",
@@ -4771,8 +4437,7 @@
       "label_metrics": {},
       "created_at": "2022-10-11 18:55:36+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "TomNicholas"
+      "assignees": []
     },
     {
       "title": "Issues with using custom matplotlib colormap",
@@ -4785,8 +4450,7 @@
       "label_metrics": {},
       "created_at": "2022-10-10 18:00:05+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "cdeciampa"
+      "assignees": []
     },
     {
       "title": "GridSpace axes not aligned when using `row`, or both `col` and `row` with outside legend",
@@ -4799,8 +4463,7 @@
       "label_metrics": {},
       "created_at": "2022-10-10 00:06:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JanHomann"
+      "assignees": []
     },
     {
       "title": "filtering interactive dataframe with interactive boolean series / array / list not working",
@@ -4816,8 +4479,7 @@
       "assignees": [
         "hoxbro",
         "maximlt"
-      ],
-      "user": "JanHomann"
+      ]
     },
     {
       "title": "first tick label on categorical x-axis misplaced when labels are rotated",
@@ -4830,8 +4492,7 @@
       "label_metrics": {},
       "created_at": "2022-10-09 05:25:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JanHomann"
+      "assignees": []
     },
     {
       "title": "interactive dataframe not displayed when column headers are numbers",
@@ -4844,8 +4505,7 @@
       "label_metrics": {},
       "created_at": "2022-10-08 23:09:28+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "JanHomann"
+      "assignees": []
     },
     {
       "title": "Legend appears when legend=None",
@@ -4858,8 +4518,7 @@
       "label_metrics": {},
       "created_at": "2022-10-04 14:14:01+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "df.hvplot.bar() raises if hover_cols is provided while plotting multiple columns",
@@ -4872,8 +4531,7 @@
       "label_metrics": {},
       "created_at": "2022-09-29 17:04:01+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "stuarteberg"
+      "assignees": []
     },
     {
       "title": "Handling of non-string DataFrame column names ",
@@ -4886,8 +4544,7 @@
       "label_metrics": {},
       "created_at": "2022-09-28 08:54:18+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "bokeh backend could not plot any Elements in the Overlay.",
@@ -4900,8 +4557,7 @@
       "label_metrics": {},
       "created_at": "2022-09-25 04:35:13+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Legend not showing for bar + line plot",
@@ -4914,8 +4570,7 @@
       "label_metrics": {},
       "created_at": "2022-09-23 04:58:16+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "xarray DataSet support for `hvplot.explorer()`",
@@ -4930,8 +4585,7 @@
       "milestone": "0.10.x",
       "assignees": [
         "maximlt"
-      ],
-      "user": "itsgifnotjiff"
+      ]
     },
     {
       "title": "hvplot and panel when combined are not clearing the plot between events",
@@ -4944,8 +4598,7 @@
       "label_metrics": {},
       "created_at": "2022-09-20 17:16:27+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "SimonShapiro"
+      "assignees": []
     },
     {
       "title": "plot width changes (a lot) when I select option in groupby widget",
@@ -4958,8 +4611,7 @@
       "label_metrics": {},
       "created_at": "2022-09-18 17:07:09+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Support y2 selection for area plot in explorer",
@@ -4972,8 +4624,7 @@
       "label_metrics": {},
       "created_at": "2022-09-18 16:59:40+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "DataError: line plot fails when one of two columns is called value",
@@ -4986,8 +4637,7 @@
       "label_metrics": {},
       "created_at": "2022-09-18 05:49:37+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Support active_tools argument",
@@ -5000,8 +4650,7 @@
       "label_metrics": {},
       "created_at": "2022-09-17 06:09:56+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Provide helpful error message for not providing C to heatmap",
@@ -5014,8 +4663,7 @@
       "label_metrics": {},
       "created_at": "2022-09-16 21:52:28+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make it very clear that `hist` only support numerical or datetime fields",
@@ -5028,8 +4676,7 @@
       "label_metrics": {},
       "created_at": "2022-09-16 16:08:24+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Intake support in hvplot.explorer",
@@ -5042,8 +4689,7 @@
       "label_metrics": {},
       "created_at": "2022-09-09 14:57:18+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "martindurant"
+      "assignees": []
     },
     {
       "title": "rasterize and colormap doesn't return a plot",
@@ -5056,8 +4702,7 @@
       "label_metrics": {},
       "created_at": "2022-09-06 08:13:36+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "c, xoffset and yoffset for labels not working",
@@ -5070,8 +4715,7 @@
       "label_metrics": {},
       "created_at": "2022-09-04 19:04:48+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "vectorfield: 'x', 'y', 'mag' and 'angle' as default values",
@@ -5084,8 +4728,7 @@
       "label_metrics": {},
       "created_at": "2022-09-04 16:01:13+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Points reference guide is not about points",
@@ -5098,8 +4741,7 @@
       "label_metrics": {},
       "created_at": "2022-09-02 17:04:45+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "'Interactive' object has no attribute 'traverse'",
@@ -5112,8 +4754,7 @@
       "label_metrics": {},
       "created_at": "2022-09-01 13:35:25+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "dejudicibus"
+      "assignees": []
     },
     {
       "title": "Add type annotations",
@@ -5126,8 +4767,7 @@
       "label_metrics": {},
       "created_at": "2022-08-30 04:44:10+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Enable me to set explorer defaults/ initial values",
@@ -5140,8 +4780,7 @@
       "label_metrics": {},
       "created_at": "2022-08-30 04:11:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Enable me to get more information about the different options in the explorer",
@@ -5154,8 +4793,7 @@
       "label_metrics": {},
       "created_at": "2022-08-30 04:06:05+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Enable me to easily sort the x values when using the explorer",
@@ -5168,8 +4806,7 @@
       "label_metrics": {},
       "created_at": "2022-08-30 03:58:30+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Please use the available screen space to show me the explorer plot.",
@@ -5182,8 +4819,7 @@
       "label_metrics": {},
       "created_at": "2022-08-30 03:48:18+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Support rioxarray",
@@ -5196,8 +4832,7 @@
       "label_metrics": {},
       "created_at": "2022-08-29 11:51:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Change explorers default kind to scatter",
@@ -5210,8 +4845,7 @@
       "label_metrics": {},
       "created_at": "2022-08-29 04:48:42+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make plot_code a Parameter",
@@ -5224,8 +4858,7 @@
       "label_metrics": {},
       "created_at": "2022-08-29 04:40:59+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Streamz example on home page not working",
@@ -5238,8 +4871,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 17:33:31+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": ".interactive() form",
@@ -5252,8 +4884,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 15:43:47+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Installing for development times out",
@@ -5266,8 +4897,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 15:22:52+00:00",
       "milestone": "0.8.2",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add Timeseries line chart + difference bar chart example to Gallery",
@@ -5280,8 +4910,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 14:44:35+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Describe how to inspect the docs/ home page while developing.",
@@ -5294,8 +4923,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 14:34:47+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Cannot follow developer guide: CondaKeyError: 'channels': 'defaults' is not in the 'channels' key of the config file",
@@ -5308,8 +4936,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 14:25:59+00:00",
       "milestone": "0.8.2",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": ".interactive does not work If I'm not importing Panel in a cell before I import hvPlot.",
@@ -5322,8 +4949,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 12:50:51+00:00",
       "milestone": "0.9.xx",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": ".interactive adds and removes a scrollbar",
@@ -5336,8 +4962,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 12:45:14+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Tooltips not working in area reference",
@@ -5350,8 +4975,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 11:37:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "alpha option not found for kde plot with plotly",
@@ -5364,8 +4988,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 06:19:19+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Invalid url: http://www.ucrdatatool.gov/Search/Crime/State/StatebyState.cfm",
@@ -5378,8 +5001,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 05:58:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Test the links in the docs build",
@@ -5392,8 +5014,7 @@
       "label_metrics": {},
       "created_at": "2022-08-27 09:17:12+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Re-enable Matplotlib colorbar plots in the docs",
@@ -5406,8 +5027,7 @@
       "label_metrics": {},
       "created_at": "2022-08-27 09:15:06+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "by argument not working for hist plot",
@@ -5420,8 +5040,7 @@
       "label_metrics": {},
       "created_at": "2022-08-26 13:53:19+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Use https instead of http in links",
@@ -5434,8 +5053,7 @@
       "label_metrics": {},
       "created_at": "2022-08-26 05:13:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Rename box to boxplot",
@@ -5448,8 +5066,7 @@
       "label_metrics": {},
       "created_at": "2022-08-26 04:26:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": ".head output of .interactive() pipeline not readable",
@@ -5462,8 +5079,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 18:54:18+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Simplify the architecture diagram",
@@ -5476,8 +5092,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 17:43:53+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add link to live version of the explorer with an upload area",
@@ -5490,8 +5105,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 13:14:22+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add more examples of .interactive output",
@@ -5504,8 +5118,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 13:06:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add a community section at the bottom home page",
@@ -5518,8 +5131,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 12:57:59+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Turn the home page into a big menu",
@@ -5532,8 +5144,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 12:48:55+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add \"missing\" data sources and plotting backends to the home page tabs",
@@ -5546,8 +5157,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 12:43:11+00:00",
       "milestone": "0.8.2",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Missing A in docs",
@@ -5560,8 +5170,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 11:48:25+00:00",
       "milestone": "0.8.2",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Some .gifs in documentation are \"rough\" and \"corny\"",
@@ -5574,8 +5183,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 11:42:28+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add a little bit more of margin above and below the section divider",
@@ -5588,8 +5196,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 11:39:11+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Some .gifs in documentation are \"rough\"",
@@ -5602,8 +5209,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 11:33:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Remove background color from and round corners of .gifs in docs",
@@ -5616,8 +5222,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 11:27:49+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Plot a time-dependent series of geographic polygons from GeoDataframe using hvplot and groupby",
@@ -5630,8 +5235,7 @@
       "label_metrics": {},
       "created_at": "2022-08-23 08:00:37+00:00",
       "milestone": "0.9.x",
-      "assignees": [],
-      "user": "ConnieEsTe"
+      "assignees": []
     },
     {
       "title": "Cannot easily change the default look and feel. It seem to require themes, css and hooks.",
@@ -5644,8 +5248,7 @@
       "label_metrics": {},
       "created_at": "2022-08-22 18:34:16+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Align casing of arguments to lower case",
@@ -5658,8 +5261,7 @@
       "label_metrics": {},
       "created_at": "2022-08-21 18:34:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Arguments are often not available in docstring or `hvplot.help`",
@@ -5672,8 +5274,7 @@
       "label_metrics": {},
       "created_at": "2022-08-21 05:29:37+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Explain how to change the scale for bivariate reference example",
@@ -5686,8 +5287,7 @@
       "label_metrics": {},
       "created_at": "2022-08-18 05:21:34+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Extend Referrence Documentation for bivariate",
@@ -5702,8 +5302,7 @@
       "milestone": "Wishlist",
       "assignees": [
         "droumis"
-      ],
-      "user": "MarcSkovMadsen"
+      ]
     },
     {
       "title": "Themes: Make it easy to create beautiful plots with hvPlot",
@@ -5716,8 +5315,7 @@
       "label_metrics": {},
       "created_at": "2022-08-14 05:24:21+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Interactive: using `.pipe`/`.apply` in a pipeline triggers the piped/applied function too many times",
@@ -5730,8 +5328,7 @@
       "label_metrics": {},
       "created_at": "2022-08-12 09:03:06+00:00",
       "milestone": "0.8.2",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Let color (of line plot) support dict values",
@@ -5744,8 +5341,7 @@
       "label_metrics": {},
       "created_at": "2022-08-09 05:28:49+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "bar plot docs: specify column",
@@ -5760,8 +5356,7 @@
       "milestone": "next",
       "assignees": [
         "droumis"
-      ],
-      "user": "sophiamyang"
+      ]
     },
     {
       "title": "streaming docs: simplify to use Panel instead of Bokeh",
@@ -5774,8 +5369,7 @@
       "label_metrics": {},
       "created_at": "2022-08-08 15:50:38+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "sophiamyang"
+      "assignees": []
     },
     {
       "title": "Document paths plot",
@@ -5788,8 +5382,7 @@
       "label_metrics": {},
       "created_at": "2022-08-08 15:34:47+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Document hvplot.bind on website and with docstring",
@@ -5802,8 +5395,7 @@
       "label_metrics": {},
       "created_at": "2022-08-07 17:44:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "WARNING: Calling the .opts method with options broken down by options group ... is deprecated",
@@ -5816,8 +5408,7 @@
       "label_metrics": {},
       "created_at": "2022-08-07 15:16:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add Gallery/ Topic notebooks to the `examples` folder",
@@ -5830,8 +5421,7 @@
       "label_metrics": {},
       "created_at": "2022-08-04 05:51:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make it really easy to install the examples locally",
@@ -5844,8 +5434,7 @@
       "label_metrics": {},
       "created_at": "2022-08-04 05:10:44+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add styling options to the Explorer",
@@ -5858,8 +5447,7 @@
       "label_metrics": {},
       "created_at": "2022-08-03 19:09:00+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Coordinate label of a multi-element chart from an xarray Dataset lacks long name and units",
@@ -5872,8 +5460,7 @@
       "label_metrics": {},
       "created_at": "2022-08-03 13:12:08+00:00",
       "milestone": "0.8.2",
-      "assignees": [],
-      "user": "stanwest"
+      "assignees": []
     },
     {
       "title": "Adding an empty plot when hvPlotExplorer errors",
@@ -5886,8 +5473,7 @@
       "label_metrics": {},
       "created_at": "2022-08-03 06:16:38+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Add Gallery example demonstrating the Relation to Param.",
@@ -5900,8 +5486,7 @@
       "label_metrics": {},
       "created_at": "2022-07-27 05:17:19+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add Gallery example demonstrating how to drop into Panel",
@@ -5914,8 +5499,7 @@
       "label_metrics": {},
       "created_at": "2022-07-27 05:11:21+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add gallery example demonstrating how to drop into HoloViews",
@@ -5928,8 +5512,7 @@
       "label_metrics": {},
       "created_at": "2022-07-27 05:09:35+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add gallery styling example for each backend",
@@ -5942,8 +5525,7 @@
       "label_metrics": {},
       "created_at": "2022-07-27 05:04:03+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Align menu with rest of ecosystem",
@@ -5956,8 +5538,7 @@
       "label_metrics": {},
       "created_at": "2022-07-27 04:56:36+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Use Panel as deployment example for streaming",
@@ -5970,8 +5551,7 @@
       "label_metrics": {},
       "created_at": "2022-07-27 04:48:09+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Elevator pitch on homepage not up to date.",
@@ -5984,8 +5564,7 @@
       "label_metrics": {},
       "created_at": "2022-07-27 04:37:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make home page responsive on mobile",
@@ -5998,8 +5577,7 @@
       "label_metrics": {},
       "created_at": "2022-07-27 04:25:15+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add 3 min elevator pitch video to hvplot home page",
@@ -6012,8 +5590,7 @@
       "label_metrics": {},
       "created_at": "2022-07-27 04:14:28+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "groupby hvplot: 'Column' object has no attribute 'opts' or 'layout'",
@@ -6026,8 +5603,7 @@
       "label_metrics": {},
       "created_at": "2022-07-24 22:28:57+00:00",
       "milestone": "0.9.3",
-      "assignees": [],
-      "user": "maryzhao0111"
+      "assignees": []
     },
     {
       "title": "Geo paths cannot be colorized",
@@ -6040,8 +5616,7 @@
       "label_metrics": {},
       "created_at": "2022-07-24 08:11:57+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "AlexeyPechnikov"
+      "assignees": []
     },
     {
       "title": "Cannot install for development - dependencies cannot be resolved",
@@ -6054,8 +5629,7 @@
       "label_metrics": {},
       "created_at": "2022-07-24 05:44:25+00:00",
       "milestone": "0.8.2",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "update developer instructions to use supported Python version ",
@@ -6068,8 +5642,7 @@
       "label_metrics": {},
       "created_at": "2022-07-24 05:31:22+00:00",
       "milestone": "0.8.1",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make hvPlot tooltips useful in modern editors and IDEs",
@@ -6082,8 +5655,7 @@
       "label_metrics": {},
       "created_at": "2022-07-24 05:10:10+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add options for saving hvPlotExplorer settings and only show the plot",
@@ -6096,8 +5668,7 @@
       "label_metrics": {},
       "created_at": "2022-07-22 12:51:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "hvPlotExplorer issues with Style pane",
@@ -6110,8 +5681,7 @@
       "label_metrics": {},
       "created_at": "2022-07-22 12:26:13+00:00",
       "milestone": "0.8.1",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "hvPlotExplorer issues with Fields pane",
@@ -6124,8 +5694,7 @@
       "label_metrics": {},
       "created_at": "2022-07-22 12:22:18+00:00",
       "milestone": "0.8.1",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "hvPlotExplorer issue with Operations pane",
@@ -6138,8 +5707,7 @@
       "label_metrics": {},
       "created_at": "2022-07-22 12:10:53+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "hvPlotExplorer issues with Geo pane",
@@ -6152,8 +5720,7 @@
       "label_metrics": {},
       "created_at": "2022-07-22 12:03:48+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Can't select invert_yaxis=True when combining hvplot and panel scrubber",
@@ -6166,8 +5733,7 @@
       "label_metrics": {},
       "created_at": "2022-07-13 22:08:44+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "joestitty"
+      "assignees": []
     },
     {
       "title": "Positional arguments to `.polygons`",
@@ -6180,8 +5746,7 @@
       "label_metrics": {},
       "created_at": "2022-07-12 15:43:13+00:00",
       "milestone": "0.9.xx",
-      "assignees": [],
-      "user": "jsignell"
+      "assignees": []
     },
     {
       "title": "No colorbar displayed when `cmap` is set",
@@ -6194,8 +5759,7 @@
       "label_metrics": {},
       "created_at": "2022-07-11 19:08:49+00:00",
       "milestone": "0.8.1",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Update rasterio file in TestGeo",
@@ -6208,8 +5772,7 @@
       "label_metrics": {},
       "created_at": "2022-07-11 09:39:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Extension not loaded when importing `hvplot.pandas` after running `panel.extension()`",
@@ -6222,8 +5785,7 @@
       "label_metrics": {},
       "created_at": "2022-07-10 10:36:13+00:00",
       "milestone": "0.8.1",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": ".interactive dataframe slice selection by row index or position not possible",
@@ -6236,8 +5798,7 @@
       "label_metrics": {},
       "created_at": "2022-07-07 20:25:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JanHomann"
+      "assignees": []
     },
     {
       "title": ".interactive dataframe repr: table columns overlap",
@@ -6250,8 +5811,7 @@
       "label_metrics": {},
       "created_at": "2022-07-07 19:19:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JanHomann"
+      "assignees": []
     },
     {
       "title": "Setting projection on hvplot with xlim and ylim zooms all the way into a single point",
@@ -6264,8 +5824,7 @@
       "label_metrics": {},
       "created_at": "2022-07-05 17:18:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "vlvalenti"
+      "assignees": []
     },
     {
       "title": "An example for integration with flask app",
@@ -6278,8 +5837,7 @@
       "label_metrics": {},
       "created_at": "2022-06-30 16:17:13+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sjd-lab"
+      "assignees": []
     },
     {
       "title": "Improve the API of the hvPlotExplorer",
@@ -6292,8 +5850,7 @@
       "label_metrics": {},
       "created_at": "2022-06-14 10:44:07+00:00",
       "milestone": "0.8.1",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Bound input function called many times on widget change",
@@ -6306,8 +5863,7 @@
       "label_metrics": {},
       "created_at": "2022-06-14 10:32:07+00:00",
       "milestone": "0.8.1",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "nodelist parameter of hvnx.draw raises exception",
@@ -6320,8 +5876,7 @@
       "label_metrics": {},
       "created_at": "2022-06-08 14:33:14+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "mshevelev"
+      "assignees": []
     },
     {
       "title": "df.interactive() fails with `holoviews.core.util` has no attribute 'flatten'",
@@ -6334,8 +5889,7 @@
       "label_metrics": {},
       "created_at": "2022-05-24 21:51:30+00:00",
       "milestone": "0.8.1",
-      "assignees": [],
-      "user": "tomascsantos"
+      "assignees": []
     },
     {
       "title": "airline_flights.to_dask().persist() get error OSError: [Errno 22] Invalid argument",
@@ -6348,8 +5902,7 @@
       "label_metrics": {},
       "created_at": "2022-05-16 21:45:44+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hengaini2055"
+      "assignees": []
     },
     {
       "title": "Slow performance with hvplot and overlay",
@@ -6362,8 +5915,7 @@
       "label_metrics": {},
       "created_at": "2022-04-29 22:20:03+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kearney-sp"
+      "assignees": []
     },
     {
       "title": "Unable to plot geographic tiles",
@@ -6376,8 +5928,7 @@
       "label_metrics": {},
       "created_at": "2022-04-28 19:14:56+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "cdeciampa"
+      "assignees": []
     },
     {
       "title": "ylim in panel.Column can only be set for one plot ",
@@ -6390,8 +5941,7 @@
       "label_metrics": {},
       "created_at": "2022-04-19 21:12:00+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "georg-mayer"
+      "assignees": []
     },
     {
       "title": "Interactivity error with datashade=True option, image moving opposite to cursor displacement",
@@ -6404,8 +5954,7 @@
       "label_metrics": {},
       "created_at": "2022-04-14 12:45:11+00:00",
       "milestone": "0.8.2",
-      "assignees": [],
-      "user": "hxawax"
+      "assignees": []
     },
     {
       "title": "IndexError when using geographic data",
@@ -6418,8 +5967,7 @@
       "label_metrics": {},
       "created_at": "2022-04-14 11:47:17+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hxawax"
+      "assignees": []
     },
     {
       "title": "Accessor support on .hvplot.interactive and hvplot.bind?",
@@ -6434,8 +5982,7 @@
       "milestone": null,
       "assignees": [
         "philippjfr"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "Default xarray coordinates not inferred when non-dimension coordinates in data array.",
@@ -6448,8 +5995,7 @@
       "label_metrics": {},
       "created_at": "2022-04-08 23:29:42+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "relativistic"
+      "assignees": []
     },
     {
       "title": "Cannot import Rectangle or Segments elements from holoviews using hvplot converter",
@@ -6462,8 +6008,7 @@
       "label_metrics": {},
       "created_at": "2022-04-04 21:37:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Elizabethcase"
+      "assignees": []
     },
     {
       "title": "HLine and VLine with groupby parameter",
@@ -6476,8 +6021,7 @@
       "label_metrics": {},
       "created_at": "2022-04-04 15:38:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Novakasa"
+      "assignees": []
     },
     {
       "title": "Improve handling of arraylike as input for hvplot",
@@ -6490,8 +6034,7 @@
       "label_metrics": {},
       "created_at": "2022-03-08 18:15:40+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Odd behavior with invert_yaxis, invert_xaxis ",
@@ -6504,8 +6047,7 @@
       "label_metrics": {},
       "created_at": "2022-02-18 18:19:52+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "vlvalenti"
+      "assignees": []
     },
     {
       "title": "hvplot is not using lazy loading for zarr-backed xarray dataset",
@@ -6520,8 +6062,7 @@
       "milestone": "0.8.2",
       "assignees": [
         "maximlt"
-      ],
-      "user": "rabernat"
+      ]
     },
     {
       "title": "While plotting a geojson Polygon with `geodataframe.hvplot.paths(geo=True)`, the Polygon is not enclosed in the resulting Bokeh plot",
@@ -6534,8 +6075,7 @@
       "label_metrics": {},
       "created_at": "2022-02-11 16:47:58+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "sunu"
+      "assignees": []
     },
     {
       "title": "2D hvplot doesn't understand non-dimensioned coordinates",
@@ -6548,8 +6088,7 @@
       "label_metrics": {},
       "created_at": "2022-01-18 23:48:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "relativistic"
+      "assignees": []
     },
     {
       "title": "pn.widgets not working in a list ",
@@ -6562,8 +6101,7 @@
       "label_metrics": {},
       "created_at": "2022-01-15 06:33:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sophiamyang"
+      "assignees": []
     },
     {
       "title": "hvplot.interactive stops working and raises errors",
@@ -6576,8 +6114,7 @@
       "label_metrics": {},
       "created_at": "2022-01-15 05:46:43+00:00",
       "milestone": "next",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Could hvplot.interactive please support outputting to responsive hvplots",
@@ -6590,8 +6127,7 @@
       "label_metrics": {},
       "created_at": "2022-01-15 05:16:02+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "sample_data try/except import wrapper fails",
@@ -6604,8 +6140,7 @@
       "label_metrics": {},
       "created_at": "2022-01-10 19:46:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "michaelaye"
+      "assignees": []
     }
   ],
   "search_query": "repo:holoviz/hvplot is:issue created:2022-01-01..2025-04-30 -label:\"duplicate\""

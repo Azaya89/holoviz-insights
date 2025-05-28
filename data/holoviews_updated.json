@@ -32,8 +32,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Tooltip with aggregator and selector does not bring enough context",
@@ -48,8 +47,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Plots won't show in jlab with concurrent bokehs",
@@ -62,8 +60,7 @@
       "label_metrics": {},
       "created_at": "2025-04-22 07:23:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "robin-cls"
+      "assignees": []
     },
     {
       "title": "Streams don't work with the reactive API (`.rx`)",
@@ -76,8 +73,7 @@
       "label_metrics": {},
       "created_at": "2025-04-20 16:29:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MatusGasparik"
+      "assignees": []
     },
     {
       "title": "Test Markdown",
@@ -90,8 +86,7 @@
       "label_metrics": {},
       "created_at": "2025-04-16 01:26:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Coderambling"
+      "assignees": []
     },
     {
       "title": "Broken links in Holoviews.org: 26 links are 404.",
@@ -104,8 +99,9 @@
       "label_metrics": {},
       "created_at": "2025-04-15 23:50:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Coderambling"
+      "assignees": [
+        "Azaya89"
+      ]
     },
     {
       "title": "Legend doesn't mute when clicked since bokeh==3.7",
@@ -118,8 +114,7 @@
       "label_metrics": {},
       "created_at": "2025-04-09 11:56:11+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Maester03"
+      "assignees": []
     },
     {
       "title": "Holoviews not showing plots with plotly backend in vscode when \"Jupyter Notebook Renderers\" extension is enabled",
@@ -132,8 +127,7 @@
       "label_metrics": {},
       "created_at": "2025-03-25 21:41:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "YoraiLeviNostromoEnergy"
+      "assignees": []
     },
     {
       "title": "Laggy lasso-selection",
@@ -146,8 +140,7 @@
       "label_metrics": {},
       "created_at": "2025-03-23 21:18:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "nullstd"
+      "assignees": []
     },
     {
       "title": "Matplotlib not formatting correctly",
@@ -160,8 +153,7 @@
       "label_metrics": {},
       "created_at": "2025-03-12 19:42:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "runburg"
+      "assignees": []
     },
     {
       "title": "ValueError when updating polyline using PolyEdit tool",
@@ -174,8 +166,7 @@
       "label_metrics": {},
       "created_at": "2025-03-11 22:20:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "mikalai-prakapenka"
+      "assignees": []
     },
     {
       "title": "Add text/plain MIME type to the output of the icon",
@@ -188,8 +179,7 @@
       "label_metrics": {},
       "created_at": "2025-03-08 13:16:09+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "arafune"
+      "assignees": []
     },
     {
       "title": "Improve responsive in adjoint layout for Bokeh backend",
@@ -205,8 +195,7 @@
       "assignees": [
         "mattpap",
         "hoxbro"
-      ],
-      "user": "hoxbro"
+      ]
     },
     {
       "title": "Trimesh doesn't work with pandas 2.x.x",
@@ -219,8 +208,7 @@
       "label_metrics": {},
       "created_at": "2025-02-26 10:45:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "duronfire"
+      "assignees": []
     },
     {
       "title": "Linked axis range update driven by framewise DynamicMap should consider data range of all linked plots",
@@ -233,8 +221,7 @@
       "label_metrics": {},
       "created_at": "2025-02-25 16:44:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Single-valued datetime kdim not properly formatted in DynamicMap widget",
@@ -247,8 +234,7 @@
       "label_metrics": {},
       "created_at": "2025-02-25 15:53:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Ability to specify title wrapping width rather than hard coded wrapping every 2 or 3 dimensions",
@@ -261,8 +247,7 @@
       "label_metrics": {},
       "created_at": "2025-02-22 15:33:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "analog-cbarber"
+      "assignees": []
     },
     {
       "title": "opts keyword regression between 1.20.0 and 1.20.1 release",
@@ -275,8 +260,7 @@
       "label_metrics": {},
       "created_at": "2025-02-20 22:37:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "dwr-psandhu"
+      "assignees": []
     },
     {
       "title": "Server side HoverTool follow ups",
@@ -289,8 +273,7 @@
       "label_metrics": {},
       "created_at": "2025-02-20 09:56:24+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Inconsistency with categorical coloring using different cmaps",
@@ -303,8 +286,7 @@
       "label_metrics": {},
       "created_at": "2025-01-31 17:23:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Azaya89"
+      "assignees": []
     },
     {
       "title": "Proposal: Adopt numpydoc docstring style for consistency across Holoviz repositories",
@@ -319,8 +301,7 @@
       "milestone": null,
       "assignees": [
         "Azaya89"
-      ],
-      "user": "Azaya89"
+      ]
     },
     {
       "title": "Add Dendrogram Element for hierarchical clustering",
@@ -335,8 +316,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Add DotPlot Element",
@@ -351,8 +331,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Combination of `datashade` and `hv.operation.apply_when` results in navy background on zoom",
@@ -365,8 +344,7 @@
       "label_metrics": {},
       "created_at": "2025-01-17 10:19:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JSKenyon"
+      "assignees": []
     },
     {
       "title": "`Path` vdims end up being the wrong length",
@@ -379,8 +357,7 @@
       "label_metrics": {},
       "created_at": "2025-01-16 04:49:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jerry-kobold"
+      "assignees": []
     },
     {
       "title": "Remove stale website pages",
@@ -393,8 +370,7 @@
       "label_metrics": {},
       "created_at": "2025-01-09 20:24:20+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "BoxWhisker plot duplicate legend entries",
@@ -407,8 +383,7 @@
       "label_metrics": {},
       "created_at": "2025-01-09 10:00:25+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "freya-who"
+      "assignees": []
     },
     {
       "title": "HLines and VLines do not work with categorical axes unless vdim is specified",
@@ -421,8 +396,7 @@
       "label_metrics": {},
       "created_at": "2025-01-07 18:55:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "CodyKlingler"
+      "assignees": []
     },
     {
       "title": "The \"shellcheck\" pre-commit hook fails with git configured with \"autocrlf = true\"",
@@ -435,8 +409,7 @@
       "label_metrics": {},
       "created_at": "2025-01-07 18:34:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "stanwest"
+      "assignees": []
     },
     {
       "title": "Update docs about using tools whose behavior changed in Bokeh 3.4",
@@ -451,8 +424,7 @@
       "milestone": null,
       "assignees": [
         "sand-hanitizer"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Allow to sort the values of the dimensions used in a groupby operation",
@@ -465,8 +437,7 @@
       "label_metrics": {},
       "created_at": "2024-12-08 20:55:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Cannot add vdims to hv.Contours without setting color to vdim",
@@ -479,8 +450,7 @@
       "label_metrics": {},
       "created_at": "2024-12-08 14:53:04+00:00",
       "milestone": "1.21.0",
-      "assignees": [],
-      "user": "gjkoplik"
+      "assignees": []
     },
     {
       "title": "Error raise when displaying the IEX Stocks",
@@ -493,8 +463,7 @@
       "label_metrics": {},
       "created_at": "2024-12-08 00:14:24+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "No way to suppress delineations between QuadMesh cells in bokeh backend",
@@ -507,8 +476,7 @@
       "label_metrics": {},
       "created_at": "2024-12-06 14:21:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Allow multiple targets for RangeToolLink",
@@ -521,8 +489,7 @@
       "label_metrics": {},
       "created_at": "2024-12-04 15:55:40+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MatusGasparik"
+      "assignees": []
     },
     {
       "title": "Resolution of rasterized element lost when used in hv.Layout",
@@ -535,8 +502,7 @@
       "label_metrics": {},
       "created_at": "2024-12-01 19:26:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MatusGasparik"
+      "assignees": []
     },
     {
       "title": "hv.QuadMesh - strange behavior with the `vdim` parameter",
@@ -549,8 +515,7 @@
       "label_metrics": {},
       "created_at": "2024-11-28 15:33:25+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MatusGasparik"
+      "assignees": []
     },
     {
       "title": "Adding a hv.VSpan removes title label from subplots.",
@@ -563,8 +528,7 @@
       "label_metrics": {},
       "created_at": "2024-11-20 14:21:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Maester03"
+      "assignees": []
     },
     {
       "title": "Scalebar icon isn't underlined in blue when enabled",
@@ -577,8 +541,7 @@
       "label_metrics": {},
       "created_at": "2024-11-19 03:02:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Datashader (rasterize) breaks plotting vector data. ValueError: Geometry type combination is not supported ([])",
@@ -591,8 +554,7 @@
       "label_metrics": {},
       "created_at": "2024-11-15 13:46:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "FlorisCalkoen"
+      "assignees": []
     },
     {
       "title": "Categorical order in hierarchical axis not respected",
@@ -605,8 +567,7 @@
       "label_metrics": {},
       "created_at": "2024-11-15 12:48:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "flying-sheep"
+      "assignees": []
     },
     {
       "title": "Unexpected warning for Overlay: Tool of type 'pan'/'wheel_zoom' could not be found and could not be activated by default.",
@@ -619,8 +580,7 @@
       "label_metrics": {},
       "created_at": "2024-11-12 00:06:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jnareb"
+      "assignees": []
     },
     {
       "title": "Scalebar text removed when plot included in Layout",
@@ -633,8 +593,7 @@
       "label_metrics": {},
       "created_at": "2024-11-11 21:57:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Setting plot size prevents display of scalebar",
@@ -647,8 +606,7 @@
       "label_metrics": {},
       "created_at": "2024-11-11 21:53:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Central Deprecation Proposals Issue",
@@ -661,8 +619,7 @@
       "label_metrics": {},
       "created_at": "2024-11-08 10:55:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "DynamicMap does not support AdjointLayout",
@@ -675,8 +632,7 @@
       "label_metrics": {},
       "created_at": "2024-11-07 04:29:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Pie Chart bubble maps",
@@ -689,8 +645,7 @@
       "label_metrics": {},
       "created_at": "2024-11-06 19:52:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Philliec459"
+      "assignees": []
     },
     {
       "title": "Selection1D doesn't support datashaded plots",
@@ -703,8 +658,7 @@
       "label_metrics": {},
       "created_at": "2024-11-01 20:37:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "jupyter output: Use mime types for mime bundles instead of publishing everything as `text/html`",
@@ -719,8 +673,7 @@
       "milestone": null,
       "assignees": [
         "philippjfr"
-      ],
-      "user": "flying-sheep"
+      ]
     },
     {
       "title": "Linked Selections Generalization",
@@ -733,8 +686,7 @@
       "label_metrics": {},
       "created_at": "2024-10-31 12:52:02+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "philippjfr"
+      "assignees": []
     },
     {
       "title": "ScaleBar on subcoordinate_y is overflowing subcoordinate range",
@@ -749,8 +701,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Allow popup to expand to full screen or resizable",
@@ -763,8 +714,7 @@
       "label_metrics": {},
       "created_at": "2024-10-11 16:51:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Provide a cleaner method of specifying default plot tools",
@@ -777,8 +727,7 @@
       "label_metrics": {},
       "created_at": "2024-10-10 00:02:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "stefanmeili"
+      "assignees": []
     },
     {
       "title": "Smooth datashader zoom/pan updates",
@@ -791,8 +740,7 @@
       "label_metrics": {},
       "created_at": "2024-10-04 23:06:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Support popup for PointerXY streams",
@@ -805,8 +753,7 @@
       "label_metrics": {},
       "created_at": "2024-10-02 18:29:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Error when importing holoviews",
@@ -819,8 +766,7 @@
       "label_metrics": {},
       "created_at": "2024-09-30 16:13:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ivan-marroquin"
+      "assignees": []
     },
     {
       "title": "Use of 'shared_axes=False' with downsample1D breaks opts",
@@ -833,8 +779,7 @@
       "label_metrics": {},
       "created_at": "2024-09-27 18:02:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "ImportError: cannot import name 'ClearInput' from 'bokeh.models.widgets.inputs' ",
@@ -847,8 +792,7 @@
       "label_metrics": {},
       "created_at": "2024-09-27 16:16:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "simontuohy"
+      "assignees": []
     },
     {
       "title": "popup stream doesn't work with async",
@@ -861,8 +805,7 @@
       "label_metrics": {},
       "created_at": "2024-09-25 20:28:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Broken shared linked crosshair tool if set on one dimension only",
@@ -875,8 +818,7 @@
       "label_metrics": {},
       "created_at": "2024-09-24 15:01:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "hv.extension(inline=False) not working",
@@ -889,8 +831,7 @@
       "label_metrics": {},
       "created_at": "2024-09-24 11:39:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "michaelaye"
+      "assignees": []
     },
     {
       "title": "Cannot link tap to float slider",
@@ -903,8 +844,7 @@
       "label_metrics": {},
       "created_at": "2024-09-23 17:12:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "No hover is shown if rasterized inside dynamicmap using apply_when-like logic",
@@ -917,8 +857,7 @@
       "label_metrics": {},
       "created_at": "2024-09-20 00:26:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Document angle convention in style mapping is from the horizontal",
@@ -931,8 +870,7 @@
       "label_metrics": {},
       "created_at": "2024-09-19 22:32:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Automatically mapping markers to category",
@@ -945,8 +883,7 @@
       "label_metrics": {},
       "created_at": "2024-09-19 22:19:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Cannot use Dataset to hv.Polygons with grouping, custom colors, and legend",
@@ -959,8 +896,7 @@
       "label_metrics": {},
       "created_at": "2024-09-19 17:50:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Lnk2past"
+      "assignees": []
     },
     {
       "title": "resampling_when breaks when zooming in",
@@ -973,8 +909,7 @@
       "label_metrics": {},
       "created_at": "2024-09-16 21:02:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Add .show method on HoloViews elements",
@@ -987,8 +922,7 @@
       "label_metrics": {},
       "created_at": "2024-09-08 20:14:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Bars in Overlays with timezone-aware datetimes shows a big black box",
@@ -1001,8 +935,7 @@
       "label_metrics": {},
       "created_at": "2024-08-27 20:14:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "nfi-hashicorp"
+      "assignees": []
     },
     {
       "title": "interpolation for Image is broken with datashade",
@@ -1015,8 +948,7 @@
       "label_metrics": {},
       "created_at": "2024-08-15 07:44:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahartikainen"
+      "assignees": []
     },
     {
       "title": "Support hv.Overlay as input to inspect_points",
@@ -1029,8 +961,7 @@
       "label_metrics": {},
       "created_at": "2024-08-12 18:08:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Support Tap stream for multi_y",
@@ -1045,8 +976,7 @@
       "milestone": null,
       "assignees": [
         "philippjfr"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "`hv.render` ignores theme `bgcolor`",
@@ -1059,8 +989,7 @@
       "label_metrics": {},
       "created_at": "2024-08-07 13:46:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "AlonKellner"
+      "assignees": []
     },
     {
       "title": "Issue with activation of the box_select tool",
@@ -1073,8 +1002,7 @@
       "label_metrics": {},
       "created_at": "2024-08-05 11:12:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "antoine-lavrard"
+      "assignees": []
     },
     {
       "title": "Skipping sublabel indexing",
@@ -1087,8 +1015,7 @@
       "label_metrics": {},
       "created_at": "2024-08-02 15:29:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LecrisUT"
+      "assignees": []
     },
     {
       "title": "Standalone colorbar",
@@ -1101,8 +1028,7 @@
       "label_metrics": {},
       "created_at": "2024-08-02 14:16:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LecrisUT"
+      "assignees": []
     },
     {
       "title": "Opts hover_tooltips formatting date doesn't work",
@@ -1115,8 +1041,7 @@
       "label_metrics": {},
       "created_at": "2024-08-01 23:58:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Make it easy to switch mouse cursor icon over plot",
@@ -1129,8 +1054,7 @@
       "label_metrics": {},
       "created_at": "2024-08-01 16:07:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "`link_selections.instance` is incompatible with manually attached streams",
@@ -1143,8 +1067,7 @@
       "label_metrics": {},
       "created_at": "2024-07-29 18:55:02+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jerry-kobold"
+      "assignees": []
     },
     {
       "title": "x marker rendered as + in legend",
@@ -1157,8 +1080,7 @@
       "label_metrics": {},
       "created_at": "2024-07-29 10:39:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "adriengcql"
+      "assignees": []
     },
     {
       "title": "Cannot reopen popup when using reference examples",
@@ -1173,8 +1095,7 @@
       "milestone": null,
       "assignees": [
         "ahuang11"
-      ],
-      "user": "MarcSkovMadsen"
+      ]
     },
     {
       "title": "Add recent Bokeh 3.5 enhancements to RangeToolLink",
@@ -1187,8 +1108,7 @@
       "label_metrics": {},
       "created_at": "2024-07-24 17:48:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Support static screenshot mode including widgets",
@@ -1201,8 +1121,7 @@
       "label_metrics": {},
       "created_at": "2024-07-23 18:52:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "More control over `Layout` composition",
@@ -1215,8 +1134,7 @@
       "label_metrics": {},
       "created_at": "2024-07-21 10:19:09+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LecrisUT"
+      "assignees": []
     },
     {
       "title": "`.opts` does not work with `param.rx` objects",
@@ -1229,8 +1147,7 @@
       "label_metrics": {},
       "created_at": "2024-07-21 09:26:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LecrisUT"
+      "assignees": []
     },
     {
       "title": "`pn.state.curdoc` is `None` inside of a popup-function",
@@ -1243,8 +1160,7 @@
       "label_metrics": {},
       "created_at": "2024-07-18 14:28:08+00:00",
       "milestone": "1.20.0",
-      "assignees": [],
-      "user": "jerry-kobold"
+      "assignees": []
     },
     {
       "title": "hv.Image.sample does not work for xarray",
@@ -1257,8 +1173,7 @@
       "label_metrics": {},
       "created_at": "2024-07-17 08:36:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "arafune"
+      "assignees": []
     },
     {
       "title": "hv.timeseries.rolling doesn't work with object typed groupby",
@@ -1271,8 +1186,7 @@
       "label_metrics": {},
       "created_at": "2024-07-16 19:44:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "hv.timeseries doesn't work with xarray",
@@ -1285,8 +1199,7 @@
       "label_metrics": {},
       "created_at": "2024-07-16 18:33:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "(Possibly) wrong way for determination about X- and Y- axis in hv.Image",
@@ -1299,8 +1212,7 @@
       "label_metrics": {},
       "created_at": "2024-07-16 06:03:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "arafune"
+      "assignees": []
     },
     {
       "title": "Categorical datashaded paths can raise an error",
@@ -1313,8 +1225,7 @@
       "label_metrics": {},
       "created_at": "2024-07-15 20:45:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Composing plot with `param.rx` and `holoviews.Overlay/Layout`",
@@ -1327,8 +1238,7 @@
       "label_metrics": {},
       "created_at": "2024-07-15 10:21:13+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LecrisUT"
+      "assignees": []
     },
     {
       "title": "datashade operation update the dtype of the input DataFrame",
@@ -1341,8 +1251,7 @@
       "label_metrics": {},
       "created_at": "2024-07-14 15:57:20+00:00",
       "milestone": "1.20.0",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Datashader receives wrong range infromation from geoviews axis when viewing a cross section",
@@ -1355,8 +1264,7 @@
       "label_metrics": {},
       "created_at": "2024-07-11 20:28:47+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "wx4stg"
+      "assignees": []
     },
     {
       "title": "Unable to set margins Jupyter",
@@ -1369,8 +1277,7 @@
       "label_metrics": {},
       "created_at": "2024-07-11 14:21:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MikeB2019x"
+      "assignees": []
     },
     {
       "title": ".options(multi_y=True) can raise strange exceptions",
@@ -1383,8 +1290,7 @@
       "label_metrics": {},
       "created_at": "2024-07-10 15:25:45+00:00",
       "milestone": "1.20.3",
-      "assignees": [],
-      "user": "douglas-raillard-arm"
+      "assignees": []
     },
     {
       "title": "HSpan and VSpan break with hover tool",
@@ -1397,8 +1303,7 @@
       "label_metrics": {},
       "created_at": "2024-07-10 11:54:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "douglas-raillard-arm"
+      "assignees": []
     },
     {
       "title": "Util to create a custom legend",
@@ -1411,8 +1316,7 @@
       "label_metrics": {},
       "created_at": "2024-07-09 22:11:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Mechanism to create custom tool in toolbar",
@@ -1425,8 +1329,7 @@
       "label_metrics": {},
       "created_at": "2024-07-09 21:38:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Misjudge about gridded data or not",
@@ -1439,8 +1342,7 @@
       "label_metrics": {},
       "created_at": "2024-07-09 07:35:27+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "arafune"
+      "assignees": []
     },
     {
       "title": "Add rx support to linked_selections",
@@ -1453,8 +1355,7 @@
       "label_metrics": {},
       "created_at": "2024-07-09 00:45:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "Pandas `observed=False` warnings",
@@ -1467,8 +1368,7 @@
       "label_metrics": {},
       "created_at": "2024-07-08 07:23:45+00:00",
       "milestone": "1.20.0",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "How to add Y-profile on the top of the image ?",
@@ -1481,8 +1381,7 @@
       "label_metrics": {},
       "created_at": "2024-07-08 05:32:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "arafune"
+      "assignees": []
     },
     {
       "title": "Correct (/control) spacing in layout",
@@ -1495,8 +1394,7 @@
       "label_metrics": {},
       "created_at": "2024-07-08 04:46:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "arafune"
+      "assignees": []
     },
     {
       "title": "Improve support for non-numpy dtypes",
@@ -1509,8 +1407,7 @@
       "label_metrics": {},
       "created_at": "2024-07-04 07:43:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "FutureWarning for pandas observed=False",
@@ -1523,8 +1420,7 @@
       "label_metrics": {},
       "created_at": "2024-07-03 20:30:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Exceptions raised when trying to create stacked bar chart with continous x-axis.",
@@ -1537,8 +1433,7 @@
       "label_metrics": {},
       "created_at": "2024-06-29 13:39:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Continous Bars no longer working",
@@ -1551,8 +1446,7 @@
       "label_metrics": {},
       "created_at": "2024-06-28 18:15:18+00:00",
       "milestone": " 1.19.1",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Pandas interface doesn't handle kdims part of a Pandas MultiIndex",
@@ -1565,8 +1459,7 @@
       "label_metrics": {},
       "created_at": "2024-06-28 15:53:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Popup is clipped / hidden behind plot",
@@ -1579,8 +1472,7 @@
       "label_metrics": {},
       "created_at": "2024-06-27 19:28:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Attach ScaleBar to subcoordinate axis",
@@ -1595,8 +1487,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Spans and Lines don\u2019t support half-open hard ranges",
@@ -1609,8 +1500,7 @@
       "label_metrics": {},
       "created_at": "2024-06-19 12:54:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "alcrene"
+      "assignees": []
     },
     {
       "title": "Stacked bars not rendered correctly with datetime axis",
@@ -1623,8 +1513,7 @@
       "label_metrics": {},
       "created_at": "2024-06-18 07:56:06+00:00",
       "milestone": "1.20.0",
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Pickling object does not preserve `opts`",
@@ -1637,8 +1526,7 @@
       "label_metrics": {},
       "created_at": "2024-06-15 06:28:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "BoxWhisker in NdOverlay doesn't show legend",
@@ -1651,8 +1539,7 @@
       "label_metrics": {},
       "created_at": "2024-06-14 08:49:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "NdOverlay of `subcoordinate_y` plot with wide DF vdim mapper should not sort the columns",
@@ -1665,8 +1552,7 @@
       "label_metrics": {},
       "created_at": "2024-06-12 10:36:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Wide DF vdim mapper incompatible with `hover_tooltips`",
@@ -1679,8 +1565,7 @@
       "label_metrics": {},
       "created_at": "2024-06-12 10:32:24+00:00",
       "milestone": "1.19.0",
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Support hv.Dimension for wide dataframes",
@@ -1693,8 +1578,7 @@
       "label_metrics": {},
       "created_at": "2024-06-10 14:49:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Support hit-tested group-wise wheel zoom renderers for subcoordinate_y",
@@ -1709,8 +1593,7 @@
       "milestone": null,
       "assignees": [
         "maximlt"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Bounds stream popup placement incorrect when BoxSelectTool uses `dimensions=\"width\"`",
@@ -1725,8 +1608,7 @@
       "milestone": null,
       "assignees": [
         "ahuang11"
-      ],
-      "user": "jlstevens"
+      ]
     },
     {
       "title": "Proposal for improving support for wide data",
@@ -1739,8 +1621,7 @@
       "label_metrics": {},
       "created_at": "2024-06-05 08:27:03+00:00",
       "milestone": "1.19.0",
-      "assignees": [],
-      "user": "philippjfr"
+      "assignees": []
     },
     {
       "title": "'poly_draw' tool not working with holoviews 1.18.3 in combination with panel 1.4.4",
@@ -1753,8 +1634,7 @@
       "label_metrics": {},
       "created_at": "2024-06-03 19:43:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "Avoid that tap in overlay with image will dim the image entirely",
@@ -1767,8 +1647,7 @@
       "label_metrics": {},
       "created_at": "2024-06-03 07:21:44+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "Group or hide hover tools in Bokeh toolbar",
@@ -1781,8 +1660,7 @@
       "label_metrics": {},
       "created_at": "2024-05-29 09:21:56+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Lasso Select for Linked Selection is broken for Bar charts",
@@ -1795,8 +1673,7 @@
       "label_metrics": {},
       "created_at": "2024-05-25 18:44:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "HoloViews kdims go missing when sent to a separate process",
@@ -1809,8 +1686,7 @@
       "label_metrics": {},
       "created_at": "2024-05-22 04:17:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "PointDraw empty_value field not respected when using style mapping",
@@ -1823,8 +1699,7 @@
       "label_metrics": {},
       "created_at": "2024-05-21 09:03:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Customize zoom icons for subcoordinate-y plots",
@@ -1837,8 +1712,7 @@
       "label_metrics": {},
       "created_at": "2024-05-21 08:31:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Adding tools to an Overlay has no effect",
@@ -1851,8 +1725,7 @@
       "label_metrics": {},
       "created_at": "2024-05-21 08:18:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Bug with hvplot plotly violin plots using 'by' argument",
@@ -1865,8 +1738,7 @@
       "label_metrics": {},
       "created_at": "2024-05-17 06:26:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sam-spence"
+      "assignees": []
     },
     {
       "title": "[matplotlib backend] Setting title for `hv.Bars` does not work",
@@ -1879,8 +1751,7 @@
       "label_metrics": {},
       "created_at": "2024-05-14 21:06:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sztal"
+      "assignees": []
     },
     {
       "title": "The pointerXY stream breaks on heatmaps with categorical kdims",
@@ -1893,8 +1764,7 @@
       "label_metrics": {},
       "created_at": "2024-05-14 15:41:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "blooop"
+      "assignees": []
     },
     {
       "title": "`hv.Bars` with more than one `kdim` randomly generates incorrect x-ticks in some cases (matplotlib backend)",
@@ -1907,8 +1777,7 @@
       "label_metrics": {},
       "created_at": "2024-05-14 11:44:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sztal"
+      "assignees": []
     },
     {
       "title": "Buffer does not work as dict argument to Dynamic Map",
@@ -1921,8 +1790,7 @@
       "label_metrics": {},
       "created_at": "2024-05-13 17:18:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Enabling the Matplotlib backend for Holoviews breaks Matplotlib in notebooks",
@@ -1935,8 +1803,7 @@
       "label_metrics": {},
       "created_at": "2024-05-08 23:24:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "gwerbin"
+      "assignees": []
     },
     {
       "title": "HoloMap doesn't show new graph when previous graph was empty.",
@@ -1949,8 +1816,7 @@
       "label_metrics": {},
       "created_at": "2024-05-08 14:34:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "Removing the legend from NdOverlay also removes the colors",
@@ -1963,8 +1829,7 @@
       "label_metrics": {},
       "created_at": "2024-05-08 13:30:03+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "GridSpace with one axis renders without tools in Bokeh",
@@ -1977,8 +1842,7 @@
       "label_metrics": {},
       "created_at": "2024-05-07 19:38:07+00:00",
       "milestone": "1.20.3",
-      "assignees": [],
-      "user": "stanwest"
+      "assignees": []
     },
     {
       "title": "`match_aspect` parameter for bokeh's `BoxZoomTool` is not working",
@@ -1991,8 +1855,7 @@
       "label_metrics": {},
       "created_at": "2024-04-26 14:56:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MP-MaximilianLattka"
+      "assignees": []
     },
     {
       "title": "holoview/matplotlib fails to plot a raster image with a log scale",
@@ -2005,8 +1868,7 @@
       "label_metrics": {},
       "created_at": "2024-04-26 02:06:38+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "WillemMarais"
+      "assignees": []
     },
     {
       "title": "Overlay of HLines with categorical axis doesn't work.",
@@ -2019,8 +1881,7 @@
       "label_metrics": {},
       "created_at": "2024-04-24 07:04:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "NdOverlay graph colors disappear for \"show_legend=False\" for Scatter graphs.",
@@ -2033,8 +1894,7 @@
       "label_metrics": {},
       "created_at": "2024-04-23 14:19:55+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "datashade of NdOverlay of QuadMesh does not work",
@@ -2047,8 +1907,7 @@
       "label_metrics": {},
       "created_at": "2024-04-23 09:30:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "peterroelants"
+      "assignees": []
     },
     {
       "title": "Show legend for rasterized overlay",
@@ -2061,8 +1920,7 @@
       "label_metrics": {},
       "created_at": "2024-04-22 18:19:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "\"Build an app\" in pyodide raises ImportError",
@@ -2075,8 +1933,7 @@
       "label_metrics": {},
       "created_at": "2024-04-22 07:17:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "HLines not working with .apply() properly",
@@ -2089,8 +1946,7 @@
       "label_metrics": {},
       "created_at": "2024-04-17 11:46:44+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "SinisterMJ"
+      "assignees": []
     },
     {
       "title": "Intermittent issue with downsample1d 'm4' algorithm, depending on number of data points",
@@ -2103,8 +1959,7 @@
       "label_metrics": {},
       "created_at": "2024-04-15 21:59:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Cannot display any overlay for HoloViews v1.19.0a0",
@@ -2117,8 +1972,7 @@
       "label_metrics": {},
       "created_at": "2024-04-15 17:46:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Rasterized NdOverlay uses ImageStack only on an anti-aliased Curve",
@@ -2131,8 +1985,7 @@
       "label_metrics": {},
       "created_at": "2024-04-12 14:01:03+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "hv.Labels does not expose all style opts with Bokeh backend",
@@ -2145,8 +1998,7 @@
       "label_metrics": {},
       "created_at": "2024-04-12 12:34:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "HeatMap doesn't work with datetime very well // can we specify bins?",
@@ -2159,8 +2011,7 @@
       "label_metrics": {},
       "created_at": "2024-04-12 02:57:09+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "runburg"
+      "assignees": []
     },
     {
       "title": "hv.Text and hv.Labels should support `x_units` and `y_units`",
@@ -2173,8 +2024,7 @@
       "label_metrics": {},
       "created_at": "2024-04-11 22:32:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Clickable Map Widget",
@@ -2187,8 +2037,7 @@
       "label_metrics": {},
       "created_at": "2024-04-11 19:19:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "itsgifnotjiff"
+      "assignees": []
     },
     {
       "title": "Crash in hv.Labels DynamicMap with hook adding Bokeh Label annotation",
@@ -2201,8 +2050,7 @@
       "label_metrics": {},
       "created_at": "2024-04-09 08:30:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "BoxWhisker with continuous x-axis breaks box_width.",
@@ -2215,8 +2063,7 @@
       "label_metrics": {},
       "created_at": "2024-04-08 13:38:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "Holomap with NdOverlay's don't update depending on legend_position",
@@ -2229,8 +2076,7 @@
       "label_metrics": {},
       "created_at": "2024-04-08 08:31:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "returned a value having type `DynamicMap` which is not JSON serializable",
@@ -2243,8 +2089,7 @@
       "label_metrics": {},
       "created_at": "2024-04-08 07:17:55+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "AlesyaSeliazniova30032012"
+      "assignees": []
     },
     {
       "title": "Histogram operation does not work with datetime input and groupby",
@@ -2257,8 +2102,7 @@
       "label_metrics": {},
       "created_at": "2024-04-03 13:33:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Histogram bins when using groupby is only based on the first group",
@@ -2271,8 +2115,7 @@
       "label_metrics": {},
       "created_at": "2024-04-03 13:15:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "BoxWhisker: outliers are not displayed on bokeh backend",
@@ -2285,8 +2128,7 @@
       "label_metrics": {},
       "created_at": "2024-04-01 11:17:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "alxthm"
+      "assignees": []
     },
     {
       "title": "After deep zoom in Holoview difference between hover values is changing unexpectedly",
@@ -2299,8 +2141,7 @@
       "label_metrics": {},
       "created_at": "2024-03-29 12:58:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "zyuzin2024"
+      "assignees": []
     },
     {
       "title": "NdOverlay with more than 25 plots ignore styling",
@@ -2313,8 +2154,7 @@
       "label_metrics": {},
       "created_at": "2024-03-27 19:22:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "Make holoviews threadsafe",
@@ -2327,8 +2167,7 @@
       "label_metrics": {},
       "created_at": "2024-03-26 11:11:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "douglas-raillard-arm"
+      "assignees": []
     },
     {
       "title": "Make Parameters work with DynamicMap just as bound functions.",
@@ -2341,8 +2180,7 @@
       "label_metrics": {},
       "created_at": "2024-03-22 18:05:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Cannot set font size for `hv.Text` when using `matplotlib` backend",
@@ -2355,8 +2193,7 @@
       "label_metrics": {},
       "created_at": "2024-03-20 14:56:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sztal"
+      "assignees": []
     },
     {
       "title": "Matplotlib `backend_opts` string-based list indexing does not work on `ArtistList` objects",
@@ -2369,8 +2206,7 @@
       "label_metrics": {},
       "created_at": "2024-03-20 11:29:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sztal"
+      "assignees": []
     },
     {
       "title": "After deep zoom in Holoview difference between hover values is changing unexpectedly: 100, 300, 200, 400, 200, 200, 300, 300, so on.",
@@ -2383,8 +2219,7 @@
       "label_metrics": {},
       "created_at": "2024-03-19 13:35:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "zyuzin2024"
+      "assignees": []
     },
     {
       "title": "Datashader update causing an error in nyc_taxi plot",
@@ -2397,8 +2232,7 @@
       "label_metrics": {},
       "created_at": "2024-03-18 20:53:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Azaya89"
+      "assignees": []
     },
     {
       "title": "Setting default should be documented in Customization",
@@ -2411,8 +2245,7 @@
       "label_metrics": {},
       "created_at": "2024-03-14 18:58:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "HoloViews search preview is not informative",
@@ -2425,8 +2258,7 @@
       "label_metrics": {},
       "created_at": "2024-03-14 18:55:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "looking for graph visualization example  ",
@@ -2439,8 +2271,7 @@
       "label_metrics": {},
       "created_at": "2024-03-04 06:26:38+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "haseebkhawaja"
+      "assignees": []
     },
     {
       "title": "Interpolation breaks with pandas nullable dtypes",
@@ -2453,8 +2284,7 @@
       "label_metrics": {},
       "created_at": "2024-03-01 14:07:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "douglas-raillard-arm"
+      "assignees": []
     },
     {
       "title": "`merge_tool=True` combines two separate tools into one and makes it unclickable",
@@ -2467,8 +2297,7 @@
       "label_metrics": {},
       "created_at": "2024-03-01 00:32:38+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "merge_tools removes all tools",
@@ -2481,8 +2310,7 @@
       "label_metrics": {},
       "created_at": "2024-02-29 22:49:27+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Holoviews has been quarantined by sonatype for 17 days",
@@ -2495,8 +2323,7 @@
       "label_metrics": {},
       "created_at": "2024-02-29 16:21:47+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "s-banach"
+      "assignees": []
     },
     {
       "title": "Subcoordinate y-range from RangeXY stream with DynamicMap",
@@ -2511,8 +2338,7 @@
       "milestone": null,
       "assignees": [
         "philippjfr"
-      ],
-      "user": "ahuang11"
+      ]
     },
     {
       "title": "Unrelated updates in overlay with dmap triggers computation of another dmap",
@@ -2525,8 +2351,7 @@
       "label_metrics": {},
       "created_at": "2024-02-27 21:19:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Selecting HoloMap layout results in error",
@@ -2539,8 +2364,7 @@
       "label_metrics": {},
       "created_at": "2024-02-27 04:38:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Support using xarray non-dimensioned coordinates as explicit kdims.",
@@ -2553,8 +2377,7 @@
       "label_metrics": {},
       "created_at": "2024-02-26 13:20:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "alcrene"
+      "assignees": []
     },
     {
       "title": "Add tests for vscode notebook",
@@ -2567,8 +2390,7 @@
       "label_metrics": {},
       "created_at": "2024-02-22 20:35:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Too many toolbars on grid plots",
@@ -2583,8 +2405,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "Subcoordinate-y normalization per group",
@@ -2599,8 +2420,7 @@
       "milestone": null,
       "assignees": [
         "maximlt"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "subcoordinates_y breaks DynamicMap",
@@ -2613,8 +2433,7 @@
       "label_metrics": {},
       "created_at": "2024-02-19 21:10:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Hover tooltip minimal target size",
@@ -2627,8 +2446,7 @@
       "label_metrics": {},
       "created_at": "2024-02-19 14:26:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "adriengcql"
+      "assignees": []
     },
     {
       "title": "Hashing DataFrame too slow",
@@ -2641,8 +2459,7 @@
       "label_metrics": {},
       "created_at": "2024-02-15 15:11:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "philippjfr"
+      "assignees": []
     },
     {
       "title": "HexTiles with Bokeh backend does not support log axes",
@@ -2655,8 +2472,7 @@
       "label_metrics": {},
       "created_at": "2024-02-14 22:35:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "banesullivan-kobold"
+      "assignees": []
     },
     {
       "title": "Mathjax behavior and font settings don't work for Text objects (for Bokeh backend)",
@@ -2669,8 +2485,7 @@
       "label_metrics": {},
       "created_at": "2024-02-13 19:59:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "runburg"
+      "assignees": []
     },
     {
       "title": "HoloViews produces blurry plots",
@@ -2683,8 +2498,7 @@
       "label_metrics": {},
       "created_at": "2024-02-12 21:58:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Yura52"
+      "assignees": []
     },
     {
       "title": "ValueError when .opts(xticks=[])",
@@ -2697,8 +2511,7 @@
       "label_metrics": {},
       "created_at": "2024-02-12 10:29:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "msrasmussen"
+      "assignees": []
     },
     {
       "title": "underflow encountered in true_divide error",
@@ -2711,8 +2524,7 @@
       "label_metrics": {},
       "created_at": "2024-02-12 08:05:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ankita2020"
+      "assignees": []
     },
     {
       "title": "KeyError raised when using combination of checkbox, interactive dataframe, linked_selections, and hover_cols.",
@@ -2725,8 +2537,7 @@
       "label_metrics": {},
       "created_at": "2024-02-07 22:13:24+00:00",
       "milestone": " 1.19.1",
-      "assignees": [],
-      "user": "spenceforce"
+      "assignees": []
     },
     {
       "title": "Rasterizing takes longer after resetting plot",
@@ -2739,8 +2550,7 @@
       "label_metrics": {},
       "created_at": "2024-02-07 17:17:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "etiennedemontalivet"
+      "assignees": []
     },
     {
       "title": "Datashader does not update in 'Panel App' preview started from Jupyter",
@@ -2753,8 +2563,7 @@
       "label_metrics": {},
       "created_at": "2024-02-07 15:19:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "rfenouil"
+      "assignees": []
     },
     {
       "title": "rasterize=True no longer works with any geoviews parameters in hvplot (e.g. geo=True, crs=ccrs.PlateCarree())",
@@ -2767,8 +2576,7 @@
       "label_metrics": {},
       "created_at": "2024-02-06 14:46:20+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Fathom-mgray"
+      "assignees": []
     },
     {
       "title": "HoloViews has no tutorial for how to develop a new backend",
@@ -2781,8 +2589,7 @@
       "label_metrics": {},
       "created_at": "2024-02-05 13:54:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "HealthyPear"
+      "assignees": []
     },
     {
       "title": "Simple streams example not working",
@@ -2795,8 +2602,7 @@
       "label_metrics": {},
       "created_at": "2024-02-05 05:55:24+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "smutch"
+      "assignees": []
     },
     {
       "title": "Feature request: waterfall chart",
@@ -2809,8 +2615,7 @@
       "label_metrics": {},
       "created_at": "2024-02-05 00:56:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Rasterize with categorical colormap causing browser hanging",
@@ -2823,8 +2628,7 @@
       "label_metrics": {},
       "created_at": "2024-02-02 18:44:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "Error on import of holoviews: '_config' object has no attribute 'initialized'",
@@ -2837,8 +2641,7 @@
       "label_metrics": {},
       "created_at": "2024-02-02 13:01:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "suske-lambik"
+      "assignees": []
     },
     {
       "title": "Plotting using `cudf` fails",
@@ -2851,8 +2654,7 @@
       "label_metrics": {},
       "created_at": "2024-02-01 14:31:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jmakov"
+      "assignees": []
     },
     {
       "title": "rasterize with time series data fails for plotly and matplotlib",
@@ -2865,8 +2667,7 @@
       "label_metrics": {},
       "created_at": "2024-01-31 03:04:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "buckeye17"
+      "assignees": []
     },
     {
       "title": "Docs: Broken links ",
@@ -2879,8 +2680,7 @@
       "label_metrics": {},
       "created_at": "2024-01-30 09:30:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "fohrloop"
+      "assignees": []
     },
     {
       "title": "Incorrect Datashader colourmap being displayed",
@@ -2893,8 +2693,7 @@
       "label_metrics": {},
       "created_at": "2024-01-25 17:08:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "RoryMMMM"
+      "assignees": []
     },
     {
       "title": "Blank figures with `holoviews` + `bokeh` + `Jupyter Lab Desktop`",
@@ -2907,8 +2706,7 @@
       "label_metrics": {},
       "created_at": "2024-01-25 09:49:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "alcrene"
+      "assignees": []
     },
     {
       "title": "Add documentation saying the tsdownsample algorithm is available ",
@@ -2921,8 +2719,7 @@
       "label_metrics": {},
       "created_at": "2024-01-23 17:02:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "[FEATURE] Support color mapping for datetime types?",
@@ -2935,8 +2732,7 @@
       "label_metrics": {},
       "created_at": "2024-01-16 14:20:11+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "`subcoordinate_y` not working with DynamicMap triggered by Panel widget",
@@ -2949,8 +2745,7 @@
       "label_metrics": {},
       "created_at": "2024-01-15 17:44:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Deploying_Bokeh_Apps.ipynb example test failing on Windows ",
@@ -2963,8 +2758,7 @@
       "label_metrics": {},
       "created_at": "2024-01-15 10:45:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "hv.Polygons does not work with numpy.datetime64 axis",
@@ -2977,8 +2771,7 @@
       "label_metrics": {},
       "created_at": "2024-01-13 20:47:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "wx4stg"
+      "assignees": []
     },
     {
       "title": "Error in using `dask` and `hv.Image`",
@@ -2991,8 +2784,7 @@
       "label_metrics": {},
       "created_at": "2024-01-12 20:40:05+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kanglcn"
+      "assignees": []
     },
     {
       "title": "bounds in hv.Image does not work as expect",
@@ -3005,8 +2797,7 @@
       "label_metrics": {},
       "created_at": "2024-01-12 18:32:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kanglcn"
+      "assignees": []
     },
     {
       "title": "Renaming data attribute on PolyDraw stream creates race condition for styling properties",
@@ -3019,8 +2810,7 @@
       "label_metrics": {},
       "created_at": "2024-01-11 20:45:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "wx4stg"
+      "assignees": []
     },
     {
       "title": "GridSpace\u2019s kdims axis doesn\u2019t follow plot_size option",
@@ -3033,8 +2823,7 @@
       "label_metrics": {},
       "created_at": "2024-01-10 18:09:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "G-Guillard"
+      "assignees": []
     },
     {
       "title": "'color_key' argument ignored in datashade",
@@ -3047,8 +2836,7 @@
       "label_metrics": {},
       "created_at": "2024-01-09 10:16:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "rfenouil"
+      "assignees": []
     },
     {
       "title": "DynamicMap cannot handle partial bound method callable",
@@ -3061,8 +2849,7 @@
       "label_metrics": {},
       "created_at": "2024-01-08 10:47:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Expose `max_interval` and `min_interval` as options for Bokeh plots",
@@ -3077,8 +2864,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "[GOAL] Support viewing of medium, multi-channel timeseries data",
@@ -3091,8 +2877,7 @@
       "label_metrics": {},
       "created_at": "2024-01-05 02:18:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Document why plots sometimes do not show, what can cause this and how to solve it.",
@@ -3105,8 +2890,7 @@
       "label_metrics": {},
       "created_at": "2024-01-04 18:35:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Overlay with VLines and BoxWhisker",
@@ -3119,8 +2903,7 @@
       "label_metrics": {},
       "created_at": "2023-12-27 12:48:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "dinya"
+      "assignees": []
     },
     {
       "title": "Document that HoloViews works with `quarto preview` if you add hv.extension",
@@ -3133,8 +2916,7 @@
       "label_metrics": {},
       "created_at": "2023-12-25 08:39:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "hvplot datashaded categorical legend",
@@ -3147,8 +2929,7 @@
       "label_metrics": {},
       "created_at": "2023-12-24 13:30:02+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JelmerBot"
+      "assignees": []
     },
     {
       "title": "Empty output in Colab",
@@ -3161,8 +2942,7 @@
       "label_metrics": {},
       "created_at": "2023-12-22 15:05:02+00:00",
       "milestone": "1.19.0",
-      "assignees": [],
-      "user": "momeara"
+      "assignees": []
     },
     {
       "title": "Missing documentation on `legend_opts`",
@@ -3175,8 +2955,7 @@
       "label_metrics": {},
       "created_at": "2023-12-21 23:07:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "asmith26"
+      "assignees": []
     },
     {
       "title": "Move ResampleOperation2D settings in docs notebooks to hidden cell",
@@ -3189,8 +2968,7 @@
       "label_metrics": {},
       "created_at": "2023-12-21 13:42:27+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Support grabbing the label (and group?) for each `subcoordinate_y` plot from the NdOverlay key",
@@ -3205,8 +2983,7 @@
       "milestone": "1.19.0",
       "assignees": [
         "philippjfr"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "By default `subcoordinate_y=True` should reverse element order",
@@ -3221,8 +2998,7 @@
       "milestone": null,
       "assignees": [
         "maximlt"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Support datetime column in for rasterize selector",
@@ -3235,8 +3011,7 @@
       "label_metrics": {},
       "created_at": "2023-12-11 08:16:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "When exporting DynamicMap, it always appends .html to the specified file name and exports as HTML",
@@ -3249,8 +3024,7 @@
       "label_metrics": {},
       "created_at": "2023-12-08 20:42:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Add Auto-Detection and Callback for Index Layer in ImageStackPlot for Tooltip Display",
@@ -3265,8 +3039,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Implement support for the rasterize operation to automatically/easily attach an index array during the aggregation step",
@@ -3281,8 +3054,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Update the inspect operation to support an index layer to skip slow spatial filtering",
@@ -3297,8 +3069,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Make instant inspection respect spreading",
@@ -3313,8 +3084,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Implement ImageStack hover using CustomJS tools",
@@ -3329,8 +3099,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "DynamicMap callable called unnecessarily in Overlay containing sources of RangeXY stream",
@@ -3343,8 +3112,7 @@
       "label_metrics": {},
       "created_at": "2023-12-07 16:40:40+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "ImageStack should support dictionaries for cmap",
@@ -3359,8 +3127,7 @@
       "milestone": null,
       "assignees": [
         "ahuang11"
-      ],
-      "user": "jlstevens"
+      ]
     },
     {
       "title": "Image disappears upon click with tap tool activated",
@@ -3373,8 +3140,7 @@
       "label_metrics": {},
       "created_at": "2023-12-07 13:52:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Overlaying annotations on target plot breaks RangeToolLink",
@@ -3389,8 +3155,7 @@
       "milestone": null,
       "assignees": [
         "philippjfr"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Can't mix pn.bind with streams in DynamicMaps anymore",
@@ -3403,8 +3168,7 @@
       "label_metrics": {},
       "created_at": "2023-12-05 17:24:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Astropy support",
@@ -3417,8 +3181,7 @@
       "label_metrics": {},
       "created_at": "2023-12-05 13:26:00+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "HealthyPear"
+      "assignees": []
     },
     {
       "title": "Broken URLs in example gallery pages",
@@ -3431,8 +3194,7 @@
       "label_metrics": {},
       "created_at": "2023-12-04 22:47:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "magic-lantern"
+      "assignees": []
     },
     {
       "title": "Documentation change - 'Legend' is actually plot title",
@@ -3445,8 +3207,7 @@
       "label_metrics": {},
       "created_at": "2023-12-01 21:39:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "magic-lantern"
+      "assignees": []
     },
     {
       "title": "PointDraw does not work when initial data is empty",
@@ -3459,8 +3220,7 @@
       "label_metrics": {},
       "created_at": "2023-11-28 09:56:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "DeserializationError when trying out Deploying_Bokeh_Apps examples",
@@ -3473,8 +3233,7 @@
       "label_metrics": {},
       "created_at": "2023-11-24 11:36:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sflis"
+      "assignees": []
     },
     {
       "title": "Support new `ImageStack` element in `dynspread` operation",
@@ -3489,8 +3248,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "jlstevens"
+      ]
     },
     {
       "title": "Unable to generate legend for node color in graphs",
@@ -3503,8 +3261,7 @@
       "label_metrics": {},
       "created_at": "2023-11-16 21:36:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MikeB2019x"
+      "assignees": []
     },
     {
       "title": "QuadMesh options dont propagate after rasterize is applied",
@@ -3517,8 +3274,7 @@
       "label_metrics": {},
       "created_at": "2023-11-15 15:19:13+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "benbarn313"
+      "assignees": []
     },
     {
       "title": "A colorbar label doesn't automatically get created for labelled dataset for bokeh backend",
@@ -3531,8 +3287,7 @@
       "label_metrics": {},
       "created_at": "2023-11-12 06:34:11+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Hover tooltips only show up on first element values",
@@ -3545,8 +3300,7 @@
       "label_metrics": {},
       "created_at": "2023-11-09 14:47:07+00:00",
       "milestone": "1.20.3",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Autoranging on multi-line plots limits view to a single line",
@@ -3561,8 +3315,7 @@
       "milestone": null,
       "assignees": [
         "jlstevens"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "colorbar label wont update dynamically in hv.Image",
@@ -3575,8 +3328,7 @@
       "label_metrics": {},
       "created_at": "2023-11-03 20:07:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "benbarn313"
+      "assignees": []
     },
     {
       "title": "Overlapping datashaded lines without self-intersection",
@@ -3589,8 +3341,7 @@
       "label_metrics": {},
       "created_at": "2023-11-03 00:24:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Disable Datashader count aggregator `self-intersect` by default for curves",
@@ -3605,8 +3356,7 @@
       "milestone": null,
       "assignees": [
         "droumis"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Rasterize updates on target plot not triggering from RangeToolLink updates",
@@ -3619,8 +3369,7 @@
       "label_metrics": {},
       "created_at": "2023-11-02 23:23:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Downsample updates on target plot not triggering from RangeToolLink updates",
@@ -3633,8 +3382,7 @@
       "label_metrics": {},
       "created_at": "2023-11-02 22:54:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Downsample on target with RangeToolLink prevents display of data if zoomed and then rangetool-panned",
@@ -3647,8 +3395,7 @@
       "label_metrics": {},
       "created_at": "2023-11-02 22:24:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "hv.HeatMap with option radial=True does not respect axis limits or redim.range",
@@ -3661,8 +3408,7 @@
       "label_metrics": {},
       "created_at": "2023-11-02 20:08:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "itcarroll"
+      "assignees": []
     },
     {
       "title": "Path failing with vdims with categorical dtypes ",
@@ -3675,8 +3421,7 @@
       "label_metrics": {},
       "created_at": "2023-11-02 13:03:09+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "AttributeError on attempt to create AdjointLayout with HeatMap",
@@ -3689,8 +3434,7 @@
       "label_metrics": {},
       "created_at": "2023-10-31 22:52:09+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "itcarroll"
+      "assignees": []
     },
     {
       "title": "Plotting with a discrete nonlinear colorbar assigns values to colors incorrectly",
@@ -3703,8 +3447,7 @@
       "label_metrics": {},
       "created_at": "2023-10-30 08:03:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JulianGiles"
+      "assignees": []
     },
     {
       "title": "Holomap of a stack of datashader rasterized Points lose dynamics after converting to layout",
@@ -3717,8 +3460,7 @@
       "label_metrics": {},
       "created_at": "2023-10-28 20:32:55+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kanglcn"
+      "assignees": []
     },
     {
       "title": "Replace broken Stamen tiles",
@@ -3731,8 +3473,7 @@
       "label_metrics": {},
       "created_at": "2023-10-27 20:00:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "holoview.Div() doesn't display",
@@ -3745,8 +3486,7 @@
       "label_metrics": {},
       "created_at": "2023-10-27 08:22:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "butsuri43"
+      "assignees": []
     },
     {
       "title": "ImageStack docstring is wrong",
@@ -3759,8 +3499,7 @@
       "label_metrics": {},
       "created_at": "2023-10-26 03:26:21+00:00",
       "milestone": "1.18.1",
-      "assignees": [],
-      "user": "shenker"
+      "assignees": []
     },
     {
       "title": "ImageStack doesn't allow non-square data",
@@ -3773,8 +3512,7 @@
       "label_metrics": {},
       "created_at": "2023-10-26 03:20:53+00:00",
       "milestone": "1.18.1",
-      "assignees": [],
-      "user": "shenker"
+      "assignees": []
     },
     {
       "title": "Update contour line calculations to use ContourPy's LineType.ChunkCombinedNan",
@@ -3789,8 +3527,7 @@
       "milestone": null,
       "assignees": [
         "ianthomas23"
-      ],
-      "user": "ianthomas23"
+      ]
     },
     {
       "title": "Chunk-aware rendering ",
@@ -3803,8 +3540,7 @@
       "label_metrics": {},
       "created_at": "2023-10-24 23:08:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "`ylim` does not work for a `subcoordinates_y` overlay",
@@ -3819,8 +3555,7 @@
       "milestone": null,
       "assignees": [
         "maximlt"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Support GeoPandas passthrough to Datashader",
@@ -3833,8 +3568,7 @@
       "label_metrics": {},
       "created_at": "2023-10-23 09:15:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ianthomas23"
+      "assignees": []
     },
     {
       "title": "Hover over a GeoPandas line feature highlights single segment, not the whole line",
@@ -3847,8 +3581,7 @@
       "label_metrics": {},
       "created_at": "2023-10-22 03:12:40+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "emiliom"
+      "assignees": []
     },
     {
       "title": "Add ScaleBar support",
@@ -3863,8 +3596,7 @@
       "milestone": "1.19.0",
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Multilevel boxplot categorical axis alignment disrupted by overlay with HLine",
@@ -3877,8 +3609,7 @@
       "label_metrics": {},
       "created_at": "2023-10-15 02:38:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "liusynevolab"
+      "assignees": []
     },
     {
       "title": "Add first-class support for `polars`",
@@ -3891,8 +3622,7 @@
       "label_metrics": {},
       "created_at": "2023-10-13 09:46:17+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Downsample1d with framewise makes plot bounce on zoom",
@@ -3905,8 +3635,7 @@
       "label_metrics": {},
       "created_at": "2023-10-09 21:54:56+00:00",
       "milestone": "1.18.0",
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Testing framework fails to raise exceptions",
@@ -3919,8 +3648,7 @@
       "label_metrics": {},
       "created_at": "2023-10-09 13:06:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ianthomas23"
+      "assignees": []
     },
     {
       "title": "Prevent Dynamic Rasterization after `NaN` values are encountered in plot",
@@ -3933,8 +3661,7 @@
       "label_metrics": {},
       "created_at": "2023-10-08 21:01:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "philipc2"
+      "assignees": []
     },
     {
       "title": "undo/redo tools break bokeh HTML files",
@@ -3947,8 +3674,7 @@
       "label_metrics": {},
       "created_at": "2023-10-06 15:05:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "douglas-raillard-arm"
+      "assignees": []
     },
     {
       "title": "TablePlot cannot update frame (DynamicMap of Overlay of hv.Table)",
@@ -3961,8 +3687,7 @@
       "label_metrics": {},
       "created_at": "2023-10-06 08:28:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ba-ab-not-a-ba"
+      "assignees": []
     },
     {
       "title": "Unable to archive Dynamic Map figures -- AttributeError: Can't pickle local object",
@@ -3975,8 +3700,7 @@
       "label_metrics": {},
       "created_at": "2023-10-06 06:36:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "d-e-v-s"
+      "assignees": []
     },
     {
       "title": "Title font size not working in plotly backend",
@@ -3989,8 +3713,7 @@
       "label_metrics": {},
       "created_at": "2023-10-03 20:07:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jj-github-jj"
+      "assignees": []
     },
     {
       "title": "'Lasso Select' and 'Poly Select' on datashaded points plot are not able to populate a 'linked_selection.selection_expr' anymore",
@@ -4003,8 +3726,7 @@
       "label_metrics": {},
       "created_at": "2023-10-02 13:01:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "`subcoordinate_y` y-tick misalignment when overlaying VSpan",
@@ -4017,8 +3739,7 @@
       "label_metrics": {},
       "created_at": "2023-10-02 13:00:58+00:00",
       "milestone": "1.18.1",
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "New pandas version causes Future Depracation Warning",
@@ -4031,8 +3752,7 @@
       "label_metrics": {},
       "created_at": "2023-09-29 11:31:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "HTenkanen"
+      "assignees": []
     },
     {
       "title": "Using `rasterize` on the source plot breaks the RangeToolLink",
@@ -4047,8 +3767,7 @@
       "milestone": null,
       "assignees": [
         "maximlt"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Pandas FutureWarning: ",
@@ -4061,8 +3780,7 @@
       "label_metrics": {},
       "created_at": "2023-09-23 00:31:18+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "dave-c-vt"
+      "assignees": []
     },
     {
       "title": "Automatically add subplot-configured zoom tools when using `subcoordinate_y`",
@@ -4077,8 +3795,7 @@
       "milestone": null,
       "assignees": [
         "maximlt"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Apply subcoordinate zoom by group",
@@ -4093,8 +3810,7 @@
       "milestone": null,
       "assignees": [
         "maximlt"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Contours not displaying properly with matplotlib 3.8",
@@ -4109,8 +3825,7 @@
       "milestone": null,
       "assignees": [
         "ianthomas23"
-      ],
-      "user": "ktyle"
+      ]
     },
     {
       "title": "Unpin matplotlib 3.8",
@@ -4123,8 +3838,7 @@
       "label_metrics": {},
       "created_at": "2023-09-19 07:52:43+00:00",
       "milestone": "1.18.0",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "How to save chord diagram in high resolution? ",
@@ -4137,8 +3851,7 @@
       "label_metrics": {},
       "created_at": "2023-09-17 06:00:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Prateek1410"
+      "assignees": []
     },
     {
       "title": "Labels text_color should also cycle through color when overlaid",
@@ -4151,8 +3864,7 @@
       "label_metrics": {},
       "created_at": "2023-09-15 19:41:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Drilldown support",
@@ -4165,8 +3877,7 @@
       "label_metrics": {},
       "created_at": "2023-09-12 22:22:02+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "Allow setting `norm` in matplotlib backend opts",
@@ -4179,8 +3890,7 @@
       "label_metrics": {},
       "created_at": "2023-09-12 00:28:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Incorrect FutureWarning on pd.unique()",
@@ -4193,8 +3903,7 @@
       "label_metrics": {},
       "created_at": "2023-09-11 13:19:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kuatroka"
+      "assignees": []
     },
     {
       "title": "How to change the width of bars in a bar plot?",
@@ -4207,8 +3916,7 @@
       "label_metrics": {},
       "created_at": "2023-09-08 06:26:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "adivekar-utexas"
+      "assignees": []
     },
     {
       "title": "Add kdim unit to widget name for dimensioned containers if provided",
@@ -4221,8 +3929,7 @@
       "label_metrics": {},
       "created_at": "2023-09-04 13:43:18+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Lasso selection doesn't work for hv.Image",
@@ -4235,8 +3942,7 @@
       "label_metrics": {},
       "created_at": "2023-08-31 10:30:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sykesva"
+      "assignees": []
     },
     {
       "title": "hv.Image transposes output with tuple of numpy arrays",
@@ -4249,8 +3955,7 @@
       "label_metrics": {},
       "created_at": "2023-08-29 20:44:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Handle Bokeh toolbar UserWarning",
@@ -4263,8 +3968,7 @@
       "label_metrics": {},
       "created_at": "2023-08-29 07:27:50+00:00",
       "milestone": "1.18.0",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Slightly corrupted images when using `datashade` with bokeh backend (but not with plotly)",
@@ -4277,8 +3981,7 @@
       "label_metrics": {},
       "created_at": "2023-08-27 14:59:00+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hrbigelow"
+      "assignees": []
     },
     {
       "title": "Sankey diagram sometimes breaks >=1.17.0",
@@ -4291,8 +3994,7 @@
       "label_metrics": {},
       "created_at": "2023-08-23 23:37:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Enable resampling in rasterize image to optionally work in only one direction",
@@ -4305,8 +4007,7 @@
       "label_metrics": {},
       "created_at": "2023-08-17 06:07:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "Hover info for holoviews.image is tracking non-inverted array values when 'invert_yaxis=True'",
@@ -4319,8 +4020,7 @@
       "label_metrics": {},
       "created_at": "2023-08-16 15:41:55+00:00",
       "milestone": " 1.19.1",
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "Support multi-axis overlay in x-direction",
@@ -4333,8 +4033,7 @@
       "label_metrics": {},
       "created_at": "2023-08-11 11:52:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "`y_range.tags` expected to be a dictionary, but it's a list",
@@ -4347,8 +4046,7 @@
       "label_metrics": {},
       "created_at": "2023-08-08 10:17:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Box Zoom keeps hanging",
@@ -4361,8 +4059,7 @@
       "label_metrics": {},
       "created_at": "2023-08-08 08:12:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "peterroelants"
+      "assignees": []
     },
     {
       "title": "DynamicMap with Overlay of empty plot + Curves not applying colors correctly",
@@ -4375,8 +4072,7 @@
       "label_metrics": {},
       "created_at": "2023-08-06 23:51:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "wen-jams"
+      "assignees": []
     },
     {
       "title": "Overlaying bar plots created using `xarray.DataArray.hvplot.bar` is broken",
@@ -4389,8 +4085,7 @@
       "label_metrics": {},
       "created_at": "2023-08-04 18:47:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "dcherian"
+      "assignees": []
     },
     {
       "title": "Old version gets installed with `pip install holoviews[all]`",
@@ -4403,8 +4098,7 @@
       "label_metrics": {},
       "created_at": "2023-08-04 15:38:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "abgeana"
+      "assignees": []
     },
     {
       "title": "holoviews fails with timedelta data",
@@ -4417,8 +4111,7 @@
       "label_metrics": {},
       "created_at": "2023-07-30 18:08:56+00:00",
       "milestone": "1.17.1",
-      "assignees": [],
-      "user": "zieherf"
+      "assignees": []
     },
     {
       "title": "hv.Bars: color parameters leads to wrong coloring but color_index does not",
@@ -4431,8 +4124,7 @@
       "label_metrics": {},
       "created_at": "2023-07-28 19:04:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "fschwar4"
+      "assignees": []
     },
     {
       "title": "Putting Bars element with 2 kdims in Overlay results in empty plot",
@@ -4445,8 +4137,7 @@
       "label_metrics": {},
       "created_at": "2023-07-27 11:54:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Crash when trying to set xlim on datetime axis",
@@ -4459,8 +4150,7 @@
       "label_metrics": {},
       "created_at": "2023-07-27 10:04:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Document `sync_legends` and `select_legends`",
@@ -4473,8 +4163,7 @@
       "label_metrics": {},
       "created_at": "2023-07-26 09:18:55+00:00",
       "milestone": "1.17.1",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Merge options by vdim for multi_y=True",
@@ -4487,8 +4176,7 @@
       "label_metrics": {},
       "created_at": "2023-07-25 08:58:44+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "Support (or warn) when using `multi_y` with datashader",
@@ -4504,8 +4192,7 @@
       "assignees": [
         "philippjfr",
         "droumis"
-      ],
-      "user": "jlstevens"
+      ]
     },
     {
       "title": "Holoviews.Dataset drops values from xarray dataarrays that use a boolean index",
@@ -4518,8 +4205,7 @@
       "label_metrics": {},
       "created_at": "2023-07-21 11:27:03+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "blooop"
+      "assignees": []
     },
     {
       "title": "Zooming on y should still be supported when autoranging on y",
@@ -4534,8 +4220,7 @@
       "milestone": null,
       "assignees": [
         "jlstevens"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "BoxEdit doesn't work",
@@ -4548,8 +4233,7 @@
       "label_metrics": {},
       "created_at": "2023-07-17 22:44:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ZachPenn"
+      "assignees": []
     },
     {
       "title": "`responsive=True` alongside `rasterize=True` breaks dynamic",
@@ -4562,8 +4246,7 @@
       "label_metrics": {},
       "created_at": "2023-07-14 17:01:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "`invert_yaxis` doesn't work in a layout unless `shared_axes=False`",
@@ -4576,8 +4259,7 @@
       "label_metrics": {},
       "created_at": "2023-07-11 09:03:05+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "invert_yaxis causes the image to shift",
@@ -4590,8 +4272,7 @@
       "label_metrics": {},
       "created_at": "2023-07-05 19:54:44+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kgullikson-sc"
+      "assignees": []
     },
     {
       "title": "Select_mask & decimate fail when dtype changes from numeric to datetime",
@@ -4604,8 +4285,7 @@
       "label_metrics": {},
       "created_at": "2023-07-01 18:54:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "chrisbotica"
+      "assignees": []
     },
     {
       "title": "Selection streams don't like pn.bind() as a source",
@@ -4618,8 +4298,7 @@
       "label_metrics": {},
       "created_at": "2023-07-01 18:02:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "chrisbotica"
+      "assignees": []
     },
     {
       "title": "In jupyter lab, clicking on a table scrolls to the top of page",
@@ -4632,8 +4311,7 @@
       "label_metrics": {},
       "created_at": "2023-06-29 16:00:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "nbud"
+      "assignees": []
     },
     {
       "title": "Bokeh GridMatrix plots are not well aligned",
@@ -4646,8 +4324,7 @@
       "label_metrics": {},
       "created_at": "2023-06-23 13:40:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Ability to only show_grid=\"x\" or show_grid=\"y\"",
@@ -4660,8 +4337,7 @@
       "label_metrics": {},
       "created_at": "2023-06-22 19:01:56+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Contour doesn't handle NaNs properly",
@@ -4674,8 +4350,7 @@
       "label_metrics": {},
       "created_at": "2023-06-22 13:44:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "kcpevey"
+      "assignees": []
     },
     {
       "title": "NdOverlay click_policy: hide doesn't work when combined with a reference plot.",
@@ -4688,8 +4363,7 @@
       "label_metrics": {},
       "created_at": "2023-06-22 12:04:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Maester03"
+      "assignees": []
     },
     {
       "title": "Missing xlabel when setting frame_height",
@@ -4704,8 +4378,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "BoxEdit Example: `WARNING:param.RectanglesPlot00829: Tool of type 'box_edit' could not be found and could not be activated by default.`",
@@ -4718,8 +4391,7 @@
       "label_metrics": {},
       "created_at": "2023-06-20 09:40:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "turbotimon"
+      "assignees": []
     },
     {
       "title": "ndOverlay legend for boxwhisker not showing",
@@ -4732,8 +4404,7 @@
       "label_metrics": {},
       "created_at": "2023-06-19 19:25:51+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "Maester03"
+      "assignees": []
     },
     {
       "title": "link_selections support for hvplot.interactive, hvplot.bind, pn.bind",
@@ -4746,8 +4417,7 @@
       "label_metrics": {},
       "created_at": "2023-06-16 23:50:24+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "Improve visibility of `link_selections`",
@@ -4760,8 +4430,7 @@
       "label_metrics": {},
       "created_at": "2023-06-13 21:22:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Slow Execution and Performance Impact When Using Selenium Driver with Holoviews",
@@ -4774,8 +4443,7 @@
       "label_metrics": {},
       "created_at": "2023-06-12 10:41:00+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "aimad1234"
+      "assignees": []
     },
     {
       "title": "Tool of type 'box_edit' could not be found in VSCode",
@@ -4788,8 +4456,7 @@
       "label_metrics": {},
       "created_at": "2023-06-12 00:48:10+00:00",
       "milestone": "1.18.0",
-      "assignees": [],
-      "user": "allenduh"
+      "assignees": []
     },
     {
       "title": "Unable to turn off all active tools in the toolbar",
@@ -4802,8 +4469,7 @@
       "label_metrics": {},
       "created_at": "2023-06-10 15:17:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "thatlittleboy"
+      "assignees": []
     },
     {
       "title": "Interactive Graphs Don't Update in VSCode",
@@ -4818,8 +4484,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "austinbaggetta"
+      ]
     },
     {
       "title": "rasterize leads to Bokeh \"inner_height doesn't have a value set\" error",
@@ -4832,8 +4497,7 @@
       "label_metrics": {},
       "created_at": "2023-06-07 12:01:47+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "peterroelants"
+      "assignees": []
     },
     {
       "title": "Rasterize holoviews.Image crashes jupyter kernel",
@@ -4846,8 +4510,7 @@
       "label_metrics": {},
       "created_at": "2023-06-07 07:23:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "Datashading of points seems to not work",
@@ -4860,8 +4523,7 @@
       "label_metrics": {},
       "created_at": "2023-06-05 08:33:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "LaTeX Support for Labels (Title, Axes, Ticks, Colorbar, etc.)",
@@ -4874,8 +4536,7 @@
       "label_metrics": {},
       "created_at": "2023-06-04 22:27:06+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "cdeciampa"
+      "assignees": []
     },
     {
       "title": "conda installed failed",
@@ -4888,8 +4549,7 @@
       "label_metrics": {},
       "created_at": "2023-06-02 23:18:17+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "loftusa"
+      "assignees": []
     },
     {
       "title": "Make gallery example using box select to control RangeXY work",
@@ -4902,8 +4562,7 @@
       "label_metrics": {},
       "created_at": "2023-06-02 12:20:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "hv.streams on tap is emitting a BokehUserWarning: reference already known ",
@@ -4916,8 +4575,7 @@
       "label_metrics": {},
       "created_at": "2023-05-27 04:27:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Make `inline=False` the default behavior for `hv.extension`",
@@ -4930,8 +4588,7 @@
       "label_metrics": {},
       "created_at": "2023-05-26 09:25:01+00:00",
       "milestone": "1.17.0",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Datetime axis in plotly can give out of bounds warning",
@@ -4944,8 +4601,7 @@
       "label_metrics": {},
       "created_at": "2023-05-25 19:43:17+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Correct invert_yaxis for holoviews.Image",
@@ -4960,8 +4616,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "GeoVizNow"
+      ]
     },
     {
       "title": "Grouped Bars not rendering correctly",
@@ -4974,8 +4629,7 @@
       "label_metrics": {},
       "created_at": "2023-05-23 15:54:39+00:00",
       "milestone": "1.16.1",
-      "assignees": [],
-      "user": "philippjfr"
+      "assignees": []
     },
     {
       "title": "Add cticks (colorbar ticks) to opts",
@@ -4990,8 +4644,7 @@
       "milestone": null,
       "assignees": [
         "ahuang11"
-      ],
-      "user": "ahuang11"
+      ]
     },
     {
       "title": "streams.PointDraw Python object is not linked to interactive plot",
@@ -5004,8 +4657,7 @@
       "label_metrics": {},
       "created_at": "2023-05-22 22:59:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "alexgleith"
+      "assignees": []
     },
     {
       "title": "Annotator not syncing with associated dataframe",
@@ -5018,8 +4670,7 @@
       "label_metrics": {},
       "created_at": "2023-05-19 04:39:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jmarkow"
+      "assignees": []
     },
     {
       "title": "colorbar on Layout not sync with Operations",
@@ -5032,8 +4683,7 @@
       "label_metrics": {},
       "created_at": "2023-05-16 07:51:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ludwigVonKoopa"
+      "assignees": []
     },
     {
       "title": "Panel widget buttons (NEXT and PREV) not working if the output is saved in html but works perfectly in jupyter notebook output ",
@@ -5046,8 +4696,7 @@
       "label_metrics": {},
       "created_at": "2023-05-10 17:52:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "debashishsamantaray"
+      "assignees": []
     },
     {
       "title": "The slider is not working properly for list of holoview points rendered through hv.DynamicMap, skipping some indexes of list when saved as html",
@@ -5060,8 +4709,7 @@
       "label_metrics": {},
       "created_at": "2023-05-10 17:43:25+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "debashishsamantaray"
+      "assignees": []
     },
     {
       "title": "`plot.handles[\"hover\"]` is not the same as `plot.handles[\"plot\"].hover` ",
@@ -5074,8 +4722,7 @@
       "label_metrics": {},
       "created_at": "2023-05-10 08:12:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Annotator dframe not synced for hv.Rectangle",
@@ -5088,8 +4735,7 @@
       "label_metrics": {},
       "created_at": "2023-05-08 12:32:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Streams not working in VS Code or holoviews==1.16.0a8 in Jupyter notebook",
@@ -5102,8 +4748,7 @@
       "label_metrics": {},
       "created_at": "2023-05-07 02:01:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "basnijholt"
+      "assignees": []
     },
     {
       "title": "hv.DynamicMap also accepts an object of `dict` type for `streams`",
@@ -5116,8 +4761,7 @@
       "label_metrics": {},
       "created_at": "2023-05-05 08:58:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "hv.Graph.from_networkx():  node coloring fails if graph has edge attributes",
@@ -5130,8 +4774,7 @@
       "label_metrics": {},
       "created_at": "2023-05-04 16:49:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MikeB2019x"
+      "assignees": []
     },
     {
       "title": "Javascript Errors when setting Extension in Jupyter Notebook",
@@ -5144,8 +4787,7 @@
       "label_metrics": {},
       "created_at": "2023-04-27 15:43:04+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MikeB2019x"
+      "assignees": []
     },
     {
       "title": "Title not shown when using Plotly backend",
@@ -5158,8 +4800,7 @@
       "label_metrics": {},
       "created_at": "2023-04-27 08:25:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "hv.Graph.from_network() : ignoring node attribute values for rendering",
@@ -5172,8 +4813,7 @@
       "label_metrics": {},
       "created_at": "2023-04-25 17:45:55+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MikeB2019x"
+      "assignees": []
     },
     {
       "title": "Problem importing holoviews module",
@@ -5186,8 +4826,7 @@
       "label_metrics": {},
       "created_at": "2023-04-25 14:37:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "FredDuj"
+      "assignees": []
     },
     {
       "title": "update_frame throws exception ",
@@ -5200,8 +4839,7 @@
       "label_metrics": {},
       "created_at": "2023-04-24 21:45:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jameseflowers1000"
+      "assignees": []
     },
     {
       "title": "Datashade support for VectorField",
@@ -5214,8 +4852,7 @@
       "label_metrics": {},
       "created_at": "2023-04-21 17:07:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "brey"
+      "assignees": []
     },
     {
       "title": "Area stack requires individual elements to share the same vdim",
@@ -5228,8 +4865,7 @@
       "label_metrics": {},
       "created_at": "2023-04-21 15:31:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Confusing warning for disabled toolbar",
@@ -5242,8 +4878,7 @@
       "label_metrics": {},
       "created_at": "2023-04-21 10:21:39+00:00",
       "milestone": "1.16.0",
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "Issues with hline/vline hover modes on Scatter/Points elements",
@@ -5256,8 +4891,7 @@
       "label_metrics": {},
       "created_at": "2023-04-20 13:24:18+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Missing legend for hv.Distribution with matplotlib backend",
@@ -5270,8 +4904,7 @@
       "label_metrics": {},
       "created_at": "2023-04-20 09:35:12+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "W-L"
+      "assignees": []
     },
     {
       "title": "HoloMap with sort=False displays sorted legend/widgets",
@@ -5284,8 +4917,7 @@
       "label_metrics": {},
       "created_at": "2023-04-19 18:47:44+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "tomas16"
+      "assignees": []
     },
     {
       "title": "[BUG] memory leak on hv.extension('bokeh') #13088",
@@ -5298,8 +4930,7 @@
       "label_metrics": {},
       "created_at": "2023-04-17 17:21:47+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "majidaldo"
+      "assignees": []
     },
     {
       "title": "Update BoxEditCallback and RectanglesTableLinkCallback to also use Bokeh's Quad",
@@ -5312,8 +4943,7 @@
       "label_metrics": {},
       "created_at": "2023-04-16 08:16:39+00:00",
       "milestone": "1.16.0",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "DynamicMap with hv.Overlay of a dynamic number of  hv.Curve  is broken",
@@ -5326,8 +4956,7 @@
       "label_metrics": {},
       "created_at": "2023-04-14 18:08:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jameseflowers1000"
+      "assignees": []
     },
     {
       "title": "Make it easy to extract values from link_selection",
@@ -5340,8 +4969,7 @@
       "label_metrics": {},
       "created_at": "2023-04-12 12:52:55+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Look into missing reference target in docs build",
@@ -5354,8 +4982,7 @@
       "label_metrics": {},
       "created_at": "2023-04-11 19:14:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "latest holoviews and panel incompatibility",
@@ -5368,8 +4995,7 @@
       "label_metrics": {},
       "created_at": "2023-04-07 19:40:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "basnijholt"
+      "assignees": []
     },
     {
       "title": "Support syncing visibility between legend labels in different figures",
@@ -5382,8 +5008,7 @@
       "label_metrics": {},
       "created_at": "2023-04-06 17:56:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Vertical or horizontal frame alignment of plot elements in a layout.",
@@ -5396,8 +5021,7 @@
       "label_metrics": {},
       "created_at": "2023-04-04 11:41:13+00:00",
       "milestone": "1.16.0",
-      "assignees": [],
-      "user": "hali-geoviz"
+      "assignees": []
     },
     {
       "title": "bar plot multi_level=False issues with Bokeh backend in Safari",
@@ -5410,8 +5034,7 @@
       "label_metrics": {},
       "created_at": "2023-03-31 19:01:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "michi42"
+      "assignees": []
     },
     {
       "title": "Support Bokeh 3",
@@ -5424,8 +5047,7 @@
       "label_metrics": {},
       "created_at": "2023-03-28 17:18:46+00:00",
       "milestone": "1.16.0",
-      "assignees": [],
-      "user": "r-richmond"
+      "assignees": []
     },
     {
       "title": "plotly backend color option raises exception  ",
@@ -5438,8 +5060,7 @@
       "label_metrics": {},
       "created_at": "2023-03-23 15:29:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jj-github-jj"
+      "assignees": []
     },
     {
       "title": "holoviews.Area fail to display with some constellation of of only nan's and zeros in the vdims.",
@@ -5452,8 +5073,7 @@
       "label_metrics": {},
       "created_at": "2023-03-18 10:32:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "Enable me to set stream values programmatically",
@@ -5466,8 +5086,7 @@
       "label_metrics": {},
       "created_at": "2023-03-16 20:00:38+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "selection_expr not working on histogram",
@@ -5480,8 +5099,7 @@
       "label_metrics": {},
       "created_at": "2023-03-15 00:15:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "marcdhansenesi"
+      "assignees": []
     },
     {
       "title": "Reverse order of dash imports",
@@ -5494,8 +5112,7 @@
       "label_metrics": {},
       "created_at": "2023-03-13 13:12:24+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "T4rk1n"
+      "assignees": []
     },
     {
       "title": "Cannot use vdim as color for Bars plot with Matplotlib backend",
@@ -5508,8 +5125,7 @@
       "label_metrics": {},
       "created_at": "2023-03-12 19:15:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "X-axis labels written on top of each other for Bars plot with multiple kdims and Matplotlib backend",
@@ -5522,8 +5138,7 @@
       "label_metrics": {},
       "created_at": "2023-03-12 18:52:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "`color` option not working for Bars plot with Plotly backend",
@@ -5536,8 +5151,7 @@
       "label_metrics": {},
       "created_at": "2023-03-12 18:26:07+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "MultiIndex Bars with Plotly backend not working",
@@ -5550,8 +5164,7 @@
       "label_metrics": {},
       "created_at": "2023-03-12 07:31:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Bokeh plot doesn't display in notebook",
@@ -5564,8 +5177,7 @@
       "label_metrics": {},
       "created_at": "2023-03-11 18:16:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "avissens"
+      "assignees": []
     },
     {
       "title": "selection inconsistencies",
@@ -5578,8 +5190,7 @@
       "label_metrics": {},
       "created_at": "2023-03-10 22:18:50+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "marcdhansenesi"
+      "assignees": []
     },
     {
       "title": "Updating color source with apply.opts does not map points colors correctly",
@@ -5592,8 +5203,7 @@
       "label_metrics": {},
       "created_at": "2023-03-09 08:57:49+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "rfenouil"
+      "assignees": []
     },
     {
       "title": "Long Labels are cut off in Sankey plots",
@@ -5606,8 +5216,7 @@
       "label_metrics": {},
       "created_at": "2023-03-08 14:51:18+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "apahl"
+      "assignees": []
     },
     {
       "title": "Colobar rangeslider for holomap of heatmaps",
@@ -5620,8 +5229,7 @@
       "label_metrics": {},
       "created_at": "2023-03-08 09:48:13+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Maester03"
+      "assignees": []
     },
     {
       "title": "Dynamic y-axis when hiding data through the legend",
@@ -5634,8 +5242,7 @@
       "label_metrics": {},
       "created_at": "2023-03-08 09:43:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Maester03"
+      "assignees": []
     },
     {
       "title": "Example of PointerX in documentation does not work in vscode",
@@ -5648,8 +5255,7 @@
       "label_metrics": {},
       "created_at": "2023-03-07 02:50:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jj-github-jj"
+      "assignees": []
     },
     {
       "title": "Support categorical values in operation.datashader",
@@ -5662,8 +5268,7 @@
       "label_metrics": {},
       "created_at": "2023-03-04 01:32:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hegde-anish"
+      "assignees": []
     },
     {
       "title": "Import of holoviews.plotting.bokeh fails with nightly/dev numpy",
@@ -5676,8 +5281,7 @@
       "label_metrics": {},
       "created_at": "2023-03-01 21:27:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "djhoese"
+      "assignees": []
     },
     {
       "title": "BoundsY example broken",
@@ -5690,8 +5294,7 @@
       "label_metrics": {},
       "created_at": "2023-02-23 15:27:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jordansamuels"
+      "assignees": []
     },
     {
       "title": "Regression from 1.15.0 with python callables",
@@ -5704,8 +5307,7 @@
       "label_metrics": {},
       "created_at": "2023-02-11 12:17:55+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ludwigVonKoopa"
+      "assignees": []
     },
     {
       "title": "Categorical datashade does not display legend if using GPU",
@@ -5718,8 +5320,7 @@
       "label_metrics": {},
       "created_at": "2023-02-10 11:34:13+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ianthomas23"
+      "assignees": []
     },
     {
       "title": "Allow holoviews.Polygons to represent zero polygon geometries",
@@ -5732,8 +5333,7 @@
       "label_metrics": {},
       "created_at": "2023-02-10 10:00:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "Error when using groupby with hvplot",
@@ -5746,8 +5346,7 @@
       "label_metrics": {},
       "created_at": "2023-02-08 13:35:30+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "lforesta"
+      "assignees": []
     },
     {
       "title": "New and Unexpected Warning: Tool of type could not be found and could not be activated by default.",
@@ -5760,8 +5359,7 @@
       "label_metrics": {},
       "created_at": "2023-02-07 22:41:25+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MikeB2019x"
+      "assignees": []
     },
     {
       "title": "holoviews.Dataset.transform(flag=expr) and link_selections.selection_expr = expr not working with 'spatial_select' dimension expression when dataframe index differs from 0-based step one index",
@@ -5774,8 +5372,7 @@
       "label_metrics": {},
       "created_at": "2023-02-06 20:49:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GeoVizNow"
+      "assignees": []
     },
     {
       "title": "'dict' object has no attribute 'shape' when rendering hv.Raster from 3D Dataset",
@@ -5788,8 +5385,7 @@
       "label_metrics": {},
       "created_at": "2023-01-31 19:36:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "vfk-rw"
+      "assignees": []
     },
     {
       "title": "Categories persistance",
@@ -5802,8 +5398,7 @@
       "label_metrics": {},
       "created_at": "2023-01-27 11:09:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "RobertoDF"
+      "assignees": []
     },
     {
       "title": "Linked axes does not work in Bokeh 3",
@@ -5816,8 +5411,7 @@
       "label_metrics": {},
       "created_at": "2023-01-24 09:04:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Holoviews widget does not work in Bokeh 3",
@@ -5830,8 +5424,7 @@
       "label_metrics": {},
       "created_at": "2023-01-24 09:00:31+00:00",
       "milestone": "1.16.0",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Streaming does not work in Notebook with Bokeh 3",
@@ -5844,8 +5437,7 @@
       "label_metrics": {},
       "created_at": "2023-01-24 08:52:27+00:00",
       "milestone": "1.16.0",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Collapsing figures in Bokeh 3 with responsive=True",
@@ -5858,8 +5450,7 @@
       "label_metrics": {},
       "created_at": "2023-01-24 08:46:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "SSL: CERTIFICATE_VERIFY_FAILED when downloading Natural Earth data",
@@ -5872,8 +5463,7 @@
       "label_metrics": {},
       "created_at": "2023-01-20 07:36:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Sieboldianus"
+      "assignees": []
     },
     {
       "title": "index based selection fails on rasterized plots",
@@ -5886,8 +5476,7 @@
       "label_metrics": {},
       "created_at": "2023-01-19 09:25:24+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "PeterLindner"
+      "assignees": []
     },
     {
       "title": "datashader and rasterize=True not updating all layers",
@@ -5902,8 +5491,7 @@
       "milestone": null,
       "assignees": [
         "ianthomas23"
-      ],
-      "user": "jmakov"
+      ]
     },
     {
       "title": "`collapse()` fails on `UniformNdMapping`",
@@ -5918,8 +5506,7 @@
       "milestone": "1.17.0",
       "assignees": [
         "philippjfr"
-      ],
-      "user": "alcrene"
+      ]
     },
     {
       "title": "Test failures for `=holoviews-1.15.3`",
@@ -5932,8 +5519,7 @@
       "label_metrics": {},
       "created_at": "2023-01-15 18:10:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheChymera"
+      "assignees": []
     },
     {
       "title": "DynamicMap Issue: AttributeError: unexpected attribute 'factors' to LinearColorMapper",
@@ -5946,8 +5532,7 @@
       "label_metrics": {},
       "created_at": "2023-01-14 08:11:05+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "hv.Div ignores HTML tags when updated with Link",
@@ -5960,8 +5545,7 @@
       "label_metrics": {},
       "created_at": "2023-01-13 11:21:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "pat-schmitt"
+      "assignees": []
     },
     {
       "title": "docs - \"roadmap as of 3/2019\" is out of date",
@@ -5974,8 +5558,7 @@
       "label_metrics": {},
       "created_at": "2022-12-28 17:26:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "j-carson"
+      "assignees": []
     },
     {
       "title": "Stream updates to do not propagate to datashader ranges",
@@ -5988,8 +5571,7 @@
       "label_metrics": {},
       "created_at": "2022-12-27 00:24:12+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "muendlein"
+      "assignees": []
     },
     {
       "title": "Support markers on line traces (curve) as an option. ",
@@ -6002,8 +5584,7 @@
       "label_metrics": {},
       "created_at": "2022-12-21 03:41:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "suley1212"
+      "assignees": []
     },
     {
       "title": "plotly backend not rendering tiles consistently",
@@ -6016,8 +5597,7 @@
       "label_metrics": {},
       "created_at": "2022-12-20 18:31:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sandhujasmine"
+      "assignees": []
     },
     {
       "title": "Dask DataFrame + Lasso select linked brushing not working",
@@ -6030,8 +5610,7 @@
       "label_metrics": {},
       "created_at": "2022-12-16 16:06:18+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "mmorys"
+      "assignees": []
     },
     {
       "title": "Importing geoviews prevents hv.annotator output in notebook",
@@ -6044,8 +5623,7 @@
       "label_metrics": {},
       "created_at": "2022-12-16 14:45:11+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Test suite are sensitive to run order",
@@ -6058,8 +5636,7 @@
       "label_metrics": {},
       "created_at": "2022-12-16 14:19:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Add support for pn.bind to hv.Overlay",
@@ -6074,8 +5651,7 @@
       "milestone": "Wishlist",
       "assignees": [
         "jlstevens"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "Clicking on legend for traces to enable/disable does not work with plotly back end. It does work on Bokeh",
@@ -6088,8 +5664,7 @@
       "label_metrics": {},
       "created_at": "2022-12-14 01:11:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jj-github-jj"
+      "assignees": []
     },
     {
       "title": "Trying to add marginal histogram to just one axis",
@@ -6102,8 +5677,7 @@
       "label_metrics": {},
       "created_at": "2022-12-13 03:03:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "lgonzalezsa"
+      "assignees": []
     },
     {
       "title": "linked selections not working for points + hist plot using ibis+duckdb backend",
@@ -6116,8 +5690,7 @@
       "label_metrics": {},
       "created_at": "2022-12-10 06:08:41+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Overlay Zoom Hangup",
@@ -6130,8 +5703,7 @@
       "label_metrics": {},
       "created_at": "2022-12-09 20:51:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "CrashLandonB"
+      "assignees": []
     },
     {
       "title": "Plotting datetime time axis with filled contours",
@@ -6144,8 +5716,7 @@
       "label_metrics": {},
       "created_at": "2022-12-07 20:19:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "vlvalenti"
+      "assignees": []
     },
     {
       "title": "Docs: Install instructions for holoviews don't work correctly with new libmamba solver",
@@ -6158,8 +5729,7 @@
       "label_metrics": {},
       "created_at": "2022-12-06 23:59:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sandhujasmine"
+      "assignees": []
     },
     {
       "title": "holoviews layout in combination with \"decimate\" not responsive when served with panel",
@@ -6172,8 +5742,7 @@
       "label_metrics": {},
       "created_at": "2022-12-06 18:32:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "zieherf"
+      "assignees": []
     },
     {
       "title": "kdims=`y` output straight line instead of actual data",
@@ -6186,8 +5755,7 @@
       "label_metrics": {},
       "created_at": "2022-12-05 10:34:05+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Listing colormap records sometimes raises TypeError",
@@ -6200,8 +5768,7 @@
       "label_metrics": {},
       "created_at": "2022-12-02 23:05:11+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "stanwest"
+      "assignees": []
     },
     {
       "title": "hvplot.image(rasterize=True) not working",
@@ -6214,8 +5781,7 @@
       "label_metrics": {},
       "created_at": "2022-12-02 20:47:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "lforesta"
+      "assignees": []
     },
     {
       "title": "How to print html content without using hv.save() ?",
@@ -6228,8 +5794,7 @@
       "label_metrics": {},
       "created_at": "2022-12-02 08:55:02+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Zzz233"
+      "assignees": []
     },
     {
       "title": "Intermitent error when running a module",
@@ -6242,8 +5807,7 @@
       "label_metrics": {},
       "created_at": "2022-12-02 08:15:46+00:00",
       "milestone": "1.15.3",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Docs: Update documentation to handle CORS errors for Tiles docs page",
@@ -6256,8 +5820,7 @@
       "label_metrics": {},
       "created_at": "2022-12-01 22:11:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sandhujasmine"
+      "assignees": []
     },
     {
       "title": "Investigate if ArgSpec should be updated to FullArgSpec",
@@ -6270,8 +5833,7 @@
       "label_metrics": {},
       "created_at": "2022-11-30 08:20:42+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Investigate UGRID conventions for tri meshes",
@@ -6284,8 +5846,7 @@
       "label_metrics": {},
       "created_at": "2022-11-29 12:06:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ianthomas23"
+      "assignees": []
     },
     {
       "title": "ibis.common.exceptions.OperationNotDefinedError: No translation rule for <class 'ibis.expr.operations.generic.RowID'>",
@@ -6298,8 +5859,7 @@
       "label_metrics": {},
       "created_at": "2022-11-28 06:20:18+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Please break down functions and unit test them",
@@ -6312,8 +5872,7 @@
       "label_metrics": {},
       "created_at": "2022-11-27 09:01:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "decimate not working with ibis",
@@ -6326,8 +5885,7 @@
       "label_metrics": {},
       "created_at": "2022-11-27 04:47:57+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "xarray required dependency to import rasterize",
@@ -6340,8 +5898,7 @@
       "label_metrics": {},
       "created_at": "2022-11-26 20:05:40+00:00",
       "milestone": "1.15.3",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Ibis Timestamp not displaying as datetime axis",
@@ -6354,8 +5911,7 @@
       "label_metrics": {},
       "created_at": "2022-11-26 08:58:58+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make the ibis backend visible and useful",
@@ -6368,8 +5924,7 @@
       "label_metrics": {},
       "created_at": "2022-11-26 08:56:19+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Sankey diagram - vertical alignment of flows",
@@ -6382,8 +5937,7 @@
       "label_metrics": {},
       "created_at": "2022-11-24 12:40:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "tommycarstensen"
+      "assignees": []
     },
     {
       "title": "hvplot does not support selecting multiple elements with tap-tool",
@@ -6396,8 +5950,7 @@
       "label_metrics": {},
       "created_at": "2022-11-24 00:44:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "krlng"
+      "assignees": []
     },
     {
       "title": "test_plotutils.py::TestBokehUtils::test_py2js_funcformatter* tests fail",
@@ -6410,8 +5963,7 @@
       "label_metrics": {},
       "created_at": "2022-11-22 14:44:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "bnavigator"
+      "assignees": []
     },
     {
       "title": "Badly formed notebook tracebacks ending with `AssertionError: Pieces mismatches`",
@@ -6424,8 +5976,7 @@
       "label_metrics": {},
       "created_at": "2022-11-22 09:11:56+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Document handling of stream and user input value clashing",
@@ -6438,8 +5989,7 @@
       "label_metrics": {},
       "created_at": "2022-11-18 14:34:56+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "droumis"
+      "assignees": []
     },
     {
       "title": "Supporting rasterize options via a compositor",
@@ -6452,8 +6002,7 @@
       "label_metrics": {},
       "created_at": "2022-11-14 09:48:17+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "Cannot select HoloMap with time dimension",
@@ -6466,8 +6015,7 @@
       "label_metrics": {},
       "created_at": "2022-11-08 07:20:53+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Count aggregation on object column failing on heatmap",
@@ -6480,8 +6028,7 @@
       "label_metrics": {},
       "created_at": "2022-11-04 16:29:54+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ajstewart"
+      "assignees": []
     },
     {
       "title": "Layout of a list of DynamicMaps obtained with list comprehension only registers last element",
@@ -6494,8 +6041,7 @@
       "label_metrics": {},
       "created_at": "2022-11-03 12:09:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "szarma"
+      "assignees": []
     },
     {
       "title": "NdOverlay messing up legend item order",
@@ -6508,8 +6054,7 @@
       "label_metrics": {},
       "created_at": "2022-10-31 21:25:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "openSourcerer9000"
+      "assignees": []
     },
     {
       "title": "DynamicMap streams are faulty when using panel serve",
@@ -6522,8 +6067,7 @@
       "label_metrics": {},
       "created_at": "2022-10-31 12:01:54+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Overlaying 2 plots only shows 1 y axis at a time",
@@ -6536,8 +6080,7 @@
       "label_metrics": {},
       "created_at": "2022-10-29 23:09:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "SamoSE"
+      "assignees": []
     },
     {
       "title": "Error raised when setting xticks on a Bokeh Heatmap",
@@ -6550,8 +6093,7 @@
       "label_metrics": {},
       "created_at": "2022-10-23 17:41:11+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Plots do not display when extension loaded imports",
@@ -6564,8 +6106,7 @@
       "label_metrics": {},
       "created_at": "2022-10-20 13:24:20+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "douglas-raillard-arm"
+      "assignees": []
     },
     {
       "title": "Set up UI testing",
@@ -6580,8 +6121,7 @@
       "milestone": "1.20.x",
       "assignees": [
         "maximlt"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Incomplete and/or broken _repr_html_() methods",
@@ -6594,8 +6134,7 @@
       "label_metrics": {},
       "created_at": "2022-10-19 14:47:17+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "Mietzsche81"
+      "assignees": []
     },
     {
       "title": "Lasso Select no longer working with cross filtering",
@@ -6608,8 +6147,7 @@
       "label_metrics": {},
       "created_at": "2022-10-19 08:24:05+00:00",
       "milestone": "1.15.2",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Tool hover in violin plot",
@@ -6622,8 +6160,7 @@
       "label_metrics": {},
       "created_at": "2022-10-17 11:27:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "domenicozambella"
+      "assignees": []
     },
     {
       "title": "Support TMS tiles",
@@ -6636,8 +6173,7 @@
       "label_metrics": {},
       "created_at": "2022-10-17 08:59:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "philippjfr"
+      "assignees": []
     },
     {
       "title": "Plotly backend hook plot.state shows single data trace not all traces in plot",
@@ -6650,8 +6186,7 @@
       "label_metrics": {},
       "created_at": "2022-10-15 05:48:38+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jj-github-jj"
+      "assignees": []
     },
     {
       "title": "Support stacked histograms",
@@ -6664,8 +6199,7 @@
       "label_metrics": {},
       "created_at": "2022-10-14 17:45:40+00:00",
       "milestone": "1.20.3",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Curves failing to colormap boolean columns",
@@ -6678,8 +6212,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 13:41:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "Registered Matplotlib colormap not found",
@@ -6692,8 +6225,7 @@
       "label_metrics": {},
       "created_at": "2022-10-13 12:28:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Using Panel notifications in callbacks triggered by hv.streams causes crash",
@@ -6706,8 +6238,7 @@
       "label_metrics": {},
       "created_at": "2022-10-11 08:48:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "external matplotlib colormaps cannot be found",
@@ -6720,8 +6251,7 @@
       "label_metrics": {},
       "created_at": "2022-10-10 14:52:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "keewis"
+      "assignees": []
     },
     {
       "title": "holoviews 1.15.1 doesn't work in Jupyterlite",
@@ -6736,8 +6266,7 @@
       "milestone": "1.15.2",
       "assignees": [
         "hoxbro"
-      ],
-      "user": "ruoyu0088"
+      ]
     },
     {
       "title": "BoxEdit has no data (data is always None)",
@@ -6750,8 +6279,7 @@
       "label_metrics": {},
       "created_at": "2022-10-05 22:20:05+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "N4321D"
+      "assignees": []
     },
     {
       "title": "Regression: offline bokeh plot support broken",
@@ -6764,8 +6292,7 @@
       "label_metrics": {},
       "created_at": "2022-10-04 16:48:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "pankajp"
+      "assignees": []
     },
     {
       "title": "lasso / poly_select selections on datashaded charts in holoviews seems to trigger two similar operations in both spatialpandas and shapely ",
@@ -6781,8 +6308,7 @@
       "assignees": [
         "jlstevens",
         "philippjfr"
-      ],
-      "user": "GeoVizNow"
+      ]
     },
     {
       "title": "Periodic callback code out of data in documentation",
@@ -6795,8 +6321,7 @@
       "label_metrics": {},
       "created_at": "2022-10-02 02:03:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JanHomann"
+      "assignees": []
     },
     {
       "title": "Confusing error from hv.opts prior to hv.extension()",
@@ -6811,8 +6336,7 @@
       "milestone": null,
       "assignees": [
         "jlstevens"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "Weird behaviour of `hv.dim` vs `.redim`",
@@ -6827,8 +6351,7 @@
       "milestone": null,
       "assignees": [
         "jlstevens"
-      ],
-      "user": "marfel"
+      ]
     },
     {
       "title": "Support duckdb backend",
@@ -6841,8 +6364,7 @@
       "label_metrics": {},
       "created_at": "2022-09-30 00:55:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Bokeh clear actions not registered with LinkedSelections",
@@ -6855,8 +6377,7 @@
       "label_metrics": {},
       "created_at": "2022-09-28 11:37:59+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jlstevens"
+      "assignees": []
     },
     {
       "title": "Bokeh on Visual Studio Code throws AttributeError: 'BokehModel' object has no attribute '_repr_mimebundle'",
@@ -6869,8 +6390,7 @@
       "label_metrics": {},
       "created_at": "2022-09-22 22:55:25+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ddrinka"
+      "assignees": []
     },
     {
       "title": "Interpolated charts (Curve, Area, etc) plot data in the provided order, but decimate unsorts data",
@@ -6883,8 +6403,7 @@
       "label_metrics": {},
       "created_at": "2022-09-19 20:04:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ddrinka"
+      "assignees": []
     },
     {
       "title": "Exception: an unreferenced orphan tree may persist in memory",
@@ -6897,8 +6416,7 @@
       "label_metrics": {},
       "created_at": "2022-09-18 12:38:17+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Dashboard Grid Layout",
@@ -6911,8 +6429,7 @@
       "label_metrics": {},
       "created_at": "2022-09-18 05:09:12+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "No way to reset linked selections for Plotly backend",
@@ -6925,8 +6442,7 @@
       "label_metrics": {},
       "created_at": "2022-09-17 09:00:14+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make it easy to use linked brushing with categorical data and plots",
@@ -6939,8 +6455,7 @@
       "label_metrics": {},
       "created_at": "2022-09-17 00:47:03+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Plotly backend with responsive=True not working",
@@ -6953,8 +6468,7 @@
       "label_metrics": {},
       "created_at": "2022-09-17 00:30:11+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "BoundsXY stream not updated on an NdOverlay of scatter plots",
@@ -6967,8 +6481,7 @@
       "label_metrics": {},
       "created_at": "2022-09-16 17:58:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make BI Dashboards with custom layout and cross filtering simple and easy across backends",
@@ -6981,8 +6494,7 @@
       "label_metrics": {},
       "created_at": "2022-09-16 17:45:17+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "BoundsXY does not add Box Select to scatter plot (it does to points plot)",
@@ -6995,8 +6507,7 @@
       "label_metrics": {},
       "created_at": "2022-09-16 16:59:15+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make laying out plotly based dashboard easy",
@@ -7009,8 +6520,7 @@
       "label_metrics": {},
       "created_at": "2022-09-16 15:15:42+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Multiplying two overlays don't respect shared opts ",
@@ -7023,8 +6533,7 @@
       "label_metrics": {},
       "created_at": "2022-09-16 09:37:50+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Dimension repr incomplete when name and label identical",
@@ -7037,8 +6546,7 @@
       "label_metrics": {},
       "created_at": "2022-09-14 19:25:05+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "JanHomann"
+      "assignees": []
     },
     {
       "title": "Using GridSpace with a legend misaligns x-axis",
@@ -7053,8 +6561,7 @@
       "milestone": "1.20.x",
       "assignees": [
         "mattpap"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "Set initial selected range for RangeToolLink",
@@ -7069,8 +6576,7 @@
       "milestone": "Wishlist",
       "assignees": [
         "droumis"
-      ],
-      "user": "droumis"
+      ]
     },
     {
       "title": "BoxEdit stream not updating 2nd, 3rd ... box",
@@ -7083,8 +6589,7 @@
       "label_metrics": {},
       "created_at": "2022-09-11 21:05:13+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "JanHomann"
+      "assignees": []
     },
     {
       "title": "Game of Life example needs update",
@@ -7099,8 +6604,7 @@
       "milestone": "1.15.1",
       "assignees": [
         "droumis"
-      ],
-      "user": "JanHomann"
+      ]
     },
     {
       "title": "Unexpected behavior of heatmap colorbar",
@@ -7113,8 +6617,7 @@
       "label_metrics": {},
       "created_at": "2022-09-08 21:50:26+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "srikiran-cpn"
+      "assignees": []
     },
     {
       "title": "BoxWhisker doesn't show outliers depending on vdim name",
@@ -7127,8 +6630,7 @@
       "label_metrics": {},
       "created_at": "2022-09-08 07:57:39+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "Repeated calls to Overlay, Curve, and .opts() causes StoreOptions to fail",
@@ -7141,8 +6643,7 @@
       "label_metrics": {},
       "created_at": "2022-09-07 11:13:14+00:00",
       "milestone": "1.15.3",
-      "assignees": [],
-      "user": "dycw"
+      "assignees": []
     },
     {
       "title": "NdOverlay doesn't accept multiple dimensions for the x-axis",
@@ -7155,8 +6656,7 @@
       "label_metrics": {},
       "created_at": "2022-09-07 11:08:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "hv.Table letters are not visible when using jupyterlab's dark theme",
@@ -7169,8 +6669,7 @@
       "label_metrics": {},
       "created_at": "2022-09-06 08:49:56+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "pmav99"
+      "assignees": []
     },
     {
       "title": "Support responsive=True, data_aspect=True, and datashader operations",
@@ -7183,8 +6682,7 @@
       "label_metrics": {},
       "created_at": "2022-09-06 08:41:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Make debugging callbacks on jupyter easier",
@@ -7197,8 +6695,7 @@
       "label_metrics": {},
       "created_at": "2022-09-05 20:49:37+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "pmav99"
+      "assignees": []
     },
     {
       "title": "Scatter3D overlay example not helpful",
@@ -7211,8 +6708,7 @@
       "label_metrics": {},
       "created_at": "2022-09-04 06:36:11+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Add hv.help(hv.<element>)  to all reference notebooks",
@@ -7225,8 +6721,7 @@
       "label_metrics": {},
       "created_at": "2022-09-04 06:30:24+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Developer Guide is missing",
@@ -7239,8 +6734,7 @@
       "label_metrics": {},
       "created_at": "2022-09-04 04:57:00+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "hv.help should show the element __doc__",
@@ -7253,8 +6747,7 @@
       "label_metrics": {},
       "created_at": "2022-09-04 04:42:24+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Sort the parameter lists generated by hv.help alphabetically",
@@ -7267,8 +6760,7 @@
       "label_metrics": {},
       "created_at": "2022-09-04 04:22:23+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Colorbar for matplotlib Scatter3D placed on top of z-axis title",
@@ -7281,8 +6773,7 @@
       "label_metrics": {},
       "created_at": "2022-09-03 08:13:51+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Scatter3d vdims not working",
@@ -7295,8 +6786,7 @@
       "label_metrics": {},
       "created_at": "2022-09-03 07:48:23+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Docstrings are systematically missing",
@@ -7309,8 +6799,7 @@
       "label_metrics": {},
       "created_at": "2022-09-03 07:32:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "colorbar not showing for Scatter3D and documentation not helpful in any way",
@@ -7323,8 +6812,7 @@
       "label_metrics": {},
       "created_at": "2022-09-03 06:58:31+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Documentation of save not working",
@@ -7337,8 +6825,7 @@
       "label_metrics": {},
       "created_at": "2022-09-03 06:03:51+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Disable interpolation as default for non equal size input",
@@ -7351,8 +6838,7 @@
       "label_metrics": {},
       "created_at": "2022-08-29 08:04:23+00:00",
       "milestone": "v2.0",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "KeyError: 'factors' when running Streaming.ipynb notebook",
@@ -7365,8 +6851,7 @@
       "label_metrics": {},
       "created_at": "2022-08-28 06:30:37+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "http://holoviews.org/ not secure",
@@ -7379,8 +6864,7 @@
       "label_metrics": {},
       "created_at": "2022-08-26 05:07:55+00:00",
       "milestone": "1.15.2",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": ".opts / .options warning raised when no options are set",
@@ -7395,8 +6879,7 @@
       "milestone": "1.15.3",
       "assignees": [
         "jlstevens"
-      ],
-      "user": "maximlt"
+      ]
     },
     {
       "title": "Matplotlib error on colorbar",
@@ -7409,8 +6892,7 @@
       "label_metrics": {},
       "created_at": "2022-08-25 08:33:08+00:00",
       "milestone": "1.15.1",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "DynamicMap fails when dtype changes on axis",
@@ -7423,8 +6905,7 @@
       "label_metrics": {},
       "created_at": "2022-08-24 14:38:12+00:00",
       "milestone": "Post v2.0",
-      "assignees": [],
-      "user": "GitRay"
+      "assignees": []
     },
     {
       "title": "NdOverlay Path tap select tool only works if legend_limit=0",
@@ -7437,8 +6918,7 @@
       "label_metrics": {},
       "created_at": "2022-08-22 18:36:51+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "jazzlw"
+      "assignees": []
     },
     {
       "title": "Axes get distorted by updates to plot",
@@ -7453,8 +6933,7 @@
       "milestone": "1.20.x",
       "assignees": [
         "philippjfr"
-      ],
-      "user": "pmav99"
+      ]
     },
     {
       "title": "Multiple display calls of vectorfield changes its own magnitude data",
@@ -7469,8 +6948,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "douglasmacdonald"
+      ]
     },
     {
       "title": "Scatter polar projection main plot disappears when theta above 5.3 radians ",
@@ -7483,8 +6961,7 @@
       "label_metrics": {},
       "created_at": "2022-08-18 14:18:17+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "douglasmacdonald"
+      "assignees": []
     },
     {
       "title": "Legend is missing for hv.Scatter when using hv.dim().categorize()",
@@ -7497,8 +6974,7 @@
       "label_metrics": {},
       "created_at": "2022-08-18 10:12:11+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "BMM3"
+      "assignees": []
     },
     {
       "title": "Make it easier for users of Param to understand and work with HoloViews",
@@ -7511,8 +6987,7 @@
       "label_metrics": {},
       "created_at": "2022-08-18 05:40:04+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Change the default tool to zoom",
@@ -7525,8 +7000,7 @@
       "label_metrics": {},
       "created_at": "2022-08-18 05:26:23+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Support legend_labels also for Overlays",
@@ -7541,8 +7015,7 @@
       "milestone": "1.20.x",
       "assignees": [
         "hoxbro"
-      ],
-      "user": "gioarma"
+      ]
     },
     {
       "title": "RangeToolLink turn background grey on one plot",
@@ -7557,8 +7030,7 @@
       "milestone": "1.15.2",
       "assignees": [
         "philippjfr"
-      ],
-      "user": "hoxbro"
+      ]
     },
     {
       "title": "regrid operation on grid more accurate and faster without datashader",
@@ -7573,8 +7045,7 @@
       "milestone": "Wishlist",
       "assignees": [
         "ianthomas23"
-      ],
-      "user": "ludwigVonKoopa"
+      ]
     },
     {
       "title": "Sankey - Specifying hv.Dimension with label attribute breaks the usage in .opts setting 'edge_color'",
@@ -7589,8 +7060,7 @@
       "milestone": "1.15.1",
       "assignees": [
         "hoxbro"
-      ],
-      "user": "shagn"
+      ]
     },
     {
       "title": "Datashade fails to update all figures on zoom.",
@@ -7603,8 +7073,7 @@
       "label_metrics": {},
       "created_at": "2022-08-09 04:59:13+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "cmac994"
+      "assignees": []
     },
     {
       "title": "RangeX stream event doesn't trigger the event after update to v1.15",
@@ -7617,8 +7086,7 @@
       "label_metrics": {},
       "created_at": "2022-08-09 00:52:24+00:00",
       "milestone": "1.15.1",
-      "assignees": [],
-      "user": "ruoyu0088"
+      "assignees": []
     },
     {
       "title": "Dynamic filtering with .apply.select not working",
@@ -7633,8 +7101,7 @@
       "milestone": "1.20.x",
       "assignees": [
         "philippjfr"
-      ],
-      "user": "JanHomann"
+      ]
     },
     {
       "title": "Rendering an NdOverlay with bool kdim raises TypeError",
@@ -7649,8 +7116,7 @@
       "milestone": "1.15.1",
       "assignees": [
         "hoxbro"
-      ],
-      "user": "stanwest"
+      ]
     },
     {
       "title": "Support muted for all plot bokeh elements",
@@ -7663,8 +7129,7 @@
       "label_metrics": {},
       "created_at": "2022-08-03 05:47:11+00:00",
       "milestone": "1.16.0",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Linked_Brushing.ipynb -- Lasso selection not working",
@@ -7677,8 +7142,7 @@
       "label_metrics": {},
       "created_at": "2022-08-02 15:24:29+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Kayden-lolasery"
+      "assignees": []
     },
     {
       "title": "Hovertool on hv.Area only output questionmark",
@@ -7691,8 +7155,7 @@
       "label_metrics": {},
       "created_at": "2022-08-01 05:42:05+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Warn or error when not enough colors are set for a categorically shaded plot",
@@ -7705,8 +7168,7 @@
       "label_metrics": {},
       "created_at": "2022-07-29 10:17:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Align and mature reference guides",
@@ -7719,8 +7181,7 @@
       "label_metrics": {},
       "created_at": "2022-07-29 06:19:49+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Bounds reference guide is not a reference guide",
@@ -7733,8 +7194,7 @@
       "label_metrics": {},
       "created_at": "2022-07-29 06:01:28+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Extend reference documentation of DynamicMap",
@@ -7747,8 +7207,7 @@
       "label_metrics": {},
       "created_at": "2022-07-29 05:40:38+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Document ability to combine with Panel clearly",
@@ -7761,8 +7220,7 @@
       "label_metrics": {},
       "created_at": "2022-07-29 05:17:47+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "figures not shown with bokeh backend",
@@ -7775,8 +7233,7 @@
       "label_metrics": {},
       "created_at": "2022-07-28 15:42:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "douglas-raillard-arm"
+      "assignees": []
     },
     {
       "title": "unable to use datashader with holoviews",
@@ -7789,8 +7246,7 @@
       "label_metrics": {},
       "created_at": "2022-07-26 22:24:24+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "junefeld"
+      "assignees": []
     },
     {
       "title": "hv.help errors on object created using hvplot: AttributeError: 'NoneType' object has no attribute 'registry'",
@@ -7803,8 +7259,7 @@
       "label_metrics": {},
       "created_at": "2022-07-24 07:30:56+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Make Holoviews docstrings meaningful for users",
@@ -7817,8 +7272,7 @@
       "label_metrics": {},
       "created_at": "2022-07-22 18:42:17+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "data_aspect and responsive do not work together when data_aspect>1",
@@ -7833,8 +7287,7 @@
       "milestone": "1.16.0",
       "assignees": [
         "hoxbro"
-      ],
-      "user": "basnijholt"
+      ]
     },
     {
       "title": "Better curve decimation",
@@ -7849,8 +7302,7 @@
       "milestone": null,
       "assignees": [
         "jlstevens"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "Proposed API for twin-axis support",
@@ -7865,8 +7317,7 @@
       "milestone": "v2.0",
       "assignees": [
         "hoxbro"
-      ],
-      "user": "jlstevens"
+      ]
     },
     {
       "title": "Passing DataFrame with int columns to Dataset",
@@ -7879,8 +7330,7 @@
       "label_metrics": {},
       "created_at": "2022-07-12 08:51:47+00:00",
       "milestone": "1.16.0",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "rasterize with opts raises warning in latest dev release",
@@ -7893,8 +7343,7 @@
       "label_metrics": {},
       "created_at": "2022-06-21 10:52:54+00:00",
       "milestone": "1.15.0",
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Memory leak when producing Sankey plots with Bokeh",
@@ -7907,8 +7356,7 @@
       "label_metrics": {},
       "created_at": "2022-06-21 05:17:16+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GillesFa"
+      "assignees": []
     },
     {
       "title": "linked_selections , xarray Dataset, hvplot incompatibility",
@@ -7921,8 +7369,7 @@
       "label_metrics": {},
       "created_at": "2022-06-17 13:46:09+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LunarLanding"
+      "assignees": []
     },
     {
       "title": "In this example, OSM Tiles look great, then disappear!",
@@ -7935,8 +7382,7 @@
       "label_metrics": {},
       "created_at": "2022-06-15 12:57:54+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "rsignell-usgs"
+      "assignees": []
     },
     {
       "title": "Support loading RGB image from url",
@@ -7949,8 +7395,7 @@
       "label_metrics": {},
       "created_at": "2022-06-13 15:23:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Broken inline table of contents documentation links ",
@@ -7963,8 +7408,7 @@
       "label_metrics": {},
       "created_at": "2022-06-12 23:33:41+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "2-5"
+      "assignees": []
     },
     {
       "title": "Contour operation is not working properly + not working colormaps for Contours on Matplotlib",
@@ -7977,8 +7421,7 @@
       "label_metrics": {},
       "created_at": "2022-06-11 02:36:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sgrubas"
+      "assignees": []
     },
     {
       "title": "Dimension initializer can't accept a dict because of look-up of preset dimensions",
@@ -7991,8 +7434,7 @@
       "label_metrics": {},
       "created_at": "2022-06-08 20:32:47+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "stanwest"
+      "assignees": []
     },
     {
       "title": "hvplot.table shows empty rows of GeoPandas DataFrame",
@@ -8005,8 +7447,7 @@
       "label_metrics": {},
       "created_at": "2022-06-05 06:52:35+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "holoviews 1.14.9   on 04/06/2022",
@@ -8019,8 +7460,7 @@
       "label_metrics": {},
       "created_at": "2022-06-04 13:29:19+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "alexandra-petra"
+      "assignees": []
     },
     {
       "title": "Drop support of formatting Bokeh ticks with `pscript`",
@@ -8033,8 +7473,7 @@
       "label_metrics": {},
       "created_at": "2022-06-03 12:05:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Support legend label mapping",
@@ -8047,8 +7486,7 @@
       "label_metrics": {},
       "created_at": "2022-05-26 21:45:38+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "muted=True and click_policy=\"hide\" don't work together",
@@ -8061,8 +7499,7 @@
       "label_metrics": {},
       "created_at": "2022-05-23 22:30:22+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "basnijholt"
+      "assignees": []
     },
     {
       "title": "Bokeh support for a tighter layout",
@@ -8075,8 +7512,7 @@
       "label_metrics": {},
       "created_at": "2022-05-23 14:45:15+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "arnaumanasanch"
+      "assignees": []
     },
     {
       "title": "Y-range incorrect when dataframe has NA values",
@@ -8089,8 +7525,7 @@
       "label_metrics": {},
       "created_at": "2022-05-23 10:37:02+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "psambit9791"
+      "assignees": []
     },
     {
       "title": "Overlay does not detect iterables properly",
@@ -8103,8 +7538,7 @@
       "label_metrics": {},
       "created_at": "2022-05-20 12:23:15+00:00",
       "milestone": "1.15.0",
-      "assignees": [],
-      "user": "douglas-raillard-arm"
+      "assignees": []
     },
     {
       "title": "Default colormapping and aggregation behavior for the rasterize operation",
@@ -8117,8 +7551,7 @@
       "label_metrics": {},
       "created_at": "2022-05-19 18:57:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "Some matplotlib tests are sensitive to global rcParams",
@@ -8131,8 +7564,7 @@
       "label_metrics": {},
       "created_at": "2022-05-16 20:53:11+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "stanwest"
+      "assignees": []
     },
     {
       "title": "Hello! I have a the same problem with running the code. The holoviews version used for running is 1.14.8. Please help me! ",
@@ -8145,8 +7577,7 @@
       "label_metrics": {},
       "created_at": "2022-05-16 12:52:05+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "farshadfarahnakian1990"
+      "assignees": []
     },
     {
       "title": "width/height not taken into account in a `regrid` operation with the Bokeh backend",
@@ -8159,8 +7590,7 @@
       "label_metrics": {},
       "created_at": "2022-05-16 08:16:31+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Spurious Bokeh test failure `TestOverlayPlot.test_active_tools_draw_stream`",
@@ -8173,8 +7603,7 @@
       "label_metrics": {},
       "created_at": "2022-05-16 08:07:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Legend entries for overlays with multiple plots with vdims based on Pandas tables broken",
@@ -8187,8 +7616,7 @@
       "label_metrics": {},
       "created_at": "2022-05-16 07:36:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "schen70"
+      "assignees": []
     },
     {
       "title": "Blue plot",
@@ -8201,8 +7629,7 @@
       "label_metrics": {},
       "created_at": "2022-05-10 17:26:12+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "Some specific axis ranges fail to render for semilog plot",
@@ -8215,8 +7642,7 @@
       "label_metrics": {},
       "created_at": "2022-05-06 20:44:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "gordonrix"
+      "assignees": []
     },
     {
       "title": "Datetime granularity issue for Datashader plots",
@@ -8231,8 +7657,7 @@
       "milestone": null,
       "assignees": [
         "jlstevens"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "Friction between panels `sizing_mode` and `hv.DynamicMap`",
@@ -8245,8 +7670,7 @@
       "label_metrics": {},
       "created_at": "2022-05-01 10:11:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "No title for NdOverlay plots?",
@@ -8261,8 +7685,7 @@
       "milestone": null,
       "assignees": [
         "jlstevens"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "Holoviews matplotlib extension could not be imported,",
@@ -8275,8 +7698,7 @@
       "label_metrics": {},
       "created_at": "2022-04-29 01:40:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Mickychen00"
+      "assignees": []
     },
     {
       "title": "Collating a HoloMap containing DynamicMaps",
@@ -8289,8 +7711,7 @@
       "label_metrics": {},
       "created_at": "2022-04-28 09:56:08+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "poplarShift"
+      "assignees": []
     },
     {
       "title": "Labels overlay on Bars doesn't work for datetime.date",
@@ -8303,8 +7724,7 @@
       "label_metrics": {},
       "created_at": "2022-04-26 03:54:32+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ahuang11"
+      "assignees": []
     },
     {
       "title": "Easily control PlotSize scale per plot or per operation",
@@ -8317,8 +7737,7 @@
       "label_metrics": {},
       "created_at": "2022-04-25 22:54:57+00:00",
       "milestone": "1.15.1",
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "Datashader + padding + static export -> cropping",
@@ -8333,8 +7752,7 @@
       "milestone": null,
       "assignees": [
         "jlstevens"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "`line_width` ignored for spatialpandas geometry Paths",
@@ -8347,8 +7765,7 @@
       "label_metrics": {},
       "created_at": "2022-04-25 10:16:57+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "Colorbar limits behavior differs between structure backed from numpy or xr.Dataset",
@@ -8361,8 +7778,7 @@
       "label_metrics": {},
       "created_at": "2022-04-20 10:44:03+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "robin-cls"
+      "assignees": []
     },
     {
       "title": "python_requires is >= 2.7 but codebase uses f-strings",
@@ -8375,8 +7791,7 @@
       "label_metrics": {},
       "created_at": "2022-04-20 08:42:07+00:00",
       "milestone": "1.15.0",
-      "assignees": [],
-      "user": "thatlittleboy"
+      "assignees": []
     },
     {
       "title": "Match colorbar ticks to contour levels ",
@@ -8389,8 +7804,7 @@
       "label_metrics": {},
       "created_at": "2022-04-18 23:14:21+00:00",
       "milestone": "Post v2.0",
-      "assignees": [],
-      "user": "vlvalenti"
+      "assignees": []
     },
     {
       "title": "Curve steps interpolation on string-valued/categorical kdims is not possible",
@@ -8403,8 +7817,7 @@
       "label_metrics": {},
       "created_at": "2022-04-15 13:01:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "remisphere"
+      "assignees": []
     },
     {
       "title": "When saving Holoviews DynamicMap using hv.save() only three frames are rendered",
@@ -8417,8 +7830,7 @@
       "label_metrics": {},
       "created_at": "2022-04-13 21:59:05+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "whbrewer"
+      "assignees": []
     },
     {
       "title": "hv.Text cannot place text on plots with a datetime X-axis",
@@ -8431,8 +7843,7 @@
       "label_metrics": {},
       "created_at": "2022-04-13 08:48:13+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "isaacto"
+      "assignees": []
     },
     {
       "title": "Unable to control minor ticks on HeatMap",
@@ -8445,8 +7856,7 @@
       "label_metrics": {},
       "created_at": "2022-04-06 18:12:00+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jbednar"
+      "assignees": []
     },
     {
       "title": "HeatMap values don't match between backends",
@@ -8461,8 +7871,7 @@
       "milestone": null,
       "assignees": [
         "hoxbro"
-      ],
-      "user": "jbednar"
+      ]
     },
     {
       "title": "[Regression] updating Sankey data breaks the visualization",
@@ -8475,8 +7884,7 @@
       "label_metrics": {},
       "created_at": "2022-04-05 10:26:00+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "harmbuisman"
+      "assignees": []
     },
     {
       "title": "Datashader can't be used to plot multiple columns from a Dataframe",
@@ -8489,8 +7897,7 @@
       "label_metrics": {},
       "created_at": "2022-04-04 15:15:40+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "pepijndevos"
+      "assignees": []
     },
     {
       "title": "Error when plotting a single row with Datashader",
@@ -8503,8 +7910,7 @@
       "label_metrics": {},
       "created_at": "2022-04-04 15:08:43+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "pepijndevos"
+      "assignees": []
     },
     {
       "title": "Datashader throws exception when Buffer is cleared",
@@ -8517,8 +7923,7 @@
       "label_metrics": {},
       "created_at": "2022-04-04 14:59:09+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "pepijndevos"
+      "assignees": []
     },
     {
       "title": "Allow overlays to contain zero traces",
@@ -8531,8 +7936,7 @@
       "label_metrics": {},
       "created_at": "2022-04-04 14:43:49+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "pepijndevos"
+      "assignees": []
     },
     {
       "title": "Datashader plot bounds don't update when streaming new data",
@@ -8545,8 +7949,7 @@
       "label_metrics": {},
       "created_at": "2022-04-04 14:37:38+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "pepijndevos"
+      "assignees": []
     },
     {
       "title": "Layout of overlays doesn't scale properly with axiswise=True",
@@ -8559,8 +7962,7 @@
       "label_metrics": {},
       "created_at": "2022-04-01 08:21:10+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "emield12"
+      "assignees": []
     },
     {
       "title": "Autoscale the color map for Holoviews using Datashader for multiple large images",
@@ -8573,8 +7975,7 @@
       "label_metrics": {},
       "created_at": "2022-03-29 16:24:45+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "sjbilardi"
+      "assignees": []
     },
     {
       "title": "HoloViews website broken link and old roadmap",
@@ -8587,8 +7988,7 @@
       "label_metrics": {},
       "created_at": "2022-03-28 15:15:34+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "Adam-Antios"
+      "assignees": []
     },
     {
       "title": "DynamicMap groupby color mismatch",
@@ -8601,8 +8001,7 @@
       "label_metrics": {},
       "created_at": "2022-03-25 11:20:56+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "iRave"
+      "assignees": []
     },
     {
       "title": "Can't Import Holoviews",
@@ -8615,8 +8014,7 @@
       "label_metrics": {},
       "created_at": "2022-03-24 17:37:11+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "BrandonSLockey"
+      "assignees": []
     },
     {
       "title": "Rasterize not working in combination with multiple rectangles with DateTime coordinates",
@@ -8629,8 +8027,7 @@
       "label_metrics": {},
       "created_at": "2022-03-18 15:28:50+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "StevenWarmelink"
+      "assignees": []
     },
     {
       "title": "Make hv.Cycle KeyError text more helpful or read keys for hv.Cycle automatically",
@@ -8643,8 +8040,7 @@
       "label_metrics": {},
       "created_at": "2022-03-17 12:29:21+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "fohrloop"
+      "assignees": []
     },
     {
       "title": "Datashader flash",
@@ -8657,8 +8053,7 @@
       "label_metrics": {},
       "created_at": "2022-03-16 04:54:52+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Area/Bar stacking implementation",
@@ -8671,8 +8066,7 @@
       "label_metrics": {},
       "created_at": "2022-03-15 13:57:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "stas-sl"
+      "assignees": []
     },
     {
       "title": "Opts apply_ranges=True is overwritten by hv.Dimension range",
@@ -8685,8 +8079,7 @@
       "label_metrics": {},
       "created_at": "2022-03-10 15:13:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GilShoshan94"
+      "assignees": []
     },
     {
       "title": "Dynamic axis logscale control not working in DynamicMap",
@@ -8699,8 +8092,7 @@
       "label_metrics": {},
       "created_at": "2022-03-10 12:23:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "TheoMathurin"
+      "assignees": []
     },
     {
       "title": "Opts and the plugin tools are inconsistent and not properly documented ",
@@ -8713,8 +8105,7 @@
       "label_metrics": {},
       "created_at": "2022-03-10 11:13:44+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "GilShoshan94"
+      "assignees": []
     },
     {
       "title": "Weird interaction with DynamicMap",
@@ -8727,8 +8118,7 @@
       "label_metrics": {},
       "created_at": "2022-03-08 20:31:01+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "hoxbro"
+      "assignees": []
     },
     {
       "title": "cnorm not updating in DynamicMap",
@@ -8741,8 +8131,7 @@
       "label_metrics": {},
       "created_at": "2022-03-04 07:16:05+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "pablo-richard"
+      "assignees": []
     },
     {
       "title": "Add `alpha` styling support to Area and Bar plots with plotly",
@@ -8755,8 +8144,7 @@
       "label_metrics": {},
       "created_at": "2022-03-02 17:14:23+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Add `data_aspect` support for the Plotly backend",
@@ -8769,8 +8157,7 @@
       "label_metrics": {},
       "created_at": "2022-02-24 23:28:58+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Align the plot parameters of Bivariate with Plotly to the ones supported by the other backends",
@@ -8783,8 +8170,7 @@
       "label_metrics": {},
       "created_at": "2022-02-23 20:17:01+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Allow mapping of a dimension to the alpha style option with Matplotlib and Plotly",
@@ -8797,8 +8183,7 @@
       "label_metrics": {},
       "created_at": "2022-02-23 19:47:46+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Colorizing the points of a Scatter plot with the Plotly backend raises an error",
@@ -8811,8 +8196,7 @@
       "label_metrics": {},
       "created_at": "2022-02-23 14:32:29+00:00",
       "milestone": "v2.0",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Support `legend_position` for Scatter plots with Matplotlib and Plotly",
@@ -8825,8 +8209,7 @@
       "label_metrics": {},
       "created_at": "2022-02-23 14:26:28+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "KeyError when creating a bivariate plot from a pandas dataframe with Plotly",
@@ -8839,8 +8222,7 @@
       "label_metrics": {},
       "created_at": "2022-02-23 00:50:33+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "HexTiles plot with Plotly",
@@ -8853,8 +8235,7 @@
       "label_metrics": {},
       "created_at": "2022-02-22 18:47:43+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "`show_legend` doesn't have the same effect given the selected backend",
@@ -8867,8 +8248,7 @@
       "label_metrics": {},
       "created_at": "2022-02-22 09:31:55+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Feature regression for hvplot.xarray since holoviews 1.14.7",
@@ -8881,8 +8261,7 @@
       "label_metrics": {},
       "created_at": "2022-02-18 21:07:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "michaelaye"
+      "assignees": []
     },
     {
       "title": "Tile server for non-geographical images",
@@ -8895,8 +8274,7 @@
       "label_metrics": {},
       "created_at": "2022-02-17 16:29:42+00:00",
       "milestone": "v2.0",
-      "assignees": [],
-      "user": "estebvac"
+      "assignees": []
     },
     {
       "title": "hvplot/util.py:186: ImportError: Geographic projection support requires GeoViews and cartopy.",
@@ -8909,8 +8287,7 @@
       "label_metrics": {},
       "created_at": "2022-02-17 07:12:48+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "anitagraser"
+      "assignees": []
     },
     {
       "title": "Streaming groupby plot raises an error with the Matplotib backend",
@@ -8923,8 +8300,7 @@
       "label_metrics": {},
       "created_at": "2022-02-03 16:51:23+00:00",
       "milestone": "1.20.x",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "HoloViews scatter plot hover is slow when color is set",
@@ -8937,8 +8313,7 @@
       "label_metrics": {},
       "created_at": "2022-01-29 13:35:14+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "stas-sl"
+      "assignees": []
     },
     {
       "title": "Holoviews datashader not working with Python 3.10",
@@ -8951,8 +8326,7 @@
       "label_metrics": {},
       "created_at": "2022-01-28 12:01:47+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "peterroelants"
+      "assignees": []
     },
     {
       "title": "Unnecessary restriction to non-empty kdims",
@@ -8967,8 +8341,7 @@
       "milestone": null,
       "assignees": [
         "jlstevens"
-      ],
-      "user": "alcrene"
+      ]
     },
     {
       "title": "TypeError: 'dict' object is not callable error from shapely when plotting polygons",
@@ -8981,8 +8354,7 @@
       "label_metrics": {},
       "created_at": "2022-01-26 10:20:17+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "gcaria"
+      "assignees": []
     },
     {
       "title": "Equivalent of the `cmap` style option for a Matplotlib Bars plot with a colormap",
@@ -8995,8 +8367,7 @@
       "label_metrics": {},
       "created_at": "2022-01-24 17:53:18+00:00",
       "milestone": "Wishlist",
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "hv.Curve (data=([10,11],[2,3])).opts(tools='hover') never  finishes execution in jupyter lab",
@@ -9009,8 +8380,7 @@
       "label_metrics": {},
       "created_at": "2022-01-23 01:25:33+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "jj-github-jj"
+      "assignees": []
     },
     {
       "title": "Image axis cannot be customized",
@@ -9023,8 +8393,7 @@
       "label_metrics": {},
       "created_at": "2022-01-21 13:12:51+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "robin-cls"
+      "assignees": []
     },
     {
       "title": "Lasso selections on xarray datasets throws an exception",
@@ -9037,8 +8406,7 @@
       "label_metrics": {},
       "created_at": "2022-01-21 10:13:58+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "LaurensvanG"
+      "assignees": []
     },
     {
       "title": "Mapbox Vector Tiles",
@@ -9051,8 +8419,7 @@
       "label_metrics": {},
       "created_at": "2022-01-20 20:22:31+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "andhuang-CLGX"
+      "assignees": []
     },
     {
       "title": "Annotation types with Polygons not working",
@@ -9065,8 +8432,7 @@
       "label_metrics": {},
       "created_at": "2022-01-20 10:54:30+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "estebvac"
+      "assignees": []
     },
     {
       "title": "Can't create mapbox vector tile",
@@ -9079,8 +8445,7 @@
       "label_metrics": {},
       "created_at": "2022-01-19 21:36:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "andhuang-CLGX"
+      "assignees": []
     },
     {
       "title": "Can't plot hv.Point with xr.Dataset without using pandas.Dataframe ?",
@@ -9093,8 +8458,7 @@
       "label_metrics": {},
       "created_at": "2022-01-18 13:14:36+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "ludwigVonKoopa"
+      "assignees": []
     },
     {
       "title": "HoloViews/ hvplot not working in code-server Jupyter Notebook on Binder",
@@ -9107,8 +8471,7 @@
       "label_metrics": {},
       "created_at": "2022-01-15 10:14:38+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "MarcSkovMadsen"
+      "assignees": []
     },
     {
       "title": "Errors when plotting streams at a high frequency",
@@ -9121,8 +8484,7 @@
       "label_metrics": {},
       "created_at": "2022-01-08 13:41:06+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "maximlt"
+      "assignees": []
     },
     {
       "title": "Bokeh import bug",
@@ -9135,8 +8497,7 @@
       "label_metrics": {},
       "created_at": "2022-01-08 03:11:28+00:00",
       "milestone": null,
-      "assignees": [],
-      "user": "gandrademachine"
+      "assignees": []
     }
   ],
   "search_query": "repo:holoviz/holoviews is:issue created:2022-01-01..2025-04-30 -label:\"duplicate\""
