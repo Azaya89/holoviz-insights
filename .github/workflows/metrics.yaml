@@ -129,4 +129,4 @@ jobs:
         with:
           default_author: github_actions
           message: "Update issue metrics files"
-          add: "data/*.json data/*.parq"
+          add: "data/*.json data/*.parq data/*.csv"
