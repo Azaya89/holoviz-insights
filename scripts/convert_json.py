@@ -60,7 +60,7 @@ def convert_json(
                 )
 
         # Log availability of enriched columns
-        for col in ["milestone", "user", "assignees"]:
+        for col in ["milestone", "assignees"]:
             if col not in df.columns:
                 logging.warning(f"Optional column '{col}' not found in data.")
 

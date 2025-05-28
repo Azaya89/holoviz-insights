@@ -31,7 +31,6 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
                 if issue.get("milestone")
                 else None,
                 "assignees": [a["login"] for a in issue.get("assignees", [])],
-                "user": issue["user"]["login"] if issue.get("user") else None,
             }
 
         page += 1
