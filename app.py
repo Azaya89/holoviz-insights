@@ -76,6 +76,33 @@ def create_author_plot(df):
     )
 
 
+def create_milestone_plot(df):
+    milestone_counts = df["milestone"].value_counts(dropna=True)
+    return milestone_counts.hvplot.bar(
+        title="Issues by Milestone",
+        xlabel="Milestone",
+        ylabel="Issue Count",
+        rot=45,
+        height=300,
+        width=600,
+    )
+
+
+def create_milestone_summary(df):
+    has_milestone = df["milestone"].notna().sum()
+    no_milestone = df["milestone"].isna().sum()
+    summary = pd.Series(
+        [has_milestone, no_milestone], index=["Has Milestone", "No Milestone"]
+    )
+    return summary.hvplot.bar(
+        title="Milestone Coverage",
+        ylabel="Issue Count",
+        xlabel="Milestone Presence",
+        height=300,
+        width=400,
+    )
+
+
 styles = {
     "box-shadow": "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px",
     "border-radius": "5px",
@@ -128,6 +155,8 @@ def plots_view(repo):
         ("Open vs Closed Issues", create_comparison_plot(df)),
         ("Issue Authors", create_author_plot(df)),
         ("Open Issues over time", create_issues_plot(df)),
+        ("Issues by Milestone", create_milestone_plot(df)),
+        ("Milestone Coverage", create_milestone_summary(df)),
         sizing_mode="scale_both",
         margin=10,
     )
