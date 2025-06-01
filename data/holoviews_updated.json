@@ -1,24 +1,229 @@
 {
-  "average_time_to_first_response": "27 days, 21:40:47",
-  "average_time_to_close": "94 days, 17:16:25",
+  "average_time_to_first_response": "27 days, 11:01:33",
+  "average_time_to_close": "93 days, 13:55:50",
   "average_time_to_answer": "None",
   "average_time_in_draft": "None",
   "average_time_in_labels": {},
-  "median_time_to_first_response": "12:51:22",
-  "median_time_to_close": "13 days, 9:54:13",
+  "median_time_to_first_response": "12:36:29",
+  "median_time_to_close": "12 days, 19:32:42",
   "median_time_to_answer": "None",
   "median_time_in_draft": "None",
   "median_time_in_labels": {},
-  "90_percentile_time_to_first_response": "51 days, 21:19:38",
-  "90_percentile_time_to_close": "363 days, 7:17:41",
+  "90_percentile_time_to_first_response": "50 days, 20:09:16",
+  "90_percentile_time_to_close": "354 days, 12:32:09",
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
   "90_percentile_time_in_labels": {},
-  "num_items_opened": 327,
-  "num_items_closed": 314,
+  "num_items_opened": 338,
+  "num_items_closed": 318,
   "num_mentor_count": 0,
-  "total_item_count": 641,
+  "total_item_count": 656,
   "issues": [
+    {
+      "title": "Support for Bokeh toolbar autohide",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6601",
+      "author": "jbednar",
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-29 15:37:37+00:00",
+      "milestone": null,
+      "assignees": []
+    },
+    {
+      "title": "count_cat and by reductions not equivalent when applied to an NdOverlay",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6598",
+      "author": "maximlt",
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-28 10:07:34+00:00",
+      "milestone": "1.21.0",
+      "assignees": []
+    },
+    {
+      "title": "Error when applying dynspread to an imagestack with only one category",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6595",
+      "author": "maximlt",
+      "time_to_first_response": "0:45:39",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-27 15:58:31+00:00",
+      "milestone": null,
+      "assignees": [
+        "hoxbro"
+      ]
+    },
+    {
+      "title": "Should selector honor vdims?",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6594",
+      "author": "maximlt",
+      "time_to_first_response": "None",
+      "time_to_close": "18:30:36",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-27 15:18:30+00:00",
+      "milestone": null,
+      "assignees": []
+    },
+    {
+      "title": "HoverModel error when setting selector",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6592",
+      "author": "maximlt",
+      "time_to_first_response": "1:14:42",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-27 13:20:26+00:00",
+      "milestone": null,
+      "assignees": [
+        "hoxbro"
+      ]
+    },
+    {
+      "title": "`selectable=True` on `hv.Table` enables row highlighting, but param.selection is not accessible",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6591",
+      "author": "Azaya89",
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-27 12:50:43+00:00",
+      "milestone": null,
+      "assignees": []
+    },
+    {
+      "title": "Widget options as regular plot options",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6590",
+      "author": "maximlt",
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-24 17:29:27+00:00",
+      "milestone": null,
+      "assignees": []
+    },
+    {
+      "title": "`hover_formatters` option has no effect in configuring hover information.",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6589",
+      "author": "Azaya89",
+      "time_to_first_response": "0:26:59",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-23 13:01:00+00:00",
+      "milestone": null,
+      "assignees": []
+    },
+    {
+      "title": "Broken links to other backend in the gallery",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6588",
+      "author": "maximlt",
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-23 09:05:17+00:00",
+      "milestone": null,
+      "assignees": [
+        "Azaya89"
+      ]
+    },
+    {
+      "title": "Resolve warnings emitted when building the docs",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6587",
+      "author": "maximlt",
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-23 08:59:51+00:00",
+      "milestone": null,
+      "assignees": [
+        "Azaya89"
+      ]
+    },
+    {
+      "title": "Miscategorizing the Bar data with color param set",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6580",
+      "author": "droumis",
+      "time_to_first_response": "14:18:47",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-20 21:35:15+00:00",
+      "milestone": "1.21.0",
+      "assignees": []
+    },
+    {
+      "title": "Error when grouping by an index and a column in a multi-index dataframe",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6578",
+      "author": "maximlt",
+      "time_to_first_response": "None",
+      "time_to_close": "3 days, 0:28:02",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-20 12:12:10+00:00",
+      "milestone": null,
+      "assignees": []
+    },
+    {
+      "title": "dendrogram operation does not respect `responsive`",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6577",
+      "author": "ahuang11",
+      "time_to_first_response": "0:09:12",
+      "time_to_close": "2 days, 12:01:12",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-16 19:27:30+00:00",
+      "milestone": null,
+      "assignees": [
+        "hoxbro"
+      ]
+    },
+    {
+      "title": "Improve Bokeh wheel zoom UX",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6576",
+      "author": "maximlt",
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-15 19:34:35+00:00",
+      "milestone": null,
+      "assignees": []
+    },
+    {
+      "title": "Safari issue with overlay and layout",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6573",
+      "author": "EmilieRoyer",
+      "time_to_first_response": "6:00:01",
+      "time_to_close": "10 days, 6:59:22",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-05-13 00:15:37+00:00",
+      "milestone": null,
+      "assignees": []
+    },
     {
       "title": "Add hierarchical hover tooltips to the Dendrogram",
       "html_url": "https://github.com/holoviz/holoviews/issues/6569",
@@ -8500,5 +8705,5 @@
       "assignees": []
     }
   ],
-  "search_query": "repo:holoviz/holoviews is:issue created:2022-01-01..2025-04-30 -label:\"duplicate\""
+  "search_query": "repo:holoviz/holoviews is:issue created:2022-01-01..2025-05-31 -label:\"duplicate\""
 }
