@@ -2,7 +2,6 @@ import pandas as pd
 import hvplot.pandas  # noqa
 import panel as pn
 import holoviews as hv
-from holoviews import opts
 # from pyodide_http import patch_all
 
 # patch_all()
@@ -45,46 +44,62 @@ release_dfs = {
 
 
 def create_release_plot(df, repo_name):
+    from packaging.version import parse
+
     df = df.copy()
-    type_order = ["patch", "minor", "major"]
-    y_map = {k: v for v, k in enumerate(type_order, 1)}  # patch=1, minor=2, major=3
-    df["type"] = pd.Categorical(df["type"], categories=type_order, ordered=True)
-    df["y"] = df["type"].map(y_map).astype(float)
-    # Sort by published_at descending (latest first)
-    df = df.sort_values("published_at", ascending=False).reset_index(drop=True)
-    # Compute rectangle bounds: each bar spans from this release to the next
-    df["x0"] = df["published_at"]
-    df["x1"] = df["published_at"].shift(
-        1, fill_value=pd.Timestamp.now(tz=df["published_at"].dt.tz)
+    # Extract minor version (e.g., v1.15 from v1.15.0)
+    df["minor_version"] = df["tag"].str.extract(r"(v?\d+\.\d+)")
+    # Filter for the last 5 years only
+    five_years_ago = pd.Timestamp.now(tz=df["published_at"].dt.tz) - pd.DateOffset(
+        years=5
     )
-    df["y0"] = df["y"] - 0.3
-    df["y1"] = df["y"] + 0.3
-    last_release = df.iloc[0]
+    df = df[df["published_at"] >= five_years_ago]
+    # Version-aware sort of minor versions
+    unique_minors = df["minor_version"].dropna().unique()
+    sorted_minors = sorted(unique_minors, key=lambda x: parse(x.lstrip("v")))
+    # Sort by minor_version and published_at
+    df["minor_version"] = pd.Categorical(
+        df["minor_version"], categories=sorted_minors, ordered=True
+    )
+    df = df.sort_values(["minor_version", "published_at"]).reset_index(drop=True)
+    # Use minor_version as y-axis (categorical, ordered)
+    df["y"] = df["minor_version"]
+    # Compute rectangle bounds: each bar spans from this release to the next (no overlap)
+    df["x0"] = df["published_at"]
+    df["x1"] = df["published_at"].shift(-1)
+    # Set "x1" to now for the last release
+    if not df.empty:
+        df.loc[df.index[-1], "x1"] = pd.Timestamp.now(tz=df["published_at"].dt.tz)
+    df["y0"] = df["y"].cat.codes - 0.4
+    df["y1"] = df["y"].cat.codes + 0.4
+    last_release = df.iloc[-1]
     now = pd.Timestamp.now(tz=last_release["published_at"].tz)
     days_since = (now - last_release["published_at"]).days
     message = f"🔔 Last release was {days_since} days ago on {last_release['published_at'].date()} ({last_release['tag']})"
 
     rects = hv.Rectangles(
-        df[["x0", "y0", "x1", "y1", "tag", "type", "published_at"]],
+        df[["x0", "y0", "x1", "y1", "tag", "type", "published_at", "minor_version"]],
         kdims=["x0", "y0", "x1", "y1"],
-        vdims=["tag", "type", "published_at"],
+        vdims=["tag", "type", "published_at", "minor_version"],
     )
     rects = rects.opts(
-        opts.Rectangles(
-            color="type",
-            cmap={"major": "#eb2f40", "minor": "#0e9c24", "patch": "#0e67bb"},
-            line_color="white",
-            alpha=0.8,
-            width=800,
-            height=220,
-            tools=["vline"],
-            xlabel="Date",
-            ylabel="",
-            yticks=[(1, "patch"), (2, "minor"), (3, "major")],
-            xrotation=30,
-            show_legend=True,
-            title=f"{repo_name} Release Timeline",
-        )
+        color="type",
+        cmap={"major": "#eb2f40", "minor": "#0e9c24", "patch": "#0e67bb"},
+        line_color="white",
+        alpha=0.8,
+        width=800,
+        tools=["ycrosshair"],
+        hover_tooltips=[
+            ("Release Version", "@tag"),
+            ("Minor Version", "@minor_version"),
+            ("Release Type", "@type"),
+            ("Release Date", "@published_at"),
+        ],
+        xlabel="Date",
+        ylabel="Minor Version",
+        yticks=[(i, cat) for i, cat in enumerate(sorted_minors)],
+        legend_position="bottom_right",
+        title=f"{repo_name} Release Timeline for the last 5 years",
     )
     return pn.Column(
         pn.pane.Markdown(
@@ -249,10 +264,10 @@ def plots_view(repo):
     tabs = pn.Tabs(
         ("Open vs Closed Issues", create_comparison_plot(df)),
         ("Open Issues over time", create_issues_plot(df)),
-        ("Issues by Milestone", create_milestone_plot(df)),
-        ("Milestone Coverage", create_milestone_summary(df)),
         ("Release History", create_release_plot(release_df, repo)),
         ("Releases per Year", create_releases_per_year_plot(release_df)),
+        ("Issues by Milestone", create_milestone_plot(df)),
+        ("Milestone Coverage", create_milestone_summary(df)),
         sizing_mode="scale_both",
         margin=10,
         dynamic=True,
@@ -298,14 +313,15 @@ def header_text(repo):
     df = repo_dfs[repo]
     metrics = compute_metrics(df)
     text = f"""
-    ## {repo} dashboard with Issue metrics from {metrics["first_month"]} to {metrics["last_month"]}.
+    ## {repo} Dashboard: Issue Metrics from {metrics["first_month"]} to {metrics["last_month"]}
+    **Note:** The issue metrics shown here are not a full historical record, but represent a snapshot collected automatically at the start of each month.
+    Data covers issues from the stated start date up to the end of the previous month, and is refreshed at the beginning of every new month.
     """
-
     return text
 
 
 template = pn.Column(
-    "# Holoviz Dashboard",
+    "# HoloViz Dashboard",
     header_text,
     repo_selector,
     "## Summary Insights",
