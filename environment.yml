@@ -13,3 +13,4 @@ dependencies:
   - numpy
   - pre-commit
   - fastparquet
+  - panel-material-ui>=0.2.0

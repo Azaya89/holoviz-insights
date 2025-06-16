@@ -2,15 +2,17 @@ import pandas as pd
 import hvplot.pandas  # noqa
 import panel as pn
 import holoviews as hv
+import panel_material_ui as pmu
 # from pyodide_http import patch_all
 
 # patch_all()
 pn.extension("tabulator", autoreload=True)
 
-status_filter = pn.widgets.RadioButtonGroup(
-    name="Issue Status",
+status_filter = pmu.RadioButtonGroup(
+    label="Issue Status",
     options=["Open Issues", "Closed Issues", "All Issues"],
     value="All Issues",
+    size="small",
     button_type="success",
 )
 
@@ -27,8 +29,8 @@ repo_files = {
 }
 
 repo_dfs = {name: pd.read_parquet(url) for name, url in repo_files.items()}
-repo_selector = pn.widgets.Select(
-    name="Select Repository", options=list(repo_files.keys()), value="HoloViews"
+repo_selector = pmu.Select(
+    label="Select Repository", options=list(repo_files.keys()), value="HoloViews"
 )
 
 release_files = {
@@ -261,7 +263,7 @@ active_tab_index = [0]
 def plots_view(repo):
     df = repo_dfs[repo]
     release_df = release_dfs[repo]
-    tabs = pn.Tabs(
+    tabs = pmu.Tabs(
         ("Open vs Closed Issues", create_comparison_plot(df)),
         ("Open Issues over time", create_issues_plot(df)),
         ("Release History", create_release_plot(release_df, repo)),
@@ -313,25 +315,48 @@ def header_text(repo):
     df = repo_dfs[repo]
     metrics = compute_metrics(df)
     text = f"""
-    ## {repo} Dashboard: Issue Metrics from {metrics["first_month"]} to {metrics["last_month"]}
-    **Note:** The issue metrics shown here are not a full historical record, but represent a snapshot collected automatically at the start of each month.
-    Data covers issues from the stated start date up to the end of the previous month, and is refreshed at the beginning of every new month.
+    ## {repo} Dashboard
+    ### Issue Metrics from {metrics["first_month"]} to {metrics["last_month"]}
     """
     return text
 
 
-template = pn.Column(
-    "# HoloViz Dashboard",
-    header_text,
-    repo_selector,
-    "## Summary Insights",
-    indicators_view,
-    "## Filter by Issue  Status",
-    status_filter,
-    "## Data Table",
-    table_view,
-    "## Plots",
-    plots_view,
+note = """The issue metrics shown here are not a full historical record, but represent a snapshot collected automatically at the start of each month.
+    Data covers issues from the stated start date up to the end of the previous month, and is refreshed at the beginning of every new month."""
+icon = pn.widgets.TooltipIcon(value=note)
+logo = "https://holoviz.org/_static/holoviz-logo.svg"
+
+logo_pane = pn.pane.Image(logo, width=200, align="center", margin=(10, 0, 10, 0))
+
+HEADER_COLOR = "#4199DA"
+PAPER_COLOR = "#f5f4ef"
+
+page = pmu.Page(
+    main=[
+        header_text,
+        pn.Row("## Summary Insights", icon),
+        indicators_view,
+        "## Data Table",
+        table_view,
+        "## Plots",
+        plots_view,
+    ],
+    sidebar=[
+        logo_pane,
+        repo_selector,
+        "## Filter by Issue  Status",
+        status_filter,
+    ],
+    title="HoloViz Issue Metrics Dashboard",
+    theme_config={
+        "palette": {
+            "primary": {"main": HEADER_COLOR},
+            "background": {
+                "paper": PAPER_COLOR,
+            },
+        }
+    },
+    theme_toggle=False,
 )
 
-template.servable()
+page.servable()
