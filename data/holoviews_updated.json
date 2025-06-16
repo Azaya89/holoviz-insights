@@ -1,21 +1,21 @@
 {
   "average_time_to_first_response": "27 days, 11:01:33",
-  "average_time_to_close": "93 days, 13:55:50",
+  "average_time_to_close": "92 days, 13:40:43",
   "average_time_to_answer": "None",
   "average_time_in_draft": "None",
   "average_time_in_labels": {},
   "median_time_to_first_response": "12:36:29",
-  "median_time_to_close": "12 days, 19:32:42",
+  "median_time_to_close": "13 days, 13:16:07",
   "median_time_to_answer": "None",
   "median_time_in_draft": "None",
   "median_time_in_labels": {},
   "90_percentile_time_to_first_response": "50 days, 20:09:16",
-  "90_percentile_time_to_close": "354 days, 12:32:09",
+  "90_percentile_time_to_close": "339 days, 21:16:44",
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
   "90_percentile_time_in_labels": {},
-  "num_items_opened": 338,
-  "num_items_closed": 318,
+  "num_items_opened": 331,
+  "num_items_closed": 325,
   "num_mentor_count": 0,
   "total_item_count": 656,
   "issues": [
@@ -24,7 +24,7 @@
       "html_url": "https://github.com/holoviz/holoviews/issues/6601",
       "author": "jbednar",
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "14 days, 18:16:42",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -37,7 +37,7 @@
       "html_url": "https://github.com/holoviz/holoviews/issues/6598",
       "author": "maximlt",
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "19 days, 0:57:47",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -50,7 +50,7 @@
       "html_url": "https://github.com/holoviz/holoviews/issues/6595",
       "author": "maximlt",
       "time_to_first_response": "0:45:39",
-      "time_to_close": "None",
+      "time_to_close": "7 days, 0:23:26",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -78,7 +78,7 @@
       "html_url": "https://github.com/holoviz/holoviews/issues/6592",
       "author": "maximlt",
       "time_to_first_response": "1:14:42",
-      "time_to_close": "None",
+      "time_to_close": "13 days, 21:03:21",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -162,7 +162,7 @@
       "html_url": "https://github.com/holoviz/holoviews/issues/6580",
       "author": "droumis",
       "time_to_first_response": "14:18:47",
-      "time_to_close": "None",
+      "time_to_close": "26 days, 17:22:04",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -272,7 +272,7 @@
       "html_url": "https://github.com/holoviz/holoviews/issues/6561",
       "author": "MatusGasparik",
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "56 days, 21:21:38",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -621,7 +621,7 @@
       "html_url": "https://github.com/holoviz/holoviews/issues/6474",
       "author": "maximlt",
       "time_to_first_response": "5 days, 22:00:29",
-      "time_to_close": "None",
+      "time_to_close": "188 days, 8:11:34",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -654,7 +654,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-12-08 14:53:04+00:00",
-      "milestone": "1.21.0",
+      "milestone": "1.22.0",
       "assignees": []
     },
     {
@@ -1494,7 +1494,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-07-10 15:25:45+00:00",
-      "milestone": "1.20.3",
+      "milestone": "1.21.1",
       "assignees": []
     },
     {
@@ -2046,7 +2046,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-05-07 19:38:07+00:00",
-      "milestone": "1.20.3",
+      "milestone": "1.21.1",
       "assignees": []
     },
     {
@@ -3504,7 +3504,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-11-09 14:47:07+00:00",
-      "milestone": "1.20.3",
+      "milestone": "1.21.1",
       "assignees": []
     },
     {
@@ -4393,7 +4393,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-07-21 19:54:09+00:00",
-      "milestone": "1.20.3",
+      "milestone": "1.21.1",
       "assignees": [
         "philippjfr",
         "droumis"
@@ -4608,7 +4608,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-06-19 19:25:51+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -4740,7 +4740,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-06-04 22:27:06+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -5108,7 +5108,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-04-20 09:35:12+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -5121,7 +5121,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-04-19 18:47:44+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -5407,7 +5407,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-03-09 08:57:49+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -5550,7 +5550,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-02-08 13:35:30+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -5736,7 +5736,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-01-14 08:11:05+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -5775,7 +5775,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-12-27 00:24:12+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6089,7 +6089,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-11-27 04:47:57+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6115,7 +6115,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-11-26 08:58:58+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6180,7 +6180,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-11-22 09:11:56+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6271,7 +6271,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-10-31 12:01:54+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6310,7 +6310,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-10-20 13:24:20+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6323,7 +6323,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-10-19 16:30:32+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": [
         "maximlt"
       ]
@@ -6338,7 +6338,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-10-19 14:47:17+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6403,7 +6403,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-10-14 17:45:40+00:00",
-      "milestone": "1.20.3",
+      "milestone": "1.21.1",
       "assignees": []
     },
     {
@@ -6620,7 +6620,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-18 12:38:17+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6646,7 +6646,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-17 09:00:14+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6672,7 +6672,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-17 00:30:11+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6711,7 +6711,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-16 16:59:15+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6724,7 +6724,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-16 15:15:42+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6737,7 +6737,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-16 09:37:50+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6763,7 +6763,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-13 13:48:57+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": [
         "mattpap"
       ]
@@ -6793,7 +6793,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-11 21:05:13+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6912,7 +6912,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-04 06:36:11+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6951,7 +6951,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-04 04:42:24+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6964,7 +6964,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-04 04:22:23+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6977,7 +6977,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-03 08:13:51+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -6990,7 +6990,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-03 07:48:23+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7016,7 +7016,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-03 06:58:31+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7029,7 +7029,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-03 06:03:51+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7055,7 +7055,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-28 06:30:37+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7122,7 +7122,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-22 18:36:51+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7135,7 +7135,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-22 15:52:49+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": [
         "philippjfr"
       ]
@@ -7178,7 +7178,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-18 10:12:11+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7204,7 +7204,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-18 05:26:23+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7217,7 +7217,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-17 08:44:45+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": [
         "hoxbro"
       ]
@@ -7277,7 +7277,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-09 04:59:13+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7303,7 +7303,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-08 00:40:43+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": [
         "philippjfr"
       ]
@@ -7359,7 +7359,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-01 05:42:05+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7586,7 +7586,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-06-15 12:57:54+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7612,7 +7612,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-06-12 23:33:41+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -7794,7 +7794,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-05-16 08:16:31+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -8231,7 +8231,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-03-18 15:28:50+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -8426,7 +8426,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-02-23 00:50:33+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -8452,7 +8452,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-02-22 09:31:55+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
@@ -8504,7 +8504,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-02-03 16:51:23+00:00",
-      "milestone": "1.20.x",
+      "milestone": "1.21.x",
       "assignees": []
     },
     {
