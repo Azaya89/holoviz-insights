@@ -8,6 +8,12 @@ import panel_material_ui as pmu
 # patch_all()
 pn.extension("tabulator", autoreload=True)
 
+MAINTAINERS = {
+    "HoloViews": ["hoxbro", "philippjfr", "jlstevens"],
+    "hvPlot": ["maximlt", "philippjfr", "hoxbro"],
+    "Panel": ["philippjfr", "ahaung11", "maximlt", "hoxbro"],
+}
+
 status_filter = pmu.RadioButtonGroup(
     label="Issue Status",
     options=["Open Issues", "Closed Issues", "All Issues"],
