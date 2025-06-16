@@ -54,17 +54,24 @@ def merge_and_save(
     if maintainers is not None:
         g = Github(token)
         gh_repo = g.get_repo(repo)
+        maintainers_lower = [m.lower() for m in maintainers]
         for issue in data["issues"]:
             issue_number = issue.get("number")
             maintainer_responded = False
             try:
                 gh_issue = gh_repo.get_issue(number=issue_number)
                 for comment in gh_issue.get_comments():
-                    if comment.user.login in maintainers:
+                    logging.info(
+                        f"Checking comment by {comment.user.login} for issue #{issue_number}"
+                    )
+                    if comment.user.login.lower() in maintainers_lower:
                         maintainer_responded = True
+                        logging.info(f"Maintainer responded to issue #{issue_number}")
                         break
-            except Exception:
-                pass
+            except Exception as e:
+                logging.warning(
+                    f"Error checking comments for issue #{issue_number}: {e}"
+                )
             issue["maintainer_responded"] = maintainer_responded
     # Enrich with milestone/assignees
     for issue in data["issues"]:
