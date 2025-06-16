@@ -39,7 +39,9 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
     return add_cols
 
 
-def merge_and_save(original_json: str, output_json: str, repo: str, token: str):
+def merge_and_save(
+    original_json: str, output_json: str, repo: str, token: str, maintainers=None
+):
     with open(original_json, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -48,6 +50,23 @@ def merge_and_save(original_json: str, output_json: str, repo: str, token: str):
         return
 
     extra_data = fetch_additional_issue_data(repo, token)
+    # Add maintainer_responded field for each issue
+    if maintainers is not None:
+        g = Github(token)
+        gh_repo = g.get_repo(repo)
+        for issue in data["issues"]:
+            issue_number = issue.get("number")
+            maintainer_responded = False
+            try:
+                gh_issue = gh_repo.get_issue(number=issue_number)
+                for comment in gh_issue.get_comments():
+                    if comment.user.login in maintainers:
+                        maintainer_responded = True
+                        break
+            except Exception:
+                pass
+            issue["maintainer_responded"] = maintainer_responded
+    # Enrich with milestone/assignees
     for issue in data["issues"]:
         url = issue.get("html_url")
         if url in extra_data:
@@ -59,7 +78,6 @@ def merge_and_save(original_json: str, output_json: str, repo: str, token: str):
         json.dump(data, f, indent=2)
     os.remove(original_json)
     logging.info(f"Deleted original JSON file {original_json}")
-
     logging.info(f"Merged issue file saved to {output_json}")
 
 
@@ -87,25 +105,6 @@ if __name__ == "__main__":
     if not token:
         logging.error("Missing GH_TOKEN environment variable.")
     else:
-        # Load issues from input JSON
-        with open(args.input_json) as f:
-            issues = json.load(f)
-
-        # For each issue, check if any comment author is a maintainer
-        g = Github(token)
-        repo = g.get_repo(args.repo)
-
-        for issue in issues["issues"]:
-            issue_number = issue.get("number")
-            maintainer_responded = False
-            try:
-                gh_issue = repo.get_issue(number=issue_number)
-                for comment in gh_issue.get_comments():
-                    if comment.user.login in maintainers:
-                        maintainer_responded = True
-                        break
-            except Exception:
-                pass
-            issue["maintainer_responded"] = maintainer_responded
-
-        merge_and_save(args.input_json, args.output_json, args.repo, token)
+        merge_and_save(
+            args.input_json, args.output_json, args.repo, token, maintainers=maintainers
+        )
