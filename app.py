@@ -1,3 +1,6 @@
+# =============================
+# Imports & Extensions
+# =============================
 import pandas as pd
 import hvplot.pandas  # noqa
 import panel as pn
@@ -8,22 +11,15 @@ import panel_material_ui as pmu
 # patch_all()
 pn.extension("tabulator", autoreload=True)
 
-MAINTAINERS = {
-    "HoloViews": ["hoxbro", "philippjfr", "jlstevens"],
-    "hvPlot": ["maximlt", "philippjfr", "hoxbro"],
-    "Panel": ["philippjfr", "ahaung11", "maximlt", "hoxbro"],
-}
+# =============================
+# Constants & Theme Config
+# =============================
+HEADER_COLOR = "#4199DA"
+PAPER_COLOR = "#f5f4ef"
 
-status_filter = pmu.RadioButtonGroup(
-    label="Issue Status",
-    options=["Open Issues", "Closed Issues", "All Issues"],
-    value="All Issues",
-    size="small",
-    button_type="success",
-)
-
-
-# Data loading
+# =============================
+# Data Loading
+# =============================
 data_url = (
     "https://raw.githubusercontent.com/Azaya89/holoviz-insights/refs/heads/main/data/"
 )
@@ -51,6 +47,40 @@ release_dfs = {
 }
 
 
+# =============================
+# Helper Functions
+# =============================
+def format_issue_url(url):
+    try:
+        return f'<a href="{url}" target="_blank">{url.split("/")[-1]}</a>'
+    except Exception:
+        return url
+
+
+# =============================
+# Metric Computation
+# =============================
+def compute_metrics(df):
+    metrics = {}
+    metrics["first_month"] = df.index[-1].strftime("%B %Y")
+    metrics["last_month"] = df.index[0].strftime("%B %Y")
+    metrics["total_issues"] = len(df)
+    open_issues = df[df["time_to_close"].isna()]
+    metrics["still_open"] = len(open_issues)
+    metrics["closed"] = len(df) - len(open_issues)
+    metrics["avg_close_time"] = int(df["time_to_close"].mean().days)
+    metrics["median_close_time"] = int(df["time_to_close"].median().days)
+    if "maintainer_responded" in df.columns:
+        awaiting = open_issues[~open_issues["maintainer_responded"].fillna(False)]
+        metrics["open_awaiting_maintainer"] = len(awaiting)
+    else:
+        metrics["open_awaiting_maintainer"] = None
+    return metrics
+
+
+# =============================
+# Plot Functions
+# =============================
 def create_release_plot(df, repo_name):
     from packaging.version import parse
 
@@ -78,6 +108,8 @@ def create_release_plot(df, repo_name):
     # Set "x1" to now for the last release
     if not df.empty:
         df.loc[df.index[-1], "x1"] = pd.Timestamp.now(tz=df["published_at"].dt.tz)
+    # Add release_span in days
+    df["release_span"] = (df["x1"] - df["x0"]).dt.days
     df["y0"] = df["y"].cat.codes - 0.4
     df["y1"] = df["y"].cat.codes + 0.4
     last_release = df.iloc[-1]
@@ -86,9 +118,21 @@ def create_release_plot(df, repo_name):
     message = f"🔔 Last release was {days_since} days ago on {last_release['published_at'].date()} ({last_release['tag']})"
 
     rects = hv.Rectangles(
-        df[["x0", "y0", "x1", "y1", "tag", "type", "published_at", "minor_version"]],
+        df[
+            [
+                "x0",
+                "y0",
+                "x1",
+                "y1",
+                "tag",
+                "type",
+                "published_at",
+                "minor_version",
+                "release_span",
+            ]
+        ],
         kdims=["x0", "y0", "x1", "y1"],
-        vdims=["tag", "type", "published_at", "minor_version"],
+        vdims=["tag", "type", "published_at", "minor_version", "release_span"],
     )
     rects = rects.opts(
         color="type",
@@ -99,9 +143,9 @@ def create_release_plot(df, repo_name):
         tools=["ycrosshair"],
         hover_tooltips=[
             ("Release Version", "@tag"),
-            ("Minor Version", "@minor_version"),
             ("Release Type", "@type"),
             ("Release Date", "@published_at"),
+            ("Release Span (days)", "@release_span"),
         ],
         xlabel="Date",
         ylabel="Minor Version",
@@ -117,27 +161,6 @@ def create_release_plot(df, repo_name):
     )
 
 
-# Helper functions
-def compute_metrics(df):
-    metrics = {}
-    metrics["first_month"] = df.index[-1].strftime("%B %Y")
-    metrics["last_month"] = df.index[0].strftime("%B %Y")
-    metrics["total_issues"] = len(df)
-    metrics["still_open"] = len(df[df["time_to_close"].isna()])
-    metrics["closed"] = len(df[df["time_to_close"].notna()])
-    metrics["avg_close_time"] = int(df["time_to_close"].mean().days)
-    metrics["median_close_time"] = int(df["time_to_close"].median().days)
-    return metrics
-
-
-def format_issue_url(url):
-    try:
-        return f'<a href="{url}" target="_blank">{url.split("/")[-1]}</a>'
-    except Exception:
-        return url
-
-
-# Plots
 def create_comparison_plot(df):
     monthly_opened = df.resample("ME").size()
     monthly_closed = df.dropna(subset=["time_to_close"]).resample("ME").size()
@@ -151,7 +174,7 @@ def create_comparison_plot(df):
 
 
 def create_issues_plot(df):
-    # Calculate the number of open issues for each day (date only)
+    # Calculate the number of open issues for each day
     df = df.copy()
     df["opened_date"] = df.index.normalize()
     df["closed_date"] = df["opened_date"] + df["time_to_close"]
@@ -174,9 +197,10 @@ def create_issues_plot(df):
 
 
 def create_milestone_plot(df):
-    # Filter to only include open issues (where time_to_close is null)
+    # Filter to only include open issues
     df = df[df["time_to_close"].isna()]
     milestone_counts = df["milestone"].value_counts(dropna=False)
+    milestone_counts.name = "Milestone Issues"
     return milestone_counts.hvplot.bar(
         title="Open Issues by Milestone",
         xlabel="Milestone",
@@ -206,28 +230,51 @@ def create_releases_per_year_plot(release_df):
     release_df = release_df.copy()
     release_df["year"] = release_df["published_at"].dt.year
     releases_per_year = release_df.groupby("year").size()
+    releases_per_year.name = "Releases"
     return releases_per_year.hvplot.bar(
         xlabel="Year",
         ylabel="Number of Releases",
         title="Releases per Year",
-        hover_tooltips=[("Year", "@year"), ("Count", "@0")],
+        hover_tooltips=[("Year", "@year"), "@Releases"],
         height=300,
         width=600,
     )
 
 
+# =============================
+# UI Components (Filters, Selectors, etc.)
+# =============================
 styles = {
     "box-shadow": "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px",
     "border-radius": "5px",
     "padding": "10px",
 }
 
+maintainer_filter = pmu.RadioButtonGroup(
+    label="Maintainer Response",
+    options=["All", "Awaiting Maintainer Response", "Maintainer Responded"],
+    value="All",
+    size="small",
+    button_type="primary",
+)
 
+status_filter = pmu.RadioButtonGroup(
+    label="Issue Status",
+    options=["Open Issues", "Closed Issues", "All Issues"],
+    value="All Issues",
+    size="small",
+    button_type="success",
+)
+
+
+# =============================
+# Views (Indicators, Plots, Table, Header)
+# =============================
 @pn.depends(repo_selector)
 def indicators_view(repo):
     df = repo_dfs[repo]
     metrics = compute_metrics(df)
-    return pn.FlexBox(
+    indicators = [
         pn.indicators.Number(
             value=metrics["total_issues"],
             name="Total Issues Opened",
@@ -258,7 +305,17 @@ def indicators_view(repo):
             default_color="blue",
             styles=styles,
         ),
-    )
+    ]
+    if metrics["open_awaiting_maintainer"] is not None:
+        indicators.append(
+            pn.indicators.Number(
+                value=metrics["open_awaiting_maintainer"],
+                name="Awaiting Maintainer Response",
+                default_color="orange",
+                styles=styles,
+            )
+        )
+    return pmu.FlexBox(*indicators)
 
 
 # State variable to store the active tab index
@@ -289,27 +346,49 @@ def plots_view(repo):
     return tabs
 
 
-@pn.depends(repo_selector, status_filter)
-def table_view(repo, status):
+@pn.depends(repo_selector, status_filter, maintainer_filter)
+def table_view(repo, status, maintainer_resp):
     df = repo_dfs[repo].copy()
     if status == "Open Issues":
         df = df[df["time_to_close"].isna()]
     elif status == "Closed Issues":
         df = df[df["time_to_close"].notna()]
+    # Filter by maintainer response
+    if "maintainer_responded" in df.columns and maintainer_resp != "All":
+        mask = df["maintainer_responded"].fillna(False)
+        if maintainer_resp == "Awaiting Maintainer Response":
+            df = df[~mask]
+        elif maintainer_resp == "Maintainer Responded":
+            df = df[mask]
     df["issue_no"] = df["html_url"].apply(format_issue_url)
     for col in ["time_to_first_response", "time_to_close"]:
         df[f"{col}_str"] = df[col].astype(str)
-    return pn.widgets.Tabulator(
-        df,
-        sizing_mode="stretch_width",
-        name="Table",
-        hidden_columns=[
+    # Show maintainer_responded as a column
+    if "maintainer_responded" in df.columns:
+        df["Maintainer Responded"] = df["maintainer_responded"].map(
+            {True: "Yes", False: "No"}
+        )
+        hidden_cols = [
             "html_url",
             "time_to_answer",
             "time_in_draft",
             "time_to_first_response",
             "time_to_close",
-        ],
+            "maintainer_responded",
+        ]
+    else:
+        hidden_cols = [
+            "html_url",
+            "time_to_answer",
+            "time_in_draft",
+            "time_to_first_response",
+            "time_to_close",
+        ]
+    return pn.widgets.Tabulator(
+        df,
+        sizing_mode="stretch_width",
+        name="Table",
+        hidden_columns=hidden_cols,
         pagination="remote",
         page_size=5,
         formatters={"issue_no": "html"},
@@ -320,22 +399,22 @@ def table_view(repo, status):
 def header_text(repo):
     df = repo_dfs[repo]
     metrics = compute_metrics(df)
+    latest_date = df.index[0].strftime("%B %d, %Y")
     text = f"""
     ## {repo} Dashboard
-    ### Issue Metrics from {metrics["first_month"]} to {metrics["last_month"]}
+    ### Issue Metrics from {metrics["first_month"]} to {latest_date}
     """
     return text
 
 
-note = """The issue metrics shown here are not a full historical record, but represent a snapshot collected automatically at the start of each month.
-    Data covers issues from the stated start date up to the end of the previous month, and is refreshed at the beginning of every new month."""
+# =============================
+# Page Layout & App Launch
+# =============================
+note = """The issue metrics shown here are not a full historical record, but represent a snapshot collected automatically at the start of each month.\n    Data covers issues from the stated start date up to the stated end date, and is refreshed at the beginning of every new month."""
 icon = pn.widgets.TooltipIcon(value=note)
 logo = "https://holoviz.org/_static/holoviz-logo.svg"
 
 logo_pane = pn.pane.Image(logo, width=200, align="center", margin=(10, 0, 10, 0))
-
-HEADER_COLOR = "#4199DA"
-PAPER_COLOR = "#f5f4ef"
 
 page = pmu.Page(
     main=[
@@ -352,6 +431,8 @@ page = pmu.Page(
         repo_selector,
         "## Filter by Issue  Status",
         status_filter,
+        "## Maintainer Response",
+        maintainer_filter,
     ],
     title="HoloViz Issue Metrics Dashboard",
     theme_config={
