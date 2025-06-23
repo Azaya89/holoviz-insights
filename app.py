@@ -16,6 +16,7 @@ pn.extension("tabulator", autoreload=True)
 # =============================
 HEADER_COLOR = "#4199DA"
 PAPER_COLOR = "#f5f4ef"
+INDICATOR_COLOR = "#221cd9"
 
 # =============================
 # Data Loading
@@ -72,15 +73,83 @@ def compute_metrics(df):
     metrics["median_close_time"] = int(df["time_to_close"].median().days)
     if "maintainer_responded" in df.columns:
         awaiting = open_issues[~open_issues["maintainer_responded"].fillna(False)]
-        metrics["open_awaiting_maintainer"] = len(awaiting)
+        metrics["no_maintainer_response"] = len(awaiting)
     else:
-        metrics["open_awaiting_maintainer"] = None
+        metrics["no_maintainer_response"] = None
     return metrics
 
 
 # =============================
 # Plot Functions
 # =============================
+
+
+def create_comparison_plot(df):
+    monthly_opened = df.resample("ME").size()
+    monthly_closed = df.dropna(subset=["time_to_close"]).resample("ME").size()
+    comparison_df = pd.DataFrame({"Opened": monthly_opened, "Closed": monthly_closed})
+    return comparison_df.hvplot.line(
+        xlabel="Month",
+        ylabel="Number of Issues",
+        title="Opened vs Closed Issues per Month",
+        group_label="Issues",
+    )
+
+
+def create_issues_plot(df):
+    # Calculate the number of open issues for each day
+    df = df.copy()
+    df["opened_date"] = df.index.normalize()
+    df["closed_date"] = df["opened_date"] + df["time_to_close"]
+    all_dates = pd.date_range(
+        df["opened_date"].min(), pd.Timestamp.now().normalize(), freq="D"
+    )
+    open_counts = pd.Series(0, index=all_dates)
+    for _, row in df.iterrows():
+        start = row["opened_date"]
+        end = row["closed_date"] if pd.notnull(row["closed_date"]) else all_dates[-1]
+        # Use only the date part for the range
+        open_range = pd.date_range(start, end, freq="D")
+        open_counts.loc[open_range] += 1
+    open_counts.name = "Open Issues"
+    return open_counts.hvplot.line(
+        xlabel="Date",
+        ylabel="Number of Open Issues",
+        title="Open Issues Over Time",
+    )
+
+
+def create_milestone_plot(df):
+    # Filter to only include open issues
+    df = df[df["time_to_close"].isna()]
+    milestone_counts = df["milestone"].value_counts(dropna=False)
+    milestone_counts.name = "Milestone Issues"
+    return milestone_counts.hvplot.bar(
+        title="Open Issues by Milestone",
+        xlabel="Milestone",
+        ylabel="Issue Count",
+        rot=45,
+        height=300,
+        width=600,
+    )
+
+
+def create_milestone_summary(df):
+    df = df[df["time_to_close"].isna()]
+    has_milestone = df["milestone"].notna().sum()
+    no_milestone = df["milestone"].isna().sum()
+    summary = pd.Series(
+        [has_milestone, no_milestone], index=["Has Milestone", "No Milestone"]
+    )
+    return summary.hvplot.bar(
+        title="Open Issues Milestone Coverage",
+        ylabel="Issue Count",
+        xlabel="Milestone Presence",
+        height=300,
+        width=400,
+    )
+
+
 def create_release_plot(df, repo_name):
     from packaging.version import parse
 
@@ -161,84 +230,65 @@ def create_release_plot(df, repo_name):
     )
 
 
-def create_comparison_plot(df):
-    monthly_opened = df.resample("ME").size()
-    monthly_closed = df.dropna(subset=["time_to_close"]).resample("ME").size()
-    comparison_df = pd.DataFrame({"Opened": monthly_opened, "Closed": monthly_closed})
-    return comparison_df.hvplot.line(
-        xlabel="Month",
-        ylabel="Number of Issues",
-        title="Opened vs Closed Issues per Month",
-        group_label="Issues",
-    )
-
-
-def create_issues_plot(df):
-    # Calculate the number of open issues for each day
-    df = df.copy()
-    df["opened_date"] = df.index.normalize()
-    df["closed_date"] = df["opened_date"] + df["time_to_close"]
-    all_dates = pd.date_range(
-        df["opened_date"].min(), pd.Timestamp.now().normalize(), freq="D"
-    )
-    open_counts = pd.Series(0, index=all_dates)
-    for _, row in df.iterrows():
-        start = row["opened_date"]
-        end = row["closed_date"] if pd.notnull(row["closed_date"]) else all_dates[-1]
-        # Use only the date part for the range
-        open_range = pd.date_range(start, end, freq="D")
-        open_counts.loc[open_range] += 1
-    open_counts.name = "Open Issues"
-    return open_counts.hvplot.line(
-        xlabel="Date",
-        ylabel="Number of Open Issues",
-        title="Open Issues Over Time",
-    )
-
-
-def create_milestone_plot(df):
-    # Filter to only include open issues
-    df = df[df["time_to_close"].isna()]
-    milestone_counts = df["milestone"].value_counts(dropna=False)
-    milestone_counts.name = "Milestone Issues"
-    return milestone_counts.hvplot.bar(
-        title="Open Issues by Milestone",
-        xlabel="Milestone",
-        ylabel="Issue Count",
-        rot=45,
-        height=300,
-        width=600,
-    )
-
-
-def create_milestone_summary(df):
-    has_milestone = df["milestone"].notna().sum()
-    no_milestone = df["milestone"].isna().sum()
-    summary = pd.Series(
-        [has_milestone, no_milestone], index=["Has Milestone", "No Milestone"]
-    )
-    return summary.hvplot.bar(
-        title="Milestone Coverage",
-        ylabel="Issue Count",
-        xlabel="Milestone Presence",
-        height=300,
-        width=400,
-    )
-
-
 def create_releases_per_year_plot(release_df):
     release_df = release_df.copy()
     release_df["year"] = release_df["published_at"].dt.year
-    releases_per_year = release_df.groupby("year").size()
-    releases_per_year.name = "Releases"
-    return releases_per_year.hvplot.bar(
+    releases_per_year_type = (
+        release_df.groupby(["year", "type"]).size().reset_index(name="Releases")
+    )
+    return releases_per_year_type.hvplot.bar(
+        x="year",
+        y="Releases",
+        by="type",
+        stacked=True,
+        cmap={"major": "#eb2f40", "minor": "#0e9c24", "patch": "#0e67bb"},
         xlabel="Year",
         ylabel="Number of Releases",
-        title="Releases per Year",
-        hover_tooltips=[("Year", "@year"), "@Releases"],
+        title="Releases per Year (by Type)",
+        hover_tooltips=[
+            ("Year", "@year"),
+            ("Type", "@type"),
+            ("Releases", "@Releases"),
+        ],
         height=300,
         width=600,
+        legend="top_right",
     )
+
+
+def create_issues_sankey(df):
+    metrics = compute_metrics(df)
+    # total = metrics["total_issues"]
+    still_open = metrics["still_open"]
+    closed = metrics["closed"]
+    no_maint_resp = metrics["no_maintainer_response"]
+    maint_resp = still_open - no_maint_resp if no_maint_resp is not None else 0
+    # Sankey data: sources, targets, values
+    sources = [
+        "Total Issues Opened",
+        "Total Issues Opened",
+        "Issues still open",
+        "Issues still open",
+    ]
+    targets = [
+        "Issues still open",
+        "Issues closed",
+        "No Maintainer Response",
+        "Maintainer Responded",
+    ]
+    values = [still_open, closed, no_maint_resp or 0, maint_resp]
+    sankey_data = pd.DataFrame({"source": sources, "target": targets, "value": values})
+    sankey = hv.Sankey(sankey_data)
+    sankey = sankey.opts(
+        label_position="left",
+        toolbar=None,
+        height=350,
+        cmap="Set1",
+        node_color="index",
+        edge_color="source",
+        title="Issue Status Flow",
+    )
+    return sankey
 
 
 # =============================
@@ -252,15 +302,15 @@ styles = {
 
 maintainer_filter = pmu.RadioButtonGroup(
     label="Maintainer Response",
-    options=["All", "Awaiting Maintainer Response", "Maintainer Responded"],
+    options=["All", "No Maintainer Response", "Maintainer Responded"],
     value="All",
     size="small",
-    button_type="primary",
+    button_type="success",
 )
 
 status_filter = pmu.RadioButtonGroup(
     label="Issue Status",
-    options=["Open Issues", "Closed Issues", "All Issues"],
+    options=["All Issues", "Open Issues", "Closed Issues"],
     value="All Issues",
     size="small",
     button_type="success",
@@ -270,51 +320,30 @@ status_filter = pmu.RadioButtonGroup(
 # =============================
 # Views (Indicators, Plots, Table, Header)
 # =============================
+indicator_kwargs = dict(
+    # font_size="25pt",
+    # title_size="14pt",
+    default_color=INDICATOR_COLOR,
+    styles=styles,
+)
+
+
 @pn.depends(repo_selector)
 def indicators_view(repo):
     df = repo_dfs[repo]
     metrics = compute_metrics(df)
     indicators = [
         pn.indicators.Number(
-            value=metrics["total_issues"],
-            name="Total Issues Opened",
-            default_color="blue",
-            styles=styles,
-        ),
-        pn.indicators.Number(
-            value=metrics["still_open"],
-            name="Issues still open",
-            default_color="green",
-            styles=styles,
-        ),
-        pn.indicators.Number(
-            value=metrics["closed"],
-            name="Issues closed",
-            default_color="red",
-            styles=styles,
-        ),
-        pn.indicators.Number(
             value=metrics["avg_close_time"],
             name="Avg. time to close (days)",
-            default_color="gray",
-            styles=styles,
+            **indicator_kwargs,
         ),
         pn.indicators.Number(
             value=metrics["median_close_time"],
             name="Median time to close (days)",
-            default_color="blue",
-            styles=styles,
+            **indicator_kwargs,
         ),
     ]
-    if metrics["open_awaiting_maintainer"] is not None:
-        indicators.append(
-            pn.indicators.Number(
-                value=metrics["open_awaiting_maintainer"],
-                name="Awaiting Maintainer Response",
-                default_color="orange",
-                styles=styles,
-            )
-        )
     return pmu.FlexBox(*indicators)
 
 
@@ -356,7 +385,7 @@ def table_view(repo, status, maintainer_resp):
     # Filter by maintainer response
     if "maintainer_responded" in df.columns and maintainer_resp != "All":
         mask = df["maintainer_responded"].fillna(False)
-        if maintainer_resp == "Awaiting Maintainer Response":
+        if maintainer_resp == "No Maintainer Response":
             df = df[~mask]
         elif maintainer_resp == "Maintainer Responded":
             df = df[mask]
@@ -384,15 +413,20 @@ def table_view(repo, status, maintainer_resp):
             "time_to_first_response",
             "time_to_close",
         ]
-    return pn.widgets.Tabulator(
+    # Reorder columns: prioritize 'title', 'issue_no', 'author' first
+    priority_cols = ["title", "issue_no", "author"]
+    rest_cols = [c for c in df.columns if c not in priority_cols]
+    df = df[priority_cols + rest_cols]
+    table = pn.widgets.Tabulator(
         df,
-        sizing_mode="stretch_width",
         name="Table",
         hidden_columns=hidden_cols,
         pagination="remote",
         page_size=5,
         formatters={"issue_no": "html"},
+        widths={"title": 300},
     )
+    return pn.Column(pn.pane.Markdown(f"### Length of table: {len(df)} rows"), table)
 
 
 @pn.depends(repo_selector)
@@ -402,7 +436,7 @@ def header_text(repo):
     latest_date = df.index[0].strftime("%B %d, %Y")
     text = f"""
     ## {repo} Dashboard
-    ### Issue Metrics from {metrics["first_month"]} to {latest_date}
+    **Issue Metrics from {metrics["first_month"]} to {latest_date}**
     """
     return text
 
@@ -416,10 +450,19 @@ logo = "https://holoviz.org/_static/holoviz-logo.svg"
 
 logo_pane = pn.pane.Image(logo, width=200, align="center", margin=(10, 0, 10, 0))
 
+
+# Define the issues_sankey_view function before the page layout
+@pn.depends(repo_selector)
+def issues_sankey_view(repo):
+    df = repo_dfs[repo]
+    return create_issues_sankey(df)
+
+
 page = pmu.Page(
     main=[
         header_text,
         pn.Row("## Summary Insights", icon),
+        issues_sankey_view,
         indicators_view,
         "## Data Table",
         table_view,
@@ -429,7 +472,7 @@ page = pmu.Page(
     sidebar=[
         logo_pane,
         repo_selector,
-        "## Filter by Issue  Status",
+        "## Issue  Status",
         status_filter,
         "## Maintainer Response",
         maintainer_filter,
