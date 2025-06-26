@@ -93,6 +93,8 @@ def create_comparison_plot(df):
         ylabel="Number of Issues",
         title="Opened vs Closed Issues per Month",
         group_label="Issues",
+        height=300,
+        responsive=True,
     )
 
 
@@ -116,6 +118,8 @@ def create_issues_plot(df):
         xlabel="Date",
         ylabel="Number of Open Issues",
         title="Open Issues Over Time",
+        height=300,
+        responsive=True,
     )
 
 
@@ -128,9 +132,11 @@ def create_milestone_plot(df):
         title="Open Issues by Milestone",
         xlabel="Milestone",
         ylabel="Issue Count",
+        logy=True,
+        ylim=(1, None),
         rot=45,
         height=300,
-        width=600,
+        responsive=True,
     )
 
 
@@ -146,7 +152,7 @@ def create_milestone_summary(df):
         ylabel="Issue Count",
         xlabel="Milestone Presence",
         height=300,
-        width=400,
+        responsive=True,
     )
 
 
@@ -208,7 +214,6 @@ def create_release_plot(df, repo_name):
         cmap={"major": "#eb2f40", "minor": "#0e9c24", "patch": "#0e67bb"},
         line_color="white",
         alpha=0.8,
-        width=800,
         tools=["ycrosshair"],
         hover_tooltips=[
             ("Release Version", "@tag"),
@@ -221,6 +226,8 @@ def create_release_plot(df, repo_name):
         yticks=[(i, cat) for i, cat in enumerate(sorted_minors)],
         legend_position="bottom_right",
         title=f"{repo_name} Release Timeline for the last 5 years",
+        height=300,
+        responsive=True,
     )
     return pn.Column(
         pn.pane.Markdown(
@@ -251,7 +258,7 @@ def create_releases_per_year_plot(release_df):
             ("Releases", "@Releases"),
         ],
         height=300,
-        width=600,
+        responsive=True,
         legend="top_right",
     )
 
@@ -281,8 +288,6 @@ def create_issues_sankey(df):
     sankey = hv.Sankey(sankey_data)
     sankey = sankey.opts(
         label_position="left",
-        toolbar=None,
-        height=350,
         cmap="Set1",
         node_color="index",
         edge_color="source",
@@ -378,6 +383,15 @@ def plots_view(repo):
 @pn.depends(repo_selector, status_filter, maintainer_filter)
 def table_view(repo, status, maintainer_resp):
     df = repo_dfs[repo].copy()
+    # Convert assignees column from list to comma-separated string for Tabulator filtering
+    if "assignees" in df.columns:
+        df["assignees"] = df["assignees"].apply(
+            lambda x: ", ".join(x)
+            if isinstance(x, list)
+            else str(x)
+            if pd.notnull(x)
+            else ""
+        )
     if status == "Open Issues":
         df = df[df["time_to_close"].isna()]
     elif status == "Closed Issues":
@@ -391,7 +405,9 @@ def table_view(repo, status, maintainer_resp):
             df = df[mask]
     df["issue_no"] = df["html_url"].apply(format_issue_url)
     for col in ["time_to_first_response", "time_to_close"]:
-        df[f"{col}_str"] = df[col].astype(str)
+        # Replace NaT with empty string
+        df[col] = df[col].astype(str).replace("NaT", "")
+        df[f"{col}_str"] = df[col]
     # Show maintainer_responded as a column
     if "maintainer_responded" in df.columns:
         df["Maintainer Responded"] = df["maintainer_responded"].map(
@@ -422,9 +438,10 @@ def table_view(repo, status, maintainer_resp):
         name="Table",
         hidden_columns=hidden_cols,
         pagination="remote",
-        page_size=5,
+        page_size=10,
         formatters={"issue_no": "html"},
         widths={"title": 300},
+        header_filters=True,
     )
     return pn.Column(pn.pane.Markdown(f"### Length of table: {len(df)} rows"), table)
 
