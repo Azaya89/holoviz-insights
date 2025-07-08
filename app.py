@@ -296,6 +296,26 @@ def create_issues_sankey(df):
     return sankey
 
 
+def create_first_response_trend_plot(df):
+    df = df.copy()
+    # Only consider issues with a recorded first response time
+    df = df[df["time_to_first_response"].notna()]
+    df["first_response_days"] = df["time_to_first_response"].dt.days
+    monthly = df.resample("ME").agg(
+        avg_response=("first_response_days", "mean"),
+        median_response=("first_response_days", "median"),
+        count=("first_response_days", "count"),
+    )
+    return monthly[["avg_response", "median_response"]].hvplot.line(
+        xlabel="Month",
+        ylabel="Days to First Response",
+        title="Time to First Response Trend",
+        height=300,
+        responsive=True,
+        legend="top_right",
+    )
+
+
 # =============================
 # UI Components (Filters, Selectors, etc.)
 # =============================
@@ -363,6 +383,7 @@ def plots_view(repo):
     tabs = pmu.Tabs(
         ("Open vs Closed Issues", create_comparison_plot(df)),
         ("Open Issues over time", create_issues_plot(df)),
+        ("First Response Trend", create_first_response_trend_plot(df)),
         ("Release History", create_release_plot(release_df, repo)),
         ("Releases per Year", create_releases_per_year_plot(release_df)),
         ("Issues by Milestone", create_milestone_plot(df)),
