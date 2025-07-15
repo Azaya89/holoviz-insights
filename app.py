@@ -471,10 +471,9 @@ def table_view(repo, status, maintainer_resp):
 def header_text(repo):
     df = repo_dfs[repo]
     metrics = compute_metrics(df)
-    latest_date = df.index[0].strftime("%B %d, %Y")
     text = f"""
     ## {repo} Dashboard
-    **Issue Metrics from {metrics["first_month"]} to {latest_date}**
+    **Issue Metrics from {metrics["first_month"]} to {metrics["last_month"]}**
     """
     return text
 
@@ -482,7 +481,10 @@ def header_text(repo):
 # =============================
 # Page Layout & App Launch
 # =============================
-note = """The issue metrics shown here are not a full historical record, but represent a snapshot collected automatically at the start of each month.\n    Data covers issues from the stated start date up to the stated end date, and is refreshed at the beginning of every new month."""
+note = """
+The issue metrics shown here are not a full historical record, but represent a snapshot collected automatically at the start of each month.\n
+Data covers issues from the start of the stated month up to the end of stated month, and is refreshed at the beginning of every new month.
+"""
 icon = pn.widgets.TooltipIcon(value=note)
 logo = "https://holoviz.org/_static/holoviz-logo.svg"
 
@@ -498,8 +500,8 @@ def issues_sankey_view(repo):
 
 page = pmu.Page(
     main=[
-        header_text,
-        pn.Row("## Summary Insights", icon),
+        pn.Row(header_text, icon),
+        "## Summary Insights",
         issues_sankey_view,
         indicators_view,
         "## Data Table",
