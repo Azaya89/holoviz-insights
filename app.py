@@ -6,9 +6,25 @@ import hvplot.pandas  # noqa
 import panel as pn
 import holoviews as hv
 import panel_material_ui as pmu
-# from pyodide_http import patch_all
 
-# patch_all()
+try:
+    # For running in browser
+    from pyodide_http import patch_all
+
+    patch_all()
+
+    import asyncio
+    from pyodide import loadPackage
+
+    async def ensure_fastparquet():
+        await loadPackage("fastparquet")
+
+    asyncio.ensure_future(ensure_fastparquet())
+
+except ImportError:
+    # Not running in Pyodide; skip patching or package loading
+    pass
+
 pn.extension("tabulator", autoreload=True)
 
 # =============================
