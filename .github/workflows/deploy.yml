@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install panel
+          pip install panel fastparquet hvplot panel-material-ui
 
       - name: Convert app.py to Pyodide app
         run: |
