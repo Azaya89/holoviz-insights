@@ -9,7 +9,7 @@ RUN micromamba env create -f /code/environment.yml -n appenv \
 
 COPY . .
 
-RUN mkdir /.cache .chroma && chmod 777 /.cache .chroma
+RUN mkdir -p /code/.cache /code/.chroma && chmod 777 /code/.cache /code/.chroma
 
 SHELL ["/bin/bash", "-c"]
 
