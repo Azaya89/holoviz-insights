@@ -15,5 +15,5 @@ jobs:
           lfs: true
       - name: Push to hub
         env:
-          HF_INSIGHTS_TOKEN: ${{ secrets.HF_INSIGHTS_TOKEN }}
-        run: git push -f https://Azaya89:$HF_INSIGHTS_TOKEN@huggingface.co/spaces/Azaya89/Holoviz-insights main
+          HV_INSIGHTS_TOKEN: ${{ secrets.HV_INSIGHTS_TOKEN }}
+        run: git push -f https://Azaya89:$HV_INSIGHTS_TOKEN@huggingface.co/spaces/Azaya89/Holoviz-insights main
