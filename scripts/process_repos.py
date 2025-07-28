@@ -5,12 +5,14 @@ REPOS = {
     "holoviews": "holoviz/holoviews",
     "hvplot": "holoviz/hvplot",
     "panel": "holoviz/panel",
+    "datashader": "holoviz/datashader",
 }
 
 MAINTAINERS = {
     "holoviews": ["hoxbro", "philippjfr", "jlstevens"],
-    "hvplot": ["maximlt", "philippjfr", "hoxbro"],
+    "hvplot": ["maximlt", "philippjfr", "hoxbro", "ahuang11"],
     "panel": ["philippjfr", "ahaung11", "maximlt", "hoxbro"],
+    "datashader": ["jbednar", "philippjfr", "hoxbro", "amaloney"],
 }
 
 token = os.environ["GH_TOKEN"]

@@ -45,6 +45,7 @@ repo_files = {
     "HoloViews": data_url + "holoviews_metrics.parq",
     "hvPlot": data_url + "hvplot_metrics.parq",
     "Panel": data_url + "panel_metrics.parq",
+    "Datashader": data_url + "datashader_metrics.parq",
 }
 
 repo_dfs = {name: pd.read_parquet(url) for name, url in repo_files.items()}
@@ -56,6 +57,7 @@ release_files = {
     "HoloViews": data_url + "holoviews_releases.csv",
     "hvPlot": data_url + "hvplot_releases.csv",
     "Panel": data_url + "panel_releases.csv",
+    "Datashader": data_url + "datashader_releases.csv",
 }
 
 release_dfs = {

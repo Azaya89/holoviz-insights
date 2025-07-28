@@ -91,6 +91,26 @@ jobs:
         with:
           name: panel-metrics-json
           path: data/panel_metrics.json
+      - name: Run issue-metrics for datashader
+        id: issue-metrics-datashader
+        uses: github/issue-metrics@v3
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          SEARCH_QUERY: 'repo:holoviz/datashader is:issue created:${{ env.YEAR_RANGE }} -label:"duplicate"'
+          HIDE_TIME_TO_ANSWER: "true"
+          DRAFT_PR_TRACKING: "true"
+          HIDE_CREATED_AT: "false"
+          HIDE_LABEL_METRICS: "true"
+      - name: Save datashader JSON output
+        run: |
+          cat <<'EOF' > data/datashader_metrics.json
+          ${{ steps.issue-metrics-datashader.outputs.metrics }}
+          EOF
+      - name: Upload datashader artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: datashader-metrics-json
+          path: data/datashader_metrics.json
   download-and-deploy:
     runs-on: ubuntu-latest
     needs: [build]
@@ -111,6 +131,11 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: panel-metrics-json
+          path: data/
+      - name: Download datashader artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: datashader-metrics-json
           path: data/
       - name: Set up Conda environment
         uses: conda-incubator/setup-miniconda@v2
