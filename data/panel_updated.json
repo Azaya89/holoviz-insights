@@ -1,21 +1,21 @@
 {
-  "average_time_to_first_response": "13 days, 23:45:45",
-  "average_time_to_close": "33 days, 3:00:16",
+  "average_time_to_first_response": "14 days, 19:53:34",
+  "average_time_to_close": "33 days, 2:44:33",
   "average_time_to_answer": "None",
   "average_time_in_draft": "None",
   "average_time_in_labels": {},
-  "median_time_to_first_response": "11:08:08",
-  "median_time_to_close": "4 days, 20:36:36",
+  "median_time_to_first_response": "11:33:21",
+  "median_time_to_close": "5 days, 2:57:39",
   "median_time_to_answer": "None",
   "median_time_in_draft": "None",
   "median_time_in_labels": {},
-  "90_percentile_time_to_first_response": "31 days, 18:20:40",
-  "90_percentile_time_to_close": "100 days, 0:22:19",
+  "90_percentile_time_to_first_response": "32 days, 18:30:37",
+  "90_percentile_time_to_close": "99 days, 18:05:25",
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
   "90_percentile_time_in_labels": {},
-  "num_items_opened": 466,
-  "num_items_closed": 534,
+  "num_items_opened": 459,
+  "num_items_closed": 541,
   "num_mentor_count": 0,
   "total_item_count": 1000,
   "issues": [
@@ -26,13 +26,13 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "0:01:53",
-      "time_to_close": "None",
+      "time_to_close": "8 days, 4:11:45",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-06-30 10:31:56+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": "v1.8.0"
     },
     {
       "title": "Panel not interactive in JupyterHub: Comm target never activated",
@@ -86,7 +86,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "22 days, 18:26:57",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -131,7 +131,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "22:16:53",
-      "time_to_close": "None",
+      "time_to_close": "23 days, 21:07:03",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -145,14 +145,14 @@
       "author": "ChristophNa",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
+      "time_to_first_response": "26 days, 9:29:01",
       "time_to_close": "None",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-06-21 04:11:14+00:00",
-      "maintainer_responded": false,
-      "milestone": null
+      "maintainer_responded": true,
+      "milestone": "v1.8.0"
     },
     {
       "title": "UnboundLocalError: cannot access local variable 'params' where it is not associated with a value",
@@ -176,7 +176,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "30 days, 2:57:54",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -251,7 +251,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "19:51:05",
-      "time_to_close": "None",
+      "time_to_close": "38 days, 19:33:40",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -296,7 +296,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "36 days, 14:23:15",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -347,7 +347,7 @@
       "label_metrics": {},
       "created_at": "2025-06-05 07:53:22+00:00",
       "maintainer_responded": true,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "Expose localStorage, cookies etc via panel",
@@ -746,7 +746,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "20:58:00",
-      "time_to_close": "None",
+      "time_to_close": "65 days, 14:37:26",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -1237,7 +1237,7 @@
     {
       "title": "pydeck ScatterplotLayer change color after change the status of visible",
       "html_url": "https://github.com/holoviz/panel/issues/7824",
-      "author": "constantinevi6",
+      "author": "constantine6",
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "None",
@@ -1262,7 +1262,7 @@
       "label_metrics": {},
       "created_at": "2025-03-30 19:09:40+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "removing a floatpanel from a widget causes a \"Dropping a patch because it contains a previously known reference\" warning",
@@ -1322,7 +1322,7 @@
       "label_metrics": {},
       "created_at": "2025-03-27 11:16:30+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "Running js code from Pyodide WebWorker",
@@ -1367,7 +1367,7 @@
       "label_metrics": {},
       "created_at": "2025-03-23 13:50:03+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "Support panel widget.link(stream, selection=\"index\")",
@@ -1397,7 +1397,7 @@
       "label_metrics": {},
       "created_at": "2025-03-19 04:35:32+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "OAuth Config Page invalid example for oauth-extra-params",
@@ -1534,7 +1534,7 @@
       "label_metrics": {},
       "created_at": "2025-03-05 19:56:53+00:00",
       "maintainer_responded": true,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "`pn.widgets.*.from_param()` is very slow",
@@ -1564,7 +1564,7 @@
       "label_metrics": {},
       "created_at": "2025-03-03 09:58:21+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "Interactivity duplicates widgets with plots",
@@ -1639,7 +1639,7 @@
       "label_metrics": {},
       "created_at": "2025-02-25 15:33:59+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "Example fails on \"Live\" document page with \"Failed to load\" message",
@@ -1654,7 +1654,7 @@
       "label_metrics": {},
       "created_at": "2025-02-25 14:10:41+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "Error when displaying the same `chat.ChatFeed` multiple times in Panel 1.6.1",
@@ -1684,7 +1684,7 @@
       "label_metrics": {},
       "created_at": "2025-02-24 11:17:33+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "Tabulator: indexing exception when editing Cell on Header FILTERED table if pagination=remote",
@@ -1699,7 +1699,7 @@
       "label_metrics": {},
       "created_at": "2025-02-23 15:03:57+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "allow FileSelector to accept a list of string patterns",
@@ -1744,7 +1744,7 @@
       "label_metrics": {},
       "created_at": "2025-02-19 16:26:50+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "Priv\u00e9",
@@ -1774,7 +1774,7 @@
       "label_metrics": {},
       "created_at": "2025-02-13 11:35:03+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "IPywidgets do not work with fastapi server",
@@ -2014,7 +2014,7 @@
       "label_metrics": {},
       "created_at": "2025-01-30 14:59:42+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "scroll_to should be clarified that it only scrolls to the earliest buffer item",
@@ -2029,7 +2029,7 @@
       "label_metrics": {},
       "created_at": "2025-01-28 22:01:31+00:00",
       "maintainer_responded": true,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "Multi-line input in TextAreaInput widget does not work in notebooks",
@@ -2089,7 +2089,7 @@
       "label_metrics": {},
       "created_at": "2025-01-24 21:40:40+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "In docs, the API doc shows > Explanation > APIs > APIs in the breadcrumb trail",
@@ -2494,7 +2494,7 @@
       "label_metrics": {},
       "created_at": "2025-01-02 07:04:43+00:00",
       "maintainer_responded": false,
-      "milestone": "v1.7.2"
+      "milestone": "v1.8.0"
     },
     {
       "title": "Callback started using `add_periodic_callback` never stops",
@@ -3162,7 +3162,7 @@
       "author": "Davide-sd",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
+      "time_to_first_response": "226 days, 2:05:58",
       "time_to_close": "None",
       "time_to_answer": "None",
       "time_in_draft": "None",
@@ -3734,7 +3734,7 @@
       "author": "Coderambling",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
+      "time_to_first_response": "254 days, 3:49:01",
       "time_to_close": "None",
       "time_to_answer": "None",
       "time_in_draft": "None",
