@@ -14,11 +14,86 @@
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
   "90_percentile_time_in_labels": {},
-  "num_items_opened": 338,
+  "num_items_opened": 343,
   "num_items_closed": 330,
   "num_mentor_count": 0,
-  "total_item_count": 668,
+  "total_item_count": 673,
   "issues": [
+    {
+      "title": "Prevent elements in overlay from changing zoom / axes ranges",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6656",
+      "author": "MatusGasparik",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-07-31 10:07:32+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
+    {
+      "title": "\"BokehUserWarning: ColumnDataSource's columns must be of the same length\" when color mapping Path",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6655",
+      "author": "ethanbb",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-07-25 22:15:52+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
+    {
+      "title": "Overlay does not have separate zoom controls by axis",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6654",
+      "author": "BnMcG",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-07-12 00:10:30+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
+    {
+      "title": "`stream.Pipe` memoize option unused?",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6653",
+      "author": "SimonHeybrock",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-07-09 05:00:18+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
+    {
+      "title": "Plotly backend doesn't update downsample1d on zoom",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6649",
+      "author": "pepijndevos",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "created_at": "2025-07-03 10:51:06+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
     {
       "title": "y-axis ordering flipped in hv.HeatMap with Matplotlib backend",
       "html_url": "https://github.com/holoviz/holoviews/issues/6644",
@@ -10197,5 +10272,5 @@
       "milestone": null
     }
   ],
-  "search_query": "repo:holoviz/holoviews is:issue created:2022-01-01..2025-06-30 -label:\"duplicate\""
+  "search_query": "repo:holoviz/holoviews is:issue created:2022-01-01..2025-07-31 -label:\"duplicate\""
 }
