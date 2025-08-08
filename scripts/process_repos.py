@@ -9,10 +9,18 @@ REPOS = {
 }
 
 MAINTAINERS = {
-    "holoviews": ["hoxbro", "philippjfr", "jlstevens"],
-    "hvplot": ["maximlt", "philippjfr", "hoxbro", "ahuang11"],
-    "panel": ["philippjfr", "ahaung11", "maximlt", "hoxbro"],
-    "datashader": ["jbednar", "philippjfr", "hoxbro", "amaloney"],
+    "mattpap",
+    "jlstevens",
+    "amaloney",
+    "philippjfr",
+    "jbednar",
+    "droumis",
+    "ahuang11",
+    "hoxbro",
+    "maximlt",
+    "sophiamyang",
+    "Azaya89",
+    "holoviz-developers",
 }
 
 token = os.environ["GH_TOKEN"]
@@ -23,7 +31,7 @@ for name, repo in REPOS.items():
     parquet_out = f"data/{name}_metrics.parq"
     csv_out = f"data/{name}_releases.csv"
 
-    maintainers = ",".join(MAINTAINERS[name])
+    maintainers = ",".join(MAINTAINERS)
     subprocess.run(
         [
             "python",
