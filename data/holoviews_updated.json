@@ -1,21 +1,21 @@
 {
-  "average_time_to_first_response": "28 days, 13:24:25",
-  "average_time_to_close": "92 days, 9:12:44",
+  "average_time_to_first_response": "28 days, 11:52:27",
+  "average_time_to_close": "92 days, 2:51:54",
   "average_time_to_answer": "None",
   "average_time_in_draft": "None",
   "average_time_in_labels": {},
-  "median_time_to_first_response": "12:38:55",
-  "median_time_to_close": "13 days, 17:09:44",
+  "median_time_to_first_response": "12:41:21",
+  "median_time_to_close": "13 days, 13:16:07",
   "median_time_to_answer": "None",
   "median_time_in_draft": "None",
   "median_time_in_labels": {},
-  "90_percentile_time_to_first_response": "51 days, 11:40:44",
-  "90_percentile_time_to_close": "329 days, 19:47:41",
+  "90_percentile_time_to_first_response": "51 days, 2:01:49",
+  "90_percentile_time_to_close": "327 days, 19:29:52",
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
   "90_percentile_time_in_labels": {},
-  "num_items_opened": 343,
-  "num_items_closed": 330,
+  "num_items_opened": 342,
+  "num_items_closed": 331,
   "num_mentor_count": 0,
   "total_item_count": 673,
   "issues": [
@@ -25,13 +25,13 @@
       "author": "MatusGasparik",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_first_response": "4 days, 5:25:23",
+      "time_to_close": "4 days, 20:15:58",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-07-31 10:07:32+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -136,7 +136,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-06-23 13:10:35+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -365,7 +365,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-05-27 12:50:43+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -380,7 +380,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-05-24 17:29:27+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -770,7 +770,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-02-22 15:33:04+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -800,7 +800,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-02-20 09:56:24+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -815,7 +815,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-01-31 17:23:32+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -866,7 +866,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-01-27 15:51:04+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -911,7 +911,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2025-01-09 20:24:20+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -1337,7 +1337,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-10-04 23:06:29+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -1352,7 +1352,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-10-02 18:29:14+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -1532,7 +1532,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-09-16 21:02:08+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -1609,7 +1609,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-08-12 17:39:08+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -1654,7 +1654,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-08-02 15:29:33+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -1669,7 +1669,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-08-02 14:16:29+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -1684,7 +1684,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-08-01 23:58:14+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -1956,7 +1956,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-07-11 14:21:41+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2001,7 +2001,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-07-09 22:11:36+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2016,7 +2016,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-07-09 21:38:50+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2076,7 +2076,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-07-08 05:32:41+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2091,7 +2091,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-07-08 04:46:42+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2243,7 +2243,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-06-15 06:28:42+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2427,7 +2427,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-05-22 04:17:36+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2457,7 +2457,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-05-21 08:31:23+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2622,7 +2622,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-04-26 14:56:37+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2832,7 +2832,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-04-11 19:19:46+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -3057,7 +3057,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-03-18 20:53:54+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -3468,7 +3468,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-02-05 13:54:39+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -3498,7 +3498,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-02-05 00:56:04+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -3618,7 +3618,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-01-23 17:02:08+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -3648,7 +3648,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-01-15 17:44:59+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -3678,7 +3678,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-01-13 20:47:49+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -3785,7 +3785,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2024-01-05 20:01:27+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -3860,7 +3860,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-12-24 13:30:02+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -3905,7 +3905,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-12-21 13:42:27+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4037,7 +4037,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-12-07 23:00:46+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4148,7 +4148,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-12-05 13:26:00+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "Wishlist"
     },
     {
@@ -4349,7 +4349,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-11-02 23:57:59+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4394,7 +4394,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-11-02 22:24:19+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4469,7 +4469,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-10-28 20:32:55+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4561,7 +4561,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-10-24 23:08:07+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4578,7 +4578,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-10-24 21:03:02+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4608,7 +4608,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-10-22 03:12:40+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4670,7 +4670,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-10-09 21:54:56+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "1.18.0"
     },
     {
@@ -4871,7 +4871,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-09-22 14:06:49+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4888,7 +4888,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-09-21 20:30:10+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4948,7 +4948,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-09-12 22:22:02+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -5053,7 +5053,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-08-29 07:27:50+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "1.18.0"
     },
     {
@@ -5083,7 +5083,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-08-23 23:37:58+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -5403,7 +5403,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-07-05 19:54:44+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -5478,7 +5478,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-06-22 19:01:56+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -5767,7 +5767,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-05-26 09:25:01+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "1.17.0"
     },
     {
@@ -6071,7 +6071,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-04-21 17:07:53+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -6341,7 +6341,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-03-16 20:00:38+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -6506,7 +6506,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-03-08 09:48:13+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -6791,7 +6791,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2023-01-19 09:25:24+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -6945,7 +6945,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-12-16 16:06:18+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -7187,7 +7187,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-12-01 22:11:59+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -7457,7 +7457,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-10-31 21:25:21+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -7873,7 +7873,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-18 12:38:17+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "1.21.x"
     },
     {
@@ -7948,7 +7948,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-16 17:58:23+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -8008,7 +8008,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-16 09:37:50+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "1.21.x"
     },
     {
@@ -8224,7 +8224,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-04 06:30:24+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "Wishlist"
     },
     {
@@ -8329,7 +8329,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-09-03 06:58:31+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "1.21.x"
     },
     {
@@ -8530,7 +8530,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-18 05:40:04+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "Wishlist"
     },
     {
@@ -8562,7 +8562,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-17 08:44:45+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "1.21.x"
     },
     {
@@ -8579,7 +8579,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-08-13 09:34:48+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "1.15.2"
     },
     {
@@ -8782,7 +8782,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-07-29 05:40:38+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "Wishlist"
     },
     {
@@ -8891,7 +8891,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-07-20 20:12:02+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9133,7 +9133,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-05-23 14:45:15+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9178,7 +9178,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-05-19 18:57:14+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9347,7 +9347,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-04-29 01:40:33+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9409,7 +9409,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-04-25 22:50:08+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9469,7 +9469,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-04-18 23:14:21+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "Post v2.0"
     },
     {
@@ -9529,7 +9529,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-04-06 18:12:00+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9576,7 +9576,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-04-04 15:15:40+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9591,7 +9591,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-04-04 15:08:43+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9621,7 +9621,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-04-04 14:43:49+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9771,7 +9771,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-03-15 13:57:31+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9801,7 +9801,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-03-10 12:23:48+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9816,7 +9816,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-03-10 11:13:44+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -9936,7 +9936,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-02-23 14:26:28+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "Wishlist"
     },
     {
@@ -9996,7 +9996,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-02-18 21:07:06+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -10148,7 +10148,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-01-21 13:12:51+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -10238,7 +10238,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-01-15 10:14:38+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -10268,7 +10268,7 @@
       "time_in_draft": "None",
       "label_metrics": {},
       "created_at": "2022-01-08 03:11:28+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     }
   ],
