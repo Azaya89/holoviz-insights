@@ -6,24 +6,7 @@ import hvplot.pandas  # noqa
 import panel as pn
 import holoviews as hv
 import panel_material_ui as pmu
-
-try:
-    # For running in browser
-    from pyodide_http import patch_all
-
-    patch_all()
-
-    import asyncio
-    from pyodide import loadPackage
-
-    async def ensure_fastparquet():
-        await loadPackage("fastparquet")
-
-    asyncio.ensure_future(ensure_fastparquet())
-
-except ImportError:
-    # Not running in Pyodide; skip patching or package loading
-    pass
+import fastparquet  # noqa
 
 pn.extension("tabulator", autoreload=True)
 
@@ -48,7 +31,9 @@ repo_files = {
     "Datashader": data_url + "datashader_metrics.parq",
 }
 
-repo_dfs = {name: pd.read_parquet(url) for name, url in repo_files.items()}
+repo_dfs = {
+    name: pd.read_parquet(url, engine="fastparquet") for name, url in repo_files.items()
+}
 repo_selector = pmu.Select(
     label="Select Repository", options=list(repo_files.keys()), value="HoloViews"
 )

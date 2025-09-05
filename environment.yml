@@ -5,7 +5,7 @@ channels:
 dependencies:
   - python=3.13
   - bokeh>=3.7.3
-  - panel>=1.7.0
+  # - panel>=1.7.0
   - hvplot
   - jupyter
   - notebook
@@ -17,3 +17,4 @@ dependencies:
   - pip
   - pip:
       - PyGithub
+      - git+https://github.com/holoviz/panel.git@00f5b27 # temp until new panel release
