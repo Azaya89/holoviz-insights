@@ -1,24 +1,235 @@
 {
-  "average_time_to_first_response": "29 days, 7:12:36",
-  "average_time_to_close": "92 days, 19:58:36",
+  "average_time_to_first_response": "38 days, 6:42:14",
+  "average_time_to_close": "111 days, 22:37:56",
   "average_time_to_answer": "None",
   "average_time_in_draft": "None",
   "average_time_in_labels": {},
-  "median_time_to_first_response": "12:38:55",
-  "median_time_to_close": "13 days, 21:03:21",
+  "median_time_to_first_response": "13:05:30",
+  "median_time_to_close": "14 days, 23:32:28",
   "median_time_to_answer": "None",
   "median_time_in_draft": "None",
   "median_time_in_labels": {},
-  "90_percentile_time_to_first_response": "53 days, 21:34:12",
-  "90_percentile_time_to_close": "339 days, 21:16:44",
+  "90_percentile_time_to_first_response": "59 days, 2:05:24",
+  "90_percentile_time_to_close": "402 days, 21:45:51",
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
   "90_percentile_time_in_labels": {},
-  "num_items_opened": 342,
-  "num_items_closed": 335,
+  "average_pr_comments": null,
+  "median_pr_comments": null,
+  "90_percentile_pr_comments": null,
+  "num_items_opened": 337,
+  "num_items_closed": 353,
   "num_mentor_count": 0,
-  "total_item_count": 677,
+  "total_item_count": 690,
   "issues": [
+    {
+      "title": "PolyDraw and PolyEdit vertices fail to disappear with their respective Polygons in DynamicMap",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6717",
+      "author": "manuvanegas",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "1 day, 11:41:53",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-10-30 00:00:22+00:00",
+      "maintainer_responded": true,
+      "milestone": null
+    },
+    {
+      "title": "Inconsistent behaviour with hv.Image hv.QuadMesh when plotting in logspace",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6714",
+      "author": "zhiihan",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "2 days, 22:31:32",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-10-28 16:39:43+00:00",
+      "maintainer_responded": true,
+      "milestone": null
+    },
+    {
+      "title": "xrotation is only applied to 1st level categorical axis",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6703",
+      "author": "BMM3",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "2 days, 0:46:48",
+      "time_to_close": "2 days, 19:53:29",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-10-07 11:57:09+00:00",
+      "maintainer_responded": true,
+      "milestone": null
+    },
+    {
+      "title": "RGB quadmesh?",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6701",
+      "author": "rabernat",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "1:25:48",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-10-02 18:28:53+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
+    {
+      "title": "Bars doesn\u2019t respect dict ordering",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6696",
+      "author": "G-Guillard",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "2:31:07",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-09-17 10:19:47+00:00",
+      "maintainer_responded": true,
+      "milestone": null
+    },
+    {
+      "title": "Set maximum bokeh version in pyproject.toml",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6695",
+      "author": "toddrjen",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "15:36:04",
+      "time_to_close": "15:36:04",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-09-16 17:49:18+00:00",
+      "maintainer_responded": true,
+      "milestone": null
+    },
+    {
+      "title": "hvplot/holoviews doesn't work with rx types",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6692",
+      "author": "ahuang11",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "0:01:00",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-09-12 21:07:28+00:00",
+      "maintainer_responded": true,
+      "milestone": null
+    },
+    {
+      "title": "Legend is wrongly defined when overlaying color-encoded categorical points",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6691",
+      "author": "maximlt",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-09-11 10:02:49+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
+    {
+      "title": "Setting selection_expr to None has no effect",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6688",
+      "author": "maximlt",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "44 days, 0:10:14",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-09-10 11:49:08+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
+    {
+      "title": "Selection region no longer displayed after setting selection_expr",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6687",
+      "author": "maximlt",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "44 days, 3:36:11",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-09-10 08:23:10+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
+    {
+      "title": "Harmonization of Image and HeatMap",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6686",
+      "author": "flying-sheep",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-09-09 15:46:35+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
+    {
+      "title": "hv.streams.PointerX (and PointerY) does not work.",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6684",
+      "author": "arafune",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "2:58:32",
+      "time_to_close": "21:47:36",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-09-09 04:50:31+00:00",
+      "maintainer_responded": true,
+      "milestone": null
+    },
+    {
+      "title": "Dendrogram: Allow using a categorical dimension to align to",
+      "html_url": "https://github.com/holoviz/holoviews/issues/6683",
+      "author": "flying-sheep",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-09-08 13:15:08+00:00",
+      "maintainer_responded": false,
+      "milestone": null
+    },
     {
       "title": "Bokeh validation warning when saving a plot using hv.save with frame_width/frame_height options set",
       "html_url": "https://github.com/holoviz/holoviews/issues/6668",
@@ -28,10 +239,11 @@
         "Azaya89"
       ],
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "13 days, 19:49:38",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-08-20 17:55:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -43,10 +255,11 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "0:03:09",
-      "time_to_close": "None",
+      "time_to_close": "15 days, 20:17:59",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-08-19 14:55:02+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -62,6 +275,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-08-10 18:31:52+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -79,6 +293,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-08-05 23:22:53+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -94,6 +309,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-07-31 10:07:32+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -111,6 +327,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-07-25 22:15:52+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -126,6 +343,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-07-12 00:10:30+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -141,6 +359,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-07-09 05:00:18+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -156,6 +375,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-07-03 10:51:06+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -164,13 +384,16 @@
       "title": "y-axis ordering flipped in hv.HeatMap with Matplotlib backend",
       "html_url": "https://github.com/holoviz/holoviews/issues/6644",
       "author": "Azaya89",
-      "assignee": null,
-      "assignees": [],
+      "assignee": "Azaya89",
+      "assignees": [
+        "Azaya89"
+      ],
       "time_to_first_response": "None",
       "time_to_close": "None",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-26 09:52:44+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -182,10 +405,11 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "1 day, 20:30:13",
-      "time_to_close": "None",
+      "time_to_close": "71 days, 18:24:00",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-25 14:52:26+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -201,6 +425,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-23 13:10:35+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -216,6 +441,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-23 13:09:24+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -231,6 +457,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-23 13:01:58+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -246,6 +473,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-23 09:43:16+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -261,6 +489,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-20 15:10:46+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -276,6 +505,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-20 13:44:43+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -291,6 +521,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-16 11:15:35+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -306,6 +537,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-13 16:33:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -321,6 +553,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-13 14:57:27+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -336,6 +569,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-06-12 08:03:51+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -351,6 +585,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-29 15:37:37+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -366,6 +601,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-28 10:07:34+00:00",
       "maintainer_responded": false,
       "milestone": "1.21.0"
@@ -383,6 +619,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-27 15:58:31+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -398,6 +635,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-27 15:18:30+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -415,6 +653,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-27 13:20:26+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -430,6 +669,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-27 12:50:43+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -445,6 +685,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-24 17:29:27+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -460,6 +701,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-23 13:01:00+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -477,6 +719,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-23 09:05:17+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -494,6 +737,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-23 08:59:51+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -509,6 +753,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-20 21:35:15+00:00",
       "maintainer_responded": true,
       "milestone": "1.21.0"
@@ -524,6 +769,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-20 12:12:10+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -541,6 +787,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-16 19:27:30+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -556,6 +803,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-15 19:34:35+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -571,6 +819,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-05-13 00:15:37+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -588,6 +837,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-04-28 14:57:16+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -605,6 +855,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-04-23 11:29:30+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -620,6 +871,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-04-22 07:23:15+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -635,6 +887,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-04-20 16:29:06+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -650,6 +903,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-04-16 01:26:23+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -667,6 +921,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-04-15 23:50:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -682,6 +937,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-04-09 11:56:11+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -697,6 +953,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-03-25 21:41:23+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -712,6 +969,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-03-23 21:18:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -727,6 +985,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-03-12 19:42:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -742,6 +1001,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-03-11 22:20:21+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -757,6 +1017,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-03-08 13:16:09+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -775,6 +1036,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-02-28 11:04:13+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -790,6 +1052,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-02-26 10:45:06+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -805,6 +1068,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-02-25 16:44:54+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -820,6 +1084,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-02-25 15:53:31+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -835,6 +1100,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-02-22 15:33:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -850,6 +1116,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-02-20 22:37:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -865,6 +1132,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-02-20 09:56:24+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -880,6 +1148,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-01-31 17:23:32+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -897,6 +1166,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-01-30 16:13:36+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -914,6 +1184,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-01-27 16:34:10+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -931,6 +1202,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-01-27 15:51:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -946,6 +1218,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-01-17 10:19:16+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -961,6 +1234,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-01-16 04:49:52+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -976,6 +1250,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-01-09 20:24:20+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -991,6 +1266,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-01-09 10:00:25+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1006,6 +1282,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-01-07 18:55:59+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1021,6 +1298,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2025-01-07 18:34:43+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1038,6 +1316,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-12-10 08:04:10+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1053,6 +1332,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-12-08 20:55:08+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1068,9 +1348,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-12-08 14:53:04+00:00",
       "maintainer_responded": true,
-      "milestone": "1.22.0"
+      "milestone": "1.23.0"
     },
     {
       "title": "Error raise when displaying the IEX Stocks",
@@ -1083,6 +1364,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-12-08 00:14:24+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1098,6 +1380,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-12-06 14:21:33+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1113,6 +1396,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-12-04 15:55:40+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1128,6 +1412,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-12-01 19:26:33+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1143,6 +1428,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-28 15:33:25+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1158,6 +1444,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-20 14:21:52+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1173,6 +1460,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-19 03:02:31+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1188,6 +1476,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-15 13:46:54+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1203,6 +1492,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-15 12:48:15+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1218,6 +1508,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-12 00:06:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1233,6 +1524,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-11 21:57:45+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1248,6 +1540,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-11 21:53:50+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1263,9 +1556,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-08 10:55:10+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": "1.23.0"
     },
     {
       "title": "DynamicMap does not support AdjointLayout",
@@ -1278,6 +1572,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-07 04:29:29+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1293,6 +1588,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-06 19:52:12+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1308,6 +1604,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-01 20:37:33+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1325,6 +1622,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-11-01 14:54:05+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1340,6 +1638,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-10-31 12:52:02+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1357,6 +1656,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-10-18 16:00:57+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1372,6 +1672,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-10-11 16:51:45+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1387,6 +1688,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-10-10 00:02:41+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1402,6 +1704,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-10-04 23:06:29+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1417,6 +1720,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-10-02 18:29:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1432,6 +1736,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-30 16:13:43+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1447,6 +1752,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-27 18:02:41+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1462,6 +1768,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-27 16:16:53+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1477,6 +1784,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-25 20:28:33+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1492,6 +1800,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-24 15:01:57+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1507,6 +1816,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-24 11:39:37+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1522,6 +1832,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-23 17:12:32+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1537,6 +1848,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-20 00:26:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1552,6 +1864,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-19 22:32:58+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1567,6 +1880,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-19 22:19:59+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1582,6 +1896,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-19 17:50:57+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1597,6 +1912,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-16 21:02:08+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1612,6 +1928,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-09-08 20:14:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1627,6 +1944,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-08-27 20:14:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1635,13 +1953,16 @@
       "title": "interpolation for Image is broken with datashade",
       "html_url": "https://github.com/holoviz/holoviews/issues/6361",
       "author": "ahartikainen",
-      "assignee": null,
-      "assignees": [],
+      "assignee": "Azaya89",
+      "assignees": [
+        "Azaya89"
+      ],
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "433 days, 4:31:07",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-08-15 07:44:51+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1657,6 +1978,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-08-12 18:08:59+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1674,6 +1996,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-08-12 17:39:08+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1689,6 +2012,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-08-07 13:46:51+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1704,6 +2028,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-08-05 11:12:52+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1719,6 +2044,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-08-02 15:29:33+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1734,6 +2060,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-08-02 14:16:29+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1749,6 +2076,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-08-01 23:58:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1764,6 +2092,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-08-01 16:07:08+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1779,6 +2108,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-29 18:55:02+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1794,6 +2124,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-29 10:39:28+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1811,6 +2142,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-26 17:36:31+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1826,6 +2158,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-24 17:48:29+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1841,6 +2174,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-23 18:52:12+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1856,6 +2190,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-21 10:19:09+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1871,6 +2206,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-21 09:26:53+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1886,6 +2222,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-18 14:28:08+00:00",
       "maintainer_responded": true,
       "milestone": "1.20.0"
@@ -1901,6 +2238,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-17 08:36:43+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1916,6 +2254,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-16 19:44:53+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1924,13 +2263,16 @@
       "title": "hv.timeseries doesn't work with xarray",
       "html_url": "https://github.com/holoviz/holoviews/issues/6328",
       "author": "ahuang11",
-      "assignee": null,
-      "assignees": [],
+      "assignee": "thuydotm",
+      "assignees": [
+        "thuydotm"
+      ],
       "time_to_first_response": "None",
       "time_to_close": "None",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-16 18:33:51+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -1946,6 +2288,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-16 06:03:08+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1961,6 +2304,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-15 20:45:48+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1976,6 +2320,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-15 10:21:13+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -1991,6 +2336,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-14 15:57:20+00:00",
       "maintainer_responded": false,
       "milestone": "1.20.0"
@@ -2006,6 +2352,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-11 20:28:47+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2021,6 +2368,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-11 14:21:41+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2036,9 +2384,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-10 15:25:45+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.1"
+      "milestone": "1.22.1"
     },
     {
       "title": "HSpan and VSpan break with hover tool",
@@ -2051,6 +2400,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-10 11:54:58+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2066,6 +2416,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-09 22:11:36+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2081,6 +2432,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-09 21:38:50+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2096,6 +2448,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-09 07:35:27+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2111,6 +2464,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-09 00:45:51+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2126,6 +2480,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-08 07:23:45+00:00",
       "maintainer_responded": false,
       "milestone": "1.20.0"
@@ -2141,6 +2496,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-08 05:32:41+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2156,6 +2512,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-08 04:46:42+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2171,6 +2528,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-04 07:43:49+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2186,6 +2544,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-07-03 20:30:42+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2201,6 +2560,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-29 13:39:57+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2216,6 +2576,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-28 18:15:18+00:00",
       "maintainer_responded": true,
       "milestone": " 1.19.1"
@@ -2231,6 +2592,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-28 15:53:52+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2246,6 +2608,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-27 19:28:32+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2263,6 +2626,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-23 22:34:21+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2278,6 +2642,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-19 12:54:42+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2293,6 +2658,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-18 07:56:06+00:00",
       "maintainer_responded": true,
       "milestone": "1.20.0"
@@ -2308,6 +2674,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-15 06:28:42+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2323,6 +2690,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-14 08:49:21+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2338,6 +2706,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-12 10:36:57+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2353,6 +2722,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-12 10:32:24+00:00",
       "maintainer_responded": false,
       "milestone": "1.19.0"
@@ -2368,6 +2738,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-10 14:49:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2385,6 +2756,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-07 10:46:53+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2402,6 +2774,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-06 14:39:04+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2417,6 +2790,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-05 08:27:03+00:00",
       "maintainer_responded": true,
       "milestone": "1.19.0"
@@ -2432,6 +2806,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-03 19:43:46+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2447,6 +2822,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-06-03 07:21:44+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2462,6 +2838,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-29 09:21:56+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2477,6 +2854,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-25 18:44:15+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2492,6 +2870,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-22 04:17:36+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2507,6 +2886,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-21 09:03:04+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2522,6 +2902,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-21 08:31:23+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2530,13 +2911,16 @@
       "title": "Adding tools to an Overlay has no effect",
       "html_url": "https://github.com/holoviz/holoviews/issues/6240",
       "author": "maximlt",
-      "assignee": null,
-      "assignees": [],
+      "assignee": "Azaya89",
+      "assignees": [
+        "Azaya89"
+      ],
       "time_to_first_response": "None",
       "time_to_close": "None",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-21 08:18:35+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2552,6 +2936,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-17 06:26:06+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2567,6 +2952,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-14 21:06:19+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2582,6 +2968,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-14 15:41:35+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2597,6 +2984,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-14 11:44:52+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2612,6 +3000,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-13 17:18:33+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2627,6 +3016,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-08 23:24:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2642,6 +3032,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-08 14:34:26+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2657,6 +3048,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-08 13:30:03+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2672,9 +3064,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-05-07 19:38:07+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.1"
+      "milestone": "1.22.1"
     },
     {
       "title": "`match_aspect` parameter for bokeh's `BoxZoomTool` is not working",
@@ -2687,6 +3080,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-26 14:56:37+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2702,6 +3096,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-26 02:06:38+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2717,6 +3112,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-24 07:04:58+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2732,6 +3128,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-23 14:19:55+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2747,6 +3144,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-23 09:30:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2762,6 +3160,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-22 18:19:28+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2777,6 +3176,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-22 07:17:51+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2792,6 +3192,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-17 11:46:44+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2807,6 +3208,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-15 21:59:19+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2822,6 +3224,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-15 17:46:59+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2837,6 +3240,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-12 14:01:03+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2852,6 +3256,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-12 12:34:10+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2867,6 +3272,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-12 02:57:09+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2882,6 +3288,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-11 22:32:49+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2897,6 +3304,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-11 19:19:46+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2912,6 +3320,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-09 08:30:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2927,6 +3336,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-08 13:38:07+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2942,6 +3352,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-08 08:31:36+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -2957,6 +3368,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-08 07:17:55+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2972,6 +3384,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-03 13:33:45+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -2987,6 +3400,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-03 13:15:26+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3002,6 +3416,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-04-01 11:17:21+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3017,6 +3432,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-29 12:58:50+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3032,6 +3448,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-27 19:22:21+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3047,6 +3464,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-26 11:11:33+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3062,6 +3480,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-22 18:05:28+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3077,6 +3496,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-20 14:56:23+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3092,6 +3512,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-20 11:29:59+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3107,6 +3528,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-19 13:35:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3122,6 +3544,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-18 20:53:54+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3137,6 +3560,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-14 18:58:35+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3152,6 +3576,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-14 18:55:37+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3167,6 +3592,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-04 06:26:38+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3182,6 +3608,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-01 14:07:22+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3197,6 +3624,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-03-01 00:32:38+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3212,6 +3640,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-29 22:49:27+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3227,6 +3656,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-29 16:21:47+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3244,6 +3674,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-28 00:14:31+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3259,6 +3690,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-27 21:19:26+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3274,6 +3706,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-27 04:38:30+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3289,6 +3722,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-26 13:20:45+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3304,6 +3738,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-22 20:35:06+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3321,6 +3756,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-22 12:28:06+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3338,6 +3774,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-20 15:59:47+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3353,6 +3790,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-19 21:10:49+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3368,6 +3806,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-19 14:26:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3383,6 +3822,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-15 15:11:06+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3398,6 +3838,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-14 22:35:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3413,6 +3854,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-13 19:59:50+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3428,6 +3870,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-12 21:58:57+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3443,6 +3886,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-12 10:29:23+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3458,6 +3902,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-12 08:05:12+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3473,6 +3918,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-07 22:13:24+00:00",
       "maintainer_responded": true,
       "milestone": " 1.19.1"
@@ -3488,6 +3934,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-07 17:17:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3503,6 +3950,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-07 15:19:39+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3518,6 +3966,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-06 14:46:20+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3533,6 +3982,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-05 13:54:39+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3548,6 +3998,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-05 05:55:24+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3563,6 +4014,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-05 00:56:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3578,6 +4030,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-02 18:44:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3593,6 +4046,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-02 13:01:16+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3608,6 +4062,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-02-01 14:31:19+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3619,10 +4074,11 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "5:29:33",
-      "time_to_close": "None",
+      "time_to_close": "602 days, 11:45:57",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-31 03:04:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3638,6 +4094,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-30 09:30:48+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3653,6 +4110,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-25 17:08:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3668,6 +4126,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-25 09:49:49+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3683,6 +4142,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-23 17:02:08+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3698,6 +4158,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-16 14:20:11+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3708,11 +4169,12 @@
       "author": "droumis",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_first_response": "608 days, 14:54:09",
+      "time_to_close": "612 days, 14:03:51",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-15 17:44:59+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3728,6 +4190,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-15 10:45:43+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3743,6 +4206,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-13 20:47:49+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3758,6 +4222,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-12 20:40:05+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3773,6 +4238,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-12 18:32:19+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3788,6 +4254,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-11 20:45:57+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3803,6 +4270,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-10 18:09:15+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3818,6 +4286,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-09 10:16:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3833,6 +4302,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-08 10:47:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3850,6 +4320,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-05 20:01:27+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3865,6 +4336,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-05 02:18:26+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3880,6 +4352,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2024-01-04 18:35:07+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3895,6 +4368,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-27 12:48:19+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3910,6 +4384,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-25 08:39:33+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -3925,6 +4400,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-24 13:30:02+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3940,6 +4416,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-22 15:05:02+00:00",
       "maintainer_responded": true,
       "milestone": "1.19.0"
@@ -3955,6 +4432,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-21 23:07:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3970,6 +4448,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-21 13:42:27+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -3987,6 +4466,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-11 17:39:22+00:00",
       "maintainer_responded": true,
       "milestone": "1.19.0"
@@ -4004,6 +4484,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-11 16:45:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4019,6 +4500,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-11 08:16:45+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4034,6 +4516,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-08 20:42:43+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4051,6 +4534,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-08 19:42:51+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4068,6 +4552,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-08 19:33:35+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4085,6 +4570,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-08 19:08:42+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4102,6 +4588,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-07 23:00:46+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4119,6 +4606,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-07 20:45:48+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4134,6 +4622,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-07 16:40:40+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4151,6 +4640,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-07 15:24:28+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4166,6 +4656,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-07 13:52:16+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4183,6 +4674,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-06 19:51:02+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4198,6 +4690,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-05 17:24:35+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4213,6 +4706,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-05 13:26:00+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -4228,6 +4722,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-04 22:47:46+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4243,6 +4738,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-12-01 21:39:07+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4258,6 +4754,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-28 09:56:33+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4273,6 +4770,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-24 11:36:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4290,6 +4788,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-21 13:43:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4305,6 +4804,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-16 21:36:59+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4320,6 +4820,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-15 15:19:13+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4335,6 +4836,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-12 06:34:11+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4350,9 +4852,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-09 14:47:07+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.1"
+      "milestone": "1.22.1"
     },
     {
       "title": "Autoranging on multi-line plots limits view to a single line",
@@ -4367,6 +4870,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-04 15:55:08+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4382,6 +4886,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-03 20:07:54+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4397,6 +4902,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-03 00:24:23+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4414,6 +4920,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-02 23:57:59+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4429,6 +4936,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-02 23:23:22+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4444,6 +4952,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-02 22:54:10+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4459,6 +4968,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-02 22:24:19+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4474,6 +4984,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-02 20:08:21+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4489,6 +5000,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-11-02 13:03:09+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4504,6 +5016,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-31 22:52:09+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4519,6 +5032,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-30 08:03:49+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4534,6 +5048,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-28 20:32:55+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4549,6 +5064,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-27 20:00:15+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4564,6 +5080,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-27 08:22:10+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4579,6 +5096,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-26 03:26:21+00:00",
       "maintainer_responded": false,
       "milestone": "1.18.1"
@@ -4594,6 +5112,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-26 03:20:53+00:00",
       "maintainer_responded": false,
       "milestone": "1.18.1"
@@ -4611,6 +5130,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-25 10:11:17+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4626,6 +5146,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-24 23:08:07+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4643,6 +5164,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-24 21:03:02+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4658,6 +5180,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-23 09:15:46+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4673,6 +5196,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-22 03:12:40+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4690,6 +5214,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-19 01:42:11+00:00",
       "maintainer_responded": false,
       "milestone": "1.19.0"
@@ -4705,6 +5230,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-15 02:38:28+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4720,6 +5246,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-13 09:46:17+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4735,6 +5262,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-09 21:54:56+00:00",
       "maintainer_responded": true,
       "milestone": "1.18.0"
@@ -4750,6 +5278,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-09 13:06:57+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4765,6 +5294,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-08 21:01:31+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4780,6 +5310,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-06 15:05:45+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4795,6 +5326,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-06 08:28:50+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4810,6 +5342,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-06 06:36:32+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4825,6 +5358,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-03 20:07:39+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4840,6 +5374,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-02 13:01:41+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4855,6 +5390,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-10-02 13:00:58+00:00",
       "maintainer_responded": true,
       "milestone": "1.18.1"
@@ -4870,6 +5406,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-29 11:31:45+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4887,6 +5424,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-26 18:13:07+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4902,6 +5440,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-23 00:31:18+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4919,6 +5458,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-22 14:28:25+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4936,6 +5476,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-22 14:06:49+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4953,6 +5494,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-21 20:30:10+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -4968,6 +5510,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-19 07:52:43+00:00",
       "maintainer_responded": false,
       "milestone": "1.18.0"
@@ -4983,6 +5526,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-17 06:00:34+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -4998,6 +5542,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-15 19:41:21+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5013,6 +5558,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-12 22:22:02+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5028,6 +5574,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-12 00:28:53+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5043,6 +5590,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-11 13:19:43+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5058,6 +5606,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-08 06:26:41+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5073,6 +5622,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-09-04 13:43:18+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5088,6 +5638,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-31 10:30:53+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5103,6 +5654,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-29 20:44:29+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5118,6 +5670,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-29 07:27:50+00:00",
       "maintainer_responded": true,
       "milestone": "1.18.0"
@@ -5133,6 +5686,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-27 14:59:00+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5148,6 +5702,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-23 23:37:58+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5163,6 +5718,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-17 06:07:19+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5178,6 +5734,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-16 15:41:55+00:00",
       "maintainer_responded": true,
       "milestone": " 1.19.1"
@@ -5193,6 +5750,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-11 11:52:46+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5208,6 +5766,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-08 10:17:16+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5223,6 +5782,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-08 08:12:29+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5238,6 +5798,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-06 23:51:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5253,6 +5814,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-04 18:47:10+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5268,6 +5830,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-08-04 15:38:48+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5283,6 +5846,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-30 18:08:56+00:00",
       "maintainer_responded": true,
       "milestone": "1.17.1"
@@ -5298,6 +5862,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-28 19:04:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5313,6 +5878,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-27 11:54:57+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5328,6 +5894,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-27 10:04:36+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5343,6 +5910,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-26 09:18:55+00:00",
       "maintainer_responded": false,
       "milestone": "1.17.1"
@@ -5358,6 +5926,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-25 08:58:44+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5376,9 +5945,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-21 19:54:09+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.1"
+      "milestone": "1.22.1"
     },
     {
       "title": "Holoviews.Dataset drops values from xarray dataarrays that use a boolean index",
@@ -5391,6 +5961,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-21 11:27:03+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5408,6 +5979,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-21 05:01:30+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5423,6 +5995,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-17 22:44:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5438,6 +6011,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-14 17:01:50+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5453,6 +6027,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-11 09:03:05+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5468,6 +6043,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-05 19:54:44+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5483,6 +6059,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-01 18:54:30+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5498,6 +6075,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-07-01 18:02:04+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5513,6 +6091,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-29 16:00:34+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5528,6 +6107,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-23 13:40:41+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5543,6 +6123,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-22 19:01:56+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5558,6 +6139,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-22 13:44:01+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5573,6 +6155,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-22 12:04:08+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5590,6 +6173,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-21 07:38:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5605,6 +6189,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-20 09:40:30+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5620,9 +6205,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-19 19:25:51+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "link_selections support for hvplot.interactive, hvplot.bind, pn.bind",
@@ -5635,6 +6221,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-16 23:50:24+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5650,6 +6237,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-13 21:22:48+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5665,6 +6253,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-12 10:41:00+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5680,6 +6269,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-12 00:48:10+00:00",
       "maintainer_responded": true,
       "milestone": "1.18.0"
@@ -5695,6 +6285,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-10 15:17:16+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5712,6 +6303,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-09 19:31:05+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5727,6 +6319,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-07 12:01:47+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5742,6 +6335,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-07 07:23:48+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5757,6 +6351,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-05 08:33:52+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -5772,9 +6367,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-04 22:27:06+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "conda installed failed",
@@ -5787,6 +6383,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-02 23:18:17+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5802,6 +6399,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-06-02 12:20:54+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5817,6 +6415,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-27 04:27:54+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5832,6 +6431,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-26 09:25:01+00:00",
       "maintainer_responded": true,
       "milestone": "1.17.0"
@@ -5847,6 +6447,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-25 19:43:17+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5864,6 +6465,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-25 12:33:37+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5879,6 +6481,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-23 15:54:39+00:00",
       "maintainer_responded": true,
       "milestone": "1.16.1"
@@ -5896,6 +6499,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-23 03:17:36+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5911,6 +6515,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-22 22:59:54+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5926,6 +6531,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-19 04:39:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5941,6 +6547,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-16 07:51:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5956,6 +6563,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-10 17:52:15+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5971,6 +6579,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-10 17:43:25+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -5986,6 +6595,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-10 08:12:07+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6001,6 +6611,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-08 12:32:15+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6016,6 +6627,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-07 02:01:07+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6031,6 +6643,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-05 08:58:15+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6046,6 +6659,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-05-04 16:49:30+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6061,6 +6675,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-27 15:43:04+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6076,6 +6691,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-27 08:25:53+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6091,6 +6707,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-25 17:45:55+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6106,6 +6723,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-25 14:37:52+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6121,6 +6739,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-24 21:45:30+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6136,6 +6755,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-21 17:07:53+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6151,6 +6771,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-21 15:31:52+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6166,6 +6787,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-21 10:21:39+00:00",
       "maintainer_responded": false,
       "milestone": "1.16.0"
@@ -6181,6 +6803,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-20 13:24:18+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6196,9 +6819,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-20 09:35:12+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "HoloMap with sort=False displays sorted legend/widgets",
@@ -6211,9 +6835,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-19 18:47:44+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "[BUG] memory leak on hv.extension('bokeh') #13088",
@@ -6226,6 +6851,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-17 17:21:47+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6241,6 +6867,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-16 08:16:39+00:00",
       "maintainer_responded": false,
       "milestone": "1.16.0"
@@ -6256,6 +6883,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-14 18:08:28+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6271,6 +6899,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-12 12:52:55+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6286,6 +6915,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-11 19:14:08+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6301,6 +6931,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-07 19:40:41+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6316,6 +6947,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-06 17:56:57+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6331,6 +6963,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-04-04 11:41:13+00:00",
       "maintainer_responded": true,
       "milestone": "1.16.0"
@@ -6346,6 +6979,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-31 19:01:53+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6361,6 +6995,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-28 17:18:46+00:00",
       "maintainer_responded": true,
       "milestone": "1.16.0"
@@ -6376,6 +7011,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-23 15:29:22+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6391,6 +7027,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-18 10:32:06+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6406,6 +7043,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-16 20:00:38+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6421,6 +7059,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-15 00:15:06+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6436,6 +7075,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-13 13:12:24+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6451,6 +7091,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-12 19:15:16+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6466,6 +7107,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-12 18:52:37+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6481,6 +7123,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-12 18:26:07+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6496,6 +7139,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-12 07:31:52+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6511,6 +7155,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-11 18:16:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6526,6 +7171,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-10 22:18:50+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6541,9 +7187,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-09 08:57:49+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Long Labels are cut off in Sankey plots",
@@ -6556,6 +7203,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-08 14:51:18+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6571,6 +7219,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-08 09:48:13+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6586,6 +7235,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-08 09:43:26+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6601,6 +7251,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-07 02:50:54+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6616,6 +7267,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-04 01:32:45+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6631,6 +7283,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-03-01 21:27:22+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6646,6 +7299,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-02-23 15:27:14+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6661,6 +7315,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-02-11 12:17:55+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6676,6 +7331,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-02-10 11:34:13+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6691,6 +7347,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-02-10 10:00:33+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6706,9 +7363,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-02-08 13:35:30+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "New and Unexpected Warning: Tool of type could not be found and could not be activated by default.",
@@ -6721,6 +7379,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-02-07 22:41:25+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6736,6 +7395,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-02-06 20:49:30+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6751,6 +7411,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-31 19:36:12+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6766,6 +7427,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-27 11:09:23+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6781,6 +7443,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-24 09:04:58+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6796,6 +7459,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-24 09:00:31+00:00",
       "maintainer_responded": true,
       "milestone": "1.16.0"
@@ -6811,6 +7475,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-24 08:52:27+00:00",
       "maintainer_responded": true,
       "milestone": "1.16.0"
@@ -6826,6 +7491,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-24 08:46:48+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6841,6 +7507,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-20 07:36:23+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6856,6 +7523,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-19 09:25:24+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6873,6 +7541,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-18 15:49:27+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -6890,6 +7559,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-16 17:02:30+00:00",
       "maintainer_responded": true,
       "milestone": "1.17.0"
@@ -6905,6 +7575,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-15 18:10:43+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6920,9 +7591,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-14 08:11:05+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "hv.Div ignores HTML tags when updated with Link",
@@ -6935,6 +7607,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2023-01-13 11:21:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6950,6 +7623,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-28 17:26:33+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6965,9 +7639,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-27 00:24:12+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Support markers on line traces (curve) as an option. ",
@@ -6980,6 +7655,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-21 03:41:54+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -6995,6 +7671,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-20 18:31:19+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7010,6 +7687,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-16 16:06:18+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7025,6 +7703,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-16 14:45:11+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7040,6 +7719,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-16 14:19:39+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7057,6 +7737,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-16 02:33:45+00:00",
       "maintainer_responded": false,
       "milestone": "Wishlist"
@@ -7072,6 +7753,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-14 01:11:26+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7087,6 +7769,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-13 03:03:22+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7097,13 +7780,14 @@
       "author": "MarcSkovMadsen",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_first_response": "1056 days, 5:55:39",
+      "time_to_close": "1056 days, 5:55:39",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-10 06:08:41+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -7117,6 +7801,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-09 20:51:14+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7132,6 +7817,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-07 20:19:36+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7147,6 +7833,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-06 23:59:36+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7162,6 +7849,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-06 18:32:37+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7177,6 +7865,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-05 10:34:05+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7192,6 +7881,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-02 23:05:11+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7207,6 +7897,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-02 20:47:51+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7222,6 +7913,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-02 08:55:02+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7237,6 +7929,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-02 08:15:46+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.3"
@@ -7252,6 +7945,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-12-01 22:11:59+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7267,6 +7961,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-30 08:20:42+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7282,6 +7977,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-29 12:06:35+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7293,10 +7989,11 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "1071 days, 4:09:58",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-28 06:20:18+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7312,6 +8009,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-27 09:01:45+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7322,14 +8020,15 @@
       "author": "MarcSkovMadsen",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_first_response": "1069 days, 7:19:04",
+      "time_to_close": "1069 days, 7:19:03",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-27 04:47:57+00:00",
-      "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "maintainer_responded": true,
+      "milestone": "1.22.x"
     },
     {
       "title": "xarray required dependency to import rasterize",
@@ -7342,6 +8041,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-26 20:05:40+00:00",
       "maintainer_responded": false,
       "milestone": "1.15.3"
@@ -7353,13 +8053,14 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "1070 days, 2:56:01",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-26 08:58:58+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Make the ibis backend visible and useful",
@@ -7372,6 +8073,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-26 08:56:19+00:00",
       "maintainer_responded": false,
       "milestone": "Wishlist"
@@ -7387,6 +8089,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-24 12:40:37+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7402,6 +8105,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-24 00:44:14+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7417,6 +8121,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-22 14:44:57+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7432,9 +8137,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-22 09:11:56+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Document handling of stream and user input value clashing",
@@ -7447,6 +8153,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-18 14:34:56+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7462,6 +8169,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-14 09:48:17+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -7477,6 +8185,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-08 07:20:53+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7492,6 +8201,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-04 16:29:54+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7507,6 +8217,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-11-03 12:09:45+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7522,6 +8233,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-31 21:25:21+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7537,9 +8249,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-31 12:01:54+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Overlaying 2 plots only shows 1 y axis at a time",
@@ -7552,6 +8265,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-29 23:09:57+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7567,6 +8281,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-23 17:41:11+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7582,9 +8297,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-20 13:24:20+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Set up UI testing",
@@ -7599,9 +8315,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-19 16:30:32+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Incomplete and/or broken _repr_html_() methods",
@@ -7614,9 +8331,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-19 14:47:17+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Lasso Select no longer working with cross filtering",
@@ -7629,6 +8347,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-19 08:24:05+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.2"
@@ -7644,6 +8363,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-17 11:27:06+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7659,6 +8379,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-17 08:59:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7674,6 +8395,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-15 05:48:38+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7689,9 +8411,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-14 17:45:40+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.1"
+      "milestone": "1.22.1"
     },
     {
       "title": "Curves failing to colormap boolean columns",
@@ -7704,6 +8427,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-13 13:41:57+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7719,6 +8443,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-13 12:28:32+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7734,6 +8459,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-11 08:48:45+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7749,6 +8475,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-10 14:52:08+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7766,6 +8493,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-08 10:20:13+00:00",
       "maintainer_responded": false,
       "milestone": "1.15.2"
@@ -7781,6 +8509,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-05 22:20:05+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7796,6 +8525,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-04 16:48:31+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7814,6 +8544,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-02 21:15:52+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.1"
@@ -7829,6 +8560,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-10-02 02:03:30+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7846,6 +8578,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-30 19:08:21+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7863,6 +8596,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-30 07:13:40+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7873,13 +8607,14 @@
       "author": "MarcSkovMadsen",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_first_response": "1127 days, 11:04:58",
+      "time_to_close": "1127 days, 11:04:58",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-30 00:55:48+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -7893,6 +8628,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-28 11:37:59+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7908,6 +8644,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-22 22:55:25+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -7923,6 +8660,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-19 20:04:58+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -7938,9 +8676,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-18 12:38:17+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Dashboard Grid Layout",
@@ -7953,6 +8692,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-18 05:09:12+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -7968,9 +8708,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-17 09:00:14+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Make it easy to use linked brushing with categorical data and plots",
@@ -7983,6 +8724,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-17 00:47:03+00:00",
       "maintainer_responded": false,
       "milestone": "Wishlist"
@@ -7998,9 +8740,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-17 00:30:11+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "BoundsXY stream not updated on an NdOverlay of scatter plots",
@@ -8013,6 +8756,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-16 17:58:23+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -8028,6 +8772,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-16 17:45:17+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -8043,9 +8788,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-16 16:59:15+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Make laying out plotly based dashboard easy",
@@ -8058,9 +8804,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-16 15:15:42+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Multiplying two overlays don't respect shared opts ",
@@ -8073,9 +8820,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-16 09:37:50+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Dimension repr incomplete when name and label identical",
@@ -8088,6 +8836,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-14 19:25:05+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -8105,9 +8854,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-13 13:48:57+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Set initial selected range for RangeToolLink",
@@ -8122,6 +8872,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-12 08:35:46+00:00",
       "maintainer_responded": false,
       "milestone": "Wishlist"
@@ -8137,9 +8888,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-11 21:05:13+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Game of Life example needs update",
@@ -8154,6 +8906,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-11 20:19:33+00:00",
       "maintainer_responded": false,
       "milestone": "1.15.1"
@@ -8169,6 +8922,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-08 21:50:26+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -8184,6 +8938,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-08 07:57:39+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -8199,6 +8954,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-07 11:13:14+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.3"
@@ -8214,6 +8970,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-07 11:08:06+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -8229,6 +8986,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-06 08:49:56+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -8244,6 +9002,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-06 08:41:12+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -8259,6 +9018,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-05 20:49:37+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -8274,9 +9034,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-04 06:36:11+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Add hv.help(hv.<element>)  to all reference notebooks",
@@ -8289,6 +9050,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-04 06:30:24+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -8304,6 +9066,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-04 04:57:00+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -8319,9 +9082,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-04 04:42:24+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Sort the parameter lists generated by hv.help alphabetically",
@@ -8334,9 +9098,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-04 04:22:23+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Colorbar for matplotlib Scatter3D placed on top of z-axis title",
@@ -8349,9 +9114,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-03 08:13:51+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Scatter3d vdims not working",
@@ -8364,9 +9130,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-03 07:48:23+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Docstrings are systematically missing",
@@ -8379,6 +9146,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-03 07:32:28+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -8394,9 +9162,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-03 06:58:31+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Documentation of save not working",
@@ -8409,9 +9178,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-09-03 06:03:51+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Disable interpolation as default for non equal size input",
@@ -8424,6 +9194,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-29 08:04:23+00:00",
       "maintainer_responded": true,
       "milestone": "v2.0"
@@ -8439,9 +9210,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-28 06:30:37+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "http://holoviews.org/ not secure",
@@ -8454,6 +9226,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-26 05:07:55+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.2"
@@ -8471,6 +9244,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-25 10:27:37+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.3"
@@ -8486,6 +9260,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-25 08:33:08+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.1"
@@ -8501,6 +9276,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-24 14:38:12+00:00",
       "maintainer_responded": true,
       "milestone": "Post v2.0"
@@ -8516,9 +9292,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-22 18:36:51+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Axes get distorted by updates to plot",
@@ -8533,9 +9310,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-22 15:52:49+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Multiple display calls of vectorfield changes its own magnitude data",
@@ -8550,6 +9328,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-19 14:39:11+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -8565,6 +9344,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-18 14:18:17+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -8580,9 +9360,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-18 10:12:11+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Make it easier for users of Param to understand and work with HoloViews",
@@ -8595,6 +9376,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-18 05:40:04+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -8610,9 +9392,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-18 05:26:23+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Support legend_labels also for Overlays",
@@ -8627,9 +9410,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-17 08:44:45+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "RangeToolLink turn background grey on one plot",
@@ -8644,6 +9428,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-13 09:34:48+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.2"
@@ -8661,6 +9446,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-12 13:21:30+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -8678,6 +9464,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-12 11:19:22+00:00",
       "maintainer_responded": false,
       "milestone": "1.15.1"
@@ -8693,9 +9480,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-09 04:59:13+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "RangeX stream event doesn't trigger the event after update to v1.15",
@@ -8708,6 +9496,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-09 00:52:24+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.1"
@@ -8725,9 +9514,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-08 00:40:43+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Rendering an NdOverlay with bool kdim raises TypeError",
@@ -8742,6 +9532,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-04 18:03:32+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.1"
@@ -8757,6 +9548,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-03 05:47:11+00:00",
       "maintainer_responded": true,
       "milestone": "1.16.0"
@@ -8772,6 +9564,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-02 15:24:29+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -8787,9 +9580,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-08-01 05:42:05+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Warn or error when not enough colors are set for a categorically shaded plot",
@@ -8802,6 +9596,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-29 10:17:49+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -8817,6 +9612,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-29 06:19:49+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -8832,6 +9628,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-29 06:01:28+00:00",
       "maintainer_responded": false,
       "milestone": "Wishlist"
@@ -8847,6 +9644,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-29 05:40:38+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -8862,6 +9660,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-29 05:17:47+00:00",
       "maintainer_responded": false,
       "milestone": "Wishlist"
@@ -8877,6 +9676,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-28 15:42:32+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -8892,6 +9692,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-26 22:24:24+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -8907,6 +9708,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-24 07:30:56+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -8922,6 +9724,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-22 18:42:17+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -8939,6 +9742,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-21 17:22:57+00:00",
       "maintainer_responded": true,
       "milestone": "1.16.0"
@@ -8956,6 +9760,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-20 20:12:02+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -8973,6 +9778,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-18 15:22:37+00:00",
       "maintainer_responded": true,
       "milestone": "v2.0"
@@ -8988,6 +9794,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-07-12 08:51:47+00:00",
       "maintainer_responded": true,
       "milestone": "1.16.0"
@@ -9003,6 +9810,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-21 10:52:54+00:00",
       "maintainer_responded": false,
       "milestone": "1.15.0"
@@ -9018,6 +9826,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-21 05:17:16+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9033,6 +9842,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-17 13:46:09+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9048,9 +9858,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-15 12:57:54+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Support loading RGB image from url",
@@ -9063,6 +9874,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-13 15:23:49+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9074,13 +9886,14 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "272 days, 7:13:32",
-      "time_to_close": "None",
+      "time_to_close": "1180 days, 10:11:48",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-12 23:33:41+00:00",
-      "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "maintainer_responded": true,
+      "milestone": "1.22.x"
     },
     {
       "title": "Contour operation is not working properly + not working colormaps for Contours on Matplotlib",
@@ -9093,6 +9906,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-11 02:36:34+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9108,6 +9922,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-08 20:32:47+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9123,6 +9938,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-05 06:52:35+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9138,6 +9954,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-04 13:29:19+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9153,6 +9970,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-06-03 12:05:21+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9168,6 +9986,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-26 21:45:38+00:00",
       "maintainer_responded": false,
       "milestone": "Wishlist"
@@ -9183,6 +10002,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-23 22:30:22+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9198,6 +10018,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-23 14:45:15+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9213,6 +10034,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-23 10:37:02+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9228,6 +10050,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-20 12:23:15+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.0"
@@ -9243,6 +10066,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-19 18:57:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9258,6 +10082,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-16 20:53:11+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9273,6 +10098,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-16 12:52:05+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9288,9 +10114,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-16 08:16:31+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Spurious Bokeh test failure `TestOverlayPlot.test_active_tools_draw_stream`",
@@ -9303,6 +10130,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-16 08:07:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9318,6 +10146,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-16 07:36:01+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9333,6 +10162,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-10 17:26:12+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9348,6 +10178,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-06 20:44:14+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9365,6 +10196,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-05 20:20:53+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9380,6 +10212,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-05-01 10:11:51+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9397,6 +10230,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-30 03:07:05+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9412,6 +10246,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-29 01:40:33+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9427,6 +10262,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-28 09:56:08+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9442,6 +10278,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-26 03:54:32+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9457,6 +10294,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-25 22:54:57+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.1"
@@ -9474,6 +10312,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-25 22:50:08+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9489,6 +10328,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-25 10:16:57+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9504,6 +10344,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-20 10:44:03+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9519,6 +10360,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-20 08:42:07+00:00",
       "maintainer_responded": true,
       "milestone": "1.15.0"
@@ -9534,6 +10376,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-18 23:14:21+00:00",
       "maintainer_responded": true,
       "milestone": "Post v2.0"
@@ -9549,6 +10392,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-15 13:01:31+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9564,6 +10408,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-13 21:59:05+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9579,6 +10424,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-13 08:48:13+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9594,6 +10440,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-06 18:12:00+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9611,6 +10458,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-06 16:00:14+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9626,6 +10474,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-05 10:26:00+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9641,6 +10490,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-04 15:15:40+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9656,6 +10506,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-04 15:08:43+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9671,6 +10522,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-04 14:59:09+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9686,6 +10538,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-04 14:43:49+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9701,6 +10554,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-04 14:37:38+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9716,6 +10570,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-04-01 08:21:10+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9731,6 +10586,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-29 16:24:45+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9746,6 +10602,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-28 15:15:34+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9761,6 +10618,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-25 11:20:56+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9776,6 +10634,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-24 17:37:11+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9791,9 +10650,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-18 15:28:50+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Make hv.Cycle KeyError text more helpful or read keys for hv.Cycle automatically",
@@ -9806,6 +10666,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-17 12:29:21+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9821,6 +10682,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-16 04:54:52+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9836,6 +10698,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-15 13:57:31+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9851,6 +10714,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-10 15:13:06+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9866,6 +10730,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-10 12:23:48+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9881,6 +10746,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-10 11:13:44+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9896,6 +10762,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-08 20:31:01+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9911,6 +10778,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-04 07:16:05+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -9926,6 +10794,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-03-02 17:14:23+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9941,6 +10810,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-24 23:28:58+00:00",
       "maintainer_responded": false,
       "milestone": "Wishlist"
@@ -9956,6 +10826,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-23 20:17:01+00:00",
       "maintainer_responded": false,
       "milestone": "Wishlist"
@@ -9971,6 +10842,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-23 19:47:46+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -9986,6 +10858,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-23 14:32:29+00:00",
       "maintainer_responded": false,
       "milestone": "v2.0"
@@ -10001,6 +10874,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-23 14:26:28+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -10016,9 +10890,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-23 00:50:33+00:00",
       "maintainer_responded": false,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "HexTiles plot with Plotly",
@@ -10031,6 +10906,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-22 18:47:43+00:00",
       "maintainer_responded": true,
       "milestone": "Wishlist"
@@ -10046,9 +10922,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-22 09:31:55+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "Feature regression for hvplot.xarray since holoviews 1.14.7",
@@ -10061,6 +10938,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-18 21:07:06+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -10076,6 +10954,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-17 16:29:42+00:00",
       "maintainer_responded": true,
       "milestone": "v2.0"
@@ -10091,6 +10970,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-17 07:12:48+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -10106,9 +10986,10 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-02-03 16:51:23+00:00",
       "maintainer_responded": true,
-      "milestone": "1.21.x"
+      "milestone": "1.22.x"
     },
     {
       "title": "HoloViews scatter plot hover is slow when color is set",
@@ -10121,6 +11002,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-29 13:35:14+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -10136,6 +11018,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-28 12:01:47+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -10153,6 +11036,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-27 12:46:47+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -10168,6 +11052,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-26 10:20:17+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -10183,6 +11068,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-24 17:53:18+00:00",
       "maintainer_responded": false,
       "milestone": "Wishlist"
@@ -10198,6 +11084,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-23 01:25:33+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -10213,6 +11100,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-21 13:12:51+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -10228,6 +11116,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-21 10:13:58+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -10243,6 +11132,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-20 20:22:31+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -10258,6 +11148,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-20 10:54:30+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -10273,6 +11164,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-19 21:36:28+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -10288,6 +11180,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-18 13:14:36+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -10303,6 +11196,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-15 10:14:38+00:00",
       "maintainer_responded": true,
       "milestone": null
@@ -10318,6 +11212,7 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-08 13:41:06+00:00",
       "maintainer_responded": false,
       "milestone": null
@@ -10325,7 +11220,7 @@
     {
       "title": "Bokeh import bug",
       "html_url": "https://github.com/holoviz/holoviews/issues/5177",
-      "author": "gandrademachine",
+      "author": "bielhxx",
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "10:36:24",
@@ -10333,10 +11228,11 @@
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
+      "pr_comment_count": null,
       "created_at": "2022-01-08 03:11:28+00:00",
       "maintainer_responded": true,
       "milestone": null
     }
   ],
-  "search_query": "repo:holoviz/holoviews is:issue created:2022-01-01..2025-08-31 -label:\"duplicate\""
+  "search_query": "repo:holoviz/holoviews is:issue created:2022-01-01..2025-10-31 -label:\"duplicate\""
 }
