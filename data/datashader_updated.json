@@ -761,7 +761,7 @@
       "pr_comment_count": null,
       "created_at": "2023-08-17 08:17:38+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Bug in summary reduction using multiple where reductions with the same selector",
@@ -811,7 +811,7 @@
       "pr_comment_count": null,
       "created_at": "2023-08-11 08:13:25+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "summary reduction containing a by reduction and any other reduction fails",
@@ -1153,7 +1153,7 @@
       "pr_comment_count": null,
       "created_at": "2023-03-07 13:19:03+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Imports from `collections.abc`, not `collections` module",
@@ -1283,7 +1283,7 @@
       "pr_comment_count": null,
       "created_at": "2023-01-04 18:51:57+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Insufficient validation of Canvas.line input lengths",
@@ -1299,7 +1299,7 @@
       "pr_comment_count": null,
       "created_at": "2023-01-03 13:14:06+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Support numpy 1.24",
@@ -1363,7 +1363,7 @@
       "pr_comment_count": null,
       "created_at": "2022-11-17 11:34:20+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Documentation about antialiased lines",
@@ -1379,7 +1379,7 @@
       "pr_comment_count": null,
       "created_at": "2022-11-17 11:24:18+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "```ModuleNotFoundError: No module named 'datashader.bokeh_ext'```",
@@ -1497,7 +1497,7 @@
       "pr_comment_count": null,
       "created_at": "2022-10-04 16:27:01+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "\"Killed\" with demo example (but too much points in entry?)",
@@ -1529,7 +1529,7 @@
       "pr_comment_count": null,
       "created_at": "2022-09-26 16:58:59+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Datashader discards spatialpandas spatial indexer",
@@ -1545,7 +1545,7 @@
       "pr_comment_count": null,
       "created_at": "2022-09-14 13:56:55+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Docs page not working",
@@ -1593,7 +1593,7 @@
       "pr_comment_count": null,
       "created_at": "2022-09-01 10:30:04+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Trimesh: document associating data with simplices",
@@ -1609,7 +1609,7 @@
       "pr_comment_count": null,
       "created_at": "2022-08-22 18:28:26+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "CI failing with dask 2022.8.0",
@@ -1625,7 +1625,7 @@
       "pr_comment_count": null,
       "created_at": "2022-08-08 11:47:13+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Broken links in docs in tables of contents (Pipeline.html & Plotting_Pitfalls.html)",
@@ -1673,7 +1673,7 @@
       "pr_comment_count": null,
       "created_at": "2022-06-02 10:43:11+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "UFuncTypeError: over(img.data, background)",
@@ -1721,7 +1721,7 @@
       "pr_comment_count": null,
       "created_at": "2022-05-22 03:26:04+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Way to get log axes with datashader dsshow and matplotlib",
@@ -1769,7 +1769,7 @@
       "pr_comment_count": null,
       "created_at": "2022-05-04 18:21:36+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.16.x"
+      "milestone": "v0.19.x"
     },
     {
       "title": "Antialiasing categorical aggregates",
@@ -1966,5 +1966,5 @@
       "milestone": "0.14.0"
     }
   ],
-  "search_query": "repo:holoviz/datashader is:issue created:2022-01-01..2025-10-31 -label:\"duplicate\""
+  "search_query": "repo:holoviz/datashader is:issue created:2022-01-01..2025-11-30 -label:\"duplicate\""
 }
