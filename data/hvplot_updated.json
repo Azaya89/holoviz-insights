@@ -51,7 +51,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2025-10-23 01:45:43+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2351,7 +2351,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2024-08-27 08:35:28+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4519,7 +4519,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2023-07-22 10:20:34+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -5259,7 +5259,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2023-03-11 20:34:41+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -5275,7 +5275,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2023-03-11 20:15:34+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -5693,7 +5693,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-11-30 17:15:36+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "0.8.2"
     },
     {
@@ -5789,7 +5789,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-11-26 07:43:56+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "Wishlist"
     },
     {
@@ -5917,7 +5917,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-11-21 15:13:07+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "next"
     },
     {
@@ -6141,7 +6141,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-10-27 17:29:39+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "next"
     },
     {
@@ -6818,7 +6818,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-08-30 04:11:58+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -6994,7 +6994,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-08-28 14:34:47+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -7074,7 +7074,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-08-28 06:19:19+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "next"
     },
     {
@@ -7106,7 +7106,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-08-27 09:17:12+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "next"
     },
     {
@@ -7170,7 +7170,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-08-26 04:26:16+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -7186,7 +7186,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-08-25 18:54:18+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "next"
     },
     {
@@ -7234,7 +7234,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-08-25 13:06:49+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -7362,7 +7362,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-08-25 11:27:49+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "Wishlist"
     },
     {
@@ -7670,7 +7670,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-08-03 06:16:38+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "next"
     },
     {

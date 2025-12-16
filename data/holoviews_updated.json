@@ -1,24 +1,24 @@
 {
-  "average_time_to_first_response": "37 days, 23:46:56",
-  "average_time_to_close": "112 days, 8:34:13",
+  "average_time_to_first_response": "39 days, 8:32:19",
+  "average_time_to_close": "123 days, 17:26:14",
   "average_time_to_answer": "None",
   "average_time_in_draft": "None",
   "average_time_in_labels": {},
-  "median_time_to_first_response": "12:46:22",
-  "median_time_to_close": "14 days, 20:49:10",
+  "median_time_to_first_response": "12:51:22",
+  "median_time_to_close": "15 days, 20:17:59",
   "median_time_to_answer": "None",
   "median_time_in_draft": "None",
   "median_time_in_labels": {},
-  "90_percentile_time_to_first_response": "58 days, 9:02:20",
-  "90_percentile_time_to_close": "404 days, 19:03:46",
+  "90_percentile_time_to_first_response": "60 days, 15:08:21",
+  "90_percentile_time_to_close": "439 days, 14:34:28",
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
   "90_percentile_time_in_labels": {},
   "average_pr_comments": null,
   "median_pr_comments": null,
   "90_percentile_pr_comments": null,
-  "num_items_opened": 337,
-  "num_items_closed": 358,
+  "num_items_opened": 330,
+  "num_items_closed": 365,
   "num_mentor_count": 0,
   "total_item_count": 695,
   "issues": [
@@ -1756,7 +1756,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2024-10-11 16:51:45+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2226,7 +2226,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2024-07-26 17:36:31+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -2606,7 +2606,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "529 days, 2:50:30",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -3046,7 +3046,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "569 days, 3:58:46",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -3141,15 +3141,15 @@
       "author": "stanwest",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_first_response": "582 days, 13:35:28",
+      "time_to_close": "582 days, 13:35:28",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2024-05-07 19:38:07+00:00",
-      "maintainer_responded": false,
-      "milestone": "1.22.1"
+      "maintainer_responded": true,
+      "milestone": null
     },
     {
       "title": "`match_aspect` parameter for bokeh's `BoxZoomTool` is not working",
@@ -3548,7 +3548,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2024-03-26 11:11:33+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
@@ -4507,10 +4507,12 @@
       "title": "Missing documentation on `legend_opts`",
       "html_url": "https://github.com/holoviz/holoviews/issues/6047",
       "author": "asmith26",
-      "assignee": null,
-      "assignees": [],
+      "assignee": "Azaya89",
+      "assignees": [
+        "Azaya89"
+      ],
       "time_to_first_response": "0:25:09",
-      "time_to_close": "None",
+      "time_to_close": "714 days, 15:18:29",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -4930,7 +4932,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "33 days, 19:42:36",
-      "time_to_close": "None",
+      "time_to_close": "756 days, 22:18:08",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -5324,7 +5326,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "80 days, 7:37:21",
-      "time_to_close": "None",
+      "time_to_close": "789 days, 23:34:20",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -6030,7 +6032,7 @@
       "pr_comment_count": null,
       "created_at": "2023-07-21 19:54:09+00:00",
       "maintainer_responded": true,
-      "milestone": "1.22.1"
+      "milestone": null
     },
     {
       "title": "Holoviews.Dataset drops values from xarray dataarrays that use a boolean index",
@@ -7089,7 +7091,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "None",
-      "time_to_close": "None",
+      "time_to_close": "993 days, 22:49:44",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -8125,7 +8127,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-11-26 20:05:40+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "1.15.3"
     },
     {
@@ -8157,7 +8159,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-11-26 08:56:19+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": "Wishlist"
     },
     {
@@ -8496,7 +8498,7 @@
       "pr_comment_count": null,
       "created_at": "2022-10-14 17:45:40+00:00",
       "maintainer_responded": false,
-      "milestone": "1.22.1"
+      "milestone": "1.22.2"
     },
     {
       "title": "Curves failing to colormap boolean columns",
@@ -8939,7 +8941,7 @@
       "pr_comment_count": null,
       "created_at": "2022-09-13 13:48:57+00:00",
       "maintainer_responded": true,
-      "milestone": "1.22.x"
+      "milestone": null
     },
     {
       "title": "Set initial selected range for RangeToolLink",
@@ -9150,7 +9152,7 @@
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2022-09-04 04:57:00+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null
     },
     {
