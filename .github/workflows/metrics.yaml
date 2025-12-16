@@ -111,6 +111,26 @@ jobs:
         with:
           name: datashader-metrics-json
           path: data/datashader_metrics.json
+      - name: Run issue-metrics for panel-splitjs
+        id: issue-metrics-panel-splitjs
+        uses: github/issue-metrics@v3
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          SEARCH_QUERY: 'repo:panel-extensions/panel-splitjs is:issue created:${{ env.YEAR_RANGE }} -label:"duplicate"'
+          HIDE_TIME_TO_ANSWER: "true"
+          DRAFT_PR_TRACKING: "true"
+          HIDE_CREATED_AT: "false"
+          HIDE_LABEL_METRICS: "true"
+      - name: Save panel-splitjs JSON output
+        run: |
+          cat <<'EOF' > data/panel-splitjs_metrics.json
+          ${{ steps.issue-metrics-panel-splitjs.outputs.metrics }}
+          EOF
+      - name: Upload panel-splitjs artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: panel-splitjs-metrics-json
+          path: data/panel-splitjs_metrics.json
   download-and-deploy:
     runs-on: ubuntu-latest
     needs: [build]
@@ -136,6 +156,11 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: datashader-metrics-json
+          path: data/
+      - name: Download panel-splitjs artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: panel-splitjs-metrics-json
           path: data/
       - name: Set up Conda environment
         uses: conda-incubator/setup-miniconda@v2

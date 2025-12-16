@@ -6,6 +6,7 @@ REPOS = {
     "hvplot": "holoviz/hvplot",
     "panel": "holoviz/panel",
     "datashader": "holoviz/datashader",
+    "panel-splitjs": "panel-extensions/panel-splitjs",
 }
 
 MAINTAINERS = {
@@ -20,6 +21,7 @@ MAINTAINERS = {
     "maximlt",
     "sophiamyang",
     "Azaya89",
+    "MarcSkovMadsen",
     "holoviz-developers",
 }
 
