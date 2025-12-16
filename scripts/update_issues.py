@@ -3,7 +3,7 @@ import os
 import requests
 import argparse
 import logging
-from github import Github
+from github import Auth, Github
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
@@ -52,7 +52,7 @@ def merge_and_save(
     extra_data = fetch_additional_issue_data(repo, token)
     # Add maintainer_responded field for each issue
     if maintainers is not None:
-        g = Github(token)
+        g = Github(auth=Auth.Token(token))
         gh_repo = g.get_repo(repo)
         maintainers_lower = [m.lower() for m in maintainers]
         for issue in data["issues"]:

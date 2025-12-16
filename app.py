@@ -29,6 +29,7 @@ repo_files = {
     "hvPlot": data_url + "hvplot_metrics.parq",
     "Panel": data_url + "panel_metrics.parq",
     "Datashader": data_url + "datashader_metrics.parq",
+    "Panel-splitjs": data_url + "panel-splitjs_metrics.parq",
 }
 
 repo_dfs = {
@@ -43,6 +44,7 @@ release_files = {
     "hvPlot": data_url + "hvplot_releases.csv",
     "Panel": data_url + "panel_releases.csv",
     "Datashader": data_url + "datashader_releases.csv",
+    "Panel-splitjs": data_url + "panel-splitjs_releases.csv",
 }
 
 release_dfs = {
@@ -504,13 +506,13 @@ def issues_sankey_view(repo):
 page = pmu.Page(
     main=[
         pn.Row(header_text, icon),
-        "## Summary Insights",
-        issues_sankey_view,
-        indicators_view,
         "## Data Table",
         table_view,
         "## Plots",
         plots_view,
+        "## Summary Insights",
+        issues_sankey_view,
+        indicators_view,
     ],
     sidebar=[
         logo_pane,
