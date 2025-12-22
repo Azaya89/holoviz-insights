@@ -78,8 +78,12 @@ def compute_metrics(df):
     metrics["avg_close_time"] = int(df["time_to_close"].mean().days)
     metrics["median_close_time"] = int(df["time_to_close"].median().days)
     if "maintainer_responded" in df.columns:
-        awaiting = open_issues[~open_issues["maintainer_responded"].fillna(False)]
-        metrics["no_maintainer_response"] = len(awaiting)
+        # Enhanced maintainer action: includes maintainer comments or milestone assignment
+        maintainer_action = (
+            open_issues["maintainer_responded"].fillna(False)
+            | open_issues["milestone"].notna()
+        )
+        metrics["no_maintainer_response"] = len(open_issues[~maintainer_action])
     else:
         metrics["no_maintainer_response"] = None
     return metrics
@@ -425,39 +429,47 @@ def table_view(repo, status, maintainer_resp):
         df = df[df["time_to_close"].notna()]
     # Filter by maintainer response
     if "maintainer_responded" in df.columns and maintainer_resp != "All":
-        mask = df["maintainer_responded"].fillna(False)
+        # Maintainer action includes maintainer comments or milestone assignment
+        maintainer_action = (
+            df["maintainer_responded"].fillna(False) | df["milestone"].notna()
+        )
         if maintainer_resp == "No Maintainer Response":
-            df = df[~mask]
+            df = df[~maintainer_action]
         elif maintainer_resp == "Maintainer Responded":
-            df = df[mask]
+            df = df[maintainer_action]
     df["issue_no"] = df["html_url"].apply(format_issue_url)
     for col in ["time_to_first_response", "time_to_close"]:
         # Replace NaT with empty string
         df[col] = df[col].astype(str).replace("NaT", "")
         df[f"{col}_str"] = df[col]
-    # Show maintainer_responded as a column
+
+    # hide redundant columns
+    hidden_cols = [
+        "html_url",
+        "time_to_answer",
+        "time_in_draft",
+        "time_to_first_response",
+        "time_to_close",
+        "pr_comment_count",
+        "assignee",
+        "maintainer_responded",
+    ]
+
+    # Show maintainer_responded as a column including milestone assignment
     if "maintainer_responded" in df.columns:
-        df["Maintainer Responded"] = df["maintainer_responded"].map(
-            {True: "Yes", False: "No"}
-        )
-        hidden_cols = [
-            "html_url",
-            "time_to_answer",
-            "time_in_draft",
-            "time_to_first_response",
-            "time_to_close",
-            "maintainer_responded",
-        ]
-    else:
-        hidden_cols = [
-            "html_url",
-            "time_to_answer",
-            "time_in_draft",
-            "time_to_first_response",
-            "time_to_close",
-        ]
-    # Reorder columns: prioritize 'title', 'issue_no', 'author' first
-    priority_cols = ["title", "issue_no", "author"]
+        # Create enhanced maintainer action column
+        df["Maintainer Action"] = (
+            df["maintainer_responded"].fillna(False) | df["milestone"].notna()
+        ).map({True: "Yes", False: "No"})
+
+    # Reorder columns by priorities
+    priority_cols = [
+        "title",
+        "author",
+        "issue_no",
+        "time_to_first_response_str",
+        "Maintainer Action",
+    ]
     rest_cols = [c for c in df.columns if c not in priority_cols]
     df = df[priority_cols + rest_cols]
     table = pn.widgets.Tabulator(
@@ -467,7 +479,7 @@ def table_view(repo, status, maintainer_resp):
         pagination="remote",
         page_size=10,
         formatters={"issue_no": "html"},
-        widths={"title": 300},
+        widths={"title": 250},
         header_filters=True,
     )
     return pn.Column(pn.pane.Markdown(f"### Length of table: {len(df)} rows"), table)
@@ -511,7 +523,6 @@ page = pmu.Page(
         table_view,
         "## Plots",
         plots_view,
-        "## Summary Insights",
         issues_sankey_view,
         indicators_view,
     ],
