@@ -7,6 +7,7 @@ import panel as pn
 import holoviews as hv
 import panel_material_ui as pmu
 import fastparquet  # noqa
+from pathlib import Path
 
 pn.extension("tabulator", autoreload=True)
 
@@ -20,36 +21,36 @@ INDICATOR_COLOR = "#221cd9"
 # =============================
 # Data Loading
 # =============================
-data_url = (
-    "https://raw.githubusercontent.com/Azaya89/holoviz-insights/refs/heads/main/data/"
-)
+
+data_dir = Path(__file__).parent / "data"
 
 repo_files = {
-    "HoloViews": data_url + "holoviews_metrics.parq",
-    "hvPlot": data_url + "hvplot_metrics.parq",
-    "Panel": data_url + "panel_metrics.parq",
-    "Datashader": data_url + "datashader_metrics.parq",
-    "Panel-splitjs": data_url + "panel-splitjs_metrics.parq",
+    "HoloViews": data_dir / "holoviews_metrics.parq",
+    "hvPlot": data_dir / "hvplot_metrics.parq",
+    "Panel": data_dir / "panel_metrics.parq",
+    "Datashader": data_dir / "datashader_metrics.parq",
+    "Panel-splitjs": data_dir / "panel-splitjs_metrics.parq",
 }
 
 repo_dfs = {
-    name: pd.read_parquet(url, engine="fastparquet") for name, url in repo_files.items()
+    name: pd.read_parquet(path, engine="fastparquet")
+    for name, path in repo_files.items()
 }
 repo_selector = pmu.Select(
     label="Select Repository", options=list(repo_files.keys()), value="HoloViews"
 )
 
 release_files = {
-    "HoloViews": data_url + "holoviews_releases.csv",
-    "hvPlot": data_url + "hvplot_releases.csv",
-    "Panel": data_url + "panel_releases.csv",
-    "Datashader": data_url + "datashader_releases.csv",
-    "Panel-splitjs": data_url + "panel-splitjs_releases.csv",
+    "HoloViews": data_dir / "holoviews_releases.csv",
+    "hvPlot": data_dir / "hvplot_releases.csv",
+    "Panel": data_dir / "panel_releases.csv",
+    "Datashader": data_dir / "datashader_releases.csv",
+    "Panel-splitjs": data_dir / "panel-splitjs_releases.csv",
 }
 
 release_dfs = {
-    name: pd.read_csv(url, parse_dates=["published_at"])
-    for name, url in release_files.items()
+    name: pd.read_csv(path, parse_dates=["published_at"])
+    for name, path in release_files.items()
 }
 
 
