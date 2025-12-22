@@ -36,7 +36,8 @@
       "pr_comment_count": null,
       "created_at": "2025-10-02 19:57:25+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "QuadMeshRectilinear returning all NaN in some cases",
@@ -52,7 +53,8 @@
       "pr_comment_count": null,
       "created_at": "2025-08-27 04:35:37+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "QuadMeshRectilinear returning all NaN when plot_range is smaller than cell",
@@ -68,7 +70,8 @@
       "pr_comment_count": null,
       "created_at": "2025-08-27 04:29:14+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "compile error for mode reduction on QuadMeshCurvilinear",
@@ -84,7 +87,8 @@
       "pr_comment_count": null,
       "created_at": "2025-08-08 00:58:12+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "segfault with quadmesh",
@@ -102,7 +106,8 @@
       "pr_comment_count": null,
       "created_at": "2025-07-17 19:28:30+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Add docstrings to all the reductions",
@@ -118,7 +123,8 @@
       "pr_comment_count": null,
       "created_at": "2025-05-28 08:40:39+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Resolve warnings emitted when building the docs",
@@ -136,7 +142,8 @@
       "pr_comment_count": null,
       "created_at": "2025-05-28 08:36:34+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Datashader not importable because of dask-expr",
@@ -152,7 +159,8 @@
       "pr_comment_count": null,
       "created_at": "2025-03-24 18:55:50+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "ModuleNotFoundError: No module named 'datashader.reductions'; 'datashader' is not a package",
@@ -168,7 +176,8 @@
       "pr_comment_count": null,
       "created_at": "2025-03-08 15:39:10+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Add numba to `forceatlas2_layout` cooling method",
@@ -184,7 +193,8 @@
       "pr_comment_count": null,
       "created_at": "2025-02-11 20:56:09+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Colormap alpha support",
@@ -200,7 +210,8 @@
       "pr_comment_count": null,
       "created_at": "2025-01-31 10:32:37+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "import broken since 0.16.2 (by missing dask dependency?)",
@@ -216,7 +227,8 @@
       "pr_comment_count": null,
       "created_at": "2025-01-28 13:45:29+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Documentation updates",
@@ -235,7 +247,8 @@
       "pr_comment_count": null,
       "created_at": "2025-01-23 15:23:07+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.17.1"
+      "milestone": "v0.17.1",
+      "has_linked_pr": false
     },
     {
       "title": "update changelog to prepare for release 0.17",
@@ -253,7 +266,8 @@
       "pr_comment_count": null,
       "created_at": "2025-01-21 18:31:37+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.17.0"
+      "milestone": "v0.17.0",
+      "has_linked_pr": false
     },
     {
       "title": "drop Python 3.9",
@@ -271,7 +285,8 @@
       "pr_comment_count": null,
       "created_at": "2025-01-21 18:18:17+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.17.0"
+      "milestone": "v0.17.0",
+      "has_linked_pr": false
     },
     {
       "title": "AttributeError: module 'dask.dataframe.core' has no attribute 'DataFrame'",
@@ -287,7 +302,8 @@
       "pr_comment_count": null,
       "created_at": "2025-01-20 13:27:20+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Investigate dask support for edge bundling",
@@ -305,7 +321,8 @@
       "pr_comment_count": null,
       "created_at": "2025-01-09 15:12:44+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Speed up edge bundling",
@@ -323,7 +340,8 @@
       "pr_comment_count": null,
       "created_at": "2025-01-07 17:08:31+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Dask DataFrame legacy mode will go away in the next release and dask_expr will get merged into dask/dask",
@@ -341,7 +359,8 @@
       "pr_comment_count": null,
       "created_at": "2025-01-02 22:06:35+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "`summary` with `cvs.line` and `line_width` is sensitive to other inputs in `summary`",
@@ -357,7 +376,8 @@
       "pr_comment_count": null,
       "created_at": "2024-12-19 10:43:42+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Change #1104 included in 0.14.2 release notes but was actually in 0.14.3",
@@ -373,7 +393,8 @@
       "pr_comment_count": null,
       "created_at": "2024-12-06 11:35:14+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "original paper link",
@@ -391,7 +412,8 @@
       "pr_comment_count": null,
       "created_at": "2024-12-04 20:47:14+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Python 3.11+ E           TypeError: descriptor '__call__' for 'type' objects doesn't apply to a 'property' object",
@@ -407,7 +429,8 @@
       "pr_comment_count": null,
       "created_at": "2024-09-23 14:25:44+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Error while `groupby` agg must use 2D or 3D coordinates",
@@ -423,7 +446,8 @@
       "pr_comment_count": null,
       "created_at": "2024-07-19 22:17:52+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "`ValueError('y must be real')` when plotting by + rasterize on a sparse dataset",
@@ -439,7 +463,8 @@
       "pr_comment_count": null,
       "created_at": "2024-07-09 22:03:43+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Remove Dask as a hard dependency of Datashader",
@@ -455,7 +480,8 @@
       "pr_comment_count": null,
       "created_at": "2024-07-03 12:03:57+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Build badge should only report main",
@@ -471,7 +497,8 @@
       "pr_comment_count": null,
       "created_at": "2024-05-20 12:17:17+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.16.2"
+      "milestone": "v0.16.2",
+      "has_linked_pr": false
     },
     {
       "title": "ddf.hvplot.line with datashade=True throws AttributeError: 'tuple' object has no attribute 'iloc' in the datashader dask library",
@@ -487,7 +514,8 @@
       "pr_comment_count": null,
       "created_at": "2024-05-15 18:57:27+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.16.2"
+      "milestone": "v0.16.2",
+      "has_linked_pr": false
     },
     {
       "title": "Shade missing values when rasterizing Points",
@@ -503,7 +531,8 @@
       "pr_comment_count": null,
       "created_at": "2024-05-14 00:54:29+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "PanelDeprecationWarning: 'param_value_if_widget' is deprecated and will be removed in version 1.4, use 'transform_reference' instead",
@@ -519,7 +548,8 @@
       "pr_comment_count": null,
       "created_at": "2024-05-06 19:48:20+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Visual artifacts when shading Polygons",
@@ -535,7 +565,8 @@
       "pr_comment_count": null,
       "created_at": "2024-05-01 18:27:06+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Polygon User Guide Long CSV Download Output ",
@@ -553,7 +584,8 @@
       "pr_comment_count": null,
       "created_at": "2024-04-30 19:56:40+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "NumPy 2.0 support",
@@ -569,7 +601,8 @@
       "pr_comment_count": null,
       "created_at": "2024-04-24 23:26:46+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Failed to import datashader (missing dependency on dask_expr?)",
@@ -585,7 +618,8 @@
       "pr_comment_count": null,
       "created_at": "2024-03-13 15:18:44+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "cache numba's functions",
@@ -601,7 +635,8 @@
       "pr_comment_count": null,
       "created_at": "2024-03-01 12:08:11+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "\"Coordinate is not backed by a Dask array\" Errror when lazy loading xarray dataarray",
@@ -617,7 +652,8 @@
       "pr_comment_count": null,
       "created_at": "2024-02-05 19:57:10+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "nyc_buildings notebook shows legend in double and interaction does not work",
@@ -633,7 +669,8 @@
       "pr_comment_count": null,
       "created_at": "2024-01-29 10:40:27+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Flipped axis when plotting geographic data using `shade()`",
@@ -649,7 +686,8 @@
       "pr_comment_count": null,
       "created_at": "2023-11-29 11:56:04+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Antialiasing polygons and trimeshes",
@@ -665,7 +703,8 @@
       "pr_comment_count": null,
       "created_at": "2023-10-31 14:05:53+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Summary of state of antialiased lines in Datashader",
@@ -681,7 +720,8 @@
       "pr_comment_count": null,
       "created_at": "2023-10-31 13:46:37+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Experiment with awkward-pandas",
@@ -697,7 +737,8 @@
       "pr_comment_count": null,
       "created_at": "2023-10-31 11:58:41+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "GPU testing of PRs",
@@ -713,7 +754,8 @@
       "pr_comment_count": null,
       "created_at": "2023-10-30 15:34:50+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Support Canvas.lines of 2D xarray with common x coordinates",
@@ -729,7 +771,8 @@
       "pr_comment_count": null,
       "created_at": "2023-09-15 12:12:13+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Failed to import `datashader`",
@@ -745,7 +788,8 @@
       "pr_comment_count": null,
       "created_at": "2023-09-12 23:33:13+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Fix codecov reporting",
@@ -761,7 +805,8 @@
       "pr_comment_count": null,
       "created_at": "2023-08-17 08:17:38+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Bug in summary reduction using multiple where reductions with the same selector",
@@ -779,7 +824,8 @@
       "pr_comment_count": null,
       "created_at": "2023-08-15 16:46:12+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.15.2"
+      "milestone": "v0.15.2",
+      "has_linked_pr": false
     },
     {
       "title": "dsshow not working after converting pyqt5 project into exe using pyinstaller",
@@ -795,7 +841,8 @@
       "pr_comment_count": null,
       "created_at": "2023-08-14 19:25:48+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Add logging to compiler.py",
@@ -811,7 +858,8 @@
       "pr_comment_count": null,
       "created_at": "2023-08-11 08:13:25+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "summary reduction containing a by reduction and any other reduction fails",
@@ -827,7 +875,8 @@
       "pr_comment_count": null,
       "created_at": "2023-07-24 12:42:43+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.15.2"
+      "milestone": "v0.15.2",
+      "has_linked_pr": false
     },
     {
       "title": "Some kwarg names not allowed in summary reduction",
@@ -843,7 +892,8 @@
       "pr_comment_count": null,
       "created_at": "2023-07-24 12:34:12+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Cannot use by reduction within a summary reduction",
@@ -859,7 +909,8 @@
       "pr_comment_count": null,
       "created_at": "2023-07-19 12:52:16+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.15.2"
+      "milestone": "v0.15.2",
+      "has_linked_pr": false
     },
     {
       "title": "Pyarrow version pin causing issues with cuDF",
@@ -875,7 +926,8 @@
       "pr_comment_count": null,
       "created_at": "2023-07-07 16:49:25+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Remove use of OrderedDict",
@@ -891,7 +943,8 @@
       "pr_comment_count": null,
       "created_at": "2023-06-22 09:58:23+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Error using dask dataframe with incompatible column dtypes",
@@ -907,7 +960,8 @@
       "pr_comment_count": null,
       "created_at": "2023-06-16 09:05:08+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.15.1"
+      "milestone": "v0.15.1",
+      "has_linked_pr": false
     },
     {
       "title": "Reduction ds.by() with one category now fails on 0.15.0",
@@ -925,7 +979,8 @@
       "pr_comment_count": null,
       "created_at": "2023-06-08 21:15:32+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Use geodatasets for examples instead of geopandas",
@@ -941,7 +996,8 @@
       "pr_comment_count": null,
       "created_at": "2023-05-30 10:16:17+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "RuntimeWarning: invalid value encountered in cast",
@@ -957,7 +1013,8 @@
       "pr_comment_count": null,
       "created_at": "2023-05-17 12:39:50+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Consistent handling of NaNs in where reductions",
@@ -973,7 +1030,8 @@
       "pr_comment_count": null,
       "created_at": "2023-05-16 12:40:23+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Implement fast CUDA mutex",
@@ -989,7 +1047,8 @@
       "pr_comment_count": null,
       "created_at": "2023-05-04 12:41:35+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.14.5"
+      "milestone": "v0.14.5",
+      "has_linked_pr": false
     },
     {
       "title": "Categorical support for where and <whatever>_n reductions",
@@ -1005,7 +1064,8 @@
       "pr_comment_count": null,
       "created_at": "2023-05-04 12:35:42+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.15.1"
+      "milestone": "v0.15.1",
+      "has_linked_pr": false
     },
     {
       "title": "dsshow crashing with AttributeError after numpy update",
@@ -1021,7 +1081,8 @@
       "pr_comment_count": null,
       "created_at": "2023-05-03 17:40:47+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Dask and CUDA support for first_n and last_n reductions",
@@ -1037,7 +1098,8 @@
       "pr_comment_count": null,
       "created_at": "2023-05-02 12:49:02+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.15.1"
+      "milestone": "v0.15.1",
+      "has_linked_pr": false
     },
     {
       "title": "Empty output (sometimes) for dask=2022.12.1",
@@ -1055,7 +1117,8 @@
       "pr_comment_count": null,
       "created_at": "2023-04-28 19:13:16+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "\"Too many positional arguments\" in pipeline when line_width>0",
@@ -1071,7 +1134,8 @@
       "pr_comment_count": null,
       "created_at": "2023-04-27 09:34:35+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.15.1"
+      "milestone": "v0.15.1",
+      "has_linked_pr": false
     },
     {
       "title": "Categorical colorizing broken for census parquet file",
@@ -1089,7 +1153,8 @@
       "pr_comment_count": null,
       "created_at": "2023-04-22 22:15:25+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Errors using numba 0.57.0rc1",
@@ -1105,7 +1170,8 @@
       "pr_comment_count": null,
       "created_at": "2023-04-19 12:02:07+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.14.5"
+      "milestone": "v0.14.5",
+      "has_linked_pr": false
     },
     {
       "title": "Make datashader work in Jupyterlite/ Panelite",
@@ -1121,7 +1187,8 @@
       "pr_comment_count": null,
       "created_at": "2023-04-10 05:39:38+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Support for polars dataframes",
@@ -1137,7 +1204,8 @@
       "pr_comment_count": null,
       "created_at": "2023-04-09 00:06:16+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Increase coverage",
@@ -1153,7 +1221,8 @@
       "pr_comment_count": null,
       "created_at": "2023-03-07 13:19:03+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Imports from `collections.abc`, not `collections` module",
@@ -1169,7 +1238,8 @@
       "pr_comment_count": null,
       "created_at": "2023-03-05 15:51:44+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Dask and CUDA support for first and last reductions",
@@ -1185,7 +1255,8 @@
       "pr_comment_count": null,
       "created_at": "2023-02-14 14:27:50+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.15.1"
+      "milestone": "v0.15.1",
+      "has_linked_pr": false
     },
     {
       "title": "Get rid of the tests and example within wheel",
@@ -1201,7 +1272,8 @@
       "pr_comment_count": null,
       "created_at": "2023-02-14 10:42:18+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Datashader categorical plot not rendering legend with cuDF",
@@ -1219,7 +1291,8 @@
       "pr_comment_count": null,
       "created_at": "2023-02-07 21:23:49+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.14.5"
+      "milestone": "v0.14.5",
+      "has_linked_pr": false
     },
     {
       "title": "CUDA mutexes for complicated reductions",
@@ -1235,7 +1308,8 @@
       "pr_comment_count": null,
       "created_at": "2023-02-07 14:37:25+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Support Spark Dataframe",
@@ -1251,7 +1325,8 @@
       "pr_comment_count": null,
       "created_at": "2023-01-22 19:10:44+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "shade(..., how=\"eq_hist\") with no valid data raises index out of bounds error",
@@ -1267,7 +1342,8 @@
       "pr_comment_count": null,
       "created_at": "2023-01-19 11:51:28+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.14.4"
+      "milestone": "v0.14.4",
+      "has_linked_pr": false
     },
     {
       "title": "Update interactivity figure for bokeh and matplotlib changes",
@@ -1283,7 +1359,8 @@
       "pr_comment_count": null,
       "created_at": "2023-01-04 18:51:57+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Insufficient validation of Canvas.line input lengths",
@@ -1299,7 +1376,8 @@
       "pr_comment_count": null,
       "created_at": "2023-01-03 13:14:06+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Support numpy 1.24",
@@ -1315,7 +1393,8 @@
       "pr_comment_count": null,
       "created_at": "2023-01-03 09:38:23+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.14.4"
+      "milestone": "v0.14.4",
+      "has_linked_pr": false
     },
     {
       "title": "Expose computed bounds after aggregation",
@@ -1331,7 +1410,8 @@
       "pr_comment_count": null,
       "created_at": "2022-12-30 23:25:51+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.15.1"
+      "milestone": "v0.15.1",
+      "has_linked_pr": false
     },
     {
       "title": "Error rendering documentation site",
@@ -1347,7 +1427,8 @@
       "pr_comment_count": null,
       "created_at": "2022-11-21 16:56:13+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Possible improvements to antialiased line implementation",
@@ -1363,7 +1444,8 @@
       "pr_comment_count": null,
       "created_at": "2022-11-17 11:34:20+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Documentation about antialiased lines",
@@ -1379,7 +1461,8 @@
       "pr_comment_count": null,
       "created_at": "2022-11-17 11:24:18+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "```ModuleNotFoundError: No module named 'datashader.bokeh_ext'```",
@@ -1395,7 +1478,8 @@
       "pr_comment_count": null,
       "created_at": "2022-11-06 19:20:18+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Invalid pointer when running aggregation ",
@@ -1411,7 +1495,8 @@
       "pr_comment_count": null,
       "created_at": "2022-10-20 08:07:17+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Datashader and polygons: Cannot interpret MultiPolygonDtype(float64) as data type",
@@ -1429,7 +1514,8 @@
       "pr_comment_count": null,
       "created_at": "2022-10-15 11:40:04+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Antialiasing fails on uint32 with a mean reduction",
@@ -1447,7 +1533,8 @@
       "pr_comment_count": null,
       "created_at": "2022-10-13 13:24:27+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.14.3"
+      "milestone": "v0.14.3",
+      "has_linked_pr": false
     },
     {
       "title": "cudf test failure in test_log_axis_line with numpy 1.23",
@@ -1463,7 +1550,8 @@
       "pr_comment_count": null,
       "created_at": "2022-10-07 11:27:24+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "GPU test problems if run without DATASHADER_TEST_GPU being set",
@@ -1479,7 +1567,8 @@
       "pr_comment_count": null,
       "created_at": "2022-10-07 10:28:38+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Cupy test failures using eq_hist",
@@ -1497,7 +1586,8 @@
       "pr_comment_count": null,
       "created_at": "2022-10-04 16:27:01+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "\"Killed\" with demo example (but too much points in entry?)",
@@ -1513,7 +1603,8 @@
       "pr_comment_count": null,
       "created_at": "2022-09-30 11:10:02+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Directly support HoloViews-style inspect operations",
@@ -1529,7 +1620,8 @@
       "pr_comment_count": null,
       "created_at": "2022-09-26 16:58:59+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Datashader discards spatialpandas spatial indexer",
@@ -1545,7 +1637,8 @@
       "pr_comment_count": null,
       "created_at": "2022-09-14 13:56:55+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Docs page not working",
@@ -1561,7 +1654,8 @@
       "pr_comment_count": null,
       "created_at": "2022-09-07 21:00:21+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Issue with datashader when not running as Admin (Windows machine)",
@@ -1577,7 +1671,8 @@
       "pr_comment_count": null,
       "created_at": "2022-09-04 21:37:26+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Fully curate dependencies",
@@ -1593,7 +1688,8 @@
       "pr_comment_count": null,
       "created_at": "2022-09-01 10:30:04+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Trimesh: document associating data with simplices",
@@ -1609,7 +1705,8 @@
       "pr_comment_count": null,
       "created_at": "2022-08-22 18:28:26+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "CI failing with dask 2022.8.0",
@@ -1625,7 +1722,8 @@
       "pr_comment_count": null,
       "created_at": "2022-08-08 11:47:13+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Broken links in docs in tables of contents (Pipeline.html & Plotting_Pitfalls.html)",
@@ -1641,7 +1739,8 @@
       "pr_comment_count": null,
       "created_at": "2022-07-15 15:52:41+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.14.2"
+      "milestone": "v0.14.2",
+      "has_linked_pr": false
     },
     {
       "title": "Divide by zero bug using antialiased lines and self_intersect=True",
@@ -1657,7 +1756,8 @@
       "pr_comment_count": null,
       "created_at": "2022-06-23 16:21:10+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "raster-aggregation in matplotlib extension",
@@ -1673,7 +1773,8 @@
       "pr_comment_count": null,
       "created_at": "2022-06-02 10:43:11+00:00",
       "maintainer_responded": false,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "UFuncTypeError: over(img.data, background)",
@@ -1689,7 +1790,8 @@
       "pr_comment_count": null,
       "created_at": "2022-05-31 12:28:37+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "datashader not importable with dask 2022.5.1",
@@ -1705,7 +1807,8 @@
       "pr_comment_count": null,
       "created_at": "2022-05-30 07:31:37+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.14.2"
+      "milestone": "v0.14.2",
+      "has_linked_pr": false
     },
     {
       "title": "Dashboard section of the tutorial raises warning",
@@ -1721,7 +1824,8 @@
       "pr_comment_count": null,
       "created_at": "2022-05-22 03:26:04+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Way to get log axes with datashader dsshow and matplotlib",
@@ -1737,7 +1841,8 @@
       "pr_comment_count": null,
       "created_at": "2022-05-19 17:25:31+00:00",
       "maintainer_responded": true,
-      "milestone": "wishlist"
+      "milestone": "wishlist",
+      "has_linked_pr": false
     },
     {
       "title": "ValueError: interpolator did not return a valid discrete_levels",
@@ -1753,7 +1858,8 @@
       "pr_comment_count": null,
       "created_at": "2022-05-06 16:10:16+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "dsshow savefig error with matplotlib pdf and svg export. Shading intensity variation in png export.",
@@ -1769,7 +1875,8 @@
       "pr_comment_count": null,
       "created_at": "2022-05-04 18:21:36+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.19.x"
+      "milestone": "v0.19.x",
+      "has_linked_pr": false
     },
     {
       "title": "Antialiasing categorical aggregates",
@@ -1785,7 +1892,8 @@
       "pr_comment_count": null,
       "created_at": "2022-04-30 01:37:49+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "0.14.0 Punch list",
@@ -1801,7 +1909,8 @@
       "pr_comment_count": null,
       "created_at": "2022-04-23 13:19:10+00:00",
       "maintainer_responded": false,
-      "milestone": "0.14.0"
+      "milestone": "0.14.0",
+      "has_linked_pr": false
     },
     {
       "title": "Datashader artist and colorbars regression",
@@ -1817,7 +1926,8 @@
       "pr_comment_count": null,
       "created_at": "2022-04-14 16:18:26+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Could dsshow function support adjusting marker size?",
@@ -1833,7 +1943,8 @@
       "pr_comment_count": null,
       "created_at": "2022-04-14 13:58:19+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "incorrect visual representation for line with uint16 data",
@@ -1849,7 +1960,8 @@
       "pr_comment_count": null,
       "created_at": "2022-03-30 13:09:51+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "datashader requires `bokeh` on conda-forge ?",
@@ -1867,7 +1979,8 @@
       "pr_comment_count": null,
       "created_at": "2022-03-23 16:27:51+00:00",
       "maintainer_responded": true,
-      "milestone": "v0.14.2"
+      "milestone": "v0.14.2",
+      "has_linked_pr": false
     },
     {
       "title": "Background no longer transparent",
@@ -1883,7 +1996,8 @@
       "pr_comment_count": null,
       "created_at": "2022-03-03 19:47:35+00:00",
       "maintainer_responded": true,
-      "milestone": "0.14.0"
+      "milestone": "0.14.0",
+      "has_linked_pr": false
     },
     {
       "title": "datashader examples fails; requests not installed?",
@@ -1899,7 +2013,8 @@
       "pr_comment_count": null,
       "created_at": "2022-02-15 16:45:00+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "More TesteRagged failures with pandas 1.4",
@@ -1915,7 +2030,8 @@
       "pr_comment_count": null,
       "created_at": "2022-02-01 14:23:32+00:00",
       "maintainer_responded": true,
-      "milestone": "0.14.0"
+      "milestone": "0.14.0",
+      "has_linked_pr": false
     },
     {
       "title": "cvs.points provides different results depending of scale with span",
@@ -1931,7 +2047,8 @@
       "pr_comment_count": null,
       "created_at": "2022-01-29 15:38:24+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Memory Error while generating tiles using render_tiles in tilling.ipynb  example",
@@ -1947,7 +2064,8 @@
       "pr_comment_count": null,
       "created_at": "2022-01-05 11:20:59+00:00",
       "maintainer_responded": true,
-      "milestone": "wishlist"
+      "milestone": "wishlist",
+      "has_linked_pr": false
     },
     {
       "title": "Differences in coordinates calculated in raster() and other Canvas functions.",
@@ -1963,8 +2081,9 @@
       "pr_comment_count": null,
       "created_at": "2022-01-04 14:44:49+00:00",
       "maintainer_responded": false,
-      "milestone": "0.14.0"
+      "milestone": "0.14.0",
+      "has_linked_pr": false
     }
   ],
-  "search_query": "repo:holoviz/datashader is:issue created:2022-01-01..2025-11-30 -label:\"duplicate\""
+  "search_query": "repo:holoviz/datashader is:issue created:2022-01-01..2025-12-21 -label:\"duplicate\""
 }

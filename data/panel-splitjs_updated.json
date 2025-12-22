@@ -17,11 +17,28 @@
   "average_pr_comments": null,
   "median_pr_comments": null,
   "90_percentile_pr_comments": null,
-  "num_items_opened": 0,
+  "num_items_opened": 1,
   "num_items_closed": 6,
   "num_mentor_count": 0,
-  "total_item_count": 6,
+  "total_item_count": 7,
   "issues": [
+    {
+      "title": "The < > buttons blend into the background",
+      "html_url": "https://github.com/panel-extensions/panel-splitjs/issues/21",
+      "author": "ahuang11",
+      "assignee": null,
+      "assignees": [],
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-12-10 17:44:34+00:00",
+      "maintainer_responded": false,
+      "milestone": null,
+      "has_linked_pr": false
+    },
     {
       "title": "Hide Buttons by default",
       "html_url": "https://github.com/panel-extensions/panel-splitjs/issues/17",
@@ -36,7 +53,8 @@
       "pr_comment_count": null,
       "created_at": "2025-11-23 13:55:57+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Allow me to set min/ max size of only one of the sides.",
@@ -52,7 +70,8 @@
       "pr_comment_count": null,
       "created_at": "2025-11-23 13:14:54+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "min_size not working for VSplit",
@@ -68,7 +87,8 @@
       "pr_comment_count": null,
       "created_at": "2025-11-23 07:10:48+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Toggle Buttons not working as expected",
@@ -84,7 +104,8 @@
       "pr_comment_count": null,
       "created_at": "2025-11-23 06:54:26+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "Missing Margin/ Padding when buttons are shown",
@@ -100,7 +121,8 @@
       "pr_comment_count": null,
       "created_at": "2025-11-23 06:49:02+00:00",
       "maintainer_responded": true,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     },
     {
       "title": "min_size not working if width not defined",
@@ -116,8 +138,9 @@
       "pr_comment_count": null,
       "created_at": "2025-11-23 06:42:25+00:00",
       "maintainer_responded": false,
-      "milestone": null
+      "milestone": null,
+      "has_linked_pr": false
     }
   ],
-  "search_query": "repo:panel-extensions/panel-splitjs is:issue created:2022-01-01..2025-11-30 -label:\"duplicate\""
+  "search_query": "repo:panel-extensions/panel-splitjs is:issue created:2022-01-01..2025-12-21 -label:\"duplicate\""
 }
