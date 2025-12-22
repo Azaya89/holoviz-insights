@@ -1,12 +1,12 @@
 name: metrics
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.13
-  - bokeh>=3.7.3
+  - bokeh>=3.8
   - panel>=1.8.2
-  - hvplot
+  - holoviews>=1.22.0
+  - hvplot>=0.12.2
   - jupyter
   - notebook
   - pandas
