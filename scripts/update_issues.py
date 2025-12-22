@@ -3,6 +3,7 @@ import os
 import requests
 import argparse
 import logging
+import time
 from github import Auth, Github
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -36,23 +37,53 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
             has_linked_pr = False
             issue_number = issue["number"]
             timeline_url = f"{base_url}/{issue_number}/timeline"
-            timeline_result = requests.get(timeline_url, headers=headers)
 
-            if timeline_result.status_code == 200:
-                timeline_events = timeline_result.json()
-                for event in timeline_events:
-                    if event.get("event") == "cross-referenced":
-                        source = event.get("source", {})
-                        source_issue = source.get("issue", {})
-                        # Check if the cross-reference is a PR
-                        if "pull_request" in source_issue:
-                            has_linked_pr = True
-                            logging.info(f"Issue #{issue_number} has linked PR")
-                            break
-            else:
-                logging.warning(
-                    f"Could not fetch timeline for issue #{issue_number}: {timeline_result.status_code}"
-                )
+            # Retry logic for timeline API
+            max_retries = 3
+            retry_delay = 2  # seconds
+
+            for attempt in range(max_retries):
+                try:
+                    timeline_result = requests.get(
+                        timeline_url, headers=headers, timeout=10
+                    )
+
+                    if timeline_result.status_code == 200:
+                        timeline_events = timeline_result.json()
+                        for event in timeline_events:
+                            if event.get("event") == "cross-referenced":
+                                source = event.get("source", {})
+                                source_issue = source.get("issue", {})
+                                # Check if the cross-reference is a PR
+                                if "pull_request" in source_issue:
+                                    has_linked_pr = True
+                                    logging.info(f"Issue #{issue_number} has linked PR")
+                                    break
+                        break  # Success, exit retry loop
+                    elif timeline_result.status_code == 403:
+                        # Rate limit hit
+                        logging.warning(
+                            f"Rate limit hit for issue #{issue_number}, waiting..."
+                        )
+                        time.sleep(60)  # Wait 1 minute before retrying
+                        continue
+                    else:
+                        logging.warning(
+                            f"Could not fetch timeline for issue #{issue_number}: {timeline_result.status_code}"
+                        )
+                        break  # Don't retry for other errors
+
+                except requests.exceptions.RequestException as e:
+                    if attempt < max_retries - 1:
+                        logging.warning(
+                            f"Connection error for issue #{issue_number} (attempt {attempt + 1}/{max_retries}): {e}"
+                        )
+                        time.sleep(retry_delay * (attempt + 1))  # Exponential backoff
+                    else:
+                        logging.error(
+                            f"Failed to fetch timeline for issue #{issue_number} after {max_retries} attempts: {e}"
+                        )
+                        break
 
             add_cols[issue["html_url"]] = {
                 "milestone": issue["milestone"]["title"]
@@ -62,6 +93,8 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
                 "has_linked_pr": has_linked_pr,
             }
 
+            # Small delay between requests to avoid hitting rate limits
+            time.sleep(0.1)
         page += 1
 
     return add_cols
