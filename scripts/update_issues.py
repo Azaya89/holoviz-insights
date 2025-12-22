@@ -57,7 +57,6 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
                                 # Check if the cross-reference is a PR
                                 if "pull_request" in source_issue:
                                     has_linked_pr = True
-                                    logging.info(f"Issue #{issue_number} has linked PR")
                                     break
                         break  # Success, exit retry loop
                     elif timeline_result.status_code == 403:
@@ -128,14 +127,8 @@ def merge_and_save(
                 try:
                     gh_issue = gh_repo.get_issue(number=issue_number)
                     for comment in gh_issue.get_comments():
-                        logging.info(
-                            f"Checking comment by {comment.user.login} for issue #{issue_number}"
-                        )
                         if comment.user.login.lower() in maintainers_lower:
                             maintainer_responded = True
-                            logging.info(
-                                f"Maintainer responded to issue #{issue_number}"
-                            )
                             break
                 except Exception as e:
                     logging.warning(
