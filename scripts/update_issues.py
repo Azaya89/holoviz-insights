@@ -43,8 +43,9 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
                 for event in timeline_events:
                     if event.get("event") == "cross-referenced":
                         source = event.get("source", {})
+                        source_issue = source.get("issue", {})
                         # Check if the cross-reference is a PR
-                        if "pull_request" in source.get("issue", {}):
+                        if "pull_request" in source_issue:
                             has_linked_pr = True
                             logging.info(f"Issue #{issue_number} has linked PR")
                             break
