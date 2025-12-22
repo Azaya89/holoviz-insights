@@ -10,12 +10,16 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 def fetch_additional_issue_data(repo: str, token: str) -> dict:
     """Fetch additional issue metadata from GitHub API."""
-    headers = {"Authorization": f"token {token}"}
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.mockingbird-preview+json",  # Required for timeline API
+    }
     add_cols = {}
     page = 1
+    base_url = f"https://api.github.com/repos/{repo}/issues"
 
     while True:
-        url = f"https://api.github.com/repos/{repo}/issues?state=all&per_page=100&page={page}"
+        url = f"{base_url}?state=all&per_page=100&page={page}"
         result = requests.get(url, headers=headers)
         if result.status_code != 200:
             logging.error(f"GitHub API error {result.status_code}: {result.text}")
@@ -27,11 +31,34 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
         for issue in issues:
             if "pull_request" in issue:
                 continue  # Skip PRs
+
+            # Check for linked PRs using timeline API
+            has_linked_pr = False
+            issue_number = issue["number"]
+            timeline_url = f"{base_url}/{issue_number}/timeline"
+            timeline_result = requests.get(timeline_url, headers=headers)
+
+            if timeline_result.status_code == 200:
+                timeline_events = timeline_result.json()
+                for event in timeline_events:
+                    if event.get("event") == "cross-referenced":
+                        source = event.get("source", {})
+                        # Check if the cross-reference is a PR
+                        if "pull_request" in source.get("issue", {}):
+                            has_linked_pr = True
+                            logging.info(f"Issue #{issue_number} has linked PR")
+                            break
+            else:
+                logging.warning(
+                    f"Could not fetch timeline for issue #{issue_number}: {timeline_result.status_code}"
+                )
+
             add_cols[issue["html_url"]] = {
                 "milestone": issue["milestone"]["title"]
                 if issue.get("milestone")
                 else None,
                 "assignees": [a["login"] for a in issue.get("assignees", [])],
+                "has_linked_pr": has_linked_pr,
             }
 
         page += 1
