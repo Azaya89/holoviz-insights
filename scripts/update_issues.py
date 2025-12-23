@@ -8,12 +8,59 @@ from github import Auth, Github
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
+# Retry configuration
+MAX_RETRIES = 3
+RETRY_DELAY = 2  # seconds
+RATE_LIMIT_WAIT = 60  # seconds
+
+
+def _handle_rate_limit(response, context=""):
+    """Handle rate limit by waiting until reset time.
+
+    Args:
+        response: The HTTP response object with rate limit headers
+        context: Optional context string for logging (e.g., "issue #123")
+    """
+    reset_time = response.headers.get("X-RateLimit-Reset")
+    if reset_time:
+        wait_time = max(int(reset_time) - int(time.time()), 0) + 1
+        logging.warning(
+            f"Rate limit hit{' for ' + context if context else ''}, waiting {wait_time}s until reset..."
+        )
+        time.sleep(wait_time)
+    else:
+        logging.warning(
+            f"Rate limit hit{' for ' + context if context else ''}, waiting {RATE_LIMIT_WAIT}s..."
+        )
+        time.sleep(RATE_LIMIT_WAIT)
+
+
+def _log_retry(error_type, context, attempt, max_retries, error=None):
+    """Log retry attempts with consistent formatting.
+
+    Args:
+        error_type: Type of error ("Connection error", "Error checking comments", etc.)
+        context: Context string (e.g., "page 5", "issue #123")
+        attempt: Current attempt number (0-indexed)
+        max_retries: Maximum number of retries
+        error: Optional error object to include in message
+    """
+    error_msg = f": {error}" if error else ""
+    if attempt < max_retries - 1:
+        logging.warning(
+            f"{error_type} for {context} (attempt {attempt + 1}/{max_retries}){error_msg}"
+        )
+    else:
+        logging.error(
+            f"Failed: {error_type} for {context} after {max_retries} attempts{error_msg}"
+        )
+
 
 def fetch_additional_issue_data(repo: str, token: str) -> dict:
     """Fetch additional issue metadata from GitHub API."""
     headers = {
         "Authorization": f"token {token}",
-        "Accept": "application/vnd.github.mockingbird-preview+json",  # Required for timeline API
+        "Accept": "application/vnd.github+json",  # Required for timeline API
     }
     add_cols = {}
     page = 1
@@ -21,10 +68,33 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
 
     while True:
         url = f"{base_url}?state=all&per_page=100&page={page}"
-        result = requests.get(url, headers=headers)
-        if result.status_code != 200:
-            logging.error(f"GitHub API error {result.status_code}: {result.text}")
-            break
+
+        # Retry logic for pagination request
+        for attempt in range(MAX_RETRIES):
+            try:
+                result = requests.get(url, headers=headers, timeout=10)
+                if result.status_code == 200:
+                    break
+                elif result.status_code == 403:
+                    _handle_rate_limit(result)
+                    continue
+                else:
+                    logging.error(
+                        f"GitHub API error {result.status_code}: {result.text}"
+                    )
+                    if attempt < MAX_RETRIES - 1:
+                        time.sleep(RETRY_DELAY * (attempt + 1))
+                    else:
+                        return add_cols
+            except requests.exceptions.RequestException as e:
+                _log_retry(
+                    "Connection error", f"{repo} page {page}", attempt, MAX_RETRIES, e
+                )
+                if attempt < MAX_RETRIES - 1:
+                    time.sleep(RETRY_DELAY * (attempt + 1))
+                else:
+                    return add_cols
+
         issues = result.json()
         if not issues:
             break
@@ -33,56 +103,56 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
             if "pull_request" in issue:
                 continue  # Skip PRs
 
-            # Check for linked PRs using timeline API
             has_linked_pr = False
             issue_number = issue["number"]
-            timeline_url = f"{base_url}/{issue_number}/timeline"
 
-            # Retry logic for timeline API
-            max_retries = 3
-            retry_delay = 2  # seconds
+            # Only check for linked PRs on OPEN issues (to reduce API calls)
+            if issue["state"] == "open":
+                timeline_url = f"{base_url}/{issue_number}/timeline"
 
-            for attempt in range(max_retries):
-                try:
-                    timeline_result = requests.get(
-                        timeline_url, headers=headers, timeout=10
-                    )
+                # Retry logic for timeline API
+                for attempt in range(MAX_RETRIES):
+                    try:
+                        timeline_result = requests.get(
+                            timeline_url, headers=headers, timeout=10
+                        )
 
-                    if timeline_result.status_code == 200:
-                        timeline_events = timeline_result.json()
-                        for event in timeline_events:
-                            if event.get("event") == "cross-referenced":
-                                source = event.get("source", {})
-                                source_issue = source.get("issue", {})
-                                # Check if the cross-reference is a PR
-                                if "pull_request" in source_issue:
-                                    has_linked_pr = True
-                                    break
-                        break  # Success, exit retry loop
-                    elif timeline_result.status_code == 403:
-                        # Rate limit hit
-                        logging.warning(
-                            f"Rate limit hit for issue #{issue_number}, waiting..."
-                        )
-                        time.sleep(60)  # Wait 1 minute before retrying
-                        continue
-                    else:
-                        logging.warning(
-                            f"Could not fetch timeline for issue #{issue_number}: {timeline_result.status_code}"
-                        )
-                        break  # Don't retry for other errors
+                        if timeline_result.status_code == 200:
+                            timeline_events = timeline_result.json()
+                            for event in timeline_events:
+                                if event.get("event") == "cross-referenced":
+                                    source = event.get("source", {})
+                                    source_issue = source.get("issue", {})
+                                    # Check if the cross-reference is a PR
+                                    if "pull_request" in source_issue:
+                                        has_linked_pr = True
+                                        break
+                            break  # Success, exit retry loop
+                        elif timeline_result.status_code == 403:
+                            _handle_rate_limit(
+                                timeline_result, f"issue #{issue_number}"
+                            )
+                            continue
+                        else:
+                            logging.warning(
+                                f"Could not fetch timeline for {repo} issue #{issue_number}: {timeline_result.status_code}"
+                            )
+                            break  # Don't retry for other errors
 
-                except requests.exceptions.RequestException as e:
-                    if attempt < max_retries - 1:
-                        logging.warning(
-                            f"Connection error for issue #{issue_number} (attempt {attempt + 1}/{max_retries}): {e}"
+                    except requests.exceptions.RequestException as e:
+                        _log_retry(
+                            "Connection error",
+                            f"{repo} issue #{issue_number}",
+                            attempt,
+                            MAX_RETRIES,
+                            e,
                         )
-                        time.sleep(retry_delay * (attempt + 1))  # Exponential backoff
-                    else:
-                        logging.error(
-                            f"Failed to fetch timeline for issue #{issue_number} after {max_retries} attempts: {e}"
-                        )
-                        break
+                        if attempt < MAX_RETRIES - 1:
+                            time.sleep(
+                                RETRY_DELAY * (attempt + 1)
+                            )  # Exponential backoff
+                        else:
+                            break
 
             add_cols[issue["html_url"]] = {
                 "milestone": issue["milestone"]["title"]
@@ -99,6 +169,50 @@ def fetch_additional_issue_data(repo: str, token: str) -> dict:
     return add_cols
 
 
+def add_maintainer_responses(data: dict, repo: str, token: str, maintainers: list):
+    """Add maintainer_responded field to each issue."""
+    if not maintainers:
+        return
+
+    g = Github(auth=Auth.Token(token))
+    gh_repo = g.get_repo(repo)
+    maintainers_lower = [m.lower() for m in maintainers]
+
+    for issue in data["issues"]:
+        # Extract issue number from html_url
+        url = issue.get("html_url", "")
+        try:
+            issue_number = int(url.rstrip("/").split("/")[-1])
+        except Exception:
+            issue_number = None
+        maintainer_responded = False
+        if issue_number is not None:
+            # Retry logic for fetching comments
+            for attempt in range(MAX_RETRIES):
+                try:
+                    gh_issue = gh_repo.get_issue(number=issue_number)
+                    for comment in gh_issue.get_comments():
+                        if comment.user.login.lower() in maintainers_lower:
+                            maintainer_responded = True
+                            break
+                    break  # Success, exit retry loop
+                except Exception as e:
+                    _log_retry(
+                        "Error checking comments",
+                        f"{repo} issue #{issue_number}",
+                        attempt,
+                        MAX_RETRIES,
+                        e,
+                    )
+                    if attempt < MAX_RETRIES - 1:
+                        time.sleep(RETRY_DELAY * (attempt + 1))
+                    else:
+                        break
+        else:
+            logging.warning(f"Could not extract issue number from url: {url}")
+        issue["maintainer_responded"] = maintainer_responded
+
+
 def merge_and_save(
     original_json: str, output_json: str, repo: str, token: str, maintainers=None
 ):
@@ -110,34 +224,12 @@ def merge_and_save(
         return
 
     extra_data = fetch_additional_issue_data(repo, token)
+
     # Add maintainer_responded field for each issue
     if maintainers is not None:
-        g = Github(auth=Auth.Token(token))
-        gh_repo = g.get_repo(repo)
-        maintainers_lower = [m.lower() for m in maintainers]
-        for issue in data["issues"]:
-            # Extract issue number from html_url
-            url = issue.get("html_url", "")
-            try:
-                issue_number = int(url.rstrip("/").split("/")[-1])
-            except Exception:
-                issue_number = None
-            maintainer_responded = False
-            if issue_number is not None:
-                try:
-                    gh_issue = gh_repo.get_issue(number=issue_number)
-                    for comment in gh_issue.get_comments():
-                        if comment.user.login.lower() in maintainers_lower:
-                            maintainer_responded = True
-                            break
-                except Exception as e:
-                    logging.warning(
-                        f"Error checking comments for issue #{issue_number}: {e}"
-                    )
-            else:
-                logging.warning(f"Could not extract issue number from url: {url}")
-            issue["maintainer_responded"] = maintainer_responded
-    # Enrich with milestone/assignees
+        add_maintainer_responses(data, repo, token, maintainers)
+
+    # Enrich with milestone/assignees/has_linked_pr
     for issue in data["issues"]:
         url = issue.get("html_url")
         if url in extra_data:
