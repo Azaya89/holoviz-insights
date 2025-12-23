@@ -9069,5 +9069,5 @@
       "has_linked_pr": false
     }
   ],
-  "search_query": "repo:holoviz/hvplot is:issue created:2022-01-01..2025-12-21 -label:\"duplicate\""
+  "search_query": "repo:holoviz/hvplot is:issue created:2022-01-01..2025-12-22 -label:\"duplicate\""
 }
