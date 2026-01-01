@@ -1,16 +1,16 @@
 {
-  "average_time_to_first_response": "30 days, 16:20:24",
-  "average_time_to_close": "93 days, 14:17:12",
+  "average_time_to_first_response": "33 days, 12:01:56",
+  "average_time_to_close": "93 days, 6:18:52",
   "average_time_to_answer": "None",
   "average_time_in_draft": "None",
   "average_time_in_labels": {},
-  "median_time_to_first_response": "18:25:52",
-  "median_time_to_close": "22 days, 23:31:42",
+  "median_time_to_first_response": "18:42:31",
+  "median_time_to_close": "22 days, 19:04:46",
   "median_time_to_answer": "None",
   "median_time_in_draft": "None",
   "median_time_in_labels": {},
-  "90_percentile_time_to_first_response": "49 days, 13:19:11",
-  "90_percentile_time_to_close": "314 days, 11:15:48",
+  "90_percentile_time_to_first_response": "53 days, 15:40:20",
+  "90_percentile_time_to_close": "314 days, 9:03:31",
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
   "90_percentile_time_in_labels": {},
@@ -18,10 +18,29 @@
   "median_pr_comments": null,
   "90_percentile_pr_comments": null,
   "num_items_opened": 284,
-  "num_items_closed": 241,
+  "num_items_closed": 242,
   "num_mentor_count": 0,
-  "total_item_count": 525,
+  "total_item_count": 526,
   "issues": [
+    {
+      "title": "Checking auto-triage label application",
+      "html_url": "https://github.com/holoviz/hvplot/issues/1712",
+      "author": "Azaya89",
+      "assignee": "Azaya89",
+      "assignees": [
+        "Azaya89"
+      ],
+      "time_to_first_response": "None",
+      "time_to_close": "None",
+      "time_to_answer": "None",
+      "time_in_draft": "None",
+      "label_metrics": {},
+      "pr_comment_count": null,
+      "created_at": "2025-12-24 08:50:40+00:00",
+      "maintainer_responded": false,
+      "milestone": null,
+      "has_linked_pr": false
+    },
     {
       "title": "hvPlot Bolded Grey Multi-index",
       "html_url": "https://github.com/holoviz/hvplot/issues/1709",
@@ -29,7 +48,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "11:35:37",
-      "time_to_close": "None",
+      "time_to_close": "13 days, 5:01:53",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -79,8 +98,11 @@
       "title": "DuckDb reference example not working",
       "html_url": "https://github.com/holoviz/hvplot/issues/1693",
       "author": "MarcSkovMadsen",
-      "assignee": null,
-      "assignees": [],
+      "assignee": "Copilot",
+      "assignees": [
+        "ahuang11",
+        "Copilot"
+      ],
       "time_to_first_response": "21:09:17",
       "time_to_close": "None",
       "time_to_answer": "None",
@@ -4941,14 +4963,14 @@
       "author": "ahuang11",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
+      "time_to_first_response": "893 days, 18:07:21",
       "time_to_close": "None",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
       "pr_comment_count": null,
       "created_at": "2023-07-14 19:27:15+00:00",
-      "maintainer_responded": false,
+      "maintainer_responded": true,
       "milestone": null,
       "has_linked_pr": false
     },
@@ -9069,5 +9091,5 @@
       "has_linked_pr": false
     }
   ],
-  "search_query": "repo:holoviz/hvplot is:issue created:2022-01-01..2025-12-22 -label:\"duplicate\""
+  "search_query": "repo:holoviz/hvplot is:issue created:2022-01-01..2025-12-31 -label:\"duplicate\""
 }
