@@ -2085,5 +2085,5 @@
       "has_linked_pr": false
     }
   ],
-  "search_query": "repo:holoviz/datashader is:issue created:2022-01-01..2025-12-31 -label:\"duplicate\""
+  "search_query": "repo:holoviz/datashader is:issue created:2022-01-01..2026-01-31 -label:\"duplicate\""
 }
