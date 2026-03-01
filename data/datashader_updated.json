@@ -1,15 +1,15 @@
 {
-  "average_time_to_first_response": "13 days, 22:17:08",
+  "average_time_to_first_response": "22 days, 5:55:07",
   "average_time_to_close": "45 days, 18:28:59",
   "average_time_to_answer": "None",
   "average_time_in_draft": "None",
   "average_time_in_labels": {},
-  "median_time_to_first_response": "13:30:35",
+  "median_time_to_first_response": "13:37:15",
   "median_time_to_close": "8 days, 7:43:22",
   "median_time_to_answer": "None",
   "median_time_in_draft": "None",
   "median_time_in_labels": {},
-  "90_percentile_time_to_first_response": "23 days, 16:48:28",
+  "90_percentile_time_to_first_response": "36 days, 17:33:19",
   "90_percentile_time_to_close": "106 days, 15:57:25",
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
@@ -438,7 +438,7 @@
       "author": "ahuang11",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
+      "time_to_first_response": "587 days, 20:58:30",
       "time_to_close": "None",
       "time_to_answer": "None",
       "time_in_draft": "None",
@@ -2085,5 +2085,5 @@
       "has_linked_pr": false
     }
   ],
-  "search_query": "repo:holoviz/datashader is:issue created:2022-01-01..2026-01-31 -label:\"duplicate\""
+  "search_query": "repo:holoviz/datashader is:issue created:2022-01-01..2026-02-28 -label:\"duplicate\""
 }
