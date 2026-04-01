@@ -1,24 +1,24 @@
 {
-  "average_time_to_first_response": "22 days, 5:55:07",
-  "average_time_to_close": "45 days, 18:28:59",
+  "average_time_to_first_response": "35 days, 12:21:36",
+  "average_time_to_close": "52 days, 4:39:24",
   "average_time_to_answer": "None",
   "average_time_in_draft": "None",
   "average_time_in_labels": {},
-  "median_time_to_first_response": "13:37:15",
-  "median_time_to_close": "8 days, 7:43:22",
+  "median_time_to_first_response": "13:50:10",
+  "median_time_to_close": "8 days, 10:07:55",
   "median_time_to_answer": "None",
   "median_time_in_draft": "None",
   "median_time_in_labels": {},
-  "90_percentile_time_to_first_response": "36 days, 17:33:19",
-  "90_percentile_time_to_close": "106 days, 15:57:25",
+  "90_percentile_time_to_first_response": "51 days, 23:40:37",
+  "90_percentile_time_to_close": "124 days, 20:05:04",
   "90_percentile_time_to_answer": "None",
   "90_percentile_time_in_draft": "None",
   "90_percentile_time_in_labels": {},
   "average_pr_comments": null,
   "median_pr_comments": null,
   "90_percentile_pr_comments": null,
-  "num_items_opened": 31,
-  "num_items_closed": 88,
+  "num_items_opened": 30,
+  "num_items_closed": 89,
   "num_mentor_count": 0,
   "total_item_count": 119,
   "issues": [
@@ -456,7 +456,7 @@
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "19 days, 15:52:13",
-      "time_to_close": "None",
+      "time_to_close": "617 days, 11:56:15",
       "time_to_answer": "None",
       "time_in_draft": "None",
       "label_metrics": {},
@@ -884,7 +884,7 @@
       "author": "ianthomas23",
       "assignee": null,
       "assignees": [],
-      "time_to_first_response": "None",
+      "time_to_first_response": "951 days, 0:48:50",
       "time_to_close": "None",
       "time_to_answer": "None",
       "time_in_draft": "None",
@@ -2085,5 +2085,5 @@
       "has_linked_pr": false
     }
   ],
-  "search_query": "repo:holoviz/datashader is:issue created:2022-01-01..2026-02-28 -label:\"duplicate\""
+  "search_query": "repo:holoviz/datashader is:issue created:2022-01-01..2026-03-31 -label:\"duplicate\""
 }

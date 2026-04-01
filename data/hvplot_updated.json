@@ -2844,7 +2844,7 @@
     {
       "title": "Changing the backend in standalone script",
       "html_url": "https://github.com/holoviz/hvplot/issues/1373",
-      "author": "knolljo",
+      "author": "joknoll",
       "assignee": null,
       "assignees": [],
       "time_to_first_response": "6 days, 23:53:05",
@@ -9125,5 +9125,5 @@
       "has_linked_pr": false
     }
   ],
-  "search_query": "repo:holoviz/hvplot is:issue created:2022-01-01..2026-02-28 -label:\"duplicate\""
+  "search_query": "repo:holoviz/hvplot is:issue created:2022-01-01..2026-03-31 -label:\"duplicate\""
 }
